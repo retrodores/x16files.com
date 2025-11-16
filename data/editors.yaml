@@ -1,0 +1,13 @@
+category: Editors
+description: Text and code editors for Commander X16
+packages:
+  - name: X16Edit
+    author: Stefan Jakobsson 
+    version: version 0.8.3
+    url: https://github.com/stefan-b-jakobsson/x16-edit
+    description: X16 Edit is a simple text editor for the Commander X16 platform inspired by GNU Nano. 
+  - name: XVI
+    author: Brett Estrade
+    version: 1.0.0
+    url: https://github.com/oodler577/XVI
+    description: Demo vi clone for the Commander X16 using prog8 and VTUI, PETSCI only.

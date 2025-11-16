@@ -1,0 +1,18 @@
+category: Sound
+description: Audio and sound utilities for Commander X16
+packages:
+  - name: melodius
+    author: mooinglemur
+    version: version v20250410
+    url: https://github.com/mooinglemur/melodius
+    description: Commander X16 music player engine and frontend using the new audio API
+  - name: calliope
+    author: ZeroByte
+    version: version v1.1
+    url: https://github.com/ZeroByteOrg/calliope
+    description: Calliope is a player / jukebox application for the Commander X16 for browsing and playing songs in ZSM format. ZSM is the native music format of Zsound, which is freely available to anyone who wants to add audio to their X16 projects. If any other player libraries / formats rise to prevalence with the X16, Calliope will add support for those as well.
+  - name: dreamtrk
+    author: m00dawg 
+    version: version alpha
+    url: https://cx16forum.com/forum/viewtopic.php?t=6669
+    description: Native tracker in active for the X16 which currently supports the VERA PSG channels
