@@ -7,7 +7,7 @@ Help needed
 
 Curated information will appear at https://X16files.com/hub!
 
-# Data USe
+# Data Use
 
 These YAML files are provided for community reference only. Do NOT deploy,
 distribute, or integrate it without prior authorization.
