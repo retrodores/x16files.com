@@ -1,3 +1,6 @@
+# This YAML file is provided for reference only.
+# Do NOT deploy, distribute, or integrate it without prior authorization.
+
 category: Internet
 description: Network and serial utilities for Commander X16
 packages:

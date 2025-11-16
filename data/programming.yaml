@@ -1,18 +1,21 @@
+# This YAML file is provided for reference only.
+# Do NOT deploy, distribute, or integrate it without prior authorization.
+
 category: Programming
 description: Compilers and development aids for Commander X16
 packages:
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
+  - name: Prog8 Cross Compiler 
+    author: Irmen de Jong
+    version: version 11.4.1
+    url: https://github.com/irmen/prog8
+    description:  a compiled programming language targeting the 8-bit 6502 CPU family. The language aims to provide many conveniences over raw assembly code (even when using a macro assembler), while still being low level enough to create high performance programs.
+  - name: X16 Emulator 
+    author: Various
+    version: version 48
+    url: https://github.com/x16community/x16-emulator 
+    description: This is an emulator for the Commander X16 computer system. It only depends on SDL2 and should compile on all modern operating systems.
+  - name: VTUIlib
+    author: Jimmy Dansbo 
+    version: version 1.2.0
+    url: https://github.com/JimmyDansbo/VTUIlib 
+    description: This is a UI library that is less than 1KB which means it can be loaded into Golden RAM at $400. As an alternative, include files are provided for Acme and CA65 assemblers as well as CC65 compiler. 
