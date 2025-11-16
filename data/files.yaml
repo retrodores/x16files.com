@@ -1,0 +1,18 @@
+category: File and Disk 
+description: Network and serial utilities for Commander X16
+packages:
+  - name: program name 
+    author: Author name 
+    version: version N.N 
+    url: https://github.com/
+    description: this is a description ...
+  - name: program name 
+    author: Author name 
+    version: version N.N 
+    url: https://github.com/
+    description: this is a description ...
+  - name: program name 
+    author: Author name 
+    version: version N.N 
+    url: https://github.com/
+    description: this is a description ...
