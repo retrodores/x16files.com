@@ -1,0 +1,276 @@
+# This YAML file is provided for reference only.
+# Do NOT deploy, distribute, or integrate it without prior authorization.
+
+category: Games
+description: Games and other entertaintment
+packages:
+  - name: cx16chess
+    author: Irmen de Jong
+    version: None
+    url: https://github.com/irmen/cx16chess
+    description: "Chess game for the Commander X16"
+  - name: Chess
+    author: badmai
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7476
+    description: "Port of the chess engine from Code Monkey King."
+  - name: Rock Runner
+    author: Irmen de Jong
+    version: 1.4
+    url: https://cx16forum.com/forum/viewtopic.php?t=6576
+    description: "Rock Runner - A Boulder Dash® clone for the Commander X16."
+  - name: Petaxian
+    author: Borgar Olsen
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=6400
+    description: "Galaga type game for C64 & X16 implemented in Prog8"
+  - name: Adventure
+    author: fredrik
+    version: None
+    url: https://microheaven.com/advent/
+    description: "Here you can download the game Adventure, 350 point version, by Will Crowther and Don Woods, for dozens of platforms, including 8-bit and 16-bit computers of the 80s and 90s."
+  - name: Another World
+    author: cosmicr
+    version: 1.3
+    url: https://cx16forum.com/forum/viewtopic.php?t=8892&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "Commander X16 Port of the Amiga Game Another World."
+  - name: Minidoku
+    author: ModernRetroDev
+    version: 1.01
+    url: https://cx16forum.com/forum/viewtopic.php?t=8917&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "This is a small and simple Sudoku-like game which should only take one to two minutes per round."
+  - name: Hazard Let Us Out!!!
+    author: Ultimategilby
+    version: None
+    url: https://ultimate-gilby.itch.io/hazard-let-us-out
+    description: "A new survival platformer game for the NES or favorite emulator. And now for the X16!!!"
+  - name: Stone Leather Blade
+    author: HunterDX
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7994&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "The player controls a young knight, Leland, who sacrifices everything to stop the invasion of grotesque creatures from another realm. “Chance” is the fundamental constraint that allows for the possibility of Leland’s successful campaign. Defeat all 3 creatures to beat the game. If successful, you ma"
+  - name: GalaX16
+    author: Roy Eltham
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8293&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "GalaX16 is a arcade space shooter inspired by Galaga. It is written in prog8 (with a smidge of inline asm)."
+  - name: Echoes of the Future
+    author: DaReInt
+    version: None
+    url: https://dareint.itch.io/echoes-of-the-future
+    description: "Echoes of the Future is an interactive fiction adventure written in Inform 6 using the PunyInform library, specially designed for 8-bit computers and retro systems such as the Commodore 64."
+  - name: CYCLES
+    author: Xiphod
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8545&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "This is a fairly standard snake or tron type game. Little twist in that the line isn't just a single pixel wide. And the border-edge flashes just for effect (yay 8mhz!). Plays a little FM audio if you run into something."
+  - name: Meteor Defender
+    author: Xiphod
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8520&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "Here it is, Meteor Defender X16 as presented in the July 2025 issue of Compute Gazette magazine!"
+  - name: Asterduel
+    author: mwiedmann
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8492&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "Battle in space against a friend in this two player space battler. Destroy the asteroids (and the other player!) in the middle of the field and harvest the energy crystals. Strategically hide behind your shield as needed."
+  - name: Deep Scavenger
+    author: mwiedmann
+    version: 1.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=8255&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "An Asteroids like game with a story."
+  - name: CommanderMind
+    author: Jimmy Dansbo
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8451&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "This is a clone of the Master Mind game where one player chooses a combination of colors and the other player has to guess the correct combination."
+  - name: Sudoku
+    author: jaydg
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8370&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "A Sudoku game in BASIC"
+  - name: Damon The Rocket Jockey
+    author: natebarney
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "Damon: The Rocket Jockey is a clone of Nomad: The Space Pirate a C64 game"
+  - name: Mars, 2049 AD
+    author: fredrik
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8302&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "Another day at work at the research base on Mars. Or is it really?  This text adventure was created for the PunyComp 2024."
+  - name: Crazy Solitaire
+    author: DusanStrakl
+    version: None
+    url: https://www.8bitcoding.com/p/crazy-solitaire.html
+    description: "A classic Solitaire game"
+  - name: Tomb of Anneis
+    author: WauloK
+    version: None
+    url: https://suite16.au/
+    description: "An action puzzle game for the Commander X16."
+  - name: Gamebook Collection
+    author: fredrik
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7421&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "SD Separa has converted nine classic gamebooks (AKA Choose Your Own Adventure books) to Z-code format."
+  - name: X16 Casino Slots
+    author: ahenry3068
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8244&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "A simple but flashy Slot Machine game done entirely in BASIC."
+  - name: Arthur's Day Out
+    author: WauloK
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8261&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "A text adventure game."
+  - name: Mystery Isles
+    author: WauloK
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8261&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "A text adventure game."
+  - name: Vault of the Vindicator
+    author: Toboter
+    version: 1.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=6918&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "Explore an everchanging dungeon, battle enemies, find loot and discover the secrets of the Vindicator in this unique 3D Roguelike Dungeon Crawl Adventure!"
+  - name: Tenebra
+    author: Haplo
+    version: None
+    url: https://h4plo.itch.io/tenebra
+    description: "Tenebra is an atmospheric puzzle game with rogue-like aesthetics. Guide the hapless protagonist to the exit. Poor guy is afraid of darkness and refuses to walk in the dark areas."
+  - name: PETSCII Slots
+    author: NSkimN8r
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=8134&sid=ae40c1febbade03020241222eb9aa3d3
+    description: "PETSCII Slots written in BASIC."
+  - name: Xixit
+    author: The 8-Bit Guy
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=6267&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "This is an official port of the MS-DOS game from 1995 known as Xixit. It's essentially a clone of an earlier game known as Columns. However, Xixit has very nice eye-candy special effects, and an amazing sound track. You're going to love playing this!"
+  - name: Text Adventure Collection
+    author: fredrik
+    version: None
+    url: https://microheaven.com/ztac/
+    description: "Five collections of great Z-code text adventures for the Commander X16."
+  - name: Zork and ZIL
+    author: various
+    version: None
+    url: https://ozmoo.online/
+    description: "Zork and ZIL based text adventures"
+  - name: SOLITAIRE
+    author: totodilespy
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7631&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "A version of solitaire for the x16! It's mostly petscii, but overwrites the last 4 chars to get filled round ends for the cards"
+  - name: Kakuro
+    author: ifilot
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7933&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Kakuro is a logic-based number puzzle game, often described as a cross between a crossword and Sudoku."
+  - name: Ye Old Robots
+    author: The 8-Bit Guy
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7907&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "I took the original text-mode port of Petscii Robots for the X16 and updated it so it would run on the modern version. But what's more cool is you can select from 1 of 5 different tile-sets. That way you can experience how the graphics look on the PET, Atari, VIC-20, C64, etc."
+  - name: Tetris
+    author: unartic
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7904&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "A simple Tetris clone in text mode featuring high scores and basic sound effects.  The source code is included for those who wish to tinker with it. Use nxtBasic to compile it."
+  - name: CX16-Othello
+    author: ifilot
+    version: v1.2.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=7661&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Othello for the Commander X16 is a modern adaptation of the classic strategy board game, tailored for the retro charm of the X16 platform. Known for its simple yet strategic gameplay, Othello challenges players to outmaneuver their opponent by flipping discs (stones) on an 8x8 board."
+  - name: TETRADS
+    author: The 8-Bit Guy
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=6386&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Tetrads is a clone of a popular falling brick style game.  So you'll know how to play it.  This version has an amazing soundtrack, which changes tunes every 40 lines cleared.  There's a total of 5 unique songs which were designed specifically for the X16's combination of FM and PSG."
+  - name: Planet X16
+    author: The 8-Bit Guy
+    version: RC4
+    url: https://cx16forum.com/forum/viewtopic.php?t=6998&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "The long awaited sequel to Planet X3 has arrived. And it has everything people wanted, mouse support, more unit types, better AI, smooth animations, etc."
+  - name: Warlock's Dungeon
+    author: mwiedmann
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7109&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Get your single or two player dungeon-crawling action fix on the CX16 with this Gauntlet-like."
+  - name: Petscii Robots
+    author: The 8-Bit Guy
+    version: 2.1
+    url: https://cx16forum.com/forum/viewtopic.php?t=7029&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "A fun game about angry robots.  Available on many platforms."
+  - name: Traveller Trader
+    author: rje
+    version: 1.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=7096&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Travel the space lanes in your free trader... discover a thousand worlds in Imperial space... and avoid the pirates. Fly dozens of starship types and pick your own crew."
+  - name: Memory Match
+    author: Xiphod
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7793&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "A 4x4 memory matching game! Simple rules. Use keyboard or gamepad. Can take turns using any gamepad 1-4, end game will show number of guesses and elapsed seconds for the round."
+  - name: Pixeus
+    author: mwiedmann
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7185&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Pixeus is an exploration platformer. Pixeus has crash landed on a strange world. Find energy to recharge his ship and escape, but also grab some gold along the way."
+  - name: Space Level
+    author: unartic
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7734&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "This level is kind of an adventure and puzzle level. It’s probably quite hard to finish. Are you up to the challenge?"
+  - name: LowerDecks II Warp Core
+    author: Xiphod
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7711&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Work together to keep the Warp Core at the proper speed and polarity, by selecting growing crystals from the Dilithium chamber of an appropriate size and tossing them into the nacelles to either increase or decrease parameters."
+  - name: PUZZ
+    author: ceptimus
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7689&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "A sliding block puzzle game."
+  - name: RUMMY
+    author: totodilespy
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7647&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "A version of Rummy for the X16"
+  - name: Hunt the Wumpus
+    author: tallLeRoy
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7575&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "According to Wikipedia this program was written by Gregory Yob in 1973. It was published in Creative Computing as a BASIC game."
+  - name: Crazy Lander
+    author: DusanStrakl
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=6614&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Updated version of Crazy Lander, Moon Lander type game."
+  - name: Baccarat
+    author: tallLeRoy
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=7254&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Baccarat is a game with some development history. It began as a BASIC game in the book 'More BASIC Computer Games' Edited by David H. Ahl and published by Workman Publishing New York in 1979."
+  - name: The Airlock Collection
+    author: fredrik
+    version: None
+    url: https://microheaven.com/airlock
+    description: "A collection of games from the third PunyJam, all starting in an airlock."
+  - name: HANGMAN
+    author: ahenry3068
+    version: 1.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=6887&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "Hangman for the X16"
+  - name: X16Maze
+    author: Jimmy Dansbo
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=6535&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: "X16Maze is a rewrite of CX16-Maze."
+  - name: Ghost Crusher
+    author: Jimmy Dansbo
+    version: None
+    url: https://cx16forum.com/forum/viewtopic.php?t=6286&sid=7059976c0997eb24da0bcc2921e2ddfa
+    description: "In this game you need to crush ghosts between walls before the ghosts catch (touch) you. Red walls can not be moved, but green walls can be pushed around."
