@@ -14,6 +14,11 @@ packages:
     version: v1.8
     url: https://cx16forum.com/forum/viewtopic.php?t=6924&sid=5a303c5195eb93a4d305dc21389930e2
     description: "XINFO is a text file viewer with three other special features: Interpret control codes for color, support links within the document or to others, word-wrap the text."
+  - name: Living Type
+    author: Inkbox
+    version: 1.0.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=6251&sid=4251a409befa8aab827533c8e2b4d183
+    description: A Chinese Word Processor first released on the X16 Forum
   - name: XVI
     author: Brett Estrade
     version: 1.0.0
