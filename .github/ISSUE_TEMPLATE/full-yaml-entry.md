@@ -1,6 +1,6 @@
 ---
 name: Full YAML Entry
-about: Full YAML format to add
+about: Example FULL YAML entry for someone wishing to add one to the DB.
 title: ''
 labels: ''
 assignees: ''
