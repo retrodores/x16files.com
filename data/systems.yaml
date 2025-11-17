@@ -4,18 +4,8 @@
 category: Systems
 description: Firmware and system utilities for Commander X16
 packages:
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
+  - name: Keyboard test program
+    author: Stefan Jakobsson
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=7085
+    description: "This is a small keyboard test program that you can use to verify that all keys are working correctly."

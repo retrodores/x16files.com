@@ -1,13 +1,21 @@
+# This YAML file is provided for reference only.
+# Do NOT deploy, distribute, or integrate it without prior authorization.
+
 category: Editors
 description: Text and code editors for Commander X16
 packages:
   - name: X16Edit
-    author: Stefan Jakobsson 
-    version: version 0.8.3
+    author: Stefan Jakobsson
+    version: 0.8.3
     url: https://github.com/stefan-b-jakobsson/x16-edit
-    description: X16 Edit is a simple text editor for the Commander X16 platform inspired by GNU Nano. 
+    description: "X16 Edit is a simple text editor for the Commander X16 platform inspired by GNU Nano."
+  - name: XINFO
+    author: Xiphod
+    version: v1.8
+    url: https://cx16forum.com/forum/viewtopic.php?t=6924&sid=5a303c5195eb93a4d305dc21389930e2
+    description: "XINFO is a text file viewer with three other special features: Interpret control codes for color, support links within the document or to others, word-wrap the text."
   - name: XVI
     author: Brett Estrade
     version: 1.0.0
     url: https://github.com/oodler577/XVI
-    description: Demo vi clone for the Commander X16 using prog8 and VTUI, PETSCI only.
+    description: "Demo vi clone for the Commander X16 using Prog8 and VTUI, PETSCII only."

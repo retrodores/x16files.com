@@ -2,20 +2,130 @@
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 
 category: Programming
-description: Compilers and development aids for Commander X16
+description: Programming tools and libraries
 packages:
-  - name: Prog8 Cross Compiler 
+  - name: Prog8 Compiler
     author: Irmen de Jong
-    version: version 11.4.1
-    url: https://github.com/irmen/prog8
-    description:  a compiled programming language targeting the 8-bit 6502 CPU family. The language aims to provide many conveniences over raw assembly code (even when using a macro assembler), while still being low level enough to create high performance programs.
-  - name: X16 Emulator 
-    author: Various
-    version: version 48
-    url: https://github.com/x16community/x16-emulator 
-    description: This is an emulator for the Commander X16 computer system. It only depends on SDL2 and should compile on all modern operating systems.
+    version: v11.4.1
+    url: https://github.com/irmen/prog8/
+    description: "High level programming language and compiler targeting 6502 machines such as the C-64 and CommanderX16"
+  - name: Commander X16 Macro Assembler
+    author: Stefanos Stefanidis
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=8606
+    description: "A native macro assembler for the X16, derived from the CBM Resident Assembler. It has a few issues, bugs, and unimplemented features."
+  - name: cx16assem
+    author: Irmen de Jong
+    version: 1.6
+    url: https://github.com/irmen/cx16assem
+    description: "File-based 65c02 assembler for Commander-X16 that runs natively on the Commander X16."
+  - name: X16 Emulator
+    author: various
+    version: 48
+    url: https://github.com/x16community/x16-emulator
+    description: "This is an emulator for the Commander X16 computer system. It only depends on SDL2 and should compile on all modern operating systems."
+  - name: Box16 Emulator
+    author: Stephen Horn et.al.
+    version: Non-Release 48.0.0
+    url: https://github.com/indigodarkwolf/box16
+    description: "A fork of the official X16 emulator, converted to C++20 and with a bunch of features tweaked and added."
+  - name: GIMP VERA Plugin (GIMP v2.x)
+    author: Jestin Stoffel
+    version: TBD
+    url: https://github.com/jestin/gimp-vera-tileset-plugin
+    description: "A gimp plugin for creating tilesets for the VERA graphics chip. This version is for GIMP v2.x"
+  - name: GIMP VERA Plugin (GIMP v3.x)
+    author: Jestin Stoffel
+    version: TBD
+    url: https://github.com/jestin/gimp3-vera-export-plugin
+    description: "A gimp plugin for creating tilesets for the VERA graphics chip. This version is for GIMP v3.x"
+  - name: VolksForth
+    author: Philip Zembrod et.al.
+    version: 6502-C64 3.9.6
+    url: https://github.com/forth-ev/VolksForth/releases/tag/v3.9.6-6502-C64
+    description: "VolksForth is a 16bit Forth System produced by the German Forth Gesellschaft e.V."
+  - name: vtsbank
+    author: tallLeRoy
+    version: TBD
+    url: https://github.com/tallLeRoy/vtsbank
+    description: "Vera Tile Set feature for Prog8 with routines for sprite and tile transformations and rotations.  With examples."
   - name: VTUIlib
-    author: Jimmy Dansbo 
-    version: version 1.2.0
-    url: https://github.com/JimmyDansbo/VTUIlib 
-    description: This is a UI library that is less than 1KB which means it can be loaded into Golden RAM at $400. As an alternative, include files are provided for Acme and CA65 assemblers as well as CC65 compiler. 
+    author: Jimmy Dansbo
+    version: 1.2.0
+    url: https://github.com/JimmyDansbo/VTUIlib
+    description: "This is a UI library that is less than 1KB which means it can be loaded into Golden RAM at $400. As an alternative, include files are provided for Acme and CA65 assemblers as well as CC65 compiler."
+  - name: ZSMKit
+    author: mooinglemur
+    version: 2.6
+    url: https://github.com/mooinglemur/zsmkit
+    description: "ZSMKit is a ZSM playback library for the Commander X16. It aims to be an alternative to ZSound, but with several new features and advantages."
+  - name: ZSound
+    author: ZeroByteOrg
+    version: TBD
+    url: https://github.com/ZeroByteOrg/zsound
+    description: "Streaming Sound Library for Commander X16"
+  - name: nxtBasic
+    author: unartic
+    version: v1.0
+    url: https://github.com/unartic/nxtBasic
+    description: "nxtBasic is a compiler for Basic code. If you're familiar with any Basic language, you'll find nxtBasic easy to use. The compiler creates machine language programs which perform extremely well compared to X16/CBM Basic and has dozens of convenient function for interacting with highram, sound, file s"
+  - name: ASMEDIT X16
+    author: Matherian
+    version: Version 3
+    url: https://cx16forum.com/forum/viewtopic.php?t=6729
+    description: "ASMEDIT X16 is an ASSEMBLER (65C02) and EDITOR for the COMMANDER X16. This software, originally developed for the Commodore CBM II Series, has been adapted and ported to the Commander X16 environment."
+  - name: cc64
+    author: pzembrod
+    version: v0.12
+    url: https://github.com/pzembrod/cc64/releases/tag/v0.12
+    description: "cc64 is a small-C compiler, written in Forth, targeting the 6502 CPU. It's hosted on the Commodore C64, on the C16 with 64k RAM and the Plus4, and on the new Commander X16, and runtime targets are also available for all 3 platforms, on each host, allowing cross-compilation."
+  - name: Pascal-iSh
+    author: yock1960
+    version: v1.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=7712
+    description: "A p-code Pascal compiler hosted on the Commander X16 and written in Prog8."
+  - name: Major Assembler
+    author: MarkTheStrange
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=6725
+    description: "A symbolic assembler written in BASIC"
+  - name: BASLOAD
+    author: Stefan Jakobsson
+    version: 0.2.6
+    url: https://cx16forum.com/forum/viewtopic.php?t=6322
+    description: "BASLOAD is a BASIC tokenizer/compiler that runs natively on the X16."
+  - name: XBrained
+    author: Toboter
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=6954
+    description: "The first finished on-system compiler of the X16 - A Brainf*** compiler"
+  - name: x16emu debug driver kernal wedge
+    author: MarkTheStrange
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=6831
+    description: "A device driver for x16emu's debug channels. This installs the driver as device #6; if you open it with secondary address 0, everything sent to the channel comes out through the debug text port at $9fbb."
+  - name: GUI Library
+    author: yock1960
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=6795
+    description: "Here are two programs that demonstrate a small library of GUI functions. One demo program simply demonstrates the different GUI objects that are available: Buttons, Textboxes, Checkboxes, Radio Buttons, Progress Bars, Sliders and Frames. The other demo program is a calculator program, which uses But"
+  - name: xForth Compiler
+    author: BruceMcF
+    version: v0.1.4
+    url: https://cx16forum.com/forum/viewtopic.php?t=6067&sid=e6ecbac87e7e8f2d632ced806a7871a0
+    description: "Alpha version of a xForth compiler."
+  - name: x16emu with symbol tables
+    author: Mikko Karjanmaa
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=7041&sid=861eed69f3583ffbad5003776001cac0
+    description: "A fork of the X16 emulator that can use symbols from llvm-mos."
+  - name: X16 Memory / Data Planner
+    author: HunterDX
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=8202&sid=5a303c5195eb93a4d305dc21389930e2
+    description: "A Google Sheet to assist with tracking and organizing X16 memory use during development."
+  - name: Stereogram demos
+    author: mapifisher
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=6511&sid=87adc7904c41009a74ad4b9add499957
+    description: "BASIC programs to render stereograms."

@@ -1,21 +1,26 @@
 # This YAML file is provided for reference only.
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 
-category: File and Disk 
-description: Network and serial utilities for Commander X16
+category: File and Disk
+description: File and disk utilities
 packages:
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
-  - name: program name 
-    author: Author name 
-    version: version N.N 
-    url: https://github.com/
-    description: this is a description ...
+  - name: X16HXD
+    author: Xiphod
+    version: v1.3
+    url: https://cx16forum.com/forum/viewtopic.php?t=6797
+    description: "X16HXD is a file hex editor."
+  - name: X16 File Manager (XFM)
+    author: unartic
+    version: v3.0
+    url: https://cx16forum.com/forum/viewtopic.php?t=7014&sid=5a303c5195eb93a4d305dc21389930e2
+    description: "X16 File Manager (XFM) is a Norton Commander-clone. It supports all basic file and directory management functions as well as launching tokenized basic programs and machine language programs, AND return to XFM as soon the program exits. So a true Norton Commander feeling."
+  - name: Dos Shell
+    author: Irmen de Jong
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=6293&sid=5a303c5195eb93a4d305dc21389930e2
+    description: "This is a unix inspired Dos Shell with a bunch of builtin commands to make day to day file operations (much) more convenient than via a regular Basic prompt."
+  - name: CAT file lister
+    author: Xiphod
+    version: TBD
+    url: https://cx16forum.com/forum/viewtopic.php?t=6962&sid=5a303c5195eb93a4d305dc21389930e2
+    description: "This is a BASLOAD project that lets you quickly list the contents of a file.  It auto detects if that file is BINARY or TEXT FILE, and will show a small portion automatically (sort of like a TOP command). You pass the filename on the command line."
