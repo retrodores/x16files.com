@@ -1,0 +1,10 @@
+appid: box16emulator
+author:
+    name: "Stephen Horn et.al."
+category: "Programming"
+description: "A fork of the official X16 emulator, converted to C++20 and with a bunch
+    of features tweaked and added."
+name: "Box16 Emulator"
+url:
+    source: "https://github.com/indigodarkwolf/box16"
+version: "Non-Release 48.0.0"

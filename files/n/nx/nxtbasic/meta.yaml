@@ -1,0 +1,12 @@
+appid: nxtbasic
+author:
+    name: "unartic"
+category: "Programming"
+description: "nxtBasic is a compiler for Basic code. If you're familiar with any Basic
+    language, you'll find nxtBasic easy to use. The compiler creates machine language
+    programs which perform extremely well compared to X16/CBM Basic and has dozens
+    of convenient function for interacting with highram, sound, file s"
+name: "nxtBasic"
+url:
+    source: "https://github.com/unartic/nxtBasic"
+version: "v1.0"

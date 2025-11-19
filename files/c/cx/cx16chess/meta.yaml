@@ -1,0 +1,9 @@
+appid: cx16chess
+author:
+    name: "Irmen de Jong"
+category: "Games"
+description: "Chess game for the Commander X16"
+name: "cx16chess"
+url:
+    source: "https://github.com/irmen/cx16chess"
+version: ""

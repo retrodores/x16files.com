@@ -1,0 +1,10 @@
+appid: x16paint
+author:
+    name: "Irmen de Jong"
+category: "Graphics"
+description: "Bitmap image paint program for the Commander X16, work in progress."
+name: "x16paint"
+url:
+    source: "https://github.com/irmen/x16paint"
+    x16forum: "https://github.com/irmen/x16paint"
+version: ""

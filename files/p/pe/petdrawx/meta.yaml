@@ -1,0 +1,12 @@
+appid: petdrawx
+author:
+    name: "m00dawg"
+category: "Graphics"
+description: "This is a newly working version of Petdraw for the latest kernel (r42)
+    and VERA. It retains the same features as the original PetDraw by David Murray
+    (technically screen size is broken but I plan on adding it back in) and adds a
+    few small features (more coming)."
+name: "Petdraw X"
+url:
+    x16forum: "https://cx16forum.com/forum/viewtopic.php?t=6626&sid=87adc7904c41009a74ad4b9add499957"
+version: "2.0"

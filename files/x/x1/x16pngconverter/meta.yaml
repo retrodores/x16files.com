@@ -1,0 +1,12 @@
+appid: x16pngconverter
+author:
+    name: "Johan Kårlin"
+category: "Graphics"
+description: "This is a cross-platform console application (the user interface is
+    text-based) for Windows, macOS, and Linux. It will convert PNG images to a format
+    that the video controller (VERA) of the Commander X16 can read. Images can also
+    be converted to the X16 Graphics Format (BMX). Both indexed images (wh"
+name: "X16PngConverter"
+url:
+    source: "https://github.com/joolin1/x16-png-converter/releases/tag/v1.3.0"
+version: "v1.3.0"

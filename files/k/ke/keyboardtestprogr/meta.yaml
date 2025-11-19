@@ -1,0 +1,10 @@
+appid: keyboardtestprogr
+author:
+    name: "Stefan Jakobsson"
+category: "Systems"
+description: "This is a small keyboard test program that you can use to verify that
+    all keys are working correctly."
+name: "Keyboard test program"
+url:
+    x16forum: "https://cx16forum.com/forum/viewtopic.php?t=7085"
+version: ""

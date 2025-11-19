@@ -1,0 +1,9 @@
+appid: xforthcompiler
+author:
+    name: "BruceMcF"
+category: "Programming"
+description: "Alpha version of a xForth compiler."
+name: "xForth Compiler"
+url:
+    x16forum: "https://cx16forum.com/forum/viewtopic.php?t=6067&sid=e6ecbac87e7e8f2d632ced806a7871a0"
+version: "v0.1.4"

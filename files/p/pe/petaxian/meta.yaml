@@ -1,0 +1,10 @@
+appid: petaxian
+author:
+    name: "Borgar Olsen"
+category: "Games"
+description: "Galaga type game for C64 & X16 implemented in Prog8"
+name: "Petaxian"
+url:
+    x16forum: "https://cx16forum.com/forum/viewtopic.php?t=6400"
+    source: "https://cx16forum.com/forum/viewtopic.php?t=6400"
+version: ""

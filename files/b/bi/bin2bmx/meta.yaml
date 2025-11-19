@@ -1,0 +1,10 @@
+appid: bin2bmx
+author:
+    name: "ahenry3068"
+category: "Graphics"
+description: "VERA Bin to BMX Convertor.  Stand Alone,  No helper programs required.\
+    \  At present only 8 bit files are supported."
+name: "bin2bmx"
+url:
+    x16forum: "https://cx16forum.com/forum/viewtopic.php?t=7676&sid=87adc7904c41009a74ad4b9add499957"
+version: ""

@@ -1,0 +1,9 @@
+appid: chess
+author:
+    name: "badmai"
+category: "Games"
+description: "Port of the chess engine from Code Monkey King."
+name: "Chess"
+url:
+    x16forum: "https://cx16forum.com/forum/viewtopic.php?t=7476"
+version: ""

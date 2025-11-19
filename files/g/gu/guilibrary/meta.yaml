@@ -1,0 +1,12 @@
+appid: guilibrary
+author:
+    name: "yock1960"
+category: "Programming"
+description: "Here are two programs that demonstrate a small library of GUI functions.
+    One demo program simply demonstrates the different GUI objects that are available:
+    Buttons, Textboxes, Checkboxes, Radio Buttons, Progress Bars, Sliders and Frames.
+    The other demo program is a calculator program, which uses But"
+name: "GUI Library"
+url:
+    x16forum: "https://cx16forum.com/forum/viewtopic.php?t=6795"
+version: ""

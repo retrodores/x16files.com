@@ -1,0 +1,9 @@
+appid: x16emuforhaiku
+author:
+    name: "peotr26"
+category: "Tools"
+description: "Commander X16 emulator for Haiku x86-64."
+name: "x16emu for Haiku"
+url:
+    source: "https://github.com/peotr26/x16-emulator-haiku/releases/tag/r46"
+version: "r46"
