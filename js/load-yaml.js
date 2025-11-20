@@ -20,17 +20,17 @@ function renderTable(data) {
 
   let html = '<table><tr>';
   data.packages.forEach((pkg, i) => {
-    const cls = `c${(i % 9) + 1}`; // rotate band colors
-    const name = esc(pkg.name);
-    const url  = pkg.url || "#";
-    const ver  = esc(pkg.version || "");
-    const auth = esc(pkg.author  || "");
-    const desc = esc(pkg.description || "");
+    const cls      = `c${(i % 9) + 1}`; // rotate band colors
+    const name     = esc(pkg.name);
+    const forumurl = pkg.url.x16forum || "#";
+    const ver      = esc(pkg.version || "");
+    const auth     = esc(pkg.author.name  || "");
+    const desc     = esc(pkg.description || "");
 
     html += `
       <td>
         <div class="card-top ${cls}"></div>
-        <div class="card-mid"><a href="${url}" target="_blank" rel="noopener">${name}</a></div>
+        <div class="card-mid"><a href="${forumurl}" target="_blank" rel="noopener">${name}</a></div>
         <div class="card-desc">${desc}</div>
         <div class="card-bot">${ver}${ver && auth ? " • " : ""}${auth}</div>
       </td>`;
