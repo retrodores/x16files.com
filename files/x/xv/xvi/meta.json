@@ -7,7 +7,8 @@
   "description": "Demo vi clone for the Commander X16 using Prog8 and VTUI, PETSCII only.",
   "name": "XVI",
   "url": {
-    "source": "https://github.com/oodler577/XVI"
+    "source": "https://github.com/oodler577/XVI",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7241"
   },
   "version": "1.0.0"
 }

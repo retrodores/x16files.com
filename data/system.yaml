@@ -1,12 +1,18 @@
-# This YAML file is provided for reference only.
+# This YAML file is automatically generated and is provided for reference only.
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
-category: Systems
+---
+category: System
 description: Firmware and system utilities for Commander X16
 packages:
-  - name: Keyboard test program
-    author: Stefan Jakobsson
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=7085
-    description: "This is a small keyboard test program that you can use to verify that all keys are working correctly."
+  - appid: keyboardtestprogr
+    author:
+      name: Stefan Jakobsson
+    category: Systems
+    description: This is a small keyboard test program that you can use to verify that all keys are working correctly.
+    name: Keyboard test program
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7085
+    version: ''
+  

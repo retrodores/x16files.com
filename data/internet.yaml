@@ -1,17 +1,27 @@
-# This YAML file is provided for reference only.
+# This YAML file is automatically generated and is provided for reference only.
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+---
 category: Internet
 description: Network and serial utilities for Commander X16
 packages:
-  - name: BASTERM
-    author: Xiphod
-    version: v3
-    url: https://cx16forum.com/forum/viewtopic.php?t=8237&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "Serial terminal for the X16 written in BASIC."
-  - name: ROMTerm
-    author: The 8-Bit Guy
+  - appid: romterm
+    author:
+      name: The 8-Bit Guy
+    category: Internet
+    description: ROMTerm is a serial terminal program that will eventually be in ROM on the Commander X16. But for the moment you'll need to install it on the SD card.
+    name: ROMTerm
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7652&sid=5a303c5195eb93a4d305dc21389930e2
     version: v1.27
-    url: https://cx16forum.com/forum/viewtopic.php?t=7652&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "ROMTerm is a serial terminal program that will eventually be in ROM on the Commander X16. But for the moment you'll need to install it on the SD card."
+  - appid: basterm
+    author:
+      name: Xiphod
+    category: Internet
+    description: Serial terminal for the X16 written in BASIC.
+    name: BASTERM
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8237&sid=5a303c5195eb93a4d305dc21389930e2
+    version: v3
+  

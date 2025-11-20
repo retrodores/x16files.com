@@ -1,27 +1,38 @@
-# This YAML file is provided for reference only.
+# This YAML file is automatically generated and is provided for reference only.
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+---
 category: Editors
 description: Text and code editors for Commander X16
 packages:
-  - name: X16Edit
-    author: Stefan Jakobsson
-    version: 0.8.3
-    url: https://github.com/stefan-b-jakobsson/x16-edit
-    description: "X16 Edit is a simple text editor for the Commander X16 platform inspired by GNU Nano."
-  - name: XINFO
-    author: Xiphod
+  - appid: xinfo
+    author:
+      name: Xiphod
+    category: Editors
+    description: 'XINFO is a text file viewer with three other special features: Interpret control codes for color, support links within the document or to others, word-wrap the text.'
+    name: XINFO
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6924&sid=5a303c5195eb93a4d305dc21389930e2
     version: v1.8
-    url: https://cx16forum.com/forum/viewtopic.php?t=6924&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "XINFO is a text file viewer with three other special features: Interpret control codes for color, support links within the document or to others, word-wrap the text."
-  - name: Living Type
-    author: Inkbox
+  - appid: x16edit
+    author:
+      name: Stefan Jakobsson
+    category: Editors
+    description: X16 Edit is a simple text editor for the Commander X16 platform inspired by GNU Nano.
+    name: X16Edit
+    url:
+      source: https://github.com/stefan-b-jakobsson/x16-edit
+      x16forum: https://github.com/stefan-b-jakobsson/x16-edit
+    version: 0.8.3
+  - appid: xvi
+    author:
+      name: Brett Estrade
+    category: Editors
+    description: 'Demo vi clone for the Commander X16 using Prog8 and VTUI, PETSCII only.'
+    name: XVI
+    url:
+      source: https://github.com/oodler577/XVI
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7241
     version: 1.0.0
-    url: https://cx16forum.com/forum/viewtopic.php?t=6251&sid=4251a409befa8aab827533c8e2b4d183
-    description: A Chinese Word Processor first released on the X16 Forum
-  - name: XVI
-    author: Brett Estrade
-    version: 1.0.0
-    url: https://github.com/oodler577/XVI
-    description: "Demo vi clone for the Commander X16 using Prog8 and VTUI, PETSCII only."
+  

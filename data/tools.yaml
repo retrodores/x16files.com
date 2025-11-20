@@ -1,67 +1,117 @@
-# This YAML file is provided for reference only.
+# This YAML file is automatically generated and is provided for reference only.
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+---
 category: Tools
 description: Miscellaneous tools and utilities for Commander X16
 packages:
-  - name: CHIP-8 Emulator / Interpreter
-    author: Enderfighter06
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
-    description: "This is a emulator for the CHIP-8 virtual platform using PETSCII graphics."
-  - name: x16emu for Haiku
-    author: peotr26
-    version: r46
-    url: https://github.com/peotr26/x16-emulator-haiku/releases/tag/r46
-    description: "Commander X16 emulator for Haiku x86-64."
-  - name: cyclops
-    author: yock1960
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=6720&sid=861eed69f3583ffbad5003776001cac0
-    description: "Motorola MC14500B Simulator"
-  - name: x16emu for Linux i686 (32 bit)
-    author: mobluse
-    version: R43
-    url: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
-    description: "The official X16 emulator build for 32bit Linux i686"
-  - name: cx16os
-    author: totodilespy
-    version: v0.0.2
-    url: https://cx16forum.com/forum/viewtopic.php?t=7985&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "cx16os is a OS layer for the Commander X16. It's unix-esque, and features a shell, preemptive multitasking, and redirection and more."
-  - name: 1000COIN Statistics Simulator
-    author: Xiphod
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "Neil deGrasse Tyson proposed a thought experiment involving 1000 coin flips. The intent was to show that within any random sample, there is bound to be a consistent winner that our human minds term as lucky."
-  - name: Function Key re-mapper
-    author: Jakebullet70
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "It allows you to re-map the function keys to whatever you want. 10 chars max."
-  - name: JUSTACLOCK
-    author: schristis
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=6857&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "It is just a clock you could use... written in basic"
-  - name: PAYROLL
-    author: Poe
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=7072&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "A VisiCalc Clone. This is a rough draft version of a VisiCalc clone for the Commander X16 written in BASIC. It only has the SUM function working right now. But hopefully a future version will be more fleshed out."
-  - name: BladeCalc
-    author: ComputerBlade
-    version: TBD
-    url: https://cx16forum.com/forum/viewtopic.php?t=6878&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "A mini little calculator program for the Commander X16"
-  - name: Wall Clock
-    author: Xiphod
+  - appid: wallclock
+    author:
+      name: Xiphod
+    category: Tools
+    description: This example uses custom fonts and the tiny 20x15 text mode to display the current time and date.
+    name: Wall Clock
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6819&sid=5a303c5195eb93a4d305dc21389930e2
     version: 2
-    url: https://cx16forum.com/forum/viewtopic.php?t=6819&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "This example uses custom fonts and the tiny 20x15 text mode to display the current time and date."
-  - name: X16Cell
-    author: TediusTimmy
+  - appid: justaclock
+    author:
+      name: schristis
+    category: Tools
+    description: It is just a clock you could use... written in basic
+    name: JUSTACLOCK
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6857&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: functionkeyremapp
+    author:
+      name: Jakebullet70
+    category: Tools
+    description: It allows you to re-map the function keys to whatever you want. 10 chars max.
+    name: Function Key re-mapper
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: payroll
+    author:
+      name: Poe
+    category: Tools
+    description: A VisiCalc Clone. This is a rough draft version of a VisiCalc clone for the Commander X16 written in BASIC. It only has the SUM function working right now. But hopefully a future version will be more fleshed out.
+    name: PAYROLL
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7072&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: cx16os
+    author:
+      name: totodilespy
+    category: Tools
+    description: "cx16os is a OS layer for the Commander X16. It's unix-esque, and features a shell, preemptive multitasking, and redirection and more."
+    name: cx16os
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7985&sid=5a303c5195eb93a4d305dc21389930e2
+    version: v0.0.2
+  - appid: cyclops
+    author:
+      name: yock1960
+    category: Tools
+    description: Motorola MC14500B Simulator
+    name: cyclops
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6720&sid=861eed69f3583ffbad5003776001cac0
+    version: ''
+  - appid: chip8emulatorinte
+    author:
+      name: Enderfighter06
+    category: Tools
+    description: This is a emulator for the CHIP-8 virtual platform using PETSCII graphics.
+    name: CHIP-8 Emulator / Interpreter
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
+    version: ''
+  - appid: bladecalc
+    author:
+      name: ComputerBlade
+    category: Tools
+    description: A mini little calculator program for the Commander X16
+    name: BladeCalc
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6878&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: x16emuforhaiku
+    author:
+      name: peotr26
+    category: Tools
+    description: Commander X16 emulator for Haiku x86-64.
+    name: x16emu for Haiku
+    url:
+      source: https://github.com/peotr26/x16-emulator-haiku/releases/tag/r46
+    version: r46
+  - appid: x16cell
+    author:
+      name: TediusTimmy
+    category: Tools
+    description: A spreadsheet program for X16.
+    name: X16Cell
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6528&sid=5a303c5195eb93a4d305dc21389930e2
     version: 1.2
-    url: https://cx16forum.com/forum/viewtopic.php?t=6528&sid=5a303c5195eb93a4d305dc21389930e2
-    description: "A spreadsheet program for X16."
+  - appid: x16emuforlinuxi68
+    author:
+      name: mobluse
+    category: Tools
+    description: The official X16 emulator build for 32bit Linux i686
+    name: x16emu for Linux i686 (32 bit)
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
+    version: R43
+  - appid: 1000coinstatistic
+    author:
+      name: Xiphod
+    category: Tools
+    description: 'Neil deGrasse Tyson proposed a thought experiment involving 1000 coin flips. The intent was to show that within any random sample, there is bound to be a consistent winner that our human minds term as lucky.'
+    name: 1000COIN Statistics Simulator
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  
