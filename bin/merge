@@ -1,0 +1,76 @@
+#!/usr/bin/env perl
+
+use v5.12;
+use warnings;
+
+# only here due to the shared hosting environment
+use lib "$ENV{HOME}/perl/usr/lib/perl5/";
+
+package bin::merge;
+
+use File::Find;
+use FindBin qw/$Bin/;
+use JSON::PP;
+use YAML;
+use Data::Dumper;
+
+my ($categories,$authors,$appids);
+
+find(\&process, ("$Bin/../files") ) if not caller;
+
+my $cats = {
+  games           => { category => "Games",         slug => "games",       description => "Games and other entertaintment" },
+  editors         => { category => "Editors",       slug => "editors",     description => "Text and code editors for Commander X16" },
+  "file and disk" => { category => "File and Disk", slug => "files",       description => "File and disk utilities" },
+  graphics        => { category => "Graphics",      slug => "graphics",    description => "Sprite, video, and image editors for Commander X16" },
+  internet        => { category => "Internet",      slug => "internet",    description => "Network and serial utilities for Commander X16" },
+  programming     => { category => "Programming",   slug => "programming", description => "Programming tools and libraries for on and off the X16" },
+  sound           => { category => "Sound",         slug => "sound",       description => "Audio and music utilities for Commander X16" },
+  systems         => { category => "System",        slug => "system",      description => "Firmware and system utilities for Commander X16" },
+  tools           => { category => "Tools",         slug => "tools",       description => "Miscellaneous tools and utilities for Commander X16" },
+};
+
+# dump YAML files
+foreach my $category (keys %{$categories}) {
+  my $CAT_INDEX = { category => $cats->{lc $category}->{category}, description => $cats->{lc $category}->{description}, packages => $categories->{lc $category} };
+  my $YAML = Dump($CAT_INDEX);
+  my $filename = sprintf "%s.yaml", $cats->{lc $category}->{slug};
+  open my $fh, ">", "./$filename";
+  print $fh <<EOF;
+# This YAML file is automatically generated and is provided for reference only.
+# Do NOT deploy, distribute, or integrate it without prior authorization.
+# https://x16files.com
+
+$YAML  
+EOF
+say "wrote $filename";
+}
+
+sub process {
+  my $file = $File::Find::name; 
+  my @path = split /\//, $file;
+  return undef if $path[-1] !~ m/json/;;
+
+  local $@; # error detection 
+
+  # open file and dump contents to $json
+  my $json = eval { local $/; do { open my $fh, "<", $file || die "Failed to open $file\n"; <$fh> } } or undef; 
+
+  if ($@) { # file read error
+    say STDERR $@;
+    return;
+  }
+
+  my $info = eval { decode_json $json } or undef;
+
+  if ($@) { # json decode error
+    say STDERR $@;
+    return;
+  }
+
+  push @{$categories->{lc $info->{category}}}, $info; 
+  push @{$authors->{$info->{author}->{name}}}, $info;
+  push @{$appids->{lc $info->{appid}}},        $info;
+}
+
+1
