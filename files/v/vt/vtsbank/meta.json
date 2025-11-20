@@ -1,0 +1,13 @@
+{
+  "appid": "vtsbank",
+  "author": {
+    "name": "tallLeRoy"
+  },
+  "category": "Programming",
+  "description": "Vera Tile Set feature for Prog8 with routines for sprite and tile transformations and rotations.  With examples.",
+  "name": "vtsbank",
+  "url": {
+    "source": "https://github.com/tallLeRoy/vtsbank"
+  },
+  "version": ""
+}

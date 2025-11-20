@@ -1,9 +1,0 @@
-appid: zsound
-author:
-    name: "ZeroByteOrg"
-category: "Programming"
-description: "Streaming Sound Library for Commander X16"
-name: "ZSound"
-url:
-    source: "https://github.com/ZeroByteOrg/zsound"
-version: ""

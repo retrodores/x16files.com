@@ -1,0 +1,13 @@
+{
+  "appid": "x16tileeditor",
+  "author": {
+    "name": "SlithyMatt"
+  },
+  "category": "Graphics",
+  "description": "Tile/Sprite Editor for the Commander X16",
+  "name": "x16-tile-editor",
+  "url": {
+    "source": "https://github.com/SlithyMatt/x16-tile-editor/releases"
+  },
+  "version": "0.1"
+}

@@ -1,0 +1,14 @@
+{
+  "appid": "tetris",
+  "author": {
+    "name": "unartic"
+  },
+  "category": "Games",
+  "description": "A simple Tetris clone in text mode featuring high scores and basic sound effects.  The source code is included for those who wish to tinker with it. Use nxtBasic to compile it.",
+  "name": "Tetris",
+  "url": {
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=7904&sid=aad3aceedfb6154d1584fc24ec2936d8",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7904&sid=aad3aceedfb6154d1584fc24ec2936d8"
+  },
+  "version": ""
+}

@@ -1,0 +1,13 @@
+{
+  "appid": "pascalish",
+  "author": {
+    "name": "yock1960"
+  },
+  "category": "Programming",
+  "description": "A p-code Pascal compiler hosted on the Commander X16 and written in Prog8.",
+  "name": "Pascal-iSh",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7712"
+  },
+  "version": "v1.0"
+}

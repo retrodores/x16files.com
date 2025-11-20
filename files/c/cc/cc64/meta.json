@@ -1,0 +1,13 @@
+{
+  "appid": "cc64",
+  "author": {
+    "name": "pzembrod"
+  },
+  "category": "Programming",
+  "description": "cc64 is a small-C compiler, written in Forth, targeting the 6502 CPU. It's hosted on the Commodore C64, on the C16 with 64k RAM and the Plus4, and on the new Commander X16, and runtime targets are also available for all 3 platforms, on each host, allowing cross-compilation.",
+  "name": "cc64",
+  "url": {
+    "source": "https://github.com/pzembrod/cc64/releases/tag/v0.12"
+  },
+  "version": "v0.12"
+}

@@ -1,0 +1,13 @@
+{
+  "appid": "dosshell",
+  "author": {
+    "name": "Irmen de Jong"
+  },
+  "category": "File and Disk",
+  "description": "This is a unix inspired Dos Shell with a bunch of builtin commands to make day to day file operations (much) more convenient than via a regular Basic prompt.",
+  "name": "Dos Shell",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6293&sid=5a303c5195eb93a4d305dc21389930e2"
+  },
+  "version": ""
+}

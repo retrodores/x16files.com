@@ -1,0 +1,13 @@
+{
+  "appid": "majorassembler",
+  "author": {
+    "name": "MarkTheStrange"
+  },
+  "category": "Programming",
+  "description": "A symbolic assembler written in BASIC",
+  "name": "Major Assembler",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6725"
+  },
+  "version": ""
+}

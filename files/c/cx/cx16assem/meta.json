@@ -1,0 +1,13 @@
+{
+  "appid": "cx16assem",
+  "author": {
+    "name": "Irmen de Jong"
+  },
+  "category": "Programming",
+  "description": "File-based 65c02 assembler for Commander-X16 that runs natively on the Commander X16.",
+  "name": "cx16assem",
+  "url": {
+    "source": "https://github.com/irmen/cx16assem"
+  },
+  "version": "1.6"
+}

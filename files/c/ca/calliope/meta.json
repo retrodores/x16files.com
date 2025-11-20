@@ -1,0 +1,13 @@
+{
+  "appid": "calliope",
+  "author": {
+    "name": "ZeroByte"
+  },
+  "category": "Sound",
+  "description": "Calliope is a player / jukebox application for the Commander X16 for browsing and playing songs in ZSM format. ZSM is the native music format of Zsound, which is freely available to anyone who wants to add audio to their X16 projects. If any other player libraries / formats rise to prevalence with t",
+  "name": "calliope",
+  "url": {
+    "source": "https://github.com/ZeroByteOrg/calliope"
+  },
+  "version": "v1.1"
+}

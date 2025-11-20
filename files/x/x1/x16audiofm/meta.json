@@ -1,0 +1,13 @@
+{
+  "appid": "x16audiofm",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Sound",
+  "description": "This is a utility to help understand all the FMxxxx BASIC commands and what the resulting effects sound like.  This sets up parameters for each of the 8 channels that can be passed to FMFREQ or FMNOTE or FMDRUM.",
+  "name": "X16AUDIOFM",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6811"
+  },
+  "version": "1.1"
+}

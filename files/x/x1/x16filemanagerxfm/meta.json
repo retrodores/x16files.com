@@ -1,0 +1,13 @@
+{
+  "appid": "x16filemanagerxfm",
+  "author": {
+    "name": "unartic"
+  },
+  "category": "File and Disk",
+  "description": "X16 File Manager (XFM) is a Norton Commander-clone. It supports all basic file and directory management functions as well as launching tokenized basic programs and machine language programs, AND return to XFM as soon the program exits. So a true Norton Commander feeling.",
+  "name": "X16 File Manager (XFM)",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7014&sid=5a303c5195eb93a4d305dc21389930e2"
+  },
+  "version": "v3.0"
+}

@@ -1,9 +1,0 @@
-appid: xvi
-author:
-    name: "Brett Estrade"
-category: "Editors"
-description: "Demo vi clone for the Commander X16 using Prog8 and VTUI, PETSCII only."
-name: "XVI"
-url:
-    source: "https://github.com/oodler577/XVI"
-version: "1.0.0"

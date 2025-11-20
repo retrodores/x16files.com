@@ -1,0 +1,13 @@
+{
+  "appid": "gimpv2veraplugin",
+  "author": {
+    "name": "Jestin Stoffel"
+  },
+  "category": "Programming",
+  "description": "A gimp plugin for creating tilesets for the VERA graphics chip. This version is for GIMP v2.x",
+  "name": "GIMP v2 VERA Plugin",
+  "url": {
+    "source": "https://github.com/jestin/gimp-vera-tileset-plugin"
+  },
+  "version": ""
+}

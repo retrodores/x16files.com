@@ -1,0 +1,14 @@
+{
+  "appid": "galax16",
+  "author": {
+    "name": "Roy Eltham"
+  },
+  "category": "Games",
+  "description": "GalaX16 is a arcade space shooter inspired by Galaga. It is written in prog8 (with a smidge of inline asm).",
+  "name": "GalaX16",
+  "url": {
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=8293&sid=ae40c1febbade03020241222eb9aa3d3",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8293&sid=ae40c1febbade03020241222eb9aa3d3"
+  },
+  "version": ""
+}

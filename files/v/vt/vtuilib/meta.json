@@ -1,0 +1,13 @@
+{
+  "appid": "vtuilib",
+  "author": {
+    "name": "Jimmy Dansbo"
+  },
+  "category": "Programming",
+  "description": "This is a UI library that is less than 1KB which means it can be loaded into Golden RAM at $400. As an alternative, include files are provided for Acme and CA65 assemblers as well as CC65 compiler.",
+  "name": "VTUIlib",
+  "url": {
+    "source": "https://github.com/JimmyDansbo/VTUIlib"
+  },
+  "version": "1.2.0"
+}

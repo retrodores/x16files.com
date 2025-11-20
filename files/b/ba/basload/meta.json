@@ -1,0 +1,13 @@
+{
+  "appid": "basload",
+  "author": {
+    "name": "Stefan Jakobsson"
+  },
+  "category": "Programming",
+  "description": "BASLOAD is a BASIC tokenizer/compiler that runs natively on the X16.",
+  "name": "BASLOAD",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6322"
+  },
+  "version": "0.2.6"
+}

@@ -1,0 +1,13 @@
+{
+  "appid": "x16fonteditor",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Graphics",
+  "description": "This is a utility to help make custom fonts from within BASIC.",
+  "name": "X16 Font Editor",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6814"
+  },
+  "version": "v1.4"
+}

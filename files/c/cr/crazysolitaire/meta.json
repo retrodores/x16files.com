@@ -1,0 +1,15 @@
+{
+  "appid": "crazysolitaire",
+  "author": {
+    "name": "DusanStrakl"
+  },
+  "category": "Games",
+  "description": "A classic Solitaire game",
+  "name": "Crazy Solitaire",
+  "url": {
+    "source": "https://www.8bitcoding.com/p/crazy-solitaire.html",
+    "website": "https://www.8bitcoding.com/p/crazy-solitaire.html",
+    "x16forum": "https://www.8bitcoding.com/p/crazy-solitaire.html"
+  },
+  "version": ""
+}

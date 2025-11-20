@@ -1,0 +1,13 @@
+{
+  "appid": "asterduel",
+  "author": {
+    "name": "mwiedmann"
+  },
+  "category": "Games",
+  "description": "Battle in space against a friend in this two player space battler. Destroy the asteroids (and the other player!) in the middle of the field and harvest the energy crystals. Strategically hide behind your shield as needed.",
+  "name": "Asterduel",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8492&sid=ae40c1febbade03020241222eb9aa3d3"
+  },
+  "version": ""
+}

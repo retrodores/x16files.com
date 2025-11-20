@@ -1,0 +1,13 @@
+{
+  "appid": "x16synth",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Sound",
+  "description": "On-system audio from the keyboard",
+  "name": "X16 Synth",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7709"
+  },
+  "version": ""
+}

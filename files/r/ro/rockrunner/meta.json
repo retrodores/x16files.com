@@ -1,0 +1,13 @@
+{
+  "appid": "rockrunner",
+  "author": {
+    "name": "Irmen de Jong"
+  },
+  "category": "Games",
+  "description": "Rock Runner - A Boulder Dash\u00ae clone for the Commander X16.",
+  "name": "Rock Runner",
+  "url": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6576"
+  },
+  "version": "1.4"
+}

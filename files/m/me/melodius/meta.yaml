@@ -1,9 +1,0 @@
-appid: melodius
-author:
-    name: "mooinglemur"
-category: "Sound"
-description: "Commander X16 music player engine and frontend using the new audio API"
-name: "melodius"
-url:
-    source: "https://github.com/mooinglemur/melodius"
-version: "v20250410"
