@@ -55,6 +55,7 @@ assignees: ''
     "source": "https://github.com/irmen/cx16chess",
     "download": "https://../path/to/PRG-BIN-or-ZIP",
     "x16forum": "https://...",
+    "webemu": "https://...",
     "website": ""
   },
   "extra": {
