@@ -72,3 +72,205 @@ sub process {
 }
 
 1
+
+__END__
+
+=pod
+
+=head1 NAME
+
+bin::merge - merge Commander X16 package metadata into category YAML files
+
+=head1 SYNOPSIS
+
+  # from anywhere, run with perl
+  perl /path/to/bin/merge
+
+  # or if bin/merge is executable
+  /path/to/bin/merge
+
+There are no command line options. The script uses FindBin to locate its own
+directory and then looks for JSON files under:
+
+  $Bin/../files
+
+relative to where bin/merge itself lives.
+
+=head1 DESCRIPTION
+
+This script discovers, parses, and aggregates metadata for Commander X16
+software packages. Each package is represented as a JSON file inside the
+files directory located at:
+
+  $Bin/../files
+
+The script walks that directory tree, reads each JSON file, groups package
+metadata by category, and writes one YAML index file per category into the
+current working directory.
+
+The generated YAML files are intended for downstream static site generation
+for x16files.com and are not meant to be edited by hand.
+
+=head1 HOW IT WORKS
+
+When executed as a command line program (that is, not loaded with "require"
+or "use"), the script:
+
+1. Recursively scans $Bin/../files using File::Find.
+
+2. For each file with a name ending in ".json":
+   - reads the file into a scalar
+   - decodes the JSON into a Perl hash reference using JSON::PP
+   - normalizes the category and pushes the package data into several
+     in memory indexes:
+       categories (by category name)
+       authors    (by author name)
+       appids     (by app id)
+
+3. Looks up metadata for each category in a predefined hash (%$cats), which
+   defines:
+       human readable category name
+       slug used for file names
+       category description text
+
+4. For each category that has at least one package, builds a hash with:
+       category    (human readable category name)
+       description (category description)
+       packages    (array of package hashrefs)
+
+5. Serializes that hash to YAML and writes a file named:
+       <slug>.yaml
+
+   For example:
+       games.yaml
+       editors.yaml
+       graphics.yaml
+
+Each generated YAML file includes a header comment indicating that the file is
+automatically generated and should not be deployed or integrated without
+authorization.
+
+=head1 YAML OUTPUT
+
+Each YAML file has this general shape:
+
+  category: Games
+  description: Games and other entertainment
+  packages:
+    - appid: example_app
+      name: Example App
+      version: 1.0.0
+      author:
+        name: Example Author
+      (additional keys as present in the JSON)
+
+The exact contents of each package entry come directly from the corresponding
+JSON file.
+
+=head1 ERROR HANDLING
+
+File read errors and JSON decoding errors are trapped using eval. If a file
+cannot be read or the JSON cannot be decoded, an error message is printed to
+STDERR and that file is skipped. The script continues processing the rest of
+the files.
+
+=head1 FUNCTIONS
+
+=head2 process
+
+  process()
+
+This is the callback used by File::Find.
+
+For each file it:
+
+  - checks that the file name ends with ".json"
+  - reads the file contents into a scalar
+  - decodes the JSON into a Perl hash reference
+  - pushes the resulting hashref into the following structures:
+      $categories->{lowercased_category}
+      $authors->{$info->{author}{name}}
+      $appids->{lowercased_appid}
+
+On error it prints a message to STDERR and returns without modifying
+the in memory indexes.
+
+=head1 DATA STRUCTURES
+
+=head2 $cats
+
+Hash reference that maps category keys to metadata. Example:
+
+  $cats = {
+    games => {
+      category    => "Games",
+      slug        => "games",
+      description => "Games and other entertainment",
+    },
+    editors => {
+      category    => "Editors",
+      slug        => "editors",
+      description => "Text and code editors for Commander X16",
+    },
+    ...
+  };
+
+These entries control the category name, the YAML file name slug, and the
+description text for each category.
+
+=head2 $categories
+
+Hash reference mapping lowercased category names to an array reference of
+package hash references:
+
+  $categories->{games} = [ { ... }, { ... }, ... ];
+
+=head2 $authors
+
+Hash reference mapping author names to an array reference of package hash
+references:
+
+  $authors->{"Author Name"} = [ { ... }, { ... }, ... ];
+
+=head2 $appids
+
+Hash reference mapping lowercased application ids to an array reference of
+package hash references:
+
+  $appids->{example_app} = [ { ... } ];
+
+=head1 DEPENDENCIES
+
+This script requires:
+
+  Perl 5.12 or later
+  File::Find
+  FindBin
+  JSON::PP
+  YAML
+  Data::Dumper (used for debugging)
+  cPanelUserConfig (for cPanel style shared hosting environments)
+
+=head1 NOTES
+
+The script always derives the JSON data directory from its own location using
+FindBin:
+
+  $Bin/../files
+
+so it does not take any directory arguments on the command line.
+
+YAML files are written into the current working directory, and existing files
+with the same names will be overwritten.
+
+=head1 AUTHOR
+
+Brett Estrade L<< <brett.estrade@gmail.com> >>
+
+=head1 LICENSE
+
+This script is distributed under the same terms as Perl itself or as specified
+by the x16files.com project.
+
+=cut
+
