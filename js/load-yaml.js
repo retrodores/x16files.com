@@ -24,7 +24,7 @@ function renderTable(data) {
     const name     = esc(pkg.name);
     const forumurl = pkg.url.x16forum || "#";
     const ver      = esc(pkg.version || "");
-    const auth     = esc(pkg.author.name  || "");
+    const auth     = esc(pkg.author.name || "");
     const desc     = esc(pkg.description || "");
 
     html += `

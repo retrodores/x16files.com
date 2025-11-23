@@ -34,7 +34,7 @@
   }
 
   .card-top{
-    height:64px;
+    height:16px;
     /* Gradients are hard-step bands (no interleaving); image-rendering mostly affects images,
        but we keep it for the retro vibe */
     image-rendering: pixelated;
@@ -122,7 +122,8 @@
   .card-desc{
   padding:6px 12px 0 12px;
   color:#cbd3e6; font-size:14px; line-height:1.25;
-  display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2;
+  display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:8;
+  min-height: calc(1.25em * 8);
   overflow:hidden;
   background:var(--dark-gray);
   }

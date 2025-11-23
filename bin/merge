@@ -2,9 +2,7 @@
 
 use v5.12;
 use warnings;
-
-# only here due to the shared hosting environment
-use lib "$ENV{HOME}/perl/usr/lib/perl5/";
+use cPanelUserConfig;
 
 package bin::merge;
 

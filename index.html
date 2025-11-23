@@ -23,60 +23,103 @@
     --band: 28px;
   }
 
-  body{font-family:monospace;background:#fff;color:#1a1a1a;margin:0;}
-  header{background:var(--nav-bg);color:#e5e8f0;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;}
-  header h1{font-size:20px;letter-spacing:1px}
-  header nav a{color:#e5e8f0;margin-left:24px;text-decoration:none}
-  header nav a:hover{text-decoration:underline}
+  body{
+    font-family:monospace;
+    background:#fff;
+    color:#1a1a1a;
+    margin:0;
+  }
 
-  main{margin:40px auto;max-width:1100px}
-  h2{text-align:center;margin-bottom:20px;color:#111}
+  header{
+    background:var(--nav-bg);
+    color:#e5e8f0;
+    padding:10px 24px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
 
-  table{border-collapse:separate;border-spacing:18px;margin:auto}
+  header h1{
+    font-size:20px;
+    letter-spacing:1px;
+    margin:0;
+    color:#e5e8f0; /* ensure visible on dark header */
+  }
+
+  header nav a{
+    color:#e5e8f0;
+    margin-left:24px;
+    text-decoration:none;
+  }
+
+  header nav a:hover{
+    text-decoration:underline;
+  }
+
+  /* Search bar styling */
+  header form.search-bar {
+    margin-left: 32px;
+  }
+
+  header form.search-bar input[type="text"] {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    font-size: 14px;
+  }
+
+  header form.search-bar input[type="submit"] {
+    padding: 6px 12px;
+    margin-left: 6px;
+    border-radius: 6px;
+    border: none;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+  }
+
+  header form.search-bar input[type="submit"]:hover {
+    background: #6ab0ff;
+  }
+
+  main{
+    margin:40px auto;
+    max-width:1100px;
+  }
+
+  /* Only style the main page title, not header h1 */
+  main h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#111;
+  }
+
+  table{
+    border-collapse:separate;
+    border-spacing:18px;
+    margin:auto;
+  }
+
   td{
-    width:320px;height:150px;background:var(--dark-gray);
-    border:1px solid var(--card-border);border-radius:var(--card-radius);
-    overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.15)
+    width:320px;
+    height:95px;
+    background:var(--dark-gray);
+    border:1px solid var(--card-border);
+    border-radius:var(--card-radius);
+    overflow:hidden;
+    box-shadow:0 1px 0 rgba(0,0,0,.15);
   }
 
   .card-top{
-    height:64px;
-    /* Gradients are hard-step bands (no interleaving); image-rendering mostly affects images,
-       but we keep it for the retro vibe */
+    height:16px;
     image-rendering: pixelated;
     background-size: 100% 100%;
     background-repeat: repeat;
   }
 
-  /* helper custom properties for repeated 7-band steps */
-  .bands-225{
-    background:
-      repeating-linear-gradient(225deg,
-        var(--c1) 0                calc(var(--band)*1),
-        var(--c2) calc(var(--band)*1) calc(var(--band)*2),
-        var(--c3) calc(var(--band)*2) calc(var(--band)*3),
-        var(--c4) calc(var(--band)*3) calc(var(--band)*4),
-        var(--c5) calc(var(--band)*4) calc(var(--band)*5),
-        var(--c6) calc(var(--band)*5) calc(var(--band)*6),
-        var(--c7) calc(var(--band)*6) calc(var(--band)*7)
-      );
-  }
-  .bands-135{
-    background:
-      repeating-linear-gradient(135deg,
-        var(--c1) 0                calc(var(--band)*1),
-        var(--c2) calc(var(--band)*1) calc(var(--band)*2),
-        var(--c3) calc(var(--band)*2) calc(var(--band)*3),
-        var(--c4) calc(var(--band)*3) calc(var(--band)*4),
-        var(--c5) calc(var(--band)*4) calc(var(--band)*5),
-        var(--c6) calc(var(--band)*5) calc(var(--band)*6),
-        var(--c7) calc(var(--band)*6) calc(var(--band)*7)
-      );
-  }
-
   /* Left + middle columns ↘ (225°) */
-  .c1,.c2,.c4,.c5,.c7,.c8 { composes: bands-225; } /* note: composes is conceptual; apply class below */
-  .c1,.c2,.c4,.c5,.c7,.c8 { background:
+  .c1,.c2,.c4,.c5,.c7,.c8 {
+    background:
       repeating-linear-gradient(225deg,
         var(--c1) 0                calc(var(--band)*1),
         var(--c2) calc(var(--band)*1) calc(var(--band)*2),
@@ -89,7 +132,8 @@
   }
 
   /* Right column ↙ (135°) */
-  .c3,.c6,.c9 { background:
+  .c3,.c6,.c9 {
+    background:
       repeating-linear-gradient(135deg,
         var(--c1) 0                calc(var(--band)*1),
         var(--c2) calc(var(--band)*1) calc(var(--band)*2),
@@ -102,56 +146,135 @@
   }
 
   .card-mid{
-    height:60px;display:flex;align-items:center;justify-content:center;font-size:20px;background:var(--dark-gray);
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    background:var(--dark-gray);
   }
-  .card-mid a{color:#8ec5ff;text-decoration:none}
-  .card-mid a:hover{text-decoration:underline}
+
+  .card-mid a{
+    color:#8ec5ff;
+    text-decoration:none;
+  }
+
+  .card-mid a:hover{
+    text-decoration:underline;
+  }
 
   .card-bot{
-    height:26px;border-top:1px solid var(--card-border);padding:0 12px;
-    display:flex;align-items:center;justify-content:flex-end;color:#c0c6d4;font-size:14px;background:var(--dark-gray);
+    height:26px;
+    border-top:1px solid var(--card-border);
+    padding:0 12px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    color:#c0c6d4;
+    font-size:14px;
+    background:var(--dark-gray);
   }
 
-  td:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.1);transition:.15s}
-  footer{text-align:center;color:#444;font-size:14px;margin:40px 0 20px}
-  footer a{color:#0055cc;text-decoration:none}
-  footer a:hover{text-decoration:underline}
+  td:hover{
+    transform:translateY(-2px);
+    box-shadow:0 6px 16px rgba(0,0,0,.1);
+    transition:.15s;
+  }
+
+  footer{
+    text-align:center;
+    color:#444;
+    font-size:14px;
+    margin:40px 0 20px;
+  }
+
+  footer a{
+    color:#0055cc;
+    text-decoration:none;
+  }
+
+  footer a:hover{
+    text-decoration:underline;
+  }
 </style>
 </head>
 <body>
   <header>
     <h1>X16 FILES</h1>
+
     <nav>
-      <a href="/">Home</a>
       <a href="https://github.com/retrodores/x16files.com/tree/master/data">Github</a>
       <a href="https://discord.gg/nS2PqEC">Discord</a>
       <a href="https://cx16forum.com/forum/viewforum.php?f=29">Forum</a>
     </nav>
+
+    <form class="search-bar" method="get" action="/cgi-bin/search-x16files.pl">
+      <input type="text" name="q" placeholder="Search X16 Files …">
+      <input type="submit" value="Search">
+    </form>
   </header>
 
   <main>
     <h1>Software Categories</h1>
     <table>
       <tr>
-        <td><div class="card-top c1"></div><div class="card-mid"><a href="editors.html">Editors</a></div><div class="card-bot">Text utilities</div></td>
-        <td><div class="card-top c2"></div><div class="card-mid"><a href="graphics.html">Graphics</a></div><div class="card-bot">Image, sprite, and video utilities</div></td>
-        <td><div class="card-top c3"></div><div class="card-mid"><a href="sound.html">Sound</a></div><div class="card-bot">Sounds and music utilities</div></td>
+        <td>
+          <div class="card-top c1"></div>
+          <div class="card-mid"><a href="editors.html">Editors</a></div>
+          <div class="card-bot">Text utilities</div>
+        </td>
+        <td>
+          <div class="card-top c2"></div>
+          <div class="card-mid"><a href="graphics.html">Graphics</a></div>
+          <div class="card-bot">Image, sprite, and video utilities</div>
+        </td>
+        <td>
+          <div class="card-top c3"></div>
+          <div class="card-mid"><a href="sound.html">Sound</a></div>
+          <div class="card-bot">Sounds and music utilities</div>
+        </td>
       </tr>
       <tr>
-        <td><div class="card-top c4"></div><div class="card-mid"><a href="files.html">File & Disk</a></div><div class="card-bot">File and disk utilities</div></td>
-        <td><div class="card-top c5"></div><div class="card-mid"><a href="internet.html">Internet</a></div><div class="card-bot">Network and serial utilities</div></td>
-        <td><div class="card-top c6"></div><div class="card-mid"><a href="system.html">System</a></div><div class="card-bot">Firmware, diagnostics, etc</div></td>
+        <td>
+          <div class="card-top c4"></div>
+          <div class="card-mid"><a href="files.html">File & Disk</a></div>
+          <div class="card-bot">File and disk utilities</div>
+        </td>
+        <td>
+          <div class="card-top c5"></div>
+          <div class="card-mid"><a href="internet.html">Internet</a></div>
+          <div class="card-bot">Network and serial utilities</div>
+        </td>
+        <td>
+          <div class="card-top c6"></div>
+          <div class="card-mid"><a href="system.html">System</a></div>
+          <div class="card-bot">Firmware, diagnostics, etc</div>
+        </td>
       </tr>
       <tr>
-        <td><div class="card-top c7"></div><div class="card-mid"><a href="games.html">Games</a></div><div class="card-bot">Games and other fun programs</div></td>
-        <td><div class="card-top c8"></div><div class="card-mid"><a href="programming.html">Programming</a></div><div class="card-bot">Code development utilities</div></td>
-        <td><div class="card-top c9"></div><div class="card-mid"><a href="tools.html">Tools</a></div><div class="card-bot">Miscellaneous programs</div></td>
+        <td>
+          <div class="card-top c7"></div>
+          <div class="card-mid"><a href="games.html">Games</a></div>
+          <div class="card-bot">Games and other fun programs</div>
+        </td>
+        <td>
+          <div class="card-top c8"></div>
+          <div class="card-mid"><a href="programming.html">Programming</a></div>
+          <div class="card-bot">Code development utilities</div>
+        </td>
+        <td>
+          <div class="card-top c9"></div>
+          <div class="card-mid"><a href="tools.html">Tools</a></div>
+          <div class="card-bot">Miscellaneous programs</div>
+        </td>
       </tr>
     </table>
   </main>
 
   <footer>
-    Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |  Designed for X16 enthuiasts | <a href=https://github.com/retrodores/x16files.com/tree/master/data target=_other>Add or update on Github!</a>
+    Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |
+    Designed for X16 enthusiasts |
+    <a href="https://github.com/retrodores/x16files.com/tree/master/data" target="_other">Add or update on Github!</a>
   </footer>
 </body>
 </html>
