@@ -9,6 +9,8 @@ Curated information will appear at https://X16files.com/hub!
 
 # Data Use
 
-These YAML files are provided for community reference only. Do NOT deploy,
-distribute, or integrate it without prior authorization.
+These JSON and YAML files are provided for community reference only. Do NOT deploy,
+distribute, or integrate it without prior authorization. We plan on making resources
+available after the site is established so that people can write clients using the data
+and search capabilities we're planning.
 
