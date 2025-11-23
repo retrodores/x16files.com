@@ -2,6 +2,9 @@
 
 use v5.12;
 use warnings;
+
+# either use this module or /usr/bin/perlml on this host
+# it is here just so the script can find modules
 use cPanelUserConfig;
 
 package bin::merge;
@@ -10,7 +13,11 @@ use File::Find;
 use FindBin qw/$Bin/;
 use JSON::PP;
 use YAML;
+use Util::H2O::More qw/Getopt2h2o/;
+
 use Data::Dumper;
+
+my $opts_ref = Getopt2h2o \@ARGV, { do => "merge" }, qw/do=s /;
 
 my ($categories,$authors,$appids);
 
