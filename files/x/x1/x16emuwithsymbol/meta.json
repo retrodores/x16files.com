@@ -1,0 +1,13 @@
+{
+  "appid": "x16emuwithsymbol",
+  "author": {
+    "name": "Mikko Karjanmaa"
+  },
+  "category": "Programming",
+  "description": "A fork of the X16 emulator that can use symbols from llvm-mos.",
+  "name": "x16emu with symbol tables",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7041&sid=861eed69f3583ffbad5003776001cac0"
+  },
+  "version": ""
+}

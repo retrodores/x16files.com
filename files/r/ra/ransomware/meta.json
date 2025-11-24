@@ -1,0 +1,13 @@
+{
+  "appid": "ransomware",
+  "author": {
+    "name": "grml"
+  },
+  "category": "Games",
+  "description": "Please download the attached file and put it on your SD card and rename it as AUTOBOOT.X16. This will render your CX16 unusable. But do not be afraid. For a very low one-time payment of only .5 BTC, you will receive instructions on how to remove the ransomware from your computer, to make it work.",
+  "name": "Ransomware",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6401&sid=e090d314c7454289dc9a9b3483dcfe31"
+  },
+  "version": ""
+}

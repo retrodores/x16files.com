@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "X16Maze is a rewrite of CX16-Maze.",
   "name": "X16Maze",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6535&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": ""

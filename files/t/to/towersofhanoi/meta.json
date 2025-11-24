@@ -1,0 +1,14 @@
+{
+  "appid": "towersofhanoi",
+  "author": {
+    "name": "MarkTheStrange"
+  },
+  "category": "Games",
+  "description": "It loads some sprites into memory and draws some pegs and then animates the solution for the 8-disc Towers of Hanoi puzzle. The solution part uses recursion via global arrays functioning as stacks for each local variable.",
+  "name": "Towers of Hanoi",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3067",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7083"
+  },
+  "version": ""
+}

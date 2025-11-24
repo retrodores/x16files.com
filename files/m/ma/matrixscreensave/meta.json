@@ -1,0 +1,14 @@
+{
+  "appid": "matrixscreensave",
+  "author": {
+    "name": "MarkTheStrange"
+  },
+  "category": "Systems",
+  "description": "This renders a version of the digital rain display seen in The Matrix.",
+  "name": "Matrix-style Digital Rain Screensaver",
+  "urls": {
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=4565",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7065"
+  },
+  "version": ""
+}

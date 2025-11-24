@@ -6,7 +6,7 @@
   "category": "Sound",
   "description": "Based on a couple of tutorials on how to use ROM functions to program the AY2151 here is a demo for it in form of simple synth.",
   "name": "Synthesizer Demo",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8266"
   },
   "version": "v1.0"

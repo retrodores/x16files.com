@@ -1,0 +1,13 @@
+{
+  "appid": "x16macroasm",
+  "author": {
+    "name": "Stefanos Stefanidis"
+  },
+  "category": "Programming",
+  "description": "A native macro assembler for the X16, derived from the CBM Resident Assembler. It has a few issues, bugs, and unimplemented features.",
+  "name": "Commander X16 Macro Assembler",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8606"
+  },
+  "version": ""
+}

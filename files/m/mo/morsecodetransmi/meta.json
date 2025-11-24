@@ -1,0 +1,14 @@
+{
+  "appid": "morsecodetransmi",
+  "author": {
+    "name": "mjdxp"
+  },
+  "category": "Tools",
+  "description": "Hello, I've been playing with Prog8 and learning how it works, and I've finished my first real program! This is a Morse code transmitter which uses the X16's activity LED to blink out the dots and dashes of Morse code! Feel free to download, modify, and distribute it!",
+  "name": "Morse Code Transmitter",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=2977&sid=a53bd33219721c1f9dce7abff7b5a245",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7340"
+  },
+  "version": ""
+}

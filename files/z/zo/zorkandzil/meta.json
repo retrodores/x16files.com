@@ -6,10 +6,9 @@
   "category": "Games",
   "description": "Zork and ZIL based text adventures",
   "name": "Zork and ZIL",
-  "url": {
-    "source": "https://ozmoo.online/",
+  "urls": {
     "website": "https://ozmoo.online/",
-    "x16forum": "https://ozmoo.online/"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8038&sid=db5c76a03747c90b5c4c715f92844bd5"
   },
   "version": ""
 }

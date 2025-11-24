@@ -6,7 +6,7 @@
   "category": "Sound",
   "description": "On-system audio from the keyboard",
   "name": "X16 Synth",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7709"
   },
   "version": ""

@@ -1,0 +1,13 @@
+{
+  "appid": "r43bootloaderupd",
+  "author": {
+    "name": "Stefan"
+  },
+  "category": "Tools",
+  "description": "rom SMC firmware version R43.0.0 there is support for self-updating the firmware from the X16 computer. To enable this feature, a bootloader must be stored in the SMC flash memory. Editor Note: this is for an older version of the ROM.",
+  "name": "X16-SMC bootloader and update client",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6570&sid=e090d314c7454289dc9a9b3483dcfe31"
+  },
+  "version": ""
+}

@@ -1,0 +1,14 @@
+{
+  "appid": "joysticktester",
+  "author": {
+    "name": "Yazwho"
+  },
+  "category": "Tools",
+  "description": "Joystick test app. Shows if the buttons are working for all 5 joystick devices. Handy if you want to test an old joystick, or you suspect hardware\\emulator issues!",
+  "name": "Joystick Tester",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=1278",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6481&sid=e090d314c7454289dc9a9b3483dcfe31"
+  },
+  "version": ""
+}

@@ -1,0 +1,14 @@
+{
+  "appid": "biorhythmcalc",
+  "author": {
+    "name": "MarkTheStrange"
+  },
+  "category": "Tools",
+  "description": "This seems like a suitably retro application for our new retro computer. Written in Prog8 so the graphing is reasonably speedy. This seems like a suitably retro application for our new retro computer. Written in Prog8 so the graphing is reasonably speedy.",
+  "name": "Biorhythm Calculator",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3064",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7541"
+  },
+  "version": ""
+}

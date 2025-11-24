@@ -6,9 +6,9 @@
   "category": "Editors",
   "description": "X16 Edit is a simple text editor for the Commander X16 platform inspired by GNU Nano.",
   "name": "X16Edit",
-  "url": {
+  "urls": {
     "source": "https://github.com/stefan-b-jakobsson/x16-edit",
-    "x16forum": "https://github.com/stefan-b-jakobsson/x16-edit"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6290&sid=5a303c5195eb93a4d305dc21389930e2"
   },
   "version": "0.8.3"
 }

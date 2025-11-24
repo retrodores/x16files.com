@@ -1,0 +1,14 @@
+{
+  "appid": "mandelo",
+  "author": {
+    "name": "yock1960"
+  },
+  "category": "Tools",
+  "description": "This is a re-visitation to the Mandelbrot and Julia Sets, that I have coded previously, but let's face it, 8mhz and software floating point is just too slow for casual use, even when coded in assembly.",
+  "name": "Mandelo",
+  "urls": {
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=3288",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7716"
+  },
+  "version": ""
+}

@@ -6,7 +6,7 @@
   "category": "Programming",
   "description": "The first finished on-system compiler of the X16 - A Brainf*** compiler",
   "name": "XBrained",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6954"
   },
   "version": ""

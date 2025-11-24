@@ -1,0 +1,14 @@
+{
+  "appid": "theairlockcollec",
+  "author": {
+    "name": "fredrik"
+  },
+  "category": "Games",
+  "description": "A collection of games from the third PunyJam, all starting in an airlock.",
+  "name": "The Airlock Collection",
+  "urls": {
+    "website": "https://microheaven.com/airlock",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7459&sid=aad3aceedfb6154d1584fc24ec2936d8"
+  },
+  "version": ""
+}

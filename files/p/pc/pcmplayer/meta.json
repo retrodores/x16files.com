@@ -6,7 +6,7 @@
   "category": "Sound",
   "description": "Simple text interface PCM Audio player. Supports 16 bit Stereo & Mono PCM WAV files. 8 bit is not supported because 8 bit signed audio data (which the VERA needs for 8 bit play) is not a supported part of the WAV file specification. 8 bit WAV files use 8 bit unsigned data.",
   "name": "PCMPLAYER",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7771"
   },
   "version": "1.1"

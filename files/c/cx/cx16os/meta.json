@@ -6,7 +6,7 @@
   "category": "Tools",
   "description": "cx16os is a OS layer for the Commander X16. It's unix-esque, and features a shell, preemptive multitasking, and redirection and more.",
   "name": "cx16os",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7985&sid=5a303c5195eb93a4d305dc21389930e2"
   },
   "version": "v0.0.2"

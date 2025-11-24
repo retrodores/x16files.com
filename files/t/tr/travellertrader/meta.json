@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "Travel the space lanes in your free trader... discover a thousand worlds in Imperial space... and avoid the pirates. Fly dozens of starship types and pick your own crew.",
   "name": "Traveller Trader",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7096&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": "1.0"

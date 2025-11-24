@@ -1,0 +1,13 @@
+{
+  "appid": "flashdumpers",
+  "author": {
+    "name": "Eirik Stople"
+  },
+  "category": "Systems",
+  "description": "These tools allows you to dump the full contents of:\r\n\r\nROM (512 kB)\r\nSMC (8 kB)\r\nVERA flash (2 MB)\r\nRTC (96 bytes)\r\n\r\nThis can be done before/after a system update, during development, for backup, or for any purpose you see fit.",
+  "name": "Dumper Tools for Non-volatile Memory",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8040&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": ""
+}

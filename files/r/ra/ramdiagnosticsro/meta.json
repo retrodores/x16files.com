@@ -1,0 +1,14 @@
+{
+  "appid": "ramdiagnosticsro",
+  "author": {
+    "email": "jimmy@dansbo.dk",
+    "name": "Jimmy Dansbo"
+  },
+  "category": "Tools",
+  "description": "This is a ROM that is able to test of ALL memory in the Commander X16.",
+  "name": "RAM diagnostic ROM",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7154"
+  },
+  "version": ""
+}

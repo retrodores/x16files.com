@@ -6,7 +6,7 @@
   "category": "Sound",
   "description": "Native tracker in active for the X16 which currently supports the VERA PSG channels",
   "name": "Dream Tracker",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6669"
   },
   "version": ""

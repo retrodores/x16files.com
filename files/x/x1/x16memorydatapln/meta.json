@@ -1,0 +1,13 @@
+{
+  "appid": "x16memorydatapln",
+  "author": {
+    "name": "HunterDX"
+  },
+  "category": "Programming",
+  "description": "A Google Sheet to assist with tracking and organizing X16 memory use during development.",
+  "name": "X16 Memory / Data Planner",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8202&sid=5a303c5195eb93a4d305dc21389930e2"
+  },
+  "version": ""
+}

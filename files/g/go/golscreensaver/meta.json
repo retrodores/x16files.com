@@ -1,0 +1,15 @@
+{
+  "appid": "golscreensaver",
+  "author": {
+    "name": "hechelion"
+  },
+  "category": "Systems",
+  "description": "A little program that I wrote as an exercise but by adding an automatic reset it seemed to me that it became a good screensaver for the CX16.",
+  "name": "Conways Game of Life Screensaver",
+  "urls": {
+    "source": "https://github.com/Hechelion/cx16_conwayslifegame",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=1660",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6721"
+  },
+  "version": "v1.0.1"
+}

@@ -1,0 +1,14 @@
+{
+  "appid": "prgloadv2",
+  "author": {
+    "name": "Shaun Christis"
+  },
+  "category": "File and Disk",
+  "description": "Customizable SD Loader for the X16.",
+  "name": "PRGLOADV2",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=4218",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7932&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": "V2.3"
+}

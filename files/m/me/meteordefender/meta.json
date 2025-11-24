@@ -6,8 +6,8 @@
   "category": "Games",
   "description": "Here it is, Meteor Defender X16 as presented in the July 2025 issue of Compute Gazette magazine!",
   "name": "Meteor Defender",
-  "url": {
-    "source": "https://cx16forum.com/forum/viewtopic.php?t=8520&sid=ae40c1febbade03020241222eb9aa3d3",
+  "urls": {
+    "source": "https://github.com/voidstar78/METDEFX16",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8520&sid=ae40c1febbade03020241222eb9aa3d3"
   },
   "version": ""

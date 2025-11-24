@@ -1,0 +1,13 @@
+{
+  "appid": "audiobookmanager",
+  "author": {
+    "name": "ahenry3068"
+  },
+  "category": "Sound",
+  "description": "A complete and can now play Volume Control books without opening the X16 emulator. Book Marking is compatible between the X16 Volume Control and the 64 bit player. Look & Feel is as much as possible the same.",
+  "name": "Audio Book Manager: VOLUME CONTROL",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7928&sid=a9cf3801e45ae0efb653b9e3e2339b3e"
+  },
+  "version": "RC4"
+}

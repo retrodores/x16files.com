@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "A fun game about angry robots.  Available on many platforms.",
   "name": "Petscii Robots",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7029&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": "2.1"

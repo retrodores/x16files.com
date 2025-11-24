@@ -1,0 +1,14 @@
+{
+  "appid": "autobootsound",
+  "author": {
+    "name": "ahenry3068"
+  },
+  "category": "Systems",
+  "description": "Just a little AUTOBOOT program to play a sound on startup. Put this in the root of your SD-Card.",
+  "name": "AUTOBOOT SOUND ON STARTUP",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3127",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7601"
+  },
+  "version": ""
+}

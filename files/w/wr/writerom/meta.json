@@ -1,0 +1,14 @@
+{
+  "appid": "writerom",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Systems",
+  "description": "This is a BASLOAD example program to read the current System ROM and write them to a file. This can be used to help validate what your system currently has (such in case the HELP info refers to a git commit that you're unable to find.",
+  "name": "WRITEROM",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=2604&sid=7ea81105fff097e3d68215ab0eccfed6",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7070"
+  },
+  "version": "R4y prerelease"
+}

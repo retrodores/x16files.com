@@ -1,0 +1,14 @@
+{
+  "appid": "bigfontbigfontse",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Systems",
+  "description": "Make large versions of system font. BIGFONT will scale a given text input to a given scale-factor (x1, x2, x3, etc.) They are converted into an in-memory array, so for long strings you can quickly run out of memory. This scales the currently active font. BIGFONTSEMI is similar, but scales x0.5.",
+  "name": "BigFont and BigFontSemi",
+  "urls": {
+    "source": "https://cx16forum.com/forum/viewtopic.php?p=34437#p34437",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7910"
+  },
+  "version": ""
+}

@@ -1,0 +1,14 @@
+{
+  "appid": "concertomultitrk",
+  "author": {
+    "name": "kliepatsch"
+  },
+  "category": "Sound",
+  "description": "Concerto Multitrack is a program for making music on the Commander X16. It aims to unlock the full potential of 16 PSG oscillators plus 8 FM voices.",
+  "name": "Concerto Multitrack",
+  "urls": {
+    "source": "https://github.com/biermanncarl/cx16-concerto",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8472"
+  },
+  "version": "v0.8.0-beta.2"
+}

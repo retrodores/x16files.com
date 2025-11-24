@@ -6,8 +6,7 @@
   "category": "Games",
   "description": "A new survival platformer game for the NES or favorite emulator. And now for the X16!!!",
   "name": "Hazard Let Us Out!!!",
-  "url": {
-    "source": "https://ultimate-gilby.itch.io/hazard-let-us-out",
+  "urls": {
     "website": "https://ultimate-gilby.itch.io/hazard-let-us-out"
   },
   "version": ""

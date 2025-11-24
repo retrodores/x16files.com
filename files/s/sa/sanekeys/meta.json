@@ -1,0 +1,13 @@
+{
+  "appid": "sanekeys",
+  "author": {
+    "name": "grml"
+  },
+  "category": "Systems",
+  "description": "This is a small utility that sits silently in the background and modifies the behavior of some keys in the BASIC editor. For example, pressing the Home or End key will now move the cursor to the start or end of the current line like on modern electronic computers, instead of the corner of the screen",
+  "name": "sanekeys",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6314&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": "v0.2"
+}

@@ -6,7 +6,7 @@
   "category": "Programming",
   "description": "VolksForth is a 16bit Forth System produced by the German Forth Gesellschaft e.V.",
   "name": "VolksForth",
-  "url": {
+  "urls": {
     "source": "https://github.com/forth-ev/VolksForth/releases/tag/v3.9.6-6502-C64"
   },
   "version": "6502-C64 3.9.6"

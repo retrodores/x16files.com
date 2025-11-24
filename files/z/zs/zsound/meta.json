@@ -6,7 +6,7 @@
   "category": "Programming",
   "description": "Streaming Sound Library for Commander X16",
   "name": "ZSound",
-  "url": {
+  "urls": {
     "source": "https://github.com/ZeroByteOrg/zsound"
   },
   "version": ""

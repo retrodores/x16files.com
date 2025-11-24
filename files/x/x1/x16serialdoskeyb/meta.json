@@ -1,0 +1,14 @@
+{
+  "appid": "x16serialdoskeyb",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Systems",
+  "description": "This is a utility program to inject an ISR that listens to serial-card inputs and pipes them over to the System ROM kernel. This allows replacing the PS/2 keyboard with an RS-232 Serial Keyboard (or basically use some other RS-232 system as a proxy to the PS/2 keyboard).",
+  "name": "X16 Serial DOS RS-232 Keyboard Utility",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3702",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7953&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": ""
+}

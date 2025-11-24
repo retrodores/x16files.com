@@ -1,0 +1,13 @@
+{
+  "appid": "bitmagic",
+  "author": {
+    "name": "Yazwho"
+  },
+  "category": "Programming",
+  "description": "BitMagic is a project whose aim is to create a Commander X16 Development Suite based within VSCode. It has a good compatibility with the X16, although not 100%. You can follow compatibility issues on GitHub.",
+  "name": "Bit Magic",
+  "urls": {
+    "source": "https://github.com/Yazwh0/BitMagic"
+  },
+  "version": "prerelease"
+}

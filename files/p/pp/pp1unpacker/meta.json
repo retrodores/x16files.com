@@ -1,0 +1,15 @@
+{
+  "appid": "pp1unpacker",
+  "author": {
+    "email": "mikolaj@mikolajczyk.org",
+    "name": "Miko\u0142aj Miko\u0142ajczyk"
+  },
+  "category": "Tools",
+  "description": "I recently started playing with Super Robin Hood for NES source code. This resulted in me writing a small Prog8/assembly program to uncompress PP1 files used by the game to store graphics.  Program is written as shell command for cx16shell.",
+  "name": "PP1Unpacker Program",
+  "urls": {
+    "source": "https://github.com/gerwazy102/pp1unpacker",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7024"
+  },
+  "version": ""
+}

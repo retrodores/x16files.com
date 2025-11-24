@@ -1,0 +1,13 @@
+{
+  "appid": "radixconversiont",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Tools",
+  "description": "Here is a utility I did last year for converting a given decimal value into different Base numeric systems (Base-2, Base-8, Base-16, Base-36, Base-50). See the end of the code example for going up to Base-89 (with the max reasonable-printable characters on this system).",
+  "name": "Base (Radix) Conversion Tool",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7737"
+  },
+  "version": ""
+}

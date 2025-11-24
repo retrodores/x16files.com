@@ -1,0 +1,14 @@
+{
+  "appid": "echosofthefuture",
+  "author": {
+    "name": "DaReInt"
+  },
+  "category": "Games",
+  "description": "Echoes of the Future is an interactive fiction adventure written in Inform 6 using the PunyInform library, specially designed for 8-bit computers and retro systems such as the Commodore 64.",
+  "name": "Echoes of the Future",
+  "urls": {
+    "website": "https://dareint.itch.io/echoes-of-the-future",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8573&sid=ae40c1febbade03020241222eb9aa3d3"
+  },
+  "version": ""
+}

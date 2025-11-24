@@ -6,8 +6,8 @@
   "category": "Games",
   "description": "Galaga type game for C64 & X16 implemented in Prog8",
   "name": "Petaxian",
-  "url": {
-    "source": "https://cx16forum.com/forum/viewtopic.php?t=6400",
+  "urls": {
+    "source": "https://github.com/cyborgar/Petaxian",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6400"
   },
   "version": ""

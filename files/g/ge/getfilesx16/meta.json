@@ -1,0 +1,14 @@
+{
+  "appid": "getfilesx16",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Internet",
+  "description": "This is all a proof of concept using BASLOAD, and at 8MHz BASIC parsing is still fairly slow (we're talking like 30 seconds to send 3KB, then having to do the actual decode64 after that).",
+  "name": "Get Fikles X15",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3985",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8192&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": ""
+}

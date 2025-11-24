@@ -6,7 +6,7 @@
   "category": "File and Disk",
   "description": "X16HXD is a file hex editor.",
   "name": "X16HXD",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6797"
   },
   "version": "v1.3"

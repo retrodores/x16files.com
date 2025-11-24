@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "The long awaited sequel to Planet X3 has arrived. And it has everything people wanted, mouse support, more unit types, better AI, smooth animations, etc.",
   "name": "Planet X16",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6998&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": "RC4"

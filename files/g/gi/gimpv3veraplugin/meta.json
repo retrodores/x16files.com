@@ -6,7 +6,7 @@
   "category": "Programming",
   "description": "A gimp plugin for creating tilesets for the VERA graphics chip. This version is for GIMP v3.x",
   "name": "GIMP v3 VERA Plugin",
-  "url": {
+  "urls": {
     "source": "https://github.com/jestin/gimp3-vera-export-plugin"
   },
   "version": ""

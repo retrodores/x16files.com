@@ -1,0 +1,13 @@
+{
+  "appid": "base64encdec",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Tools",
+  "description": "This is using a set of safe printable characters in a string to transfer binary data between systems (where normally that binary data might contain non-printable characters that end up interpreted as control codes for the systems involved; so we get around that by converting it to these printable",
+  "name": "Base64 Encoding and Decoding",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7780"
+  },
+  "version": ""
+}

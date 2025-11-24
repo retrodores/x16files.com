@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "A version of Rummy for the X16",
   "name": "RUMMY",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7647&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": ""

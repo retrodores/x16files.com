@@ -6,10 +6,9 @@
   "category": "Games",
   "description": "Here you can download the game Adventure, 350 point version, by Will Crowther and Don Woods, for dozens of platforms, including 8-bit and 16-bit computers of the 80s and 90s.",
   "name": "Adventure",
-  "url": {
-    "source": "https://microheaven.com/advent/",
+  "urls": {
     "website": "https://microheaven.com/advent/",
-    "x16forum": "https://microheaven.com/advent/"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8131&sid=ae40c1febbade03020241222eb9aa3d3"
   },
   "version": ""
 }

@@ -1,0 +1,13 @@
+{
+  "appid": "fastarctangent",
+  "author": {
+    "name": "Ed Minchau"
+  },
+  "category": "Programming",
+  "description": "FASTATAN uses one bank of RAM to perform the arctangent of two 16 bit signed\r\ninteger coordinates. The result will be 8, 9, or ten bits, depending on which\r\nsubroutine is chosen. To use these arctangent functions, the X and Y coordinates must be 16 bit\r\nsigned integers stored in zero page.",
+  "name": "Fast Arctangent",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6765"
+  },
+  "version": ""
+}

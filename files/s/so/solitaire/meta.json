@@ -6,8 +6,8 @@
   "category": "Games",
   "description": "A version of solitaire for the x16! It's mostly petscii, but overwrites the last 4 chars to get filled round ends for the cards",
   "name": "SOLITAIRE",
-  "url": {
-    "source": "https://cx16forum.com/forum/viewtopic.php?t=7631&sid=aad3aceedfb6154d1584fc24ec2936d8",
+  "urls": {
+    "source": "https://github.com/cnelson20/solitaire/",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7631&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": ""

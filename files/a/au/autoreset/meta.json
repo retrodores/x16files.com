@@ -1,0 +1,14 @@
+{
+  "appid": "autoreset",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Systems",
+  "description": "This is an example that does exactly that, using BASLOAD to set it up. You could BLOAD the asm blobs yourself and not involve BASIC, but the example here is intended where the BASIC MAIN_LOOP would be replaced by the menu-selection or program-choice code if desired.",
+  "name": "Auto-Reset After N Seconds",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3311",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7728"
+  },
+  "version": ""
+}

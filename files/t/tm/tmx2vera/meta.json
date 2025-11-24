@@ -6,7 +6,7 @@
   "category": "Graphics",
   "description": "A command line application to convert TMX files produced by Tiled into binary tile maps readable by the VERA chip.",
   "name": "tmx2vera",
-  "url": {
+  "urls": {
     "source": "https://github.com/jestin/tmx2vera"
   },
   "version": ""

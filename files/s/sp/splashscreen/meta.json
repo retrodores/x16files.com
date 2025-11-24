@@ -1,0 +1,13 @@
+{
+  "appid": "splashscreen",
+  "author": {
+    "name": "ahenry3068"
+  },
+  "category": "Systems",
+  "description": "Shows a Splash Screen & Plays a Sound on X16 bootup. Some samples are included or make your own. Examples on linked forum post.",
+  "name": "SPLASH Screen & Startup Sound",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7837&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": ""
+}

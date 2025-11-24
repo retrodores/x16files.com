@@ -1,14 +1,18 @@
 {
   "appid": "xvi",
   "author": {
+    "email": "brett.estrade@gmail.com",
     "name": "Brett Estrade"
   },
   "category": "Editors",
+  "coauthors": {
+    "name": "Andrew Gillham"
+  },
   "description": "Demo vi clone for the Commander X16 using Prog8 and VTUI, PETSCII only.",
   "name": "XVI",
-  "url": {
+  "urls": {
     "source": "https://github.com/oodler577/XVI",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7241"
   },
-  "version": "1.0.0"
+  "version": "RC 1.1"
 }

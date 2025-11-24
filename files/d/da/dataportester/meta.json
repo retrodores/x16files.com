@@ -1,0 +1,13 @@
+{
+  "appid": "dataportester",
+  "author": {
+    "name": "Yazwho"
+  },
+  "category": "Systems",
+  "description": "The main purpose was to test my own emulator and development suite -- BitMagic -- to see how far it is from real hardware.",
+  "name": "Dataport Tester",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7925&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": ""
+}

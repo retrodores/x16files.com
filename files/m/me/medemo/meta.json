@@ -6,8 +6,8 @@
   "category": "Sound",
   "description": "This is a adpcm-music streaming demo that I made that also syncs lyrics on the screen to the song being played.",
   "name": "medemo",
-  "url": {
-    "source": "https://cx16forum.com/forum/viewtopic.php?t=6498",
+  "urls": {
+    "source": "https://github.com/irmen/cx16musicdemo",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6498"
   },
   "version": ""

@@ -1,0 +1,14 @@
+{
+  "appid": "sodokusolver",
+  "author": {
+    "name": "natpie"
+  },
+  "category": "Games",
+  "description": "This seemed like a something the Commander X16 would have been good at if it was available at the time, so I plugged the solver into a new front end a created this Soduko solver for the Commander X16.",
+  "name": "Sodoku Puzzle Solver",
+  "urls": {
+    "source": "https://github.com/RealNatpie/X16-Sudoku",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8355&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": "V1.1a"
+}

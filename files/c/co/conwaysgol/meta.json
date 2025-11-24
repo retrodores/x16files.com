@@ -1,0 +1,13 @@
+{
+  "appid": "conwaysgol",
+  "author": {
+    "name": "howardwp"
+  },
+  "category": "Games",
+  "description": "Conway's Game of life implementation with standard rules (b3/s23.) Programmed in assembly, runs at reasonable speed in a 160 x 120 world size. Pixels are wrapped so a glider will wrap around.",
+  "name": "Conways Game of Life",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7004"
+  },
+  "version": ""
+}

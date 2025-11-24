@@ -1,0 +1,14 @@
+{
+  "appid": "versmcromupdater",
+  "author": {
+    "name": "svenvandevelde"
+  },
+  "category": "Tools",
+  "description": "The CX16 update program has been well tested. Attached on the release page, you will find the artifacts of .BIN file versions for the ROM releases the R43, R44 and R45, accompanied with the correct (and modified/draft) SMC and VERA .BIN versions. Editor Note: possibly outdated.",
+  "name": "X16 VERA, SMC and ROM update program",
+  "urls": {
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=6864",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6864"
+  },
+  "version": "R43, R44 and R45"
+}

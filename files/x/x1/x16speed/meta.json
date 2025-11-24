@@ -1,0 +1,14 @@
+{
+  "appid": "x16speed",
+  "author": {
+    "email": "jimmy@dansbo.dk",
+    "name": "Jimmy Dansbo"
+  },
+  "category": "Systems",
+  "description": "guess the speed of the Commander X16 from 1 to 20 MHz.",
+  "name": "X16Speed",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7989&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": ""
+}

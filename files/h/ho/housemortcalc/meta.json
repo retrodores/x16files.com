@@ -1,0 +1,14 @@
+{
+  "appid": "housemortcalc",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Tools",
+  "description": "This program simulates a mortgage payment plan, to determine how many years are needed to pay off the principle. This can optionally include paying for insurance and property tax, that are generally rolled in together with a monthly payment.",
+  "name": "House Mortgage Interest Calculator",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3567",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7912&sid=4443ea2caa89cacf3b3258086a5014ba"
+  },
+  "version": ""
+}

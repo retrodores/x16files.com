@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "This is an official port of the MS-DOS game from 1995 known as Xixit. It's essentially a clone of an earlier game known as Columns. However, Xixit has very nice eye-candy special effects, and an amazing sound track. You're going to love playing this!",
   "name": "Xixit",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6267&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": ""

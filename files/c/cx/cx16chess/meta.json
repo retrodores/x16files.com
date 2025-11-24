@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "Chess game for the Commander X16",
   "name": "cx16chess",
-  "url": {
+  "urls": {
     "source": "https://github.com/irmen/cx16chess"
   },
   "version": ""

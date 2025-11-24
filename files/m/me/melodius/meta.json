@@ -6,7 +6,7 @@
   "category": "Sound",
   "description": "Commander X16 music player engine and frontend using the new audio API",
   "name": "melodius",
-  "url": {
+  "urls": {
     "source": "https://github.com/mooinglemur/melodius"
   },
   "version": "v20250410"

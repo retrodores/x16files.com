@@ -1,0 +1,13 @@
+{
+  "appid": "controllertester",
+  "author": {
+    "name": "DusanStrakl"
+  },
+  "category": "Tools",
+  "description": "It scans and displays four controllers and Keyboard mapping into virtual controller 0.",
+  "name": "Visual Controller Tester",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6684"
+  },
+  "version": ""
+}

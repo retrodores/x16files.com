@@ -1,0 +1,14 @@
+{
+  "appid": "verybasiclaunche",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Systems",
+  "description": "If you want a very bare bones startup menu of quick programs, you can use the following BASLOAD program.",
+  "name": "A Very BASIC Program Launcher",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3316",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7739"
+  },
+  "version": ""
+}

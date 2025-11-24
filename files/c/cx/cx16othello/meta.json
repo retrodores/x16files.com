@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "Othello for the Commander X16 is a modern adaptation of the classic strategy board game, tailored for the retro charm of the X16 platform. Known for its simple yet strategic gameplay, Othello challenges players to outmaneuver their opponent by flipping discs (stones) on an 8x8 board.",
   "name": "CX16-Othello",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7661&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": "v1.2.0"

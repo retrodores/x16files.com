@@ -6,7 +6,7 @@
   "category": "Programming",
   "description": "A symbolic assembler written in BASIC",
   "name": "Major Assembler",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6725"
   },
   "version": ""

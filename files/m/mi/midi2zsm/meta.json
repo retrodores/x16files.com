@@ -6,7 +6,7 @@
   "category": "Sound",
   "description": "This is a link to a Windows MIDI2VGM Convertor. It supports a few different sound chips but defaults to YM2151",
   "name": "Midi2Zsm",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6952"
   },
   "version": ""

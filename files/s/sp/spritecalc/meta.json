@@ -1,0 +1,13 @@
+{
+  "appid": "spritecalc",
+  "author": {
+    "name": "schristis"
+  },
+  "category": "Graphics",
+  "description": "lug in the 'Sprite Attributes' and it will give you the BASIC program to display that sprite. Use your mouse to click in the grid to change the attributes.",
+  "name": "Sprite Calculator",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8466"
+  },
+  "version": "4"
+}

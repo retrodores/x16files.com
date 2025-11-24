@@ -1,0 +1,14 @@
+{
+  "appid": "listpausewedge",
+  "author": {
+    "name": "koyaa"
+  },
+  "category": "Tools",
+  "description": "A list WEDGE that allows you to pause a listing with the space bar.\r\nUse the Pause/Break key on the emulator to exit while paused.",
+  "name": "LIST Pause Wedge",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=2408",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6969"
+  },
+  "version": ""
+}

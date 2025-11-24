@@ -6,7 +6,7 @@
   "category": "Graphics",
   "description": "Here are two javascript extensions for Tiled Map Editor (https://www.mapeditor.org). With help of these you can export your map either as assembler source code (ACME syntax) or in a raw binary format including a two byte header set to 0. They support flipping of tiles and let you select a palette of",
   "name": "tiled-extensions",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6346&sid=e6ecbac87e7e8f2d632ced806a7871a0"
   },
   "version": "v1.0"

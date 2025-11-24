@@ -1,0 +1,15 @@
+{
+  "appid": "irclock",
+  "author": {
+    "email": "jimmy@dansbo.dk",
+    "name": "Jimmy Dansbo"
+  },
+  "category": "Tools",
+  "description": "IRClock shows a digital watch at the top right of the screen in 80x60 mode.  Now you have a handy time-keeper while you program away on your most recent BASIC game.",
+  "name": "IRClock",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=1236",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6285&sid=e090d314c7454289dc9a9b3483dcfe31"
+  },
+  "version": ""
+}

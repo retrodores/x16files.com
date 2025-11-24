@@ -1,0 +1,15 @@
+{
+  "appid": "fastbankedramtes",
+  "author": {
+    "email": "jimmy@dansbo.dk",
+    "name": "Jimmy Dansbo"
+  },
+  "category": "Tools",
+  "description": "Test banked RAM on the Commander X16 for errors.",
+  "name": "Fast Banked RAM Tester",
+  "urls": {
+    "source": "https://github.com/jimmydansbo/ramtest/",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6287"
+  },
+  "version": ""
+}

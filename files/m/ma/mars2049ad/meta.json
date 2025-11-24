@@ -6,8 +6,8 @@
   "category": "Games",
   "description": "Another day at work at the research base on Mars. Or is it really?  This text adventure was created for the PunyComp 2024.",
   "name": "Mars, 2049 AD",
-  "url": {
-    "source": "https://cx16forum.com/forum/viewtopic.php?t=8302&sid=ae40c1febbade03020241222eb9aa3d3",
+  "urls": {
+    "source": "https://fredrikr.itch.io/mars2049ad",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8302&sid=ae40c1febbade03020241222eb9aa3d3"
   },
   "version": ""

@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "Tetrads is a clone of a popular falling brick style game.  So you'll know how to play it.  This version has an amazing soundtrack, which changes tunes every 40 lines cleared.  There's a total of 5 unique songs which were designed specifically for the X16's combination of FM and PSG.",
   "name": "TETRADS",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6386&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": ""

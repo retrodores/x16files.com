@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "I took the original text-mode port of Petscii Robots for the X16 and updated it so it would run on the modern version. But what's more cool is you can select from 1 of 5 different tile-sets. That way you can experience how the graphics look on the PET, Atari, VIC-20, C64, etc.",
   "name": "Ye Old Robots",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7907&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": ""

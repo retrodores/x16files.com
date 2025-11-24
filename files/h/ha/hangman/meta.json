@@ -6,7 +6,7 @@
   "category": "Games",
   "description": "Hangman for the X16",
   "name": "HANGMAN",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6887&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
   "version": "1.0"

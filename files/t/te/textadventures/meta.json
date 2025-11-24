@@ -1,0 +1,14 @@
+{
+  "appid": "textadventures",
+  "author": {
+    "name": "fredrik"
+  },
+  "category": "Games",
+  "description": "Five collections of great Z-code text adventures for the Commander X16.",
+  "name": "Text Adventure Collection",
+  "urls": {
+    "website": "https://microheaven.com/ztac/",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7705&sid=aad3aceedfb6154d1584fc24ec2936d8"
+  },
+  "version": ""
+}

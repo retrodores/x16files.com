@@ -6,7 +6,7 @@
   "category": "Graphics",
   "description": "A utility to convert standard Image formats to the X16 BMX image file format. Requires imagemagick to be installed.",
   "name": "img2bmx",
-  "url": {
+  "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=30702#p30702"
   },
   "version": ""
