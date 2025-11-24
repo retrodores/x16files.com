@@ -6,13 +6,23 @@
 category: File and Disk
 description: File and disk utilities
 packages:
+  - appid: prgloadv2
+    author:
+      name: Shaun Christis
+    category: File and Disk
+    description: Customizable SD Loader for the X16.
+    name: PRGLOADV2
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=4218
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7932&sid=4443ea2caa89cacf3b3258086a5014ba
+    version: V2.3
   - appid: catfilelister
     author:
       name: Xiphod
     category: File and Disk
     description: 'This is a BASLOAD project that lets you quickly list the contents of a file.  It auto detects if that file is BINARY or TEXT FILE, and will show a small portion automatically (sort of like a TOP command). You pass the filename on the command line.'
     name: CAT file lister
-    url:
+    urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6962&sid=5a303c5195eb93a4d305dc21389930e2
     version: ''
   - appid: x16filemanagerxfm
@@ -30,16 +40,25 @@ packages:
     category: File and Disk
     description: X16HXD is a file hex editor.
     name: X16HXD
-    url:
+    urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6797
     version: v1.3
+  - appid: x16filemanager
+    author:
+      name: unartic
+    category: File and Disk
+    description: 'X16 File Manager (XFM) is a Norton Commander-clone. It supports all basic file and directory management functions as well as launching tokenized basic programs and machine language programs, AND return to XFM as soon the program exits. So a true Norton Commander feeling.'
+    name: X16 File Manager (XFM)
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7014&sid=5a303c5195eb93a4d305dc21389930e2
+    version: v3.0
   - appid: dosshell
     author:
       name: Irmen de Jong
     category: File and Disk
     description: This is a unix inspired Dos Shell with a bunch of builtin commands to make day to day file operations (much) more convenient than via a regular Basic prompt.
     name: Dos Shell
-    url:
+    urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6293&sid=5a303c5195eb93a4d305dc21389930e2
     version: ''
   

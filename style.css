@@ -127,3 +127,77 @@
   overflow:hidden;
   background:var(--dark-gray);
   }
+
+/* TOP DIRECTORY: 5-column professional layout */
+.pkg-index {
+  margin: 20px 0 40px;
+  padding: 10px 5px;
+  font-family: monospace;
+  font-size: 0.95em;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr)); /* 5 columns */
+  gap: 10px 24px;
+}
+
+/* TOP DIRECTORY: 5-column professional layout */
+.author-index {
+  margin: 20px 0 40px;
+  padding: 10px 5px;
+  font-family: monospace;
+  font-size: 0.95em;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr)); /* 5 columns */
+  gap: 10px 24px;  /* row gap, column gap */
+}
+
+/* Each 2-letter group block, like:
+   AI
+   Aiee5, Another Author
+*/
+.index-block {
+  padding: 6px 8px;
+  border-radius: 4px;
+  background: #f5f5f8;
+  border: 1px solid #d3d6de;
+  box-shadow: 0 1px 0 rgba(0,0,0,.04);
+}
+
+/* The 2-letter key (AI, BO, BR...) */
+.index-letter {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #2a2f3d;
+  text-decoration: none;
+}
+
+/* The names under each key */
+.index-names {
+  line-height: 1.4;
+}
+
+.index-names a {
+  color: #2a3040;
+  text-decoration: none;
+  margin-right: 4px;
+}
+
+.index-names a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: better on small screens (collapse to fewer columns) */
+@media (max-width: 900px) {
+  .author-index {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .author-index {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
