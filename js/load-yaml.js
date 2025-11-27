@@ -1,6 +1,6 @@
 // load-yaml.js
-// Adds only a top alphabetical 2-letter directory.
-// Actual card layout stays exactly 3 columns with no grouping.
+// Category pages: top 2-letter index (collapsible) + 3-column cards.
+// Reuses the same CSS hooks as the authors page: #author-index, .author-index, .toggle-index.
 
 async function loadYAML(category) {
   const res  = await fetch(`data/${category}.yaml`);
@@ -24,8 +24,8 @@ function renderTable(data) {
 
   const pkgs = data.packages || [];
 
-  // ---- BUILD 2-LETTER GROUPS FOR DIRECTORY ONLY ----
-  let groups = {};  // { "CH": [...], "ED": [...], ... }
+  // ---- BUILD 2-LETTER GROUPS FOR DIRECTORY ----
+  const groups = {}; // { "BI": [...], "IM": [...], ... }
 
   pkgs.forEach(pkg => {
     const key = (pkg.name || "").substring(0, 2).toUpperCase();
@@ -35,30 +35,36 @@ function renderTable(data) {
 
   const sortedKeys = Object.keys(groups).sort();
 
-  // ---- BUILD TOP DIRECTORY (5 columns) ----
-  let indexHTML = `<div id="pkg-index" class="pkg-index">`;
+  // --------------------------------------------------
+  // COLLAPSIBLE 5-COLUMN INDEX (same hooks as authors)
+  // --------------------------------------------------
+  let html = `
+    <button id="toggle-index" class="toggle-index">Show Package Index</button>
+    <div id="author-index" class="author-index collapsed">
+  `;
 
   sortedKeys.forEach(key => {
     const arr = groups[key].sort((a, b) => a.name.localeCompare(b.name));
 
-    indexHTML += `
+    html += `
       <div class="index-block">
         <span class="index-letter">${key}</span>
         <div class="index-names">
           ${arr.map(p =>
             `<a href="#pkg-${esc(p.name).replace(/\s+/g, "-")}">${esc(p.name)}</a>`
-          ).join(", ")}
+          ).join(" ")}
         </div>
       </div>
     `;
   });
 
-  indexHTML += `</div>`;
+  html += `</div>`; // end #author-index
 
-  // ---- ORIGINAL 3-COLUMN PROGRAM LISTING (unchanged) ----
-  let html = indexHTML;  // index above the table
-
+  // --------------------------------------------------
+  // ORIGINAL 3-COLUMN PROGRAM CARD LISTING
+  // --------------------------------------------------
   html += `<table><tr>`;
+
   pkgs.forEach((pkg, i) => {
     const cls      = `c${(i % 9) + 1}`;
     const name     = esc(pkg.name);
@@ -88,5 +94,20 @@ function renderTable(data) {
   html += `</tr></table>`;
 
   container.innerHTML = html;
+
+  // ---- ENABLE COLLAPSE / EXPAND ----
+  const btn = document.getElementById("toggle-index");
+  const idx = document.getElementById("author-index");
+
+  if (btn && idx) {
+    btn.addEventListener("click", () => {
+      idx.classList.toggle("collapsed");
+      idx.classList.toggle("expanded");
+
+      btn.textContent = idx.classList.contains("collapsed")
+        ? "Show Package Index"
+        : "Hide Package Index";
+    });
+  }
 }
 

@@ -1,5 +1,5 @@
 // load-authors-yaml.js
-// Render authors + alphabetical 2-letter index + author name list
+// Render authors + A–Z alphabetical index + collapsible index block
 
 async function loadAuthorsYAML(file = "authors") {
   const res  = await fetch(`data/${file}.yaml`);
@@ -24,48 +24,67 @@ function renderAuthorsTable(data) {
 
   const authors = data.authors || {};
 
-  // ---- BUILD 2-LETTER GROUPING ----
-  let indexMap = {};  // { "AI": ["Aiee5"], "BO": ["Borgar Olsen"], ... }
+  // ---- BUILD A–Z GROUPING ----
+  let indexMap = {}; // { A: ["Alice"], B: ["Borgar"], ... }
 
   Object.keys(authors).forEach(name => {
-    const key = name.substring(0, 2).toUpperCase();
+    const key = name.charAt(0).toUpperCase();
     if (!indexMap[key]) indexMap[key] = [];
     indexMap[key].push(name);
   });
 
-  const sortedKeys = Object.keys(indexMap).sort();
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  // ---- RENDER INDEX + AUTHOR NAME LIST ----
-  let indexHTML = `<div id="author-index" class="author-index">`;
+  // ---- BUILD COLLAPSIBLE INDEX HTML ----
+  let indexHTML = `
+  <div id="author-index-wrapper">
+    <button id="toggle-index" class="toggle-index">Show Author Index</button>
 
-  sortedKeys.forEach(key => {
-    const names = indexMap[key].sort();
+    <div id="author-index" class="author-index collapsed">
+`;
 
-    indexHTML += `
-      <div class="index-block">
-        <a class="index-letter" href="#idx-${key}">${key}</a>
-        <div class="index-names">
-          ${names
-            .map(
-              n =>
-                `<a href="#author-${esc(n).replace(/\s+/g, "-")}">${esc(n)}</a>`
-            )
-            .join(", ")}
+
+  letters.forEach(letter => {
+    const names = (indexMap[letter] || []).sort();
+
+    if (names.length === 0) {
+      indexHTML += `
+        <div class="index-block disabled">
+          <span class="index-letter disabled">${letter}</span>
         </div>
-      </div>
-    `;
+      `;
+    } else {
+      indexHTML += `
+        <div class="index-block">
+          <a class="index-letter" href="#idx-${letter}">${letter}</a>
+          <div class="index-names">
+            ${names
+              .map(
+                n =>
+                  `<a href="#author-${esc(n).replace(/\s+/g, "-")}">${esc(n)}</a>`
+              )
+              .join(" ")}
+          </div>
+        </div>
+      `;
+    }
   });
 
-  indexHTML += `</div>`;
+  indexHTML += `
+      </div> <!-- /author-index -->
+    </div>   <!-- /author-index-wrapper -->
+  `;
 
-  // ---- RENDER AUTHORS + PACKAGES ----
 
-  let html = indexHTML; // put index at top
+  // ---- RENDER AUTHORS + PACKAGES BELOW ----
+  let html = indexHTML;
 
-  sortedKeys.forEach(key => {
-    html += `<h2 id="idx-${key}" class="index-section">${key}</h2>`;
+  letters.forEach(letter => {
+    if (!indexMap[letter]) return;
 
-    indexMap[key].sort().forEach(authorKey => {
+    html += `<h2 id="idx-${letter}" class="index-section">${letter}</h2>`;
+
+    indexMap[letter].sort().forEach(authorKey => {
       const pkgs = authors[authorKey] || [];
       const authorHeading = esc(authorKey);
 
@@ -115,10 +134,24 @@ function renderAuthorsTable(data) {
   });
 
   container.innerHTML = html;
+
+  // ---- ENABLE COLLAPSIBLE BEHAVIOR ----
+  const idx = document.getElementById("author-index");
+  const btn = document.getElementById("toggle-index");
+  
+  if (idx && btn) {
+    btn.addEventListener("click", () => {
+      idx.classList.toggle("collapsed");
+      idx.classList.toggle("expanded");
+  
+      btn.textContent = idx.classList.contains("collapsed")
+        ? "Show Author Index"
+        : "Hide Author Index";
+    });
+  }
 }
 
-// Auto-load on DOM ready
+// Auto-load
 document.addEventListener("DOMContentLoaded", () => {
   loadAuthorsYAML("authors");
 });
-
