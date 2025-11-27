@@ -227,3 +227,21 @@ header form.search-bar input[type="submit"] {
   cursor: pointer;
 }
 
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 6px 10px;
+  background: #2a2f3d;      /* match your header/nav color */
+  color: #e5e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background: #3b4256;
+}
+

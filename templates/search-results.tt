@@ -217,9 +217,68 @@
     white-space:nowrap;
   }
 
+  .back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 6px 10px;
+    background: #2a2f3d;      /* match your header/nav color */
+    color: #e5e8f0;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,.3);
+    z-index: 1000;
+  }
+
+  .back-to-top:hover {
+    background: #3b4256;
+  }
+
+  .no-results {
+    text-align: center;
+    margin: 80px 0;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Google-ish centered search bar */
+  .big-search {
+    margin-top: 20px;
+  }
+  
+  .big-search input[type="text"] {
+    width: 480px;
+    max-width: 90vw;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 24px;
+    border: 1px solid #d0d0d0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
+  
+  .big-search input[type="text"]:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74,144,226,0.25);
+  }
+  
+  .big-search input[type="submit"] {
+    margin-left: 10px;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #d0d0d0;
+    background: #f8f8f8;
+    cursor: pointer;
+  }
+  
+  .big-search input[type="submit"]:hover {
+    background: #f0f0f0;
+  }
 </style>
 </head>
-<body>
+<body id="top">
   <header>
     <h1>X16 FILES</h1>
 
@@ -284,7 +343,14 @@
 
 </table>
 [% ELSE %]
-<p>No results.</p>
+<div class="no-results">
+  <p>No results found. Try another search:</p>
+
+  <form class="big-search" method="get" action="/cgi-bin/search-x16files.pl">
+    <input type="text" name="q" placeholder="Search X16 Files">
+    <input type="submit" value="Search">
+  </form>
+</div>
 [% END %]
   </main>
 
@@ -293,6 +359,7 @@
     Designed for X16 enthusiasts |
     <a href="https://github.com/retrodores/x16files.com/tree/master/files" target="_other">Add or update on Github!</a>
   </footer>
+  <a href="#top" class="back-to-top">^ Top</
 </body>
 </html>
 
