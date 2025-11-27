@@ -2,3 +2,331 @@
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+---
+category: Tools
+description: Miscellaneous tools and utilities for Commander X16
+packages:
+  - appid: neofetch
+    author:
+      name: Aiee5
+    category: Tools
+    description: "This is a program, that displays information about the computer and does it in a decorative manner.  It's intended to be ran via SHELL.PRG — running it from BASIC will crash your computer"
+    name: Neofetch for Commander X16
+    urls:
+      source: https://github.com/adiee5/cx16-neofetch
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6769
+    version: ''
+  - appid: wallclock
+    author:
+      name: Xiphod
+    category: Tools
+    description: This example uses custom fonts and the tiny 20x15 text mode to display the current time and date.
+    name: Wall Clock
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6819&sid=5a303c5195eb93a4d305dc21389930e2
+    version: 2
+  - appid: housemortcalc
+    author:
+      name: Xiphod
+    category: Tools
+    description: 'This program simulates a mortgage payment plan, to determine how many years are needed to pay off the principle. This can optionally include paying for insurance and property tax, that are generally rolled in together with a monthly payment.'
+    name: House Mortgage Interest Calculator
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=3567
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7912&sid=4443ea2caa89cacf3b3258086a5014ba
+    version: ''
+  - appid: justaclock
+    author:
+      name: schristis
+    category: Tools
+    description: It is just a clock you could use... written in basic
+    name: JUSTACLOCK
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6857&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: joysticktester
+    author:
+      name: Yazwho
+    category: Tools
+    description: 'Joystick test app. Shows if the buttons are working for all 5 joystick devices. Handy if you want to test an old joystick, or you suspect hardware\emulator issues!'
+    name: Joystick Tester
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=1278
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6481&sid=e090d314c7454289dc9a9b3483dcfe31
+    version: ''
+  - appid: functionkeyremapp
+    author:
+      name: Jakebullet70
+    category: Tools
+    description: It allows you to re-map the function keys to whatever you want. 10 chars max.
+    name: Function Key re-mapper
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: functionkeyremap
+    author:
+      name: Jakebullet70
+    category: Tools
+    description: It allows you to re-map the function keys to whatever you want. 10 chars max.
+    name: Function Key re-mapper
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: fastbankedramtes
+    author:
+      email: jimmy@dansbo.dk
+      name: Jimmy Dansbo
+    category: Tools
+    description: Test banked RAM on the Commander X16 for errors.
+    name: Fast Banked RAM Tester
+    urls:
+      source: https://github.com/jimmydansbo/ramtest/
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6287
+    version: ''
+  - appid: payroll
+    author:
+      name: Poe
+    category: Tools
+    description: A VisiCalc Clone. This is a rough draft version of a VisiCalc clone for the Commander X16 written in BASIC. It only has the SUM function working right now. But hopefully a future version will be more fleshed out.
+    name: PAYROLL
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7072&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: pp1unpacker
+    author:
+      email: mikolaj@mikolajczyk.org
+      name: Mikołaj Mikołajczyk
+    category: Tools
+    description: I recently started playing with Super Robin Hood for NES source code. This resulted in me writing a small Prog8/assembly program to uncompress PP1 files used by the game to store graphics.  Program is written as shell command for cx16shell.
+    name: PP1Unpacker Program
+    urls:
+      source: https://github.com/gerwazy102/pp1unpacker
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7024
+    version: ''
+  - appid: solarsystemcal
+    author:
+      name: Xiphod
+    category: Tools
+    description: 'Adapted from a prior PET example, this calculates how far along a fence to draw the planets at scale to each other.'
+    name: Solar System Calculator
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=3714
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7961&sid=4443ea2caa89cacf3b3258086a5014ba
+    version: ''
+  - appid: irclock
+    author:
+      email: jimmy@dansbo.dk
+      name: Jimmy Dansbo
+    category: Tools
+    description: IRClock shows a digital watch at the top right of the screen in 80x60 mode.  Now you have a handy time-keeper while you program away on your most recent BASIC game.
+    name: IRClock
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=1236
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6285&sid=e090d314c7454289dc9a9b3483dcfe31
+    version: ''
+  - appid: mandelo
+    author:
+      name: yock1960
+    category: Tools
+    description: "This is a re-visitation to the Mandelbrot and Julia Sets, that I have coded previously, but let's face it, 8mhz and software floating point is just too slow for casual use, even when coded in assembly."
+    name: Mandelo
+    urls:
+      webemu: https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=3288
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7716
+    version: ''
+  - appid: morsecodetransmi
+    author:
+      name: mjdxp
+    category: Tools
+    description: "Hello, I've been playing with Prog8 and learning how it works, and I've finished my first real program! This is a Morse code transmitter which uses the X16's activity LED to blink out the dots and dashes of Morse code! Feel free to download, modify, and distribute it!"
+    name: Morse Code Transmitter
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=2977&sid=a53bd33219721c1f9dce7abff7b5a245
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7340
+    version: ''
+  - appid: listpausewedge
+    author:
+      name: koyaa
+    category: Tools
+    description: "A list WEDGE that allows you to pause a listing with the space bar.\r\nUse the Pause/Break key on the emulator to exit while paused."
+    name: LIST Pause Wedge
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=2408
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6969
+    version: ''
+  - appid: r43bootloaderupd
+    author:
+      name: Stefan
+    category: Tools
+    description: 'rom SMC firmware version R43.0.0 there is support for self-updating the firmware from the X16 computer. To enable this feature, a bootloader must be stored in the SMC flash memory. Editor Note: this is for an older version of the ROM.'
+    name: X16-SMC bootloader and update client
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6570&sid=e090d314c7454289dc9a9b3483dcfe31
+    version: ''
+  - appid: radixconversiont
+    author:
+      name: Xiphod
+    category: Tools
+    description: 'Here is a utility I did last year for converting a given decimal value into different Base numeric systems (Base-2, Base-8, Base-16, Base-36, Base-50). See the end of the code example for going up to Base-89 (with the max reasonable-printable characters on this system).'
+    name: Base (Radix) Conversion Tool
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7737
+    version: ''
+  - appid: ramdiagnosticsro
+    author:
+      email: jimmy@dansbo.dk
+      name: Jimmy Dansbo
+    category: Tools
+    description: This is a ROM that is able to test of ALL memory in the Commander X16.
+    name: RAM diagnostic ROM
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7154
+    version: ''
+  - appid: cx16os
+    author:
+      name: totodilespy
+    category: Tools
+    description: "cx16os is a OS layer for the Commander X16. It's unix-esque, and features a shell, preemptive multitasking, and redirection and more."
+    name: cx16os
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7985&sid=5a303c5195eb93a4d305dc21389930e2
+    version: v0.0.2
+  - appid: cyclops
+    author:
+      name: yock1960
+    category: Tools
+    description: Motorola MC14500B Simulator
+    name: cyclops
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6720&sid=861eed69f3583ffbad5003776001cac0
+    version: ''
+  - appid: chip8emulatorinte
+    author:
+      name: Enderfighter06
+    category: Tools
+    description: This is a emulator for the CHIP-8 virtual platform using PETSCII graphics.
+    name: CHIP-8 Emulator / Interpreter
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
+    version: ''
+  - appid: chip8emulatorint
+    author:
+      name: Enderfighter06
+    category: Tools
+    description: This is a emulator for the CHIP-8 virtual platform using PETSCII graphics.
+    name: CHIP-8 Emulator / Interpreter
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
+    version: ''
+  - appid: controllertester
+    author:
+      name: DusanStrakl
+    category: Tools
+    description: It scans and displays four controllers and Keyboard mapping into virtual controller 0.
+    name: Visual Controller Tester
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6684
+    version: ''
+  - appid: biorhythmcalc
+    author:
+      name: MarkTheStrange
+    category: Tools
+    description: This seems like a suitably retro application for our new retro computer. Written in Prog8 so the graphing is reasonably speedy. This seems like a suitably retro application for our new retro computer. Written in Prog8 so the graphing is reasonably speedy.
+    name: Biorhythm Calculator
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=3064
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7541
+    version: ''
+  - appid: bladecalc
+    author:
+      name: ComputerBlade
+    category: Tools
+    description: A mini little calculator program for the Commander X16
+    name: BladeCalc
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6878&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: base64encdec
+    author:
+      name: Xiphod
+    category: Tools
+    description: This is using a set of safe printable characters in a string to transfer binary data between systems (where normally that binary data might contain non-printable characters that end up interpreted as control codes for the systems involved; so we get around that by converting it to these printable
+    name: Base64 Encoding and Decoding
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7780
+    version: ''
+  - appid: baseloadbmxzsm
+    author:
+      name: Xiphod
+    category: Tools
+    description: 'Thanks to Tony(BMX) and MooingLemur(ZSMKIT), made a super quick little promo featurette to use at VCF.'
+    name: X16 VCF SW 2024 BASLOAD+BMX+ZSM
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=3334
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7759
+    version: ''
+  - appid: x16emuforhaiku
+    author:
+      name: peotr26
+    category: Tools
+    description: Commander X16 emulator for Haiku x86-64.
+    name: x16emu for Haiku
+    urls:
+      source: https://github.com/peotr26/x16-emulator-haiku/releases/tag/r46
+    version: r46
+  - appid: x16cell
+    author:
+      name: TediusTimmy
+    category: Tools
+    description: A spreadsheet program for X16.
+    name: X16Cell
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6528&sid=5a303c5195eb93a4d305dc21389930e2
+    version: 1.2
+  - appid: x16emuforlinuxi68
+    author:
+      name: mobluse
+    category: Tools
+    description: The official X16 emulator build for 32bit Linux i686
+    name: x16emu for Linux i686 (32 bit)
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
+    version: R43
+  - appid: x16emuforlinux32
+    author:
+      name: mobluse
+    category: Tools
+    description: The official X16 emulator build for 32bit Linux i686
+    name: x16emu for Linux i686 (32 bit)
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
+    version: R43
+  - appid: 1000coinstatistic
+    author:
+      name: Xiphod
+    category: Tools
+    description: 'Neil deGrasse Tyson proposed a thought experiment involving 1000 coin flips. The intent was to show that within any random sample, there is bound to be a consistent winner that our human minds term as lucky.'
+    name: 1000COIN Statistics Simulator
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: 1000coins
+    author:
+      name: Xiphod
+    category: Tools
+    description: 'Neil deGrasse Tyson proposed a thought experiment involving 1000 coin flips. The intent was to show that within any random sample, there is bound to be a consistent winner that our human minds term as lucky.'
+    name: 1000COIN Statistics Simulator
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
+    version: ''
+  - appid: versmcromupdater
+    author:
+      name: svenvandevelde
+    category: Tools
+    description: 'The CX16 update program has been well tested. Attached on the release page, you will find the artifacts of .BIN file versions for the ROM releases the R43, R44 and R45, accompanied with the correct (and modified/draft) SMC and VERA .BIN versions. Editor Note: possibly outdated.'
+    name: 'X16 VERA, SMC and ROM update program'
+    urls:
+      source: https://cx16forum.com/forum/viewtopic.php?t=6864
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6864
+    version: 'R43, R44 and R45'
+

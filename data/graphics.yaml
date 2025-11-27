@@ -2,3 +2,200 @@
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+---
+category: Graphics
+description: 'Sprite, video, and image editors for Commander X16'
+packages:
+  - appid: halloweengreetin
+    author:
+      name: desertfish
+    category: Graphics
+    description: "I don't really care that much for Halloween, but I do like spooky stuff. So here is my silly Halloween season greeting for all of you !"
+    name: Halloween Season Greetings
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=4581
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6875
+    version: ''
+  - appid: petdrawx
+    author:
+      name: m00dawg
+    category: Graphics
+    description: This is a newly working version of Petdraw for the latest kernel (r42) and VERA. It retains the same features as the original PetDraw by David Murray (technically screen size is broken but I plan on adding it back in) and adds a few small features (more coming).
+    name: Petdraw X
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6626&sid=87adc7904c41009a74ad4b9add499957
+    version: 2.0
+  - appid: spritecalc
+    author:
+      name: schristis
+    category: Graphics
+    description: lug in the 'Sprite Attributes' and it will give you the BASIC program to display that sprite. Use your mouse to click in the grid to change the attributes.
+    name: Sprite Calculator
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8466
+    version: 4
+  - appid: simplespriteconve
+    author:
+      name: Microdriver
+    category: Graphics
+    description: A small Python script to help create sprites via GIMP.
+    name: Simple sprite conversion tool
+    url:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6895
+    version: ''
+  - appid: simplespriteconv
+    author:
+      name: Microdriver
+    category: Graphics
+    description: A small Python script to help create sprites via GIMP.
+    name: Simple sprite conversion tool
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6895
+    version: ''
+  - appid: showbmx
+    author:
+      name: ahenry3068
+    category: Graphics
+    description: CX16 BMX Viewer for Windows & Linux
+    name: showbmx
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7562&sid=87adc7904c41009a74ad4b9add499957
+    version: ''
+  - appid: img2bmx
+    author:
+      name: ahenry3068
+    category: Graphics
+    description: A utility to convert standard Image formats to the X16 BMX image file format. Requires imagemagick to be installed.
+    name: img2bmx
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?p=30702#p30702
+    version: ''
+  - appid: imageviewer
+    author:
+      name: Irmen de Jong
+    category: Graphics
+    description: 'Multi file format image viewer for Commander X16. Supports, C64 Koala (.koa) and Doodle (.dd/.ddl), IFF ILBM and PBM, including CRNG and CCRT color cycling! BMP, PCX, BMX (Commander X16 bitmap file)'
+    name: Image Viewer
+    urls:
+      source: https://github.com/irmen/cx16imageviewer
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6977&sid=308eb4415306af45d1b5b02ed9c3f4ec
+    version: ''
+  - appid: img2x16
+    author:
+      name: morphinejh
+    category: Graphics
+    description: 'mg2x16 is a command line program to convert image files to VERA binary streams for the Commander X16.  img2x16 is designed to take a given image, and adapt it to a given color palette. It currently only supports 8bpp color depth (i.e 16-bit palette entries).'
+    name: img2x16
+    urls:
+      source: https://github.com/morphinejh/img2x16
+    version: Version 0.3
+  - appid: bin2bmx
+    author:
+      name: ahenry3068
+    category: Graphics
+    description: 'VERA Bin to BMX Convertor.  Stand Alone,  No helper programs required.  At present only 8 bit files are supported.'
+    name: bin2bmx
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7676&sid=87adc7904c41009a74ad4b9add499957
+    version: ''
+  - appid: bmxviewer
+    author:
+      name: ahenry3068
+    category: Graphics
+    description: A BMX file viewer written in BASIC.
+    name: BMXVIEWER
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6990&sid=87adc7904c41009a74ad4b9add499957
+    version: ''
+  - appid: bmxfileviewer
+    author:
+      name: catmeow72
+    category: Graphics
+    description: This program views images made with the BMX format for the Commander X16.
+    name: BMX File Viewer
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6978&sid=87adc7904c41009a74ad4b9add499957
+    version: ''
+  - appid: x16tileeditor
+    author:
+      name: SlithyMatt
+    category: Graphics
+    description: Tile/Sprite Editor for the Commander X16
+    name: x16-tile-editor
+    urls:
+      source: https://github.com/SlithyMatt/x16-tile-editor/releases
+    version: 0.1
+  - appid: x16fonteditor
+    author:
+      name: Xiphod
+    category: Graphics
+    description: This is a utility to help make custom fonts from within BASIC.
+    name: X16 Font Editor
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6814
+    version: v1.4
+  - appid: x16pngconverter
+    author:
+      name: Johan Kårlin
+    category: Graphics
+    description: 'This is a cross-platform console application (the user interface is text-based) for Windows, macOS, and Linux. It will convert PNG images to a format that the video controller (VERA) of the Commander X16 can read. Images can also be converted to the X16 Graphics Format (BMX). Both indexed images (wh'
+    name: X16PngConverter
+    urls:
+      source: https://github.com/joolin1/x16-png-converter/releases/tag/v1.3.0
+    version: v1.3.0
+  - appid: x16moviemaker
+    author:
+      name: ahenry3068
+    category: Graphics
+    description: Create sprite-based videos that will play in the emulator and on real hardware!
+    name: X16 Movie Maker
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?p=35595
+    version: Beta 12
+  - appid: x16paint
+    author:
+      name: Irmen de Jong
+    category: Graphics
+    description: 'Bitmap image paint program for the Commander X16, work in progress.'
+    name: x16paint
+    urls:
+      source: https://github.com/irmen/x16paint
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7252&sid=74d257d2b2fe9e2339a326fd0685b94b
+    version: ''
+  - appid: tiledextensions
+    author:
+      name: Johan Kårlin
+    category: Graphics
+    description: Here are two javascript extensions for Tiled Map Editor (https://www.mapeditor.org). With help of these you can export your map either as assembler source code (ACME syntax) or in a raw binary format including a two byte header set to 0. They support flipping of tiles and let you select a palette of
+    name: tiled-extensions
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6346&sid=e6ecbac87e7e8f2d632ced806a7871a0
+    version: v1.0
+  - appid: tilemaped
+    author:
+      name: Dacobi
+    category: Graphics
+    description: "TilemapEd is a simple tilemap editor specifically for the X16. It's not meant to be a recreation of Tiled, but a more simple approach."
+    name: TilemapEd
+    urls:
+      source: https://github.com/dacobi/tilemaped
+    version: 1.8.166
+  - appid: tmx2vera
+    author:
+      name: Jestin Stoffel
+    category: Graphics
+    description: A command line application to convert TMX files produced by Tiled into binary tile maps readable by the VERA chip.
+    name: tmx2vera
+    urls:
+      source: https://github.com/jestin/tmx2vera
+    version: ''
+  - appid: textsceneeditor
+    author:
+      name: Xiphod
+    category: Graphics
+    description: 'Similar to TheDraw (for IBM PC) and PETDraw, a single full-screen text mode scene editor.'
+    name: Text Scene Editor
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8215&sid=87adc7904c41009a74ad4b9add499957
+    version: 1.4
+

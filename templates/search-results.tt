@@ -167,21 +167,12 @@
     text-decoration:underline;
   }
 
+
   .card-bot{
-    /* allow multiline descriptions */
-    height:auto;
-    min-height:26px;
-    border-top:1px solid var(--card-border);
-    padding:8px 12px;
-    display:flex;
-    align-items:flex-start;
-    justify-content:flex-start;
-    color:#c0c6d4;
-    font-size:14px;
-    background:var(--dark-gray);
-    line-height:1.25;
-    text-align:left;
+    height:26px;border-top:1px solid var(--card-border);padding:0 12px;
+    display:flex;align-items:center;justify-content:flex-end;color:#c0c6d4;font-size:14px;background:var(--dark-gray);
   }
+
 
   td:hover{
     transform:translateY(-2px);
@@ -204,6 +195,28 @@
   footer a:hover{
     text-decoration:underline;
   }
+
+  .card-desc{
+  padding:6px 12px 0 12px;
+  color:#cbd3e6; font-size:14px; line-height:1.25;
+  display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:8;
+  min-height: calc(1.25em * 8);
+  overflow:hidden;
+  background:var(--dark-gray);
+  }
+ 
+  .card-footer{
+    border-top:1px solid var(--card-border);
+    padding:4px 12px 8px;
+    color:#e5e8f0;          /* make footer text same light color */
+    font-size:12px;
+    background:var(--dark-gray);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    white-space:nowrap;
+  }
+
 </style>
 </head>
 <body>
@@ -237,19 +250,28 @@
       <tr>
     [% END %]
 
-        <td>
-          <div class="card-top c8"></div>
+<td>
+  <div class="card-top c8"></div>
 
-          <div class="card-mid">
-            <a href="[% item.appid | html %].html">
-              [% item.name | html %]
-            </a>
-          </div>
+  <div class="card-mid">
+    <a href="[% item.urls.x16forum | html %]">
+      [% item.name %]
+    </a>
+  </div>
 
-          <div class="card-bot">
-            [% item.description | html %]
-          </div>
-        </td>
+  <div class="card-desc">
+    [% item.description | html %]
+  </div>
+
+  <div class="card-bot">
+    [% IF item.version %]
+      [% item.version | html %]
+    [% END %]
+    [% IF item.author.name %]
+      [% item.author.name | html %]
+    [% END %]
+  </div>
+</td>
 
     [% IF (i+1) mod cols == 0 %]
       </tr>

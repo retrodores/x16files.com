@@ -53,21 +53,22 @@ my $cats = {
 # dump YAML files
 foreach my $category (keys %{$categories}) {
   my $CAT_INDEX = { category => $cats->{lc $category}->{category}, description => $cats->{lc $category}->{description}, packages => $categories->{lc $category} };
-  my $YAML = Dump($CAT_INDEX);
+  my $CAT_YAML = Dump($CAT_INDEX);
   my $filename = sprintf "%s.yaml", $cats->{lc $category}->{slug};
-  open my $fh, ">", "./$filename";
+  open my $fh, ">", "$Bin/../data/$filename";
   print $fh <<EOF;
 # This YAML file is automatically generated and is provided for reference only.
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+$CAT_YAML
 EOF
   say "wrote $filename" if $opts_ref->verbose;
   close $fh;
 }
 
 my $AUTHOR_INDEX = { category => "Authors", description => "Listing of X16 programs by author", authors => $authors };
-DumpFile("authors.yaml", $AUTHOR_INDEX);
+DumpFile("$Bin/../data/authors.yaml", $AUTHOR_INDEX);
 say "wrote authors.yaml" if $opts_ref->verbose;
 
 sub process {
@@ -92,11 +93,9 @@ sub process {
     return;
   }
 
-  d2o $info; # give accessors
-
-  my $category = lc $info->category;
-  my $author   = $info->author->name;
-  my $appname  = $info->name;
+  my $category = lc $info->{category};
+  my $author   = $info->{author}->{name};
+  my $appname  = $info->{name};
 
   # hash for building index pages
   push @{$categories->{$category}}, $info; 
@@ -105,7 +104,7 @@ sub process {
   
   # look ups for search based on CRC32 docId
   my $docId = crc32($json);
-  $full_idx_lookup->{$docId} = o2d $info;
+  $full_idx_lookup->{$docId} = $info;
 
   # build different indexes (they all use the same $docId
 

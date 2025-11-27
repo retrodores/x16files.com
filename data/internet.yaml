@@ -2,3 +2,36 @@
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+---
+category: Internet
+description: Network and serial utilities for Commander X16
+packages:
+  - appid: getfilesx16
+    author:
+      name: Xiphod
+    category: Internet
+    description: "This is all a proof of concept using BASLOAD, and at 8MHz BASIC parsing is still fairly slow (we're talking like 30 seconds to send 3KB, then having to do the actual decode64 after that)."
+    name: Get Fikles X15
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=3985
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8192&sid=4443ea2caa89cacf3b3258086a5014ba
+    version: ''
+  - appid: romterm
+    author:
+      name: The 8-Bit Guy
+    category: Internet
+    description: ROMTerm is a serial terminal program that will eventually be in ROM on the Commander X16. But for the moment you'll need to install it on the SD card.
+    name: ROMTerm
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7652&sid=5a303c5195eb93a4d305dc21389930e2
+    version: v1.27
+  - appid: basterm
+    author:
+      name: Xiphod
+    category: Internet
+    description: Serial terminal for the X16 written in BASIC.
+    name: BASTERM
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8237&sid=5a303c5195eb93a4d305dc21389930e2
+    version: v3
+

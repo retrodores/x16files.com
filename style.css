@@ -201,3 +201,29 @@
   }
 }
 
+header form.search-bar input[type="submit"]:hover {
+  background: #6ab0ff;
+}
+
+/* Search bar styling */
+header form.search-bar {
+  margin-left: 32px;
+}
+
+header form.search-bar input[type="text"] {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  font-size: 14px;
+}
+
+header form.search-bar input[type="submit"] {
+  padding: 6px 12px;
+  margin-left: 6px;
+  border-radius: 6px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+

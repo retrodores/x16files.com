@@ -2,3 +2,148 @@
 # Do NOT deploy, distribute, or integrate it without prior authorization.
 # https://x16files.com
 
+---
+category: Sound
+description: Audio and music utilities for Commander X16
+packages:
+  - appid: audiobookmanager
+    author:
+      name: ahenry3068
+    category: Sound
+    description: A complete and can now play Volume Control books without opening the X16 emulator. Book Marking is compatible between the X16 Volume Control and the 64 bit player. Look & Feel is as much as possible the same.
+    name: 'Audio Book Manager: VOLUME CONTROL'
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7928&sid=a9cf3801e45ae0efb653b9e3e2339b3e
+    version: RC4
+  - appid: pcmplayer
+    author:
+      name: ahenry3068
+    category: Sound
+    description: Simple text interface PCM Audio player. Supports 16 bit Stereo & Mono PCM WAV files. 8 bit is not supported because 8 bit signed audio data (which the VERA needs for 8 bit play) is not a supported part of the WAV file specification. 8 bit WAV files use 8 bit unsigned data.
+    name: PCMPLAYER
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7771
+    version: 1.1
+  - appid: synthesizerdemo
+    author:
+      name: DusanStrakl
+    category: Sound
+    description: Based on a couple of tutorials on how to use ROM functions to program the AY2151 here is a demo for it in form of simple synth.
+    name: Synthesizer Demo
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8266
+    version: v1.0
+  - appid: streamingwavplaye
+    author:
+      name: Irmen de Jong
+    category: Sound
+    description: 'This program can play normal .wav sampled music files. Not only that, but it streams them from disk rather than loading it all in memory, so that there is virtually no limit on how long you want the music to play!'
+    name: Streaming .WAV player
+    url:
+      source: https://cx16forum.com/forum/viewtopic.php?t=6390
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6390
+    version: ''
+  - appid: streamingwavplay
+    author:
+      name: Irmen de Jong
+    category: Sound
+    description: 'This program can play normal .wav sampled music files. Not only that, but it streams them from disk rather than loading it all in memory, so that there is virtually no limit on how long you want the music to play!'
+    name: Streaming .WAV player
+    urls:
+      source: https://github.com/irmen/prog8/tree/master/examples/cx16/pcmaudio
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6390
+    version: ''
+  - appid: medemo
+    author:
+      name: Irmen de Jong
+    category: Sound
+    description: This is a adpcm-music streaming demo that I made that also syncs lyrics on the screen to the song being played.
+    name: medemo
+    urls:
+      source: https://github.com/irmen/cx16musicdemo
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6498
+    version: ''
+  - appid: melodius
+    author:
+      name: mooinglemur
+    category: Sound
+    description: Commander X16 music player engine and frontend using the new audio API
+    name: melodius
+    urls:
+      source: https://github.com/mooinglemur/melodius
+    version: v20250410
+  - appid: midi2zsm
+    author:
+      name: ahenry3068
+    category: Sound
+    description: This is a link to a Windows MIDI2VGM Convertor. It supports a few different sound chips but defaults to YM2151
+    name: Midi2Zsm
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6952
+    version: ''
+  - appid: calliope
+    author:
+      name: ZeroByte
+    category: Sound
+    description: 'Calliope is a player / jukebox application for the Commander X16 for browsing and playing songs in ZSM format. ZSM is the native music format of Zsound, which is freely available to anyone who wants to add audio to their X16 projects. If any other player libraries / formats rise to prevalence with t'
+    name: calliope
+    urls:
+      source: https://github.com/ZeroByteOrg/calliope
+    version: v1.1
+  - appid: concertomultitrac
+    author:
+      name: kliepatsch
+    category: Sound
+    description: Concerto Multitrack is a program for making music on the Commander X16. It aims to unlock the full potential of 16 PSG oscillators plus 8 FM voices.
+    name: Concerto Multitrack
+    url:
+      source: https://github.com/biermanncarl/cx16-concerto
+      x16forum: https://github.com/biermanncarl/cx16-concerto
+    version: v0.8.0-beta.2
+  - appid: concertomultitrk
+    author:
+      name: kliepatsch
+    category: Sound
+    description: Concerto Multitrack is a program for making music on the Commander X16. It aims to unlock the full potential of 16 PSG oscillators plus 8 FM voices.
+    name: Concerto Multitrack
+    urls:
+      source: https://github.com/biermanncarl/cx16-concerto
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8472
+    version: v0.8.0-beta.2
+  - appid: x16audiofm
+    author:
+      name: Xiphod
+    category: Sound
+    description: This is a utility to help understand all the FMxxxx BASIC commands and what the resulting effects sound like.  This sets up parameters for each of the 8 channels that can be passed to FMFREQ or FMNOTE or FMDRUM.
+    name: X16AUDIOFM
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6811
+    version: 1.1
+  - appid: x16synth
+    author:
+      name: Xiphod
+    category: Sound
+    description: On-system audio from the keyboard
+    name: X16 Synth
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7709
+    version: ''
+  - appid: x16midiplayer
+    author:
+      name: Joshua Bair
+    category: Sound
+    description: Commander X16 Midi Player
+    name: X16 Midi Player
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6619
+    version: v4.0
+  - appid: dreamtracker
+    author:
+      name: m00dawg
+    category: Sound
+    description: Native tracker in active for the X16 which currently supports the VERA PSG channels
+    name: Dream Tracker
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6669
+    version: ''
+
