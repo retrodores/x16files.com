@@ -1,7 +1,8 @@
 ---
 authors:
   Aiee5:
-    - appid: neofetch
+    - !!perl/hash:Util::H2O::_55870710f190
+      appid: neofetch
       author:
         name: Aiee5
       category: Tools
@@ -12,7 +13,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6769
       version: ''
   Borgar Olsen:
-    - appid: petaxian
+    - !!perl/hash:Util::H2O::_558706fcd908
+      appid: petaxian
       author:
         name: Borgar Olsen
       category: Games
@@ -23,7 +25,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6400
       version: ''
   Brett Estrade:
-    - appid: xvi
+    - !!perl/hash:Util::H2O::_558707659e40
+      appid: xvi
       author:
         email: brett.estrade@gmail.com
         name: Brett Estrade
@@ -37,7 +40,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7241
       version: RC 1.1
   BruceMcF:
-    - appid: xforthcompiler
+    - !!perl/hash:Util::H2O::_558707659cd8
+      appid: xforthcompiler
       author:
         name: BruceMcF
       category: Programming
@@ -47,7 +51,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6067&sid=e6ecbac87e7e8f2d632ced806a7871a0
       version: v0.1.4
   ComputerBlade:
-    - appid: bladecalc
+    - !!perl/hash:Util::H2O::_5587076323d8
+      appid: bladecalc
       author:
         name: ComputerBlade
       category: Tools
@@ -57,7 +62,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6878&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
   DaReInt:
-    - appid: echoesofthefuture
+    - !!perl/hash:Util::H2O::_55870707aef0
+      appid: echoesofthefuture
       author:
         name: DaReInt
       category: Games
@@ -68,7 +74,8 @@ authors:
         website: https://dareint.itch.io/echoes-of-the-future
         x16forum: https://dareint.itch.io/echoes-of-the-future
       version: ''
-    - appid: echosofthefuture
+    - !!perl/hash:Util::H2O::_558707003f70
+      appid: echosofthefuture
       author:
         name: DaReInt
       category: Games
@@ -79,7 +86,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8573&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   Dacobi:
-    - appid: tilemaped
+    - !!perl/hash:Util::H2O::_5587076d3d00
+      appid: tilemaped
       author:
         name: Dacobi
       category: Graphics
@@ -89,7 +97,8 @@ authors:
         source: https://github.com/dacobi/tilemaped
       version: 1.8.166
   DusanStrakl:
-    - appid: synthesizerdemo
+    - !!perl/hash:Util::H2O::_558706f91960
+      appid: synthesizerdemo
       author:
         name: DusanStrakl
       category: Sound
@@ -98,7 +107,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8266
       version: v1.0
-    - appid: controllertester
+    - !!perl/hash:Util::H2O::_558707619aa0
+      appid: controllertester
       author:
         name: DusanStrakl
       category: Tools
@@ -107,7 +117,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6684
       version: ''
-    - appid: crazysolitaire
+    - !!perl/hash:Util::H2O::_55870761e3a8
+      appid: crazysolitaire
       author:
         name: DusanStrakl
       category: Games
@@ -117,7 +128,8 @@ authors:
         website: https://www.8bitcoding.com/p/crazy-solitaire.html
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8254&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: crazylander
+    - !!perl/hash:Util::H2O::_5587075f9818
+      appid: crazylander
       author:
         name: DusanStrakl
       category: Games
@@ -127,7 +139,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6614&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
   Ed Minchau:
-    - appid: fastarctangent
+    - !!perl/hash:Util::H2O::_558707085378
+      appid: fastarctangent
       author:
         name: Ed Minchau
       category: Programming
@@ -137,7 +150,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6765
       version: ''
   Eirik Stople:
-    - appid: flashdumpers
+    - !!perl/hash:Util::H2O::_558707003448
+      appid: flashdumpers
       author:
         name: Eirik Stople
       category: Systems
@@ -147,7 +161,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8040&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
   Enderfighter06:
-    - appid: chip8emulatorinte
+    - !!perl/hash:Util::H2O::_55870760f660
+      appid: chip8emulatorinte
       author:
         name: Enderfighter06
       category: Tools
@@ -156,7 +171,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
       version: ''
-    - appid: chip8emulatorint
+    - !!perl/hash:Util::H2O::_55870760f930
+      appid: chip8emulatorint
       author:
         name: Enderfighter06
       category: Tools
@@ -166,7 +182,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
       version: ''
   Haplo:
-    - appid: tenebra
+    - !!perl/hash:Util::H2O::_558707701e30
+      appid: tenebra
       author:
         name: Haplo
       category: Games
@@ -177,7 +194,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8051&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   HunterDX:
-    - appid: stoneleatherblade
+    - !!perl/hash:Util::H2O::_558706f82418
+      appid: stoneleatherblade
       author:
         name: HunterDX
       category: Games
@@ -186,7 +204,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7994&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: stoneleathrblade
+    - !!perl/hash:Util::H2O::_558706f81c98
+      appid: stoneleathrblade
       author:
         name: HunterDX
       category: Games
@@ -195,7 +214,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7994&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: x16memorydataplan
+    - !!perl/hash:Util::H2O::_558707654490
+      appid: x16memorydataplan
       author:
         name: HunterDX
       category: Programming
@@ -204,7 +224,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8202&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
-    - appid: x16memorydatapln
+    - !!perl/hash:Util::H2O::_55870765a590
+      appid: x16memorydatapln
       author:
         name: HunterDX
       category: Programming
@@ -214,7 +235,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8202&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
   Irmen de Jong:
-    - appid: prog8compiler
+    - !!perl/hash:Util::H2O::_558706fc8698
+      appid: prog8compiler
       author:
         name: Irmen de Jong
       category: Programming
@@ -223,7 +245,8 @@ authors:
       urls:
         source: https://github.com/irmen/prog8/
       version: v11.4.1
-    - appid: streamingwavplaye
+    - !!perl/hash:Util::H2O::_558706f600e8
+      appid: streamingwavplaye
       author:
         name: Irmen de Jong
       category: Sound
@@ -233,7 +256,8 @@ authors:
         source: https://cx16forum.com/forum/viewtopic.php?t=6390
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6390
       version: ''
-    - appid: streamingwavplay
+    - !!perl/hash:Util::H2O::_558706f6a318
+      appid: streamingwavplay
       author:
         name: Irmen de Jong
       category: Sound
@@ -243,7 +267,8 @@ authors:
         source: https://github.com/irmen/prog8/tree/master/examples/cx16/pcmaudio
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6390
       version: ''
-    - appid: imageviewer
+    - !!perl/hash:Util::H2O::_558706f82220
+      appid: imageviewer
       author:
         name: Irmen de Jong
       category: Graphics
@@ -253,7 +278,8 @@ authors:
         source: https://github.com/irmen/cx16imageviewer
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6977&sid=308eb4415306af45d1b5b02ed9c3f4ec
       version: ''
-    - appid: medemo
+    - !!perl/hash:Util::H2O::_558706f12aa0
+      appid: medemo
       author:
         name: Irmen de Jong
       category: Sound
@@ -263,7 +289,8 @@ authors:
         source: https://github.com/irmen/cx16musicdemo
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6498
       version: ''
-    - appid: rockrunner
+    - !!perl/hash:Util::H2O::_5587075eee40
+      appid: rockrunner
       author:
         name: Irmen de Jong
       category: Games
@@ -272,7 +299,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6576
       version: 1.4
-    - appid: cx16assem
+    - !!perl/hash:Util::H2O::_558707604cf0
+      appid: cx16assem
       author:
         name: Irmen de Jong
       category: Programming
@@ -281,7 +309,8 @@ authors:
       urls:
         source: https://github.com/irmen/cx16assem
       version: 1.6
-    - appid: cx16chess
+    - !!perl/hash:Util::H2O::_558707076040
+      appid: cx16chess
       author:
         name: Irmen de Jong
       category: Games
@@ -290,7 +319,8 @@ authors:
       urls:
         source: https://github.com/irmen/cx16chess
       version: ''
-    - appid: x16paint
+    - !!perl/hash:Util::H2O::_558707659a38
+      appid: x16paint
       author:
         name: Irmen de Jong
       category: Graphics
@@ -300,7 +330,8 @@ authors:
         source: https://github.com/irmen/x16paint
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7252&sid=74d257d2b2fe9e2339a326fd0685b94b
       version: ''
-    - appid: dosshell
+    - !!perl/hash:Util::H2O::_558707653a58
+      appid: dosshell
       author:
         name: Irmen de Jong
       category: File and Disk
@@ -310,7 +341,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6293&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
   Jakebullet70:
-    - appid: functionkeyremapp
+    - !!perl/hash:Util::H2O::_558707003fa0
+      appid: functionkeyremapp
       author:
         name: Jakebullet70
       category: Tools
@@ -319,7 +351,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
-    - appid: functionkeyremap
+    - !!perl/hash:Util::H2O::_55870703abe0
+      appid: functionkeyremap
       author:
         name: Jakebullet70
       category: Tools
@@ -329,7 +362,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
   Jestin Stoffel:
-    - appid: gimpv3veraplugin
+    - !!perl/hash:Util::H2O::_5587070850c0
+      appid: gimpv3veraplugin
       author:
         name: Jestin Stoffel
       category: Programming
@@ -338,7 +372,8 @@ authors:
       urls:
         source: https://github.com/jestin/gimp3-vera-export-plugin
       version: ''
-    - appid: gimpv2veraplugin
+    - !!perl/hash:Util::H2O::_558706d0bdc0
+      appid: gimpv2veraplugin
       author:
         name: Jestin Stoffel
       category: Programming
@@ -347,7 +382,8 @@ authors:
       urls:
         source: https://github.com/jestin/gimp-vera-tileset-plugin
       version: ''
-    - appid: tmx2vera
+    - !!perl/hash:Util::H2O::_5587076eaae0
+      appid: tmx2vera
       author:
         name: Jestin Stoffel
       category: Graphics
@@ -357,7 +393,8 @@ authors:
         source: https://github.com/jestin/tmx2vera
       version: ''
   Jimmy Dansbo:
-    - appid: fastbankedramtes
+    - !!perl/hash:Util::H2O::_5587070e2e40
+      appid: fastbankedramtes
       author:
         email: jimmy@dansbo.dk
         name: Jimmy Dansbo
@@ -368,7 +405,8 @@ authors:
         source: https://github.com/jimmydansbo/ramtest/
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6287
       version: ''
-    - appid: irclock
+    - !!perl/hash:Util::H2O::_558706f42de8
+      appid: irclock
       author:
         email: jimmy@dansbo.dk
         name: Jimmy Dansbo
@@ -379,7 +417,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=1236
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6285&sid=e090d314c7454289dc9a9b3483dcfe31
       version: ''
-    - appid: ghostcrusher
+    - !!perl/hash:Util::H2O::_558706e4c860
+      appid: ghostcrusher
       author:
         name: Jimmy Dansbo
       category: Games
@@ -388,7 +427,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6286&sid=7059976c0997eb24da0bcc2921e2ddfa
       version: ''
-    - appid: ramdiagnosticsro
+    - !!perl/hash:Util::H2O::_5587075ee5a0
+      appid: ramdiagnosticsro
       author:
         email: jimmy@dansbo.dk
         name: Jimmy Dansbo
@@ -398,7 +438,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7154
       version: ''
-    - appid: commandermind
+    - !!perl/hash:Util::H2O::_5587076199f8
+      appid: commandermind
       author:
         name: Jimmy Dansbo
       category: Games
@@ -407,7 +448,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8451&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: x16maze
+    - !!perl/hash:Util::H2O::_558707654460
+      appid: x16maze
       author:
         name: Jimmy Dansbo
       category: Games
@@ -416,7 +458,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6535&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: x16speed
+    - !!perl/hash:Util::H2O::_55870765ac30
+      appid: x16speed
       author:
         email: jimmy@dansbo.dk
         name: Jimmy Dansbo
@@ -426,7 +469,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7989&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: vtuilib
+    - !!perl/hash:Util::H2O::_558707075db8
+      appid: vtuilib
       author:
         name: Jimmy Dansbo
       category: Programming
@@ -436,7 +480,8 @@ authors:
         source: https://github.com/JimmyDansbo/VTUIlib
       version: 1.2.0
   Johan Kårlin:
-    - appid: x16pngconverter
+    - !!perl/hash:Util::H2O::_558707659e70
+      appid: x16pngconverter
       author:
         name: Johan Kårlin
       category: Graphics
@@ -445,7 +490,8 @@ authors:
       urls:
         source: https://github.com/joolin1/x16-png-converter/releases/tag/v1.3.0
       version: v1.3.0
-    - appid: tiledextensions
+    - !!perl/hash:Util::H2O::_5587076ed240
+      appid: tiledextensions
       author:
         name: Johan Kårlin
       category: Graphics
@@ -455,7 +501,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6346&sid=e6ecbac87e7e8f2d632ced806a7871a0
       version: v1.0
   Joshua Bair:
-    - appid: x16midiplayer
+    - !!perl/hash:Util::H2O::_558707653e30
+      appid: x16midiplayer
       author:
         name: Joshua Bair
       category: Sound
@@ -465,7 +512,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6619
       version: v4.0
   MarkTheStrange:
-    - appid: majorassembler
+    - !!perl/hash:Util::H2O::_558706f1aa78
+      appid: majorassembler
       author:
         name: MarkTheStrange
       category: Programming
@@ -474,7 +522,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6725
       version: ''
-    - appid: matrixscreensave
+    - !!perl/hash:Util::H2O::_558706f347c0
+      appid: matrixscreensave
       author:
         name: MarkTheStrange
       category: Systems
@@ -484,7 +533,8 @@ authors:
         webemu: https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=4565
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7065
       version: ''
-    - appid: biorhythmcalc
+    - !!perl/hash:Util::H2O::_558707075fb0
+      appid: biorhythmcalc
       author:
         name: MarkTheStrange
       category: Tools
@@ -494,7 +544,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3064
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7541
       version: ''
-    - appid: x16emudebugdriver
+    - !!perl/hash:Util::H2O::_55870765af30
+      appid: x16emudebugdriver
       author:
         name: MarkTheStrange
       category: Programming
@@ -503,7 +554,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6831
       version: ''
-    - appid: x16emudebugdrvr
+    - !!perl/hash:Util::H2O::_55870765ac90
+      appid: x16emudebugdrvr
       author:
         name: MarkTheStrange
       category: Programming
@@ -512,7 +564,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6831
       version: ''
-    - appid: towersofhanoi
+    - !!perl/hash:Util::H2O::_5587076ec9a0
+      appid: towersofhanoi
       author:
         name: MarkTheStrange
       category: Games
@@ -523,7 +576,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7083
       version: ''
   Matherian:
-    - appid: asmeditx16
+    - !!perl/hash:Util::H2O::_55870705d110
+      appid: asmeditx16
       author:
         name: Matherian
       category: Programming
@@ -533,7 +587,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6729
       version: Version 3
   Microdriver:
-    - appid: simplespriteconve
+    - !!perl/hash:Util::H2O::_558706f878f8
+      appid: simplespriteconve
       author:
         name: Microdriver
       category: Graphics
@@ -542,7 +597,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6895
       version: ''
-    - appid: simplespriteconv
+    - !!perl/hash:Util::H2O::_558706f79770
+      appid: simplespriteconv
       author:
         name: Microdriver
       category: Graphics
@@ -552,7 +608,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6895
       version: ''
   Mikko Karjanmaa:
-    - appid: x16emuwithsymbolt
+    - !!perl/hash:Util::H2O::_55870765a3f8
+      appid: x16emuwithsymbolt
       author:
         name: Mikko Karjanmaa
       category: Programming
@@ -561,7 +618,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7041&sid=861eed69f3583ffbad5003776001cac0
       version: ''
-    - appid: x16emuwithsymbol
+    - !!perl/hash:Util::H2O::_55870765a170
+      appid: x16emuwithsymbol
       author:
         name: Mikko Karjanmaa
       category: Programming
@@ -571,7 +629,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7041&sid=861eed69f3583ffbad5003776001cac0
       version: ''
   Mikołaj Mikołajczyk:
-    - appid: pp1unpacker
+    - !!perl/hash:Util::H2O::_558706fa0480
+      appid: pp1unpacker
       author:
         email: mikolaj@mikolajczyk.org
         name: Mikołaj Mikołajczyk
@@ -583,7 +642,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7024
       version: ''
   ModernRetroDev:
-    - appid: minidoku
+    - !!perl/hash:Util::H2O::_558706f820a0
+      appid: minidoku
       author:
         name: ModernRetroDev
       category: Games
@@ -593,7 +653,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8917&sid=ae40c1febbade03020241222eb9aa3d3
       version: 1.01
   NSkimN8r:
-    - appid: petsciislots
+    - !!perl/hash:Util::H2O::_558706fa0750
+      appid: petsciislots
       author:
         name: NSkimN8r
       category: Games
@@ -603,7 +664,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8134&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   Philip Zembrod et.al.:
-    - appid: volksforth
+    - !!perl/hash:Util::H2O::_5587076d45e8
+      appid: volksforth
       author:
         name: Philip Zembrod et.al.
       category: Programming
@@ -613,7 +675,8 @@ authors:
         source: https://github.com/forth-ev/VolksForth/releases/tag/v3.9.6-6502-C64
       version: 6502-C64 3.9.6
   Poe:
-    - appid: payroll
+    - !!perl/hash:Util::H2O::_558707025668
+      appid: payroll
       author:
         name: Poe
       category: Tools
@@ -623,7 +686,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7072&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
   Roy Eltham:
-    - appid: galax16
+    - !!perl/hash:Util::H2O::_55870739a900
+      appid: galax16
       author:
         name: Roy Eltham
       category: Games
@@ -634,7 +698,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8293&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   Shaun Christis:
-    - appid: prgloadv2
+    - !!perl/hash:Util::H2O::_558706fcded8
+      appid: prgloadv2
       author:
         name: Shaun Christis
       category: File and Disk
@@ -645,7 +710,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7932&sid=4443ea2caa89cacf3b3258086a5014ba
       version: V2.3
   SlithyMatt:
-    - appid: x16tileeditor
+    - !!perl/hash:Util::H2O::_558707075f50
+      appid: x16tileeditor
       author:
         name: SlithyMatt
       category: Graphics
@@ -655,7 +721,8 @@ authors:
         source: https://github.com/SlithyMatt/x16-tile-editor/releases
       version: 0.1
   Stefan:
-    - appid: r43bootloaderupd
+    - !!perl/hash:Util::H2O::_55870739a288
+      appid: r43bootloaderupd
       author:
         name: Stefan
       category: Tools
@@ -665,7 +732,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6570&sid=e090d314c7454289dc9a9b3483dcfe31
       version: ''
   Stefan Jakobsson:
-    - appid: keyboardtestprogr
+    - !!perl/hash:Util::H2O::_558706feedf0
+      appid: keyboardtestprogr
       author:
         name: Stefan Jakobsson
       category: Systems
@@ -674,7 +742,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7085
       version: ''
-    - appid: keyboardtestprg
+    - !!perl/hash:Util::H2O::_55870707aed8
+      appid: keyboardtestprg
       author:
         name: Stefan Jakobsson
       category: Systems
@@ -683,7 +752,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7085
       version: ''
-    - appid: basload
+    - !!perl/hash:Util::H2O::_558707606438
+      appid: basload
       author:
         name: Stefan Jakobsson
       category: Programming
@@ -692,7 +762,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6322
       version: 0.2.6
-    - appid: x16edit
+    - !!perl/hash:Util::H2O::_55870765aa80
+      appid: x16edit
       author:
         name: Stefan Jakobsson
       category: Editors
@@ -703,7 +774,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6290&sid=5a303c5195eb93a4d305dc21389930e2
       version: 0.8.3
   Stefanos Stefanidis:
-    - appid: commanderx16macro
+    - !!perl/hash:Util::H2O::_5587075e6850
+      appid: commanderx16macro
       author:
         name: Stefanos Stefanidis
       category: Programming
@@ -712,7 +784,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8606
       version: ''
-    - appid: x16macroasm
+    - !!perl/hash:Util::H2O::_55870765ad50
+      appid: x16macroasm
       author:
         name: Stefanos Stefanidis
       category: Programming
@@ -722,7 +795,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8606
       version: ''
   Stephen Horn et.al.:
-    - appid: box16emulator
+    - !!perl/hash:Util::H2O::_558707647870
+      appid: box16emulator
       author:
         name: Stephen Horn et.al.
       category: Programming
@@ -732,7 +806,8 @@ authors:
         source: https://github.com/indigodarkwolf/box16
       version: Non-Release 48.0.0
   TediusTimmy:
-    - appid: x16cell
+    - !!perl/hash:Util::H2O::_55870765a6d8
+      appid: x16cell
       author:
         name: TediusTimmy
       category: Tools
@@ -742,7 +817,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6528&sid=5a303c5195eb93a4d305dc21389930e2
       version: 1.2
   The 8-Bit Guy:
-    - appid: planetx16
+    - !!perl/hash:Util::H2O::_558706fc7dc8
+      appid: planetx16
       author:
         name: The 8-Bit Guy
       category: Games
@@ -751,7 +827,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6998&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: RC4
-    - appid: petsciirobots
+    - !!perl/hash:Util::H2O::_558706fa0438
+      appid: petsciirobots
       author:
         name: The 8-Bit Guy
       category: Games
@@ -760,7 +837,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7029&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: 2.1
-    - appid: romterm
+    - !!perl/hash:Util::H2O::_5587075f3f08
+      appid: romterm
       author:
         name: The 8-Bit Guy
       category: Internet
@@ -769,7 +847,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7652&sid=5a303c5195eb93a4d305dc21389930e2
       version: v1.27
-    - appid: yeoldrobots
+    - !!perl/hash:Util::H2O::_558707632558
+      appid: yeoldrobots
       author:
         name: The 8-Bit Guy
       category: Games
@@ -778,7 +857,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7907&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: xixit
+    - !!perl/hash:Util::H2O::_558707653a70
+      appid: xixit
       author:
         name: The 8-Bit Guy
       category: Games
@@ -787,7 +867,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6267&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: tetrads
+    - !!perl/hash:Util::H2O::_5587076e52f0
+      appid: tetrads
       author:
         name: The 8-Bit Guy
       category: Games
@@ -797,7 +878,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6386&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
   Toboter:
-    - appid: xbrained
+    - !!perl/hash:Util::H2O::_558707632270
+      appid: xbrained
       author:
         name: Toboter
       category: Programming
@@ -806,7 +888,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6954
       version: ''
-    - appid: vaultofthevindica
+    - !!perl/hash:Util::H2O::_5587076d87e8
+      appid: vaultofthevindica
       author:
         name: Toboter
       category: Games
@@ -815,7 +898,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6918&sid=ae40c1febbade03020241222eb9aa3d3
       version: 1.0
-    - appid: vaultofvindcatr
+    - !!perl/hash:Util::H2O::_558707075d88
+      appid: vaultofvindcatr
       author:
         name: Toboter
       category: Games
@@ -825,7 +909,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6918&sid=ae40c1febbade03020241222eb9aa3d3
       version: 1.0
   Ultimategilby:
-    - appid: hazardletusout
+    - !!perl/hash:Util::H2O::_55870702b898
+      appid: hazardletusout
       author:
         name: Ultimategilby
       category: Games
@@ -835,7 +920,8 @@ authors:
         website: https://ultimate-gilby.itch.io/hazard-let-us-out
       version: ''
   WauloK:
-    - appid: arthursdayout
+    - !!perl/hash:Util::H2O::_55870707b358
+      appid: arthursdayout
       author:
         name: WauloK
       category: Games
@@ -844,7 +930,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8261&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: mysteryisles
+    - !!perl/hash:Util::H2O::_558706f12c08
+      appid: mysteryisles
       author:
         name: WauloK
       category: Games
@@ -853,7 +940,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8261&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: tombofanneis
+    - !!perl/hash:Util::H2O::_5587076d8e30
+      appid: tombofanneis
       author:
         name: WauloK
       category: Games
@@ -864,7 +952,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8307&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   Xiphod:
-    - appid: autoreset
+    - !!perl/hash:Util::H2O::_558707044ea0
+      appid: autoreset
       author:
         name: Xiphod
       category: Systems
@@ -874,7 +963,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3311
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7728
       version: ''
-    - appid: wallclock
+    - !!perl/hash:Util::H2O::_55870703a7a8
+      appid: wallclock
       author:
         name: Xiphod
       category: Tools
@@ -883,7 +973,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6819&sid=5a303c5195eb93a4d305dc21389930e2
       version: 2
-    - appid: writerom
+    - !!perl/hash:Util::H2O::_5587070b1f20
+      appid: writerom
       author:
         name: Xiphod
       category: Systems
@@ -893,7 +984,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=2604&sid=7ea81105fff097e3d68215ab0eccfed6
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7070
       version: R4y prerelease
-    - appid: housemortcalc
+    - !!perl/hash:Util::H2O::_55870705d1e8
+      appid: housemortcalc
       author:
         name: Xiphod
       category: Tools
@@ -903,7 +995,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3567
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7912&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: zenercards
+    - !!perl/hash:Util::H2O::_55870702b2b0
+      appid: zenercards
       author:
         name: Xiphod
       category: Games
@@ -913,7 +1006,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3631
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7930&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: solarsystemcal
+    - !!perl/hash:Util::H2O::_558706f5bcf0
+      appid: solarsystemcal
       author:
         name: Xiphod
       category: Tools
@@ -923,7 +1017,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3714
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7961&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: memorymatch
+    - !!perl/hash:Util::H2O::_558706f02a00
+      appid: memorymatch
       author:
         name: Xiphod
       category: Games
@@ -932,7 +1027,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7793&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: meteordefender
+    - !!perl/hash:Util::H2O::_558706f1b1c8
+      appid: meteordefender
       author:
         name: Xiphod
       category: Games
@@ -942,7 +1038,8 @@ authors:
         source: https://github.com/voidstar78/METDEFX16
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8520&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: multikeytest
+    - !!perl/hash:Util::H2O::_558706f1aaa8
+      appid: multikeytest
       author:
         name: Xiphod
       category: Systems
@@ -952,7 +1049,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=4025
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7789&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: getfilesx16
+    - !!perl/hash:Util::H2O::_558707393da8
+      appid: getfilesx16
       author:
         name: Xiphod
       category: Internet
@@ -962,7 +1060,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3985
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8192&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: lowerdecksiiwarpc
+    - !!perl/hash:Util::H2O::_5587075e7090
+      appid: lowerdecksiiwarpc
       author:
         name: Xiphod
       category: Games
@@ -971,7 +1070,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7711&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: lowerdecksiiwarp
+    - !!perl/hash:Util::H2O::_558707396060
+      appid: lowerdecksiiwarp
       author:
         name: Xiphod
       category: Games
@@ -980,7 +1080,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7711&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: radixconversiont
+    - !!perl/hash:Util::H2O::_5587075f9650
+      appid: radixconversiont
       author:
         name: Xiphod
       category: Tools
@@ -989,7 +1090,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7737
       version: ''
-    - appid: cycles
+    - !!perl/hash:Util::H2O::_5587075e6b08
+      appid: cycles
       author:
         name: Xiphod
       category: Games
@@ -998,7 +1100,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8545&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: catfilelister
+    - !!perl/hash:Util::H2O::_558707604ac8
+      appid: catfilelister
       author:
         name: Xiphod
       category: File and Disk
@@ -1007,7 +1110,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6962&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
-    - appid: bigfontbigfontse
+    - !!perl/hash:Util::H2O::_55870762d220
+      appid: bigfontbigfontse
       author:
         name: Xiphod
       category: Systems
@@ -1017,7 +1121,8 @@ authors:
         source: https://cx16forum.com/forum/viewtopic.php?p=34437#p34437
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7910
       version: ''
-    - appid: basterm
+    - !!perl/hash:Util::H2O::_558707606360
+      appid: basterm
       author:
         name: Xiphod
       category: Internet
@@ -1026,7 +1131,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8237&sid=5a303c5195eb93a4d305dc21389930e2
       version: v3
-    - appid: base64encdec
+    - !!perl/hash:Util::H2O::_5587076402c0
+      appid: base64encdec
       author:
         name: Xiphod
       category: Tools
@@ -1035,7 +1141,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7780
       version: ''
-    - appid: baseloadbmxzsm
+    - !!perl/hash:Util::H2O::_558707604570
+      appid: baseloadbmxzsm
       author:
         name: Xiphod
       category: Tools
@@ -1045,7 +1152,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3334
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7759
       version: ''
-    - appid: xinfo
+    - !!perl/hash:Util::H2O::_558707654130
+      appid: xinfo
       author:
         name: Xiphod
       category: Editors
@@ -1054,7 +1162,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6924&sid=5a303c5195eb93a4d305dc21389930e2
       version: v1.8
-    - appid: x16fonteditor
+    - !!perl/hash:Util::H2O::_55870765a8e8
+      appid: x16fonteditor
       author:
         name: Xiphod
       category: Graphics
@@ -1063,7 +1172,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6814
       version: v1.4
-    - appid: x16audiofm
+    - !!perl/hash:Util::H2O::_55870765a128
+      appid: x16audiofm
       author:
         name: Xiphod
       category: Sound
@@ -1072,7 +1182,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6811
       version: 1.1
-    - appid: x16synth
+    - !!perl/hash:Util::H2O::_55870765a888
+      appid: x16synth
       author:
         name: Xiphod
       category: Sound
@@ -1081,7 +1192,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7709
       version: ''
-    - appid: x16hxd
+    - !!perl/hash:Util::H2O::_55870765a678
+      appid: x16hxd
       author:
         name: Xiphod
       category: File and Disk
@@ -1090,7 +1202,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6797
       version: v1.3
-    - appid: x16serialdoskeyb
+    - !!perl/hash:Util::H2O::_55870765a1d0
+      appid: x16serialdoskeyb
       author:
         name: Xiphod
       category: Systems
@@ -1100,7 +1213,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3702
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7953&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: 1000coinstatistic
+    - !!perl/hash:Util::H2O::_558707075dd0
+      appid: 1000coinstatistic
       author:
         name: Xiphod
       category: Tools
@@ -1109,7 +1223,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
-    - appid: 1000coins
+    - !!perl/hash:Util::H2O::_5587076b5938
+      appid: 1000coins
       author:
         name: Xiphod
       category: Tools
@@ -1118,7 +1233,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
-    - appid: verybasiclaunche
+    - !!perl/hash:Util::H2O::_55870766bae0
+      appid: verybasiclaunche
       author:
         name: Xiphod
       category: Systems
@@ -1128,7 +1244,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3316
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7739
       version: ''
-    - appid: textsceneeditor
+    - !!perl/hash:Util::H2O::_558707702bb0
+      appid: textsceneeditor
       author:
         name: Xiphod
       category: Graphics
@@ -1137,7 +1254,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8215&sid=87adc7904c41009a74ad4b9add499957
       version: 1.4
-    - appid: 8bitpetwurm
+    - !!perl/hash:Util::H2O::_558707702178
+      appid: 8bitpetwurm
       author:
         name: Xiphod
       category: Games
@@ -1148,7 +1266,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8008&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
   Yazwho:
-    - appid: joysticktester
+    - !!perl/hash:Util::H2O::_558707025ec0
+      appid: joysticktester
       author:
         name: Yazwho
       category: Tools
@@ -1158,7 +1277,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=1278
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6481&sid=e090d314c7454289dc9a9b3483dcfe31
       version: ''
-    - appid: bitmagic
+    - !!perl/hash:Util::H2O::_558707619d40
+      appid: bitmagic
       author:
         name: Yazwho
       category: Programming
@@ -1167,7 +1287,8 @@ authors:
       urls:
         source: https://github.com/Yazwh0/BitMagic
       version: prerelease
-    - appid: dataportester
+    - !!perl/hash:Util::H2O::_5587076c5f40
+      appid: dataportester
       author:
         name: Yazwho
       category: Systems
@@ -1177,7 +1298,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7925&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
   ZeroByte:
-    - appid: calliope
+    - !!perl/hash:Util::H2O::_558707604d50
+      appid: calliope
       author:
         name: ZeroByte
       category: Sound
@@ -1187,7 +1309,8 @@ authors:
         source: https://github.com/ZeroByteOrg/calliope
       version: v1.1
   ZeroByteOrg:
-    - appid: zsound
+    - !!perl/hash:Util::H2O::_558706fe65d8
+      appid: zsound
       author:
         name: ZeroByteOrg
       category: Programming
@@ -1197,7 +1320,8 @@ authors:
         source: https://github.com/ZeroByteOrg/zsound
       version: ''
   ahenry3068:
-    - appid: audiobookmanager
+    - !!perl/hash:Util::H2O::_558707045140
+      appid: audiobookmanager
       author:
         name: ahenry3068
       category: Sound
@@ -1206,7 +1330,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7928&sid=a9cf3801e45ae0efb653b9e3e2339b3e
       version: RC4
-    - appid: autobootsound
+    - !!perl/hash:Util::H2O::_55870706bb70
+      appid: autobootsound
       author:
         name: ahenry3068
       category: Systems
@@ -1216,7 +1341,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3127
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7601
       version: ''
-    - appid: hangman
+    - !!perl/hash:Util::H2O::_558707044ca8
+      appid: hangman
       author:
         name: ahenry3068
       category: Games
@@ -1225,7 +1351,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6887&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: 1.0
-    - appid: pcmplayer
+    - !!perl/hash:Util::H2O::_55870707b058
+      appid: pcmplayer
       author:
         name: ahenry3068
       category: Sound
@@ -1234,7 +1361,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7771
       version: 1.1
-    - appid: splashscreen
+    - !!perl/hash:Util::H2O::_558706fa0f18
+      appid: splashscreen
       author:
         name: ahenry3068
       category: Systems
@@ -1243,7 +1371,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7837&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: showbmx
+    - !!perl/hash:Util::H2O::_558706f5bd20
+      appid: showbmx
       author:
         name: ahenry3068
       category: Graphics
@@ -1252,7 +1381,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7562&sid=87adc7904c41009a74ad4b9add499957
       version: ''
-    - appid: img2bmx
+    - !!perl/hash:Util::H2O::_558706f3a510
+      appid: img2bmx
       author:
         name: ahenry3068
       category: Graphics
@@ -1261,7 +1391,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?p=30702#p30702
       version: ''
-    - appid: midi2zsm
+    - !!perl/hash:Util::H2O::_558706f12908
+      appid: midi2zsm
       author:
         name: ahenry3068
       category: Sound
@@ -1270,7 +1401,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6952
       version: ''
-    - appid: bin2bmx
+    - !!perl/hash:Util::H2O::_558707627210
+      appid: bin2bmx
       author:
         name: ahenry3068
       category: Graphics
@@ -1279,7 +1411,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7676&sid=87adc7904c41009a74ad4b9add499957
       version: ''
-    - appid: bmxviewer
+    - !!perl/hash:Util::H2O::_558707637090
+      appid: bmxviewer
       author:
         name: ahenry3068
       category: Graphics
@@ -1288,7 +1421,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6990&sid=87adc7904c41009a74ad4b9add499957
       version: ''
-    - appid: x16casinoslots
+    - !!perl/hash:Util::H2O::_55870765adf8
+      appid: x16casinoslots
       author:
         name: ahenry3068
       category: Games
@@ -1297,7 +1431,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8244&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: x16moviemaker
+    - !!perl/hash:Util::H2O::_55870765a990
+      appid: x16moviemaker
       author:
         name: ahenry3068
       category: Graphics
@@ -1307,7 +1442,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?p=35595
       version: Beta 12
   badmai:
-    - appid: chess
+    - !!perl/hash:Util::H2O::_5587075f41d8
+      appid: chess
       author:
         name: badmai
       category: Games
@@ -1317,7 +1453,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7476
       version: ''
   catmeow72:
-    - appid: bmxfileviewer
+    - !!perl/hash:Util::H2O::_558707619f38
+      appid: bmxfileviewer
       author:
         name: catmeow72
       category: Graphics
@@ -1327,7 +1464,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6978&sid=87adc7904c41009a74ad4b9add499957
       version: ''
   ceptimus:
-    - appid: puzz
+    - !!perl/hash:Util::H2O::_558706fc7f48
+      appid: puzz
       author:
         name: ceptimus
       category: Games
@@ -1337,7 +1475,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7689&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
   cosmicr:
-    - appid: anotherworld
+    - !!perl/hash:Util::H2O::_5587070f1788
+      appid: anotherworld
       author:
         name: cosmicr
       category: Games
@@ -1348,7 +1487,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8892&sid=ae40c1febbade03020241222eb9aa3d3
       version: 1.3
   desertfish:
-    - appid: halloweengreetin
+    - !!perl/hash:Util::H2O::_558707026130
+      appid: halloweengreetin
       author:
         name: desertfish
       category: Graphics
@@ -1359,7 +1499,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6875
       version: ''
   fredrik:
-    - appid: adventure
+    - !!perl/hash:Util::H2O::_558707075ba8
+      appid: adventure
       author:
         name: fredrik
       category: Games
@@ -1369,7 +1510,8 @@ authors:
         website: https://microheaven.com/advent/
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8131&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: mars2049ad
+    - !!perl/hash:Util::H2O::_558707085708
+      appid: mars2049ad
       author:
         name: fredrik
       category: Games
@@ -1379,7 +1521,8 @@ authors:
         source: https://fredrikr.itch.io/mars2049ad
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8302&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: gamebookcollectio
+    - !!perl/hash:Util::H2O::_558706f1aac0
+      appid: gamebookcollectio
       author:
         name: fredrik
       category: Games
@@ -1388,7 +1531,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7421&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: gamebookcollect
+    - !!perl/hash:Util::H2O::_55870739ded0
+      appid: gamebookcollect
       author:
         name: fredrik
       category: Games
@@ -1397,7 +1541,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7421&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: theairlockcollect
+    - !!perl/hash:Util::H2O::_558707075c80
+      appid: theairlockcollect
       author:
         name: fredrik
       category: Games
@@ -1408,7 +1553,8 @@ authors:
         website: https://microheaven.com/airlock
         x16forum: https://microheaven.com/airlock
       version: ''
-    - appid: theairlockcollec
+    - !!perl/hash:Util::H2O::_5587076ea030
+      appid: theairlockcollec
       author:
         name: fredrik
       category: Games
@@ -1418,7 +1564,8 @@ authors:
         website: https://microheaven.com/airlock
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7459&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: textadventurecoll
+    - !!perl/hash:Util::H2O::_5587076fe8b0
+      appid: textadventurecoll
       author:
         name: fredrik
       category: Games
@@ -1429,7 +1576,8 @@ authors:
         website: https://microheaven.com/ztac/
         x16forum: https://microheaven.com/ztac/
       version: ''
-    - appid: textadventures
+    - !!perl/hash:Util::H2O::_558707709fa0
+      appid: textadventures
       author:
         name: fredrik
       category: Games
@@ -1440,7 +1588,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7705&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
   grml:
-    - appid: sanekeys
+    - !!perl/hash:Util::H2O::_558706f87bb0
+      appid: sanekeys
       author:
         name: grml
       category: Systems
@@ -1449,7 +1598,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6314&sid=4443ea2caa89cacf3b3258086a5014ba
       version: v0.2
-    - appid: ransomware
+    - !!perl/hash:Util::H2O::_5587075f8558
+      appid: ransomware
       author:
         name: grml
       category: Games
@@ -1459,7 +1609,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6401&sid=e090d314c7454289dc9a9b3483dcfe31
       version: ''
   hechelion:
-    - appid: golscreensaver
+    - !!perl/hash:Util::H2O::_55870707ade8
+      appid: golscreensaver
       author:
         name: hechelion
       category: Systems
@@ -1471,7 +1622,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6721
       version: v1.0.1
   hiroshi:
-    - appid: puchipuchipro
+    - !!perl/hash:Util::H2O::_55870707af08
+      appid: puchipuchipro
       author:
         name: hiroshi
       category: Games
@@ -1482,7 +1634,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7100
       version: ''
   howardwp:
-    - appid: conwaysgol
+    - !!perl/hash:Util::H2O::_55870761a628
+      appid: conwaysgol
       author:
         name: howardwp
       category: Games
@@ -1492,7 +1645,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7004
       version: ''
   ifilot:
-    - appid: kakuro
+    - !!perl/hash:Util::H2O::_55870707aea8
+      appid: kakuro
       author:
         name: ifilot
       category: Games
@@ -1501,7 +1655,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7933&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: cx16othello
+    - !!perl/hash:Util::H2O::_5587076062b8
+      appid: cx16othello
       author:
         name: ifilot
       category: Games
@@ -1511,7 +1666,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7661&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: v1.2.0
   jaydg:
-    - appid: sudoku
+    - !!perl/hash:Util::H2O::_5587070a3478
+      appid: sudoku
       author:
         name: jaydg
       category: Games
@@ -1521,7 +1677,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8370&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   kliepatsch:
-    - appid: concertomultitrac
+    - !!perl/hash:Util::H2O::_558707616030
+      appid: concertomultitrac
       author:
         name: kliepatsch
       category: Sound
@@ -1531,7 +1688,8 @@ authors:
         source: https://github.com/biermanncarl/cx16-concerto
         x16forum: https://github.com/biermanncarl/cx16-concerto
       version: v0.8.0-beta.2
-    - appid: concertomultitrk
+    - !!perl/hash:Util::H2O::_558707619b00
+      appid: concertomultitrk
       author:
         name: kliepatsch
       category: Sound
@@ -1542,7 +1700,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8472
       version: v0.8.0-beta.2
   koyaa:
-    - appid: listpausewedge
+    - !!perl/hash:Util::H2O::_558707076178
+      appid: listpausewedge
       author:
         name: koyaa
       category: Tools
@@ -1553,7 +1712,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6969
       version: ''
   m00dawg:
-    - appid: petdrawx
+    - !!perl/hash:Util::H2O::_558706fce298
+      appid: petdrawx
       author:
         name: m00dawg
       category: Graphics
@@ -1562,7 +1722,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6626&sid=87adc7904c41009a74ad4b9add499957
       version: 2.0
-    - appid: dreamtracker
+    - !!perl/hash:Util::H2O::_5587076bad50
+      appid: dreamtracker
       author:
         name: m00dawg
       category: Sound
@@ -1572,7 +1733,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6669
       version: ''
   mapifisher:
-    - appid: stereogramdemos
+    - !!perl/hash:Util::H2O::_558706fc7d80
+      appid: stereogramdemos
       author:
         name: mapifisher
       category: Programming
@@ -1582,7 +1744,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6511&sid=87adc7904c41009a74ad4b9add499957
       version: ''
   mjdxp:
-    - appid: morsecodetransmi
+    - !!perl/hash:Util::H2O::_558706f03138
+      appid: morsecodetransmi
       author:
         name: mjdxp
       category: Tools
@@ -1592,7 +1755,8 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=2977&sid=a53bd33219721c1f9dce7abff7b5a245
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7340
       version: ''
-    - appid: greenscreensaver
+    - !!perl/hash:Util::H2O::_558706db3358
+      appid: greenscreensaver
       author:
         name: mjdxp
       category: Systems
@@ -1602,7 +1766,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7054
       version: ''
   mobluse:
-    - appid: x16emuforlinuxi68
+    - !!perl/hash:Util::H2O::_55870765a8a0
+      appid: x16emuforlinuxi68
       author:
         name: mobluse
       category: Tools
@@ -1611,7 +1776,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
       version: R43
-    - appid: x16emuforlinux32
+    - !!perl/hash:Util::H2O::_558707654298
+      appid: x16emuforlinux32
       author:
         name: mobluse
       category: Tools
@@ -1621,7 +1787,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
       version: R43
   mooinglemur:
-    - appid: zsmkit
+    - !!perl/hash:Util::H2O::_558707025ea8
+      appid: zsmkit
       author:
         name: mooinglemur
       category: Programming
@@ -1630,7 +1797,8 @@ authors:
       urls:
         source: https://github.com/mooinglemur/zsmkit
       version: 2.6
-    - appid: melodius
+    - !!perl/hash:Util::H2O::_558706f0c450
+      appid: melodius
       author:
         name: mooinglemur
       category: Sound
@@ -1640,7 +1808,8 @@ authors:
         source: https://github.com/mooinglemur/melodius
       version: v20250410
   morphinejh:
-    - appid: img2x16
+    - !!perl/hash:Util::H2O::_558707084e68
+      appid: img2x16
       author:
         name: morphinejh
       category: Graphics
@@ -1650,7 +1819,8 @@ authors:
         source: https://github.com/morphinejh/img2x16
       version: Version 0.3
   mwiedmann:
-    - appid: asterduel
+    - !!perl/hash:Util::H2O::_55870705d860
+      appid: asterduel
       author:
         name: mwiedmann
       category: Games
@@ -1659,7 +1829,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8492&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: warlocksdungeon
+    - !!perl/hash:Util::H2O::_558707062ed8
+      appid: warlocksdungeon
       author:
         name: mwiedmann
       category: Games
@@ -1668,7 +1839,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7109&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: pixeus
+    - !!perl/hash:Util::H2O::_558706fbfa78
+      appid: pixeus
       author:
         name: mwiedmann
       category: Games
@@ -1677,7 +1849,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7185&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: deepscavenger
+    - !!perl/hash:Util::H2O::_5587076b5d88
+      appid: deepscavenger
       author:
         name: mwiedmann
       category: Games
@@ -1687,7 +1860,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8255&sid=ae40c1febbade03020241222eb9aa3d3
       version: 1.0
   natebarney:
-    - appid: damontherocketjoc
+    - !!perl/hash:Util::H2O::_5587076c5e80
+      appid: damontherocketjoc
       author:
         name: natebarney
       category: Games
@@ -1697,7 +1871,8 @@ authors:
         source: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: damonrocketjock
+    - !!perl/hash:Util::H2O::_558707654178
+      appid: damonrocketjock
       author:
         name: natebarney
       category: Games
@@ -1708,7 +1883,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   natpie:
-    - appid: sodokusolver
+    - !!perl/hash:Util::H2O::_558706f79938
+      appid: sodokusolver
       author:
         name: natpie
       category: Games
@@ -1719,7 +1895,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8355&sid=4443ea2caa89cacf3b3258086a5014ba
       version: V1.1a
   peotr26:
-    - appid: x16emuforhaiku
+    - !!perl/hash:Util::H2O::_55870765ac60
+      appid: x16emuforhaiku
       author:
         name: peotr26
       category: Tools
@@ -1729,7 +1906,8 @@ authors:
         source: https://github.com/peotr26/x16-emulator-haiku/releases/tag/r46
       version: r46
   pzembrod:
-    - appid: cc64
+    - !!perl/hash:Util::H2O::_55870761e288
+      appid: cc64
       author:
         name: pzembrod
       category: Programming
@@ -1739,7 +1917,8 @@ authors:
         source: https://github.com/pzembrod/cc64/releases/tag/v0.12
       version: v0.12
   rje:
-    - appid: travellertrader
+    - !!perl/hash:Util::H2O::_5587076ea1b0
+      appid: travellertrader
       author:
         name: rje
       category: Games
@@ -1749,7 +1928,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7096&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: 1.0
   schristis:
-    - appid: justaclock
+    - !!perl/hash:Util::H2O::_558707093978
+      appid: justaclock
       author:
         name: schristis
       category: Tools
@@ -1758,7 +1938,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6857&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
-    - appid: spritecalc
+    - !!perl/hash:Util::H2O::_558706fbfb98
+      appid: spritecalc
       author:
         name: schristis
       category: Graphics
@@ -1768,7 +1949,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8466
       version: 4
   svenvandevelde:
-    - appid: versmcromupdater
+    - !!perl/hash:Util::H2O::_5587076d8770
+      appid: versmcromupdater
       author:
         name: svenvandevelde
       category: Tools
@@ -1779,7 +1961,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6864
       version: 'R43, R44 and R45'
   tallLeRoy:
-    - appid: huntthewumpus
+    - !!perl/hash:Util::H2O::_5587070256b0
+      appid: huntthewumpus
       author:
         name: tallLeRoy
       category: Games
@@ -1788,7 +1971,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7575&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: baccarat
+    - !!perl/hash:Util::H2O::_558707647630
+      appid: baccarat
       author:
         name: tallLeRoy
       category: Games
@@ -1797,7 +1981,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7254&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: vtsbank
+    - !!perl/hash:Util::H2O::_5587076c5ee0
+      appid: vtsbank
       author:
         name: tallLeRoy
       category: Programming
@@ -1807,7 +1992,8 @@ authors:
         source: https://github.com/tallLeRoy/vtsbank
       version: ''
   totodilespy:
-    - appid: solitaire
+    - !!perl/hash:Util::H2O::_558706f431a8
+      appid: solitaire
       author:
         name: totodilespy
       category: Games
@@ -1817,7 +2003,8 @@ authors:
         source: https://github.com/cnelson20/solitaire/
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7631&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: rummy
+    - !!perl/hash:Util::H2O::_5587075e6910
+      appid: rummy
       author:
         name: totodilespy
       category: Games
@@ -1826,7 +2013,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7647&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: cx16os
+    - !!perl/hash:Util::H2O::_5587075f38d8
+      appid: cx16os
       author:
         name: totodilespy
       category: Tools
@@ -1836,7 +2024,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7985&sid=5a303c5195eb93a4d305dc21389930e2
       version: v0.0.2
   unartic:
-    - appid: nxtbasic
+    - !!perl/hash:Util::H2O::_55870711e528
+      appid: nxtbasic
       author:
         name: unartic
       category: Programming
@@ -1845,7 +2034,8 @@ authors:
       urls:
         source: https://github.com/unartic/nxtBasic
       version: v1.0
-    - appid: spacelevel
+    - !!perl/hash:Util::H2O::_558706f79830
+      appid: spacelevel
       author:
         name: unartic
       category: Games
@@ -1854,7 +2044,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7734&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: x16filemanagerxfm
+    - !!perl/hash:Util::H2O::_558707659f30
+      appid: x16filemanagerxfm
       author:
         name: unartic
       category: File and Disk
@@ -1863,7 +2054,8 @@ authors:
       url:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7014&sid=5a303c5195eb93a4d305dc21389930e2
       version: v3.0
-    - appid: x16filemanager
+    - !!perl/hash:Util::H2O::_558707653370
+      appid: x16filemanager
       author:
         name: unartic
       category: File and Disk
@@ -1872,7 +2064,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7014&sid=5a303c5195eb93a4d305dc21389930e2
       version: v3.0
-    - appid: tetris
+    - !!perl/hash:Util::H2O::_5587077022f8
+      appid: tetris
       author:
         name: unartic
       category: Games
@@ -1883,7 +2076,8 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7904&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
   various:
-    - appid: zorkandzil
+    - !!perl/hash:Util::H2O::_558706fe5d38
+      appid: zorkandzil
       author:
         name: various
       category: Games
@@ -1893,7 +2087,8 @@ authors:
         website: https://ozmoo.online/
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8038&sid=db5c76a03747c90b5c4c715f92844bd5
       version: ''
-    - appid: x16emulator
+    - !!perl/hash:Util::H2O::_55870765a660
+      appid: x16emulator
       author:
         name: various
       category: Programming
@@ -1903,7 +2098,8 @@ authors:
         source: https://github.com/x16community/x16-emulator
       version: 48
   yock1960:
-    - appid: pascalish
+    - !!perl/hash:Util::H2O::_5587070a3910
+      appid: pascalish
       author:
         name: yock1960
       category: Programming
@@ -1912,7 +2108,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7712
       version: v1.0
-    - appid: mandelo
+    - !!perl/hash:Util::H2O::_558706f1b0c0
+      appid: mandelo
       author:
         name: yock1960
       category: Tools
@@ -1922,7 +2119,8 @@ authors:
         webemu: https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=3288
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7716
       version: ''
-    - appid: guilibrary
+    - !!perl/hash:Util::H2O::_558706f24e70
+      appid: guilibrary
       author:
         name: yock1960
       category: Programming
@@ -1931,7 +2129,8 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6795
       version: ''
-    - appid: cyclops
+    - !!perl/hash:Util::H2O::_5587076040d8
+      appid: cyclops
       author:
         name: yock1960
       category: Tools
