@@ -19,4 +19,6 @@ git add files/*/*
 
 rm -v "$filename"
 
+bin/merge
+
 git status
