@@ -66,12 +66,15 @@ function renderTable(data) {
   html += `<table><tr>`;
 
   pkgs.forEach((pkg, i) => {
-    const cls      = `c${(i % 9) + 1}`;
-    const name     = esc(pkg.name);
-    const forumurl = pkg.urls?.x16forum || "#";
-    const ver      = esc(pkg.version || "");
-    const auth     = esc(pkg.author?.name || "");
-    const desc     = esc(pkg.description || "");
+    const cls     = `c${(i % 9) + 1}`;
+    const name    = esc(pkg.name);
+    const ver     = esc(pkg.version || "");
+    const auth    = esc(pkg.author?.name || "");
+    const desc    = esc(pkg.description || "");
+
+    let url = "#";
+    if (pkg.urls)
+      url = pkg.urls.x16forum || pkg.urls.source || pkg.urls.website || pkg.urls.webemu || "#";
 
     const anchorId = `pkg-${name.replace(/\s+/g, "-")}`;
 
@@ -79,7 +82,7 @@ function renderTable(data) {
       <td id="${anchorId}">
         <div class="card-top ${cls}"></div>
         <div class="card-mid">
-          <a href="${forumurl}" target="_blank" rel="noopener">${name}</a>
+          <a href="${url}" target="_blank" rel="noopener">${name}</a>
         </div>
         <div class="card-desc">${desc}</div>
         <div class="card-bot">

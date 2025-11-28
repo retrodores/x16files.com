@@ -97,7 +97,7 @@ function renderAuthorsTable(data) {
 
         let url = "#";
         if (pkg.urls)
-          url = pkg.urls.x16forum || pkg.urls.source || "#";
+          url = pkg.urls.x16forum || pkg.urls.source || pkg.urls.website || pkg.urls.webemu || "#";
 
         const ver  = esc(pkg.version || "");
         const cat  = esc(pkg.category || "");
