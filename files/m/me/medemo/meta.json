@@ -1,7 +1,7 @@
 {
   "appid": "medemo",
   "author": {
-    "name": "Irmen de Jong"
+    "name": "desertfish"
   },
   "category": "Sound",
   "description": "This is a adpcm-music streaming demo that I made that also syncs lyrics on the screen to the song being played.",

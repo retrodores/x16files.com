@@ -1,7 +1,7 @@
 {
   "appid": "streamingwavplay",
   "author": {
-    "name": "Irmen de Jong"
+    "name": "desertfish"
   },
   "category": "Sound",
   "description": "This program can play normal .wav sampled music files. Not only that, but it streams them from disk rather than loading it all in memory, so that there is virtually no limit on how long you want the music to play!",

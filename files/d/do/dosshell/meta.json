@@ -1,7 +1,7 @@
 {
   "appid": "dosshell",
   "author": {
-    "name": "Irmen de Jong"
+    "name": "desertfish"
   },
   "category": "File and Disk",
   "description": "This is a unix inspired Dos Shell with a bunch of builtin commands to make day to day file operations (much) more convenient than via a regular Basic prompt.",

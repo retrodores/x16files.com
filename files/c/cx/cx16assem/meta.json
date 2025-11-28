@@ -1,7 +1,7 @@
 {
   "appid": "cx16assem",
   "author": {
-    "name": "Irmen de Jong"
+    "name": "desertfish"
   },
   "category": "Programming",
   "description": "File-based 65c02 assembler for Commander-X16 that runs natively on the Commander X16.",
