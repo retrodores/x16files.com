@@ -1,0 +1,16 @@
+{
+  "appid": "6502fartbombs",
+  "author": {
+    "name": "CommodoreSam"
+  },
+  "category": "Games",
+  "coauthors": {
+    "name": "Andrew Gillham"
+  },
+  "description": "6502 Fart B*mbs! is an implementation of Minesweeper as seen in MS Windows in the 90s.  Minesweeper was potentially inspired by Mined Out from 1983 for the ZX Spectrum.  6502 Fart B*mbs! has been ported from C64 to C128,VIC20,Plus/4,PET, and of course Command X16.",
+  "name": "6502 Fart B*mbs!",
+  "urls": {
+    "source": "https://github.com/CommodoreSam/6502_Fart_Bombs"
+  },
+  "version": "v1.5"
+}
