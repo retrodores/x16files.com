@@ -11,4 +11,12 @@ wget "$URL"
 
 filename="${URL##*/}"
 
+rm -rfv ./files
+
 unzip "$filename"
+
+git add files/*/*
+
+rm -v "$filename"
+
+git status
