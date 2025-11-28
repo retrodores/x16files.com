@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>X16 Files - Author Leaderboard</title>
+<link rel="stylesheet" href="./style.css" />
+
+<style>
+/* -----------------------------------------------
+   Leaderboard Table Overrides + Enhancements
+----------------------------------------------- */
+.leaderboard-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.leaderboard-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.leaderboard-controls input {
+  padding: 8px 12px;
+  font-size: 18px;
+  border: 1px solid #888;
+  border-radius: 6px;
+  width: 260px;
+}
+
+table.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background: #fff !important;
+  font-size: 20px;   /* Larger for older eyes */
+}
+
+table.leaderboard-table th,
+table.leaderboard-table td {
+  padding: 12px 16px !important;
+  border: 1px solid #d3d6de !important;
+  background: #fff !important;
+  color: #1a1a1a !important;
+}
+
+table.leaderboard-table th {
+  background: #f0f0f5 !important;
+  font-weight: bold;
+  cursor: pointer;    /* clickable sort */
+  user-select: none;
+}
+
+table.leaderboard-table tr:nth-child(even) td {
+  background: #f7f9fc !important;  /* striping */
+}
+
+table.leaderboard-table tr:hover td {
+  background: #eef3ff !important;  /* highlight */
+}
+
+table.leaderboard-table a {
+  color: #0055cc !important;
+  text-decoration: none;
+}
+
+table.leaderboard-table a:hover {
+  text-decoration: underline;
+}
+</style>
+
+</head>
+<body id="top">
+<header>
+  <h1><a href="/" style="color:#e5e8f0;text-decoration:underline;text-decoration-style:dashed;">X16 FILES</a></h1>
+  <nav>
+    <a href="/hub">Hub</a>
+    <a href="./authors.html">Authors A-Z</a>
+    <a href="./leaderboard.html">Leaderboard</a>
+    <a href="https://github.com/retrodores/x16files.com/tree/master/files">Github</a>
+    <a href="https://discord.gg/nS2PqEC">Discord</a>
+    <a href="https://cx16forum.com/forum/viewforum.php?f=29">Forum</a>
+  </nav>
+
+  <form class="search-bar" method="get" action="/cgi-bin/search-x16files.pl">
+    <input type="text" name="q" placeholder="Search X16 Files">
+    <input type="submit" value="Search">
+  </form>
+</header>
+
+<main class="leaderboard-wrapper">
+  <h2>Loading...</h2>
+
+  <div class="leaderboard-controls">
+    <input id="filterBox" type="text" placeholder="Filter authors…">
+  </div>
+
+  <div id="pkg-list"></div>
+</main>
+
+<footer>
+  Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |
+  Designed for X16 enthusiasts |
+  <a href="https://github.com/retrodores/x16files.com/tree/master/files" target="_other">Add or update on Github!</a>
+</footer>
+
+<a href="#top" class="back-to-top">~V Top</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+<script>
+/* ============================================================
+   Utilities
+============================================================ */
+function esc(s="") {
+  return String(s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+function authorAnchorId(name) {
+  let slug = String(name || "")
+              .normalize("NFKD").replace(/[\u0300-\u036f]/g,"")
+              .replace(/[^A-Za-z0-9]+/g,"-")
+              .replace(/^-+|-+$/g,"");
+  return "author-" + slug;
+}
+
+/* ============================================================
+   Render Table
+============================================================ */
+let GLOBAL_AUTHORS = [];
+let SORT_COLUMN = "rank";
+let SORT_DIR = 1;  // 1 asc, -1 desc
+
+function renderTable() {
+  const container = document.getElementById("pkg-list");
+  const filter = document.getElementById("filterBox").value.toLowerCase();
+
+  let authors = GLOBAL_AUTHORS.filter(a =>
+    a.name.toLowerCase().includes(filter)
+  );
+
+  // Sorting logic
+  authors.sort((a, b) => {
+    if (SORT_COLUMN === "name") {
+      return SORT_DIR * a.name.localeCompare(b.name);
+    }
+    if (SORT_COLUMN === "score") {
+      return SORT_DIR * (a.score - b.score);
+    }
+    // rank = index order
+    return SORT_DIR * (a.rank - b.rank);
+  });
+
+  let html = `
+  <table class="leaderboard-table">
+    <thead>
+      <tr>
+        <th data-col="rank">#</th>
+        <th data-col="name">Author</th>
+        <th data-col="score">Programs</th>
+      </tr>
+    </thead>
+    <tbody>
+  `;
+
+  authors.forEach(a => {
+    const url = "https://x16files.com/hub/authors.html#" + authorAnchorId(a.name);
+    html += `
+      <tr>
+        <td>${a.rank}</td>
+        <td><a href="${url}">${esc(a.name)}</a></td>
+        <td>${a.score}</td>
+      </tr>`;
+  });
+
+  html += "</tbody></table>";
+  container.innerHTML = html;
+
+  // Attach sort handlers
+  document.querySelectorAll(".leaderboard-table th").forEach(th => {
+    th.onclick = () => {
+      const col = th.getAttribute("data-col");
+      if (col === SORT_COLUMN) SORT_DIR *= -1;
+      else { SORT_COLUMN = col; SORT_DIR = 1; }
+      renderTable();
+    };
+  });
+}
+
+/* ============================================================
+   Load YAML
+============================================================ */
+async function loadRankedAuthorsYAML(category) {
+  try {
+    const res = await fetch("data/" + category + ".yaml");
+    const text = await res.text();
+    const data = jsyaml.load(text);
+
+    GLOBAL_AUTHORS = data.authors
+      .sort((a,b)=>b.score-a.score)
+      .map((a,i)=>({rank:i+1, name:a.name, score:a.score}));
+
+    document.querySelector("h2").textContent = "Author Leaderboard";
+
+    renderTable();
+
+    // Live filter
+    document.getElementById("filterBox").oninput = renderTable;
+
+  } catch(e) {
+    console.error(e);
+    document.querySelector("h2").textContent = "Error loading leaderboard";
+  }
+}
+
+loadRankedAuthorsYAML("leaderboard");
+</script>
+
+</body>
+</html>

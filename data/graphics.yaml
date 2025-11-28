@@ -127,7 +127,7 @@ packages:
     version: v1.4
   - appid: x16pngconverter
     author:
-      name: Johan Kårlin
+      name: Johan KÃ¥rlin
     category: Graphics
     description: 'This is a cross-platform console application (the user interface is text-based) for Windows, macOS, and Linux. It will convert PNG images to a format that the video controller (VERA) of the Commander X16 can read. Images can also be converted to the X16 Graphics Format (BMX). Both indexed images (wh'
     name: X16PngConverter
@@ -155,7 +155,7 @@ packages:
     version: ''
   - appid: tiledextensions
     author:
-      name: Johan Kårlin
+      name: Johan KÃ¥rlin
     category: Graphics
     description: Here are two javascript extensions for Tiled Map Editor (https://www.mapeditor.org). With help of these you can export your map either as assembler source code (ACME syntax) or in a raw binary format including a two byte header set to 0. They support flipping of tiles and let you select a palette of
     name: tiled-extensions

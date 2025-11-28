@@ -151,6 +151,81 @@ function renderAuthorsTable(data) {
   }
 }
 
+async function loadRankedAuthorsYAML(category) {
+  const yamlURL = `data/${category}.yaml`;
+
+  try {
+    const res = await fetch(yamlURL);
+    if (!res.ok) throw new Error(`Failed to load YAML: ${yamlURL}`);
+
+    const text = await res.text();
+    const data = jsyaml.load(text);
+
+    const authors = data.authors.sort((a, b) => b.score - a.score);
+
+    document.querySelector("h2").textContent = "Author Leaderboard";
+
+    renderAuthorTable(authors);
+
+  } catch (err) {
+    console.error(err);
+    document.querySelector("h2").textContent = "Error loading leaderboard";
+  }
+}
+
+
+// Slug generator for anchors
+function authorAnchorId(name) {
+  let slug = name.normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
+  slug = slug.replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  return `author-${slug}`;
+}
+
+function esc(s = "") {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderAuthorTable(authors) {
+  const container = document.getElementById("pkg-list");
+
+  let html = `
+    <table class="leaderboard-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Author</th>
+          <th>Programs</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+
+  authors.forEach((a, i) => {
+    const anchor = authorAnchorId(a.name);
+    const url = `https://x16files.com/hub/authors.html#${anchor}`;
+
+    html += `
+      <tr>
+        <td>${i + 1}</td>
+        <td><a href="${url}">${esc(a.name)}</a></td>
+        <td>${a.score}</td>
+      </tr>
+    `;
+  });
+
+  html += `
+      </tbody>
+    </table>
+  `;
+
+  container.innerHTML = html;
+}
+
+
 // Auto-load
 document.addEventListener("DOMContentLoaded", () => {
   loadAuthorsYAML("authors");

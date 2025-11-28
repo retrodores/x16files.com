@@ -55,7 +55,7 @@ foreach my $category (keys %{$categories}) {
   my $CAT_INDEX = { category => $cats->{lc $category}->{category}, description => $cats->{lc $category}->{description}, packages => $categories->{lc $category} };
   my $CAT_YAML = Dump($CAT_INDEX);
   my $filename = sprintf "%s.yaml", $cats->{lc $category}->{slug};
-  open my $fh, ">", "$Bin/../data/$filename";
+  open my $fh, ">:encoding(UTF-8)", "$Bin/../data/$filename";
   print $fh <<EOF;
 # This YAML file is automatically generated and is provided for reference only.
 # Do NOT deploy, distribute, or integrate it without prior authorization.
@@ -70,6 +70,15 @@ EOF
 my $AUTHOR_INDEX = { category => "Authors", description => "Listing of X16 programs by author", authors => $authors };
 DumpFile("$Bin/../data/authors.yaml", $AUTHOR_INDEX);
 say "wrote authors.yaml" if $opts_ref->verbose;
+
+my $ranked = [];
+foreach my $author (sort { @{$authors->{$b}} <=> @{$authors->{$a}} } keys %$authors) {
+  push @$ranked, { name => $author, score => scalar @{$authors->{$author}} };
+}
+
+my $RANKED_AUTHOR_INDEX = { category => "Authors", description => "Listing of X16 programs by author", authors => $ranked };
+DumpFile("$Bin/../data/leaderboard.yaml", $RANKED_AUTHOR_INDEX);
+say "wrote leaderboard.yaml" if $opts_ref->verbose;
 
 sub process {
   my $file = $File::Find::name; 
@@ -123,7 +132,6 @@ print $fh $jsonpp->encode($full_idx_lookup);
 close $fh;
 
 1
-
 
 # TO DO, update POD
 __END__

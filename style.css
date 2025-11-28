@@ -323,3 +323,43 @@ footer a:hover {
   background:#3b4256;
 }
 
+/* -------------------------------------------------------
+   LEADERBOARD TABLE (forces normal table, not card grid)
+------------------------------------------------------- */
+table.leaderboard-table {
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background: #fff !important;
+}
+
+table.leaderboard-table th,
+table.leaderboard-table td {
+  padding: 10px 12px !important;
+  border: 1px solid #d3d6de !important;
+  background: #fff !important;
+  color: #1a1a1a !important;
+
+  /* override the card-cell defaults */
+  width: auto !important;
+  height: auto !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+table.leaderboard-table th {
+  background: #f0f0f5 !important;
+  font-weight: bold;
+}
+
+table.leaderboard-table a {
+  color: #0055cc !important;
+  text-decoration: none;
+}
+
+table.leaderboard-table a:hover {
+  text-decoration: underline;
+}
+
