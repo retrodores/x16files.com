@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>X16 Files – Authors</title>
+<title>X16 Files ~@~S Authors</title>
 <link rel="stylesheet" href="./style.css" />
 </head>
 <body id="top">
   <header>
-    <h1><a href=/ style="color:#e5e8f0; text-decoration:underline; text-decoration-style:dashed;">X16 FILES</a></h1>
+    <h1><a href="/" style="color:#e5e8f0; text-decoration:underline; text-decoration-style:dashed;">X16 FILES</a></h1>
     <nav>
       <a href="/hub">Hub</a>
       <a href="./authors.html">Authors A-Z</a>
@@ -29,12 +29,40 @@
   </main>
 
   <footer>
-    Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |  Designed for X16 enthuiasts | <a href=https://github.com/retrodores/x16files.com/tree/master/files target=_other>Add or update on Github!</a>
+    Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> | 
+    Designed for X16 enthusiasts | 
+    <a href="https://github.com/retrodores/x16files.com/tree/master/files" target="_other">
+      Add or update on Github!
+    </a>
   </footer>
 
+  <a href="#top" class="back-to-top">^ Top</a>
+
+  <!-- YAML parser -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+  <!-- Your loader -->
   <script src="js/load-authors-yaml.js"></script>
-  <script>loadAuthorsYAML('authors');</script>
-  <a href="#top" class="back-to-top">▲ Top</
+
+  <!-- Anchor jump helper -->
+  <script>
+    // Scroll to #anchor AFTER loadAuthorsYAML finishes rendering
+    function jumpToHashAfterRender() {
+      // Delay ensures DOM + CSS layout is fully updated
+      setTimeout(() => {
+        if (location.hash) {
+          const el = document.querySelector(location.hash);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }
+      }, 50);
+    }
+
+    // Run YAML loader, then jump
+    loadAuthorsYAML('authors').then(jumpToHashAfterRender);
+  </script>
+
 </body>
 </html>
+
