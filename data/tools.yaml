@@ -35,15 +35,6 @@ packages:
       source: https://cx16forum.com/forum/download/file.php?id=3567
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=7912&sid=4443ea2caa89cacf3b3258086a5014ba
     version: ''
-  - appid: justaclock
-    author:
-      name: schristis
-    category: Tools
-    description: It is just a clock you could use... written in basic
-    name: JUSTACLOCK
-    urls:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6857&sid=5a303c5195eb93a4d305dc21389930e2
-    version: ''
   - appid: joysticktester
     author:
       name: Yazwho
@@ -54,14 +45,14 @@ packages:
       source: https://cx16forum.com/forum/download/file.php?id=1278
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6481&sid=e090d314c7454289dc9a9b3483dcfe31
     version: ''
-  - appid: functionkeyremapp
+  - appid: justaclock
     author:
-      name: Jakebullet70
+      name: schristis
     category: Tools
-    description: It allows you to re-map the function keys to whatever you want. 10 chars max.
-    name: Function Key re-mapper
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
+    description: It is just a clock you could use... written in basic
+    name: JUSTACLOCK
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6857&sid=5a303c5195eb93a4d305dc21389930e2
     version: ''
   - appid: functionkeyremap
     author:
@@ -200,15 +191,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6720&sid=861eed69f3583ffbad5003776001cac0
     version: ''
-  - appid: chip8emulatorinte
-    author:
-      name: Enderfighter06
-    category: Tools
-    description: This is a emulator for the CHIP-8 virtual platform using PETSCII graphics.
-    name: CHIP-8 Emulator / Interpreter
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
-    version: ''
   - appid: chip8emulatorint
     author:
       name: Enderfighter06
@@ -283,15 +265,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6528&sid=5a303c5195eb93a4d305dc21389930e2
     version: 1.2
-  - appid: x16emuforlinuxi68
-    author:
-      name: mobluse
-    category: Tools
-    description: The official X16 emulator build for 32bit Linux i686
-    name: x16emu for Linux i686 (32 bit)
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
-    version: R43
   - appid: x16emuforlinux32
     author:
       name: mobluse
@@ -301,15 +274,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
     version: R43
-  - appid: 1000coinstatistic
-    author:
-      name: Xiphod
-    category: Tools
-    description: 'Neil deGrasse Tyson proposed a thought experiment involving 1000 coin flips. The intent was to show that within any random sample, there is bound to be a consistent winner that our human minds term as lucky.'
-    name: 1000COIN Statistics Simulator
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
-    version: ''
   - appid: 1000coins
     author:
       name: Xiphod

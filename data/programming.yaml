@@ -123,15 +123,6 @@ packages:
     urls:
       source: https://github.com/irmen/cx16assem
     version: 1.6
-  - appid: commanderx16macro
-    author:
-      name: Stefanos Stefanidis
-    category: Programming
-    description: 'A native macro assembler for the X16, derived from the CBM Resident Assembler. It has a few issues, bugs, and unimplemented features.'
-    name: Commander X16 Macro Assembler
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8606
-    version: ''
   - appid: cc64
     author:
       name: pzembrod
@@ -168,33 +159,6 @@ packages:
     urls:
       source: https://github.com/indigodarkwolf/box16
     version: Non-Release 48.0.0
-  - appid: x16memorydataplan
-    author:
-      name: HunterDX
-    category: Programming
-    description: A Google Sheet to assist with tracking and organizing X16 memory use during development.
-    name: X16 Memory / Data Planner
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8202&sid=5a303c5195eb93a4d305dc21389930e2
-    version: ''
-  - appid: x16emudebugdriver
-    author:
-      name: MarkTheStrange
-    category: Programming
-    description: "A device driver for x16emu's debug channels. This installs the driver as device #6; if you open it with secondary address 0, everything sent to the channel comes out through the debug text port at $9fbb."
-    name: x16emu debug driver kernal wedge
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6831
-    version: ''
-  - appid: x16emuwithsymbolt
-    author:
-      name: Mikko Karjanmaa
-    category: Programming
-    description: A fork of the X16 emulator that can use symbols from llvm-mos.
-    name: x16emu with symbol tables
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7041&sid=861eed69f3583ffbad5003776001cac0
-    version: ''
   - appid: x16emulator
     author:
       name: various

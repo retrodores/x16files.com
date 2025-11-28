@@ -80,16 +80,15 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6887&sid=aad3aceedfb6154d1584fc24ec2936d8
     version: 1.0
-  - appid: echoesofthefuture
+  - appid: 8bitpetwurm
     author:
-      name: DaReInt
+      name: Xiphod
     category: Games
-    description: 'Echoes of the Future is an interactive fiction adventure written in Inform 6 using the PunyInform library, specially designed for 8-bit computers and retro systems such as the Commodore 64.'
-    name: Echoes of the Future
-    url:
-      source: https://dareint.itch.io/echoes-of-the-future
-      website: https://dareint.itch.io/echoes-of-the-future
-      x16forum: https://dareint.itch.io/echoes-of-the-future
+    description: "Concept demo featuring the interactive 8-Bit Worm: he's 8-pixels long!"
+    name: 8-Bit Pet Wurm
+    urls:
+      source: https://cx16forum.com/forum/download/file.php?id=3786
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8008&sid=4443ea2caa89cacf3b3258086a5014ba
     version: ''
   - appid: echosofthefuture
     author:
@@ -101,16 +100,6 @@ packages:
       website: https://dareint.itch.io/echoes-of-the-future
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=8573&sid=ae40c1febbade03020241222eb9aa3d3
     version: ''
-  - appid: zorkandzil
-    author:
-      name: various
-    category: Games
-    description: Zork and ZIL based text adventures
-    name: Zork and ZIL
-    urls:
-      website: https://ozmoo.online/
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8038&sid=db5c76a03747c90b5c4c715f92844bd5
-    version: ''
   - appid: zenercards
     author:
       name: Xiphod
@@ -121,6 +110,16 @@ packages:
       source: https://cx16forum.com/forum/download/file.php?id=3631
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=7930&sid=4443ea2caa89cacf3b3258086a5014ba
     version: ''
+  - appid: zorkandzil
+    author:
+      name: various
+    category: Games
+    description: Zork and ZIL based text adventures
+    name: Zork and ZIL
+    urls:
+      website: https://ozmoo.online/
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8038&sid=db5c76a03747c90b5c4c715f92844bd5
+    version: ''
   - appid: kakuro
     author:
       name: ifilot
@@ -129,15 +128,6 @@ packages:
     name: Kakuro
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=7933&sid=aad3aceedfb6154d1584fc24ec2936d8
-    version: ''
-  - appid: puzz
-    author:
-      name: ceptimus
-    category: Games
-    description: A sliding block puzzle game.
-    name: PUZZ
-    urls:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7689&sid=aad3aceedfb6154d1584fc24ec2936d8
     version: ''
   - appid: puchipuchipro
     author:
@@ -148,6 +138,15 @@ packages:
     urls:
       source: https://cx16forum.com/forum/download/file.php?id=2675
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=7100
+    version: ''
+  - appid: puzz
+    author:
+      name: ceptimus
+    category: Games
+    description: A sliding block puzzle game.
+    name: PUZZ
+    urls:
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7689&sid=aad3aceedfb6154d1584fc24ec2936d8
     version: ''
   - appid: planetx16
     author:
@@ -212,15 +211,6 @@ packages:
     name: Sudoku
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=8370&sid=ae40c1febbade03020241222eb9aa3d3
-    version: ''
-  - appid: stoneleatherblade
-    author:
-      name: HunterDX
-    category: Games
-    description: 'The player controls a young knight, Leland, who sacrifices everything to stop the invasion of grotesque creatures from another realm. “Chance” is the fundamental constraint that allows for the possibility of Leland’s successful campaign. Defeat all 3 creatures to beat the game. If successful, you ma'
-    name: Stone Leather Blade
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7994&sid=ae40c1febbade03020241222eb9aa3d3
     version: ''
   - appid: stoneleathrblade
     author:
@@ -307,25 +297,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6286&sid=7059976c0997eb24da0bcc2921e2ddfa
     version: ''
-  - appid: galax16
-    author:
-      name: Roy Eltham
-    category: Games
-    description: GalaX16 is a arcade space shooter inspired by Galaga. It is written in prog8 (with a smidge of inline asm).
-    name: GalaX16
-    urls:
-      source: https://github.com/reltham/X16Prog8Code/tree/main/GalaX16
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8293&sid=ae40c1febbade03020241222eb9aa3d3
-    version: ''
-  - appid: gamebookcollectio
-    author:
-      name: fredrik
-    category: Games
-    description: SD Separa has converted nine classic gamebooks (AKA Choose Your Own Adventure books) to Z-code format.
-    name: Gamebook Collection
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7421&sid=ae40c1febbade03020241222eb9aa3d3
-    version: ''
   - appid: gamebookcollect
     author:
       name: fredrik
@@ -335,14 +306,15 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=7421&sid=ae40c1febbade03020241222eb9aa3d3
     version: ''
-  - appid: lowerdecksiiwarpc
+  - appid: galax16
     author:
-      name: Xiphod
+      name: Roy Eltham
     category: Games
-    description: 'Work together to keep the Warp Core at the proper speed and polarity, by selecting growing crystals from the Dilithium chamber of an appropriate size and tossing them into the nacelles to either increase or decrease parameters.'
-    name: LowerDecks II Warp Core
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7711&sid=aad3aceedfb6154d1584fc24ec2936d8
+    description: GalaX16 is a arcade space shooter inspired by Galaga. It is written in prog8 (with a smidge of inline asm).
+    name: GalaX16
+    urls:
+      source: https://github.com/reltham/X16Prog8Code/tree/main/GalaX16
+      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8293&sid=ae40c1febbade03020241222eb9aa3d3
     version: ''
   - appid: lowerdecksiiwarp
     author:
@@ -507,16 +479,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=8255&sid=ae40c1febbade03020241222eb9aa3d3
     version: 1.0
-  - appid: damontherocketjoc
-    author:
-      name: natebarney
-    category: Games
-    description: 'Damon: The Rocket Jockey is a clone of Nomad: The Space Pirate a C64 game'
-    name: Damon The Rocket Jockey
-    url:
-      source: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
-    version: ''
   - appid: damonrocketjock
     author:
       name: natebarney
@@ -527,15 +489,6 @@ packages:
       source: https://github.com/natebarney/damon-the-rocket-jockey
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
     version: ''
-  - appid: vaultofthevindica
-    author:
-      name: Toboter
-    category: Games
-    description: 'Explore an everchanging dungeon, battle enemies, find loot and discover the secrets of the Vindicator in this unique 3D Roguelike Dungeon Crawl Adventure!'
-    name: Vault of the Vindicator
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6918&sid=ae40c1febbade03020241222eb9aa3d3
-    version: 1.0
   - appid: vaultofvindcatr
     author:
       name: Toboter
@@ -545,17 +498,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6918&sid=ae40c1febbade03020241222eb9aa3d3
     version: 1.0
-  - appid: theairlockcollect
-    author:
-      name: fredrik
-    category: Games
-    description: 'A collection of games from the third PunyJam, all starting in an airlock.'
-    name: The Airlock Collection
-    url:
-      source: https://microheaven.com/airlock
-      website: https://microheaven.com/airlock
-      x16forum: https://microheaven.com/airlock
-    version: ''
   - appid: theairlockcollec
     author:
       name: fredrik
@@ -604,17 +546,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=6386&sid=aad3aceedfb6154d1584fc24ec2936d8
     version: ''
-  - appid: textadventurecoll
-    author:
-      name: fredrik
-    category: Games
-    description: Five collections of great Z-code text adventures for the Commander X16.
-    name: Text Adventure Collection
-    url:
-      source: https://microheaven.com/ztac/
-      website: https://microheaven.com/ztac/
-      x16forum: https://microheaven.com/ztac/
-    version: ''
   - appid: tetris
     author:
       name: unartic
@@ -645,14 +576,15 @@ packages:
       website: https://microheaven.com/ztac/
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=7705&sid=aad3aceedfb6154d1584fc24ec2936d8
     version: ''
-  - appid: 8bitpetwurm
+  - appid: 6502fartbombs
     author:
-      name: Xiphod
+      name: CommodoreSam
     category: Games
-    description: "Concept demo featuring the interactive 8-Bit Worm: he's 8-pixels long!"
-    name: 8-Bit Pet Wurm
+    coauthors:
+      name: Andrew Gillham
+    description: '6502 Fart B*mbs! is an implementation of Minesweeper as seen in MS Windows in the 90s.  Minesweeper was potentially inspired by Mined Out from 1983 for the ZX Spectrum.  6502 Fart B*mbs! has been ported from C64 to C128,VIC20,Plus/4,PET, and of course Command X16.'
+    name: 6502 Fart B*mbs!
     urls:
-      source: https://cx16forum.com/forum/download/file.php?id=3786
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=8008&sid=4443ea2caa89cacf3b3258086a5014ba
-    version: ''
+      source: https://github.com/CommodoreSam/6502_Fart_Bombs
+    version: v1.5
 

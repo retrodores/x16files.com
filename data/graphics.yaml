@@ -34,15 +34,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=8466
     version: 4
-  - appid: simplespriteconve
-    author:
-      name: Microdriver
-    category: Graphics
-    description: A small Python script to help create sprites via GIMP.
-    name: Simple sprite conversion tool
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6895
-    version: ''
   - appid: simplespriteconv
     author:
       name: Microdriver

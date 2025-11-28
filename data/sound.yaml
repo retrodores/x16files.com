@@ -33,16 +33,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=8266
     version: v1.0
-  - appid: streamingwavplaye
-    author:
-      name: Irmen de Jong
-    category: Sound
-    description: 'This program can play normal .wav sampled music files. Not only that, but it streams them from disk rather than loading it all in memory, so that there is virtually no limit on how long you want the music to play!'
-    name: Streaming .WAV player
-    url:
-      source: https://cx16forum.com/forum/viewtopic.php?t=6390
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=6390
-    version: ''
   - appid: streamingwavplay
     author:
       name: Irmen de Jong
@@ -90,16 +80,6 @@ packages:
     urls:
       source: https://github.com/ZeroByteOrg/calliope
     version: v1.1
-  - appid: concertomultitrac
-    author:
-      name: kliepatsch
-    category: Sound
-    description: Concerto Multitrack is a program for making music on the Commander X16. It aims to unlock the full potential of 16 PSG oscillators plus 8 FM voices.
-    name: Concerto Multitrack
-    url:
-      source: https://github.com/biermanncarl/cx16-concerto
-      x16forum: https://github.com/biermanncarl/cx16-concerto
-    version: v0.8.0-beta.2
   - appid: concertomultitrk
     author:
       name: kliepatsch

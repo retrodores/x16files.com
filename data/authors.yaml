@@ -46,6 +46,18 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6067&sid=e6ecbac87e7e8f2d632ced806a7871a0
       version: v0.1.4
+  CommodoreSam:
+    - appid: 6502fartbombs
+      author:
+        name: CommodoreSam
+      category: Games
+      coauthors:
+        name: Andrew Gillham
+      description: '6502 Fart B*mbs! is an implementation of Minesweeper as seen in MS Windows in the 90s.  Minesweeper was potentially inspired by Mined Out from 1983 for the ZX Spectrum.  6502 Fart B*mbs! has been ported from C64 to C128,VIC20,Plus/4,PET, and of course Command X16.'
+      name: 6502 Fart B*mbs!
+      urls:
+        source: https://github.com/CommodoreSam/6502_Fart_Bombs
+      version: v1.5
   ComputerBlade:
     - appid: bladecalc
       author:
@@ -57,17 +69,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6878&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
   DaReInt:
-    - appid: echoesofthefuture
-      author:
-        name: DaReInt
-      category: Games
-      description: 'Echoes of the Future is an interactive fiction adventure written in Inform 6 using the PunyInform library, specially designed for 8-bit computers and retro systems such as the Commodore 64.'
-      name: Echoes of the Future
-      url:
-        source: https://dareint.itch.io/echoes-of-the-future
-        website: https://dareint.itch.io/echoes-of-the-future
-        x16forum: https://dareint.itch.io/echoes-of-the-future
-      version: ''
     - appid: echosofthefuture
       author:
         name: DaReInt
@@ -147,15 +148,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8040&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
   Enderfighter06:
-    - appid: chip8emulatorinte
-      author:
-        name: Enderfighter06
-      category: Tools
-      description: This is a emulator for the CHIP-8 virtual platform using PETSCII graphics.
-      name: CHIP-8 Emulator / Interpreter
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=8288&sid=861eed69f3583ffbad5003776001cac0
-      version: ''
     - appid: chip8emulatorint
       author:
         name: Enderfighter06
@@ -177,15 +169,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8051&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   HunterDX:
-    - appid: stoneleatherblade
-      author:
-        name: HunterDX
-      category: Games
-      description: 'The player controls a young knight, Leland, who sacrifices everything to stop the invasion of grotesque creatures from another realm. “Chance” is the fundamental constraint that allows for the possibility of Leland’s successful campaign. Defeat all 3 creatures to beat the game. If successful, you ma'
-      name: Stone Leather Blade
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7994&sid=ae40c1febbade03020241222eb9aa3d3
-      version: ''
     - appid: stoneleathrblade
       author:
         name: HunterDX
@@ -194,15 +177,6 @@ authors:
       name: Stone Leather Blade
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7994&sid=ae40c1febbade03020241222eb9aa3d3
-      version: ''
-    - appid: x16memorydataplan
-      author:
-        name: HunterDX
-      category: Programming
-      description: A Google Sheet to assist with tracking and organizing X16 memory use during development.
-      name: X16 Memory / Data Planner
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=8202&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
     - appid: x16memorydatapln
       author:
@@ -223,16 +197,6 @@ authors:
       urls:
         source: https://github.com/irmen/prog8/
       version: v11.4.1
-    - appid: streamingwavplaye
-      author:
-        name: Irmen de Jong
-      category: Sound
-      description: 'This program can play normal .wav sampled music files. Not only that, but it streams them from disk rather than loading it all in memory, so that there is virtually no limit on how long you want the music to play!'
-      name: Streaming .WAV player
-      url:
-        source: https://cx16forum.com/forum/viewtopic.php?t=6390
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6390
-      version: ''
     - appid: streamingwavplay
       author:
         name: Irmen de Jong
@@ -310,15 +274,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6293&sid=5a303c5195eb93a4d305dc21389930e2
       version: ''
   Jakebullet70:
-    - appid: functionkeyremapp
-      author:
-        name: Jakebullet70
-      category: Tools
-      description: It allows you to re-map the function keys to whatever you want. 10 chars max.
-      name: Function Key re-mapper
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7701&sid=5a303c5195eb93a4d305dc21389930e2
-      version: ''
     - appid: functionkeyremap
       author:
         name: Jakebullet70
@@ -494,15 +449,6 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3064
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7541
       version: ''
-    - appid: x16emudebugdriver
-      author:
-        name: MarkTheStrange
-      category: Programming
-      description: "A device driver for x16emu's debug channels. This installs the driver as device #6; if you open it with secondary address 0, everything sent to the channel comes out through the debug text port at $9fbb."
-      name: x16emu debug driver kernal wedge
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6831
-      version: ''
     - appid: x16emudebugdrvr
       author:
         name: MarkTheStrange
@@ -533,15 +479,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6729
       version: Version 3
   Microdriver:
-    - appid: simplespriteconve
-      author:
-        name: Microdriver
-      category: Graphics
-      description: A small Python script to help create sprites via GIMP.
-      name: Simple sprite conversion tool
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6895
-      version: ''
     - appid: simplespriteconv
       author:
         name: Microdriver
@@ -552,15 +489,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6895
       version: ''
   Mikko Karjanmaa:
-    - appid: x16emuwithsymbolt
-      author:
-        name: Mikko Karjanmaa
-      category: Programming
-      description: A fork of the X16 emulator that can use symbols from llvm-mos.
-      name: x16emu with symbol tables
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7041&sid=861eed69f3583ffbad5003776001cac0
-      version: ''
     - appid: x16emuwithsymbol
       author:
         name: Mikko Karjanmaa
@@ -665,15 +593,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6570&sid=e090d314c7454289dc9a9b3483dcfe31
       version: ''
   Stefan Jakobsson:
-    - appid: keyboardtestprogr
-      author:
-        name: Stefan Jakobsson
-      category: Systems
-      description: This is a small keyboard test program that you can use to verify that all keys are working correctly.
-      name: Keyboard test program
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7085
-      version: ''
     - appid: keyboardtestprg
       author:
         name: Stefan Jakobsson
@@ -703,15 +622,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6290&sid=5a303c5195eb93a4d305dc21389930e2
       version: 0.8.3
   Stefanos Stefanidis:
-    - appid: commanderx16macro
-      author:
-        name: Stefanos Stefanidis
-      category: Programming
-      description: 'A native macro assembler for the X16, derived from the CBM Resident Assembler. It has a few issues, bugs, and unimplemented features.'
-      name: Commander X16 Macro Assembler
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=8606
-      version: ''
     - appid: x16macroasm
       author:
         name: Stefanos Stefanidis
@@ -806,15 +716,6 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=6954
       version: ''
-    - appid: vaultofthevindica
-      author:
-        name: Toboter
-      category: Games
-      description: 'Explore an everchanging dungeon, battle enemies, find loot and discover the secrets of the Vindicator in this unique 3D Roguelike Dungeon Crawl Adventure!'
-      name: Vault of the Vindicator
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6918&sid=ae40c1febbade03020241222eb9aa3d3
-      version: 1.0
     - appid: vaultofvindcatr
       author:
         name: Toboter
@@ -874,15 +775,6 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3311
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7728
       version: ''
-    - appid: wallclock
-      author:
-        name: Xiphod
-      category: Tools
-      description: This example uses custom fonts and the tiny 20x15 text mode to display the current time and date.
-      name: Wall Clock
-      urls:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6819&sid=5a303c5195eb93a4d305dc21389930e2
-      version: 2
     - appid: writerom
       author:
         name: Xiphod
@@ -893,6 +785,15 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=2604&sid=7ea81105fff097e3d68215ab0eccfed6
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7070
       version: R4y prerelease
+    - appid: wallclock
+      author:
+        name: Xiphod
+      category: Tools
+      description: This example uses custom fonts and the tiny 20x15 text mode to display the current time and date.
+      name: Wall Clock
+      urls:
+        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6819&sid=5a303c5195eb93a4d305dc21389930e2
+      version: 2
     - appid: housemortcalc
       author:
         name: Xiphod
@@ -902,6 +803,16 @@ authors:
       urls:
         source: https://cx16forum.com/forum/download/file.php?id=3567
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7912&sid=4443ea2caa89cacf3b3258086a5014ba
+      version: ''
+    - appid: 8bitpetwurm
+      author:
+        name: Xiphod
+      category: Games
+      description: "Concept demo featuring the interactive 8-Bit Worm: he's 8-pixels long!"
+      name: 8-Bit Pet Wurm
+      urls:
+        source: https://cx16forum.com/forum/download/file.php?id=3786
+        x16forum: https://cx16forum.com/forum/viewtopic.php?t=8008&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
     - appid: zenercards
       author:
@@ -957,19 +868,10 @@ authors:
         name: Xiphod
       category: Internet
       description: "This is all a proof of concept using BASLOAD, and at 8MHz BASIC parsing is still fairly slow (we're talking like 30 seconds to send 3KB, then having to do the actual decode64 after that)."
-      name: Get Fikles X15
+      name: Get Files X16
       urls:
         source: https://cx16forum.com/forum/download/file.php?id=3985
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8192&sid=4443ea2caa89cacf3b3258086a5014ba
-      version: ''
-    - appid: lowerdecksiiwarpc
-      author:
-        name: Xiphod
-      category: Games
-      description: 'Work together to keep the Warp Core at the proper speed and polarity, by selecting growing crystals from the Dilithium chamber of an appropriate size and tossing them into the nacelles to either increase or decrease parameters.'
-      name: LowerDecks II Warp Core
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7711&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
     - appid: lowerdecksiiwarp
       author:
@@ -1017,15 +919,6 @@ authors:
         source: https://cx16forum.com/forum/viewtopic.php?p=34437#p34437
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7910
       version: ''
-    - appid: basterm
-      author:
-        name: Xiphod
-      category: Internet
-      description: Serial terminal for the X16 written in BASIC.
-      name: BASTERM
-      urls:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=8237&sid=5a303c5195eb93a4d305dc21389930e2
-      version: v3
     - appid: base64encdec
       author:
         name: Xiphod
@@ -1035,6 +928,15 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7780
       version: ''
+    - appid: basterm
+      author:
+        name: Xiphod
+      category: Internet
+      description: Serial terminal for the X16 written in BASIC.
+      name: BASTERM
+      urls:
+        x16forum: https://cx16forum.com/forum/viewtopic.php?t=8237&sid=5a303c5195eb93a4d305dc21389930e2
+      version: v3
     - appid: baseloadbmxzsm
       author:
         name: Xiphod
@@ -1081,15 +983,6 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7709
       version: ''
-    - appid: x16hxd
-      author:
-        name: Xiphod
-      category: File and Disk
-      description: X16HXD is a file hex editor.
-      name: X16HXD
-      urls:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6797
-      version: v1.3
     - appid: x16serialdoskeyb
       author:
         name: Xiphod
@@ -1100,15 +993,15 @@ authors:
         source: https://cx16forum.com/forum/download/file.php?id=3702
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7953&sid=4443ea2caa89cacf3b3258086a5014ba
       version: ''
-    - appid: 1000coinstatistic
+    - appid: x16hxd
       author:
         name: Xiphod
-      category: Tools
-      description: 'Neil deGrasse Tyson proposed a thought experiment involving 1000 coin flips. The intent was to show that within any random sample, there is bound to be a consistent winner that our human minds term as lucky.'
-      name: 1000COIN Statistics Simulator
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7944&sid=5a303c5195eb93a4d305dc21389930e2
-      version: ''
+      category: File and Disk
+      description: X16HXD is a file hex editor.
+      name: X16HXD
+      urls:
+        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6797
+      version: v1.3
     - appid: 1000coins
       author:
         name: Xiphod
@@ -1137,16 +1030,6 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8215&sid=87adc7904c41009a74ad4b9add499957
       version: 1.4
-    - appid: 8bitpetwurm
-      author:
-        name: Xiphod
-      category: Games
-      description: "Concept demo featuring the interactive 8-Bit Worm: he's 8-pixels long!"
-      name: 8-Bit Pet Wurm
-      urls:
-        source: https://cx16forum.com/forum/download/file.php?id=3786
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=8008&sid=4443ea2caa89cacf3b3258086a5014ba
-      version: ''
   Yazwho:
     - appid: joysticktester
       author:
@@ -1379,15 +1262,6 @@ authors:
         source: https://fredrikr.itch.io/mars2049ad
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8302&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
-    - appid: gamebookcollectio
-      author:
-        name: fredrik
-      category: Games
-      description: SD Separa has converted nine classic gamebooks (AKA Choose Your Own Adventure books) to Z-code format.
-      name: Gamebook Collection
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7421&sid=ae40c1febbade03020241222eb9aa3d3
-      version: ''
     - appid: gamebookcollect
       author:
         name: fredrik
@@ -1396,17 +1270,6 @@ authors:
       name: Gamebook Collection
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7421&sid=ae40c1febbade03020241222eb9aa3d3
-      version: ''
-    - appid: theairlockcollect
-      author:
-        name: fredrik
-      category: Games
-      description: 'A collection of games from the third PunyJam, all starting in an airlock.'
-      name: The Airlock Collection
-      url:
-        source: https://microheaven.com/airlock
-        website: https://microheaven.com/airlock
-        x16forum: https://microheaven.com/airlock
       version: ''
     - appid: theairlockcollec
       author:
@@ -1417,17 +1280,6 @@ authors:
       urls:
         website: https://microheaven.com/airlock
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7459&sid=aad3aceedfb6154d1584fc24ec2936d8
-      version: ''
-    - appid: textadventurecoll
-      author:
-        name: fredrik
-      category: Games
-      description: Five collections of great Z-code text adventures for the Commander X16.
-      name: Text Adventure Collection
-      url:
-        source: https://microheaven.com/ztac/
-        website: https://microheaven.com/ztac/
-        x16forum: https://microheaven.com/ztac/
       version: ''
     - appid: textadventures
       author:
@@ -1521,16 +1373,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8370&sid=ae40c1febbade03020241222eb9aa3d3
       version: ''
   kliepatsch:
-    - appid: concertomultitrac
-      author:
-        name: kliepatsch
-      category: Sound
-      description: Concerto Multitrack is a program for making music on the Commander X16. It aims to unlock the full potential of 16 PSG oscillators plus 8 FM voices.
-      name: Concerto Multitrack
-      url:
-        source: https://github.com/biermanncarl/cx16-concerto
-        x16forum: https://github.com/biermanncarl/cx16-concerto
-      version: v0.8.0-beta.2
     - appid: concertomultitrk
       author:
         name: kliepatsch
@@ -1602,15 +1444,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7054
       version: ''
   mobluse:
-    - appid: x16emuforlinuxi68
-      author:
-        name: mobluse
-      category: Tools
-      description: The official X16 emulator build for 32bit Linux i686
-      name: x16emu for Linux i686 (32 bit)
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=6433&sid=861eed69f3583ffbad5003776001cac0
-      version: R43
     - appid: x16emuforlinux32
       author:
         name: mobluse
@@ -1687,16 +1520,6 @@ authors:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=8255&sid=ae40c1febbade03020241222eb9aa3d3
       version: 1.0
   natebarney:
-    - appid: damontherocketjoc
-      author:
-        name: natebarney
-      category: Games
-      description: 'Damon: The Rocket Jockey is a clone of Nomad: The Space Pirate a C64 game'
-      name: Damon The Rocket Jockey
-      url:
-        source: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3
-      version: ''
     - appid: damonrocketjock
       author:
         name: natebarney
@@ -1854,15 +1677,6 @@ authors:
       urls:
         x16forum: https://cx16forum.com/forum/viewtopic.php?t=7734&sid=aad3aceedfb6154d1584fc24ec2936d8
       version: ''
-    - appid: x16filemanagerxfm
-      author:
-        name: unartic
-      category: File and Disk
-      description: 'X16 File Manager (XFM) is a Norton Commander-clone. It supports all basic file and directory management functions as well as launching tokenized basic programs and machine language programs, AND return to XFM as soon the program exits. So a true Norton Commander feeling.'
-      name: X16 File Manager (XFM)
-      url:
-        x16forum: https://cx16forum.com/forum/viewtopic.php?t=7014&sid=5a303c5195eb93a4d305dc21389930e2
-      version: v3.0
     - appid: x16filemanager
       author:
         name: unartic

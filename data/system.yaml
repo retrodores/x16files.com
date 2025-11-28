@@ -45,15 +45,6 @@ packages:
     urls:
       x16forum: https://cx16forum.com/forum/viewtopic.php?t=8040&sid=4443ea2caa89cacf3b3258086a5014ba
     version: ''
-  - appid: keyboardtestprogr
-    author:
-      name: Stefan Jakobsson
-    category: Systems
-    description: This is a small keyboard test program that you can use to verify that all keys are working correctly.
-    name: Keyboard test program
-    url:
-      x16forum: https://cx16forum.com/forum/viewtopic.php?t=7085
-    version: ''
   - appid: keyboardtestprg
     author:
       name: Stefan Jakobsson
