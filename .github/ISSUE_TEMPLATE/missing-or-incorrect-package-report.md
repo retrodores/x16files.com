@@ -1,11 +1,15 @@
 ---
-name: Minimal JSON Entry
+name: Missing or Incorrect Package Report
 about: Example JSON entry for someone wishing to add one to the DB.
 title: ''
 labels: ''
 assignees: ''
 
 ---
+
+Please provide enough information for us to create a minimal JSON entry, such as the one below.
+
+
 
 ```
 {
