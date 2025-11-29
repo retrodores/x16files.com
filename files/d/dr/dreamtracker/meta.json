@@ -4,10 +4,11 @@
     "name": "m00dawg"
   },
   "category": "Sound",
-  "description": "Native tracker in active for the X16 which currently supports the VERA PSG channels",
-  "name": "Dream Tracker",
+  "description": "Native tracker in development for the X16 which currently supports the VERA, OPM, and partial MIDI",
+  "name": "DreamTracker",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6669"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6669",
+    "source" : "https://gitlab.com/m00dawg/dream-tracker"
   },
   "version": ""
 }
