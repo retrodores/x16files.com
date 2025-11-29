@@ -12,6 +12,7 @@ use YAML qw/Dump DumpFile/;
 use Search::Indexer;
 use String::CRC32;
 use Util::H2O::More qw/d2o ddd o2d Getopt2h2o/;
+use Tie::IxHash;
 binmode STDOUT, ":encoding(UTF-8)";
 
 my $opts_ref = Getopt2h2o \@ARGV, { verbose => undef }, qw/verbose|v/;
