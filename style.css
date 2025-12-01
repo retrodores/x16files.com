@@ -363,3 +363,14 @@ table.leaderboard-table a:hover {
   text-decoration: underline;
 }
 
+.share-bar {
+  padding: 10px;
+  background: #2a2f3d;
+  color: #e5e8f0;
+  font-family: monospace;
+}
+.share-bar a {
+  margin-right: 12px;
+  color: #9bb8ff;
+}
+
