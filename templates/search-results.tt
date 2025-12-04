@@ -317,9 +317,19 @@
   <div class="card-top c8"></div>
 
   <div class="card-mid">
-    <a href="[% item.urls.x16forum | html %]">
-      [% item.name %]
-    </a>
+[% IF item.urls.x16forum.defined -%]
+  <a href="[% item.urls.x16forum | html %]">
+    [% item.name %]
+  </a>
+[% ELSIF item.urls.source.defined -%]
+  <a href="[% item.urls.source | html %]">
+    [% item.name %]
+  </a>
+[% ELSIF item.urls.website.defined -%]
+  <a href="[% item.urls.website | html %]">
+    [% item.name %]
+  </a>
+[% END -%]
   </div>
 
   <div class="card-desc">
