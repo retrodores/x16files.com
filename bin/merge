@@ -17,7 +17,7 @@ binmode STDOUT, ":encoding(UTF-8)";
 
 my $opts_ref = Getopt2h2o \@ARGV, { verbose => undef }, qw/verbose|v/;
 
-my $jsonpp = JSON::PP->new->ascii->pretty->allow_nonref;;
+my $jsonpp = JSON::PP->new->ascii->pretty->allow_nonref;
 
 my ($categories,$authors,$appnames);
 my ($full_idx_lookup, $author_idx_lookup, $appname_idx_lookup);
