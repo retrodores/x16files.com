@@ -14,7 +14,7 @@ assignees: ''
   "description": "Chess game for the Commander X16",
   "author": [
     {
-      "name": "Irmen de Jong",
+      "name": "desertfish",
       "email": ""
     }
   ],
