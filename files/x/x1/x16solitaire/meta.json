@@ -1,0 +1,14 @@
+{
+  "appid": "x16solitaire",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Games",
+  "description": "X16 SOLITAIRE now available in TEXT MODE. This is adapted from a C64 version, which used a 40x25 text mode. That original version is by Roman Werner.",
+  "name": "X16 Solitaire",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=37745",
+    "source": "https://cx16forum.com/forum/download/file.php?id=4632&sid=14b45e9bfd03b872c936112ea41bd0b0"
+  },
+  "version": "V1"
+}
