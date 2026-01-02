@@ -84,7 +84,7 @@ say "wrote leaderboard.yaml" if $opts_ref->verbose;
 sub process {
   my $file = $File::Find::name; 
   my @path = split /\//, $file;
-  return undef if $path[-1] !~ m/json/;;
+  return undef if $path[-1] !~ m/json$/;
 
   local $@; # error detection 
 
