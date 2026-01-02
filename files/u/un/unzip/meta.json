@@ -9,5 +9,9 @@
   "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8984"
   },
-  "version": ""
+  "version": "",
+  "extra": {
+    "created" : "2026-01-02",
+    "last_updated": "2026-01-02"
+  }
 }
