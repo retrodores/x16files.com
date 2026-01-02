@@ -1,0 +1,13 @@
+{
+  "appid": "unzip",
+  "author": {
+    "name": "desertfish"
+  },
+  "category": "File and Disk",
+  "description": "Unzip utility that can extract .zip files",
+  "name": "UnZip",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8984"
+  },
+  "version": ""
+}
