@@ -1,0 +1,17 @@
+{
+  "appid": "metaleditor",
+  "author": {
+    "name": "Ed Minchau"
+  },
+  "category": "Editors",
+  "description": "The METAL editor - allows the user to program for either processor while using either processor. You can write programs that work on both, selecting subroutines based on processor if you like.",
+  "name": "METAL EDITOR",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8964",
+    "download" : "https://cx16forum.com/forum/download/file.php?id=4684"
+  },
+  "version": "2.0.48.0833",
+  "extra": {
+    "last_updated": "2026-01-02"
+  }
+}
