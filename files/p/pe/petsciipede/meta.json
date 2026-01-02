@@ -1,0 +1,18 @@
+{
+  "appid": "petsciipede",
+  "author": {
+    "name": "jaydg"
+  },
+  "category": "Games",
+  "description": "s published in Compute's Gazette Volume 1 Issue 4 (October), my take on the classic Centipede for the X16. Using only PETSCII graphics, it's a mixture of BASIC and 65c02 Assembly. Written and designed on R48. Please let [the author] know if you find issues on R49.",
+  "name": "Petsciipede",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8992&sid=7218ac4b31e9e172411b174bf144cf60",
+    "source" : "https://github.com/codeofone/Petsciipede-x16",
+    "download" : "https://cx16forum.com/forum/download/file.php?id=4668"
+  },
+  "version": "",
+  "extra": {
+    "last_updated": "2026-01-02"
+  }
+}

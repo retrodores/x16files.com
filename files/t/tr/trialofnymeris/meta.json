@@ -1,0 +1,19 @@
+{
+  "appid": "trialofnymeris",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Games",
+  "description": "Nymeris is a memory-game that uses audio-sequences. The game randomizes a key (1-9 + 0) and tone for 10 platforms, then emits the sequence starting with the first tone, then second tone, etc. Press the number below a platform to play that tone (you can also click on them using the mouse). Some tones in the sequence may be repeated 2x or 3x times.",
+  "name": "Trial of Nymeris",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8990&sid=7218ac4b31e9e172411b174bf144cf60",
+    "source" : "https://cx16forum.com/forum/download/file.php?id=4650",
+    "download" : "https://cx16forum.com/forum/download/file.php?id=4648"
+  },
+  "version": "3",
+  "extra": {
+    "created": "2026-01-02",
+    "last_updated": "2026-01-02"
+  }
+}
