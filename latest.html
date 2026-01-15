@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>X16 Files - Latest Updates</title>
+<link rel="stylesheet" href="./style.css">
+
+<style>
+/* -----------------------------------------------
+   Leaderboard Table Overrides + Enhancements
+----------------------------------------------- */
+.leaderboard-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.leaderboard-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 12px;
+}
+
+.leaderboard-controls input {
+  padding: 8px 12px;
+  font-size: 18px;
+  border: 1px solid #888;
+  border-radius: 6px;
+  width: 320px;
+}
+
+table.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background: #fff !important;
+  font-size: 20px;
+}
+
+table.leaderboard-table th,
+table.leaderboard-table td {
+  padding: 12px 16px !important;
+  border: 1px solid #d3d6de !important;
+  background: #fff !important;
+  color: #1a1a1a !important;
+  vertical-align: top;
+}
+
+table.leaderboard-table th {
+  background: #f0f0f5 !important;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+table.leaderboard-table tr:nth-child(even) td {
+  background: #f7f9fc !important;
+}
+
+table.leaderboard-table tr:hover td {
+  background: #eef3ff !important;
+}
+
+table.leaderboard-table a {
+  color: #0055cc !important;
+  text-decoration: none;
+}
+
+table.leaderboard-table a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid #c6c9d3;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.badge-added   { background: #ecfff0; }
+.badge-updated { background: #fff7ec; }
+
+.small {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+</style>
+
+</head>
+<body id="top">
+<header>
+  <h1><a href="/" style="color:#e5e8f0;text-decoration:underline;text-decoration-style:dashed;">X16 FILES</a></h1>
+  <nav>
+    <a href="/hub">Hub</a>
+    <a href="./authors.html">Authors A-Z</a>
+    <a href="./latest.html">Latest</a>
+    <a href="./leaderboard.html">Leaderboard</a>
+    <a href="https://discord.gg/nS2PqEC">Discord</a>
+    <a href="https://cx16forum.com/forum/viewforum.php?f=29">Forum</a>
+  </nav>
+
+  <form class="search-bar" method="get" action="/cgi-bin/search-x16files.pl">
+    <input type="text" name="q" placeholder="Search X16 Files">
+    <input type="submit" value="Search">
+  </form>
+
+  <nav>
+    <a href="https://github.com/retrodores/x16files.com/issues" target="_other"><strong>Report Issue</strong></a>
+  </nav>
+</header>
+
+<main class="leaderboard-wrapper">
+  <h2>Latest Updates</h2>
+  <div class="leaderboard-controls">
+    <input id="filterBox" type="text"
+      placeholder="Filter (name, author, status, date, url)">
+  </div>
+
+  <div id="pkg-list"></div>
+</main>
+
+<footer>
+  Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |
+  Designed for X16 enthusiasts |
+  <a href="https://github.com/retrodores/x16files.com/tree/master/files" target="_other">
+    Add or update on Github!
+  </a>
+</footer>
+
+<a href="#top" class="back-to-top">~V Top</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+<script>
+/* ============================================================
+   Utilities
+============================================================ */
+function esc(s="") {
+  return String(s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+function slugify(s) {
+  return String(s || "")
+    .normalize("NFKD").replace(/[\u0300-\u036f]/g,"")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g,"-")
+    .replace(/^-+|-+$/g,"");
+}
+
+function authorAnchorId(name) {
+  return "author-" + slugify(name);
+}
+
+function pkgAnchorId(name) {
+  return "pkg-" + slugify(name);
+}
+
+function normStatus(s) {
+  s = String(s || "").toLowerCase().trim();
+  if (s === "add" || s === "added" || s === "new") return "added";
+  if (s === "update" || s === "updated" || s === "old") return "updated";
+  return s || "updated";
+}
+
+function statusBadge(status) {
+  const st = normStatus(status);
+  const cls = (st === "added") ? "badge-added" : "badge-updated";
+  return `<span class="badge ${cls}">${esc(st)}</span>`;
+}
+
+function dateKey(dateStr) {
+  const m = String(dateStr||"").match(/^(\d{4})\/(\d{2})\/(\d{2})$/);
+  if (!m) return String(dateStr||"");
+  return `${m[1]}-${m[2]}-${m[3]}`;
+}
+
+/* ============================================================
+   State (preserve YAML order)
+============================================================ */
+let ORIGINAL_ITEMS = [];
+let GLOBAL_ITEMS   = [];
+let SORT_COLUMN = "";
+let SORT_DIR    = 1;
+
+/* ============================================================
+   Render Table
+============================================================ */
+function renderTable() {
+  const container = document.getElementById("pkg-list");
+  const filter = document.getElementById("filterBox").value.toLowerCase();
+
+  let items = GLOBAL_ITEMS.filter(it => {
+    if (!filter) return true;
+    const hay = [
+      it.date || "",
+      it.name || "",
+      it.auth || "",
+      it.status || "",
+      it.url || ""
+    ].join(" ").toLowerCase();
+    return hay.includes(filter);
+  });
+
+  if (SORT_COLUMN) {
+    items.sort((a,b) => {
+      if (SORT_COLUMN === "date")
+        return SORT_DIR * dateKey(a.date).localeCompare(dateKey(b.date));
+      if (SORT_COLUMN === "name")
+        return SORT_DIR * String(a.name||"").localeCompare(String(b.name||""));
+      if (SORT_COLUMN === "auth")
+        return SORT_DIR * String(a.auth||"").localeCompare(String(b.auth||""));
+      if (SORT_COLUMN === "status")
+        return SORT_DIR * normStatus(a.status).localeCompare(normStatus(b.status));
+      if (SORT_COLUMN === "url")
+        return SORT_DIR * String(a.url||"").localeCompare(String(b.url||""));
+      return 0;
+    });
+  }
+
+  let html = `
+  <table class="leaderboard-table">
+    <thead>
+      <tr>
+        <th data-col="date">Date</th>
+        <th data-col="name">Name</th>
+        <th data-col="auth">Author</th>
+        <th data-col="status">Status</th>
+        <th data-col="url">Category</th>
+      </tr>
+    </thead>
+    <tbody>
+  `;
+
+  items.forEach(it => {
+    const url = it.url || "#";
+    const name = it.name || "(unnamed)";
+    const auth = it.auth || "various";
+
+    const pkgUrl  = url + "#" + pkgAnchorId(name);
+    const authUrl = "https://x16files.com/hub/authors.html#" +
+                    authorAnchorId(auth);
+
+    html += `
+      <tr>
+        <td>${esc(it.date || "")}</td>
+        <td><a href="${esc(pkgUrl)}">${esc(name)}</a></td>
+        <td><a href="${esc(authUrl)}">${esc(auth)}</a></td>
+        <td>${statusBadge(it.status)}</td>
+        <td><a href="${esc(url)}">${esc(url)}</a></td>
+      </tr>`;
+  });
+
+  html += "</tbody></table>";
+  container.innerHTML = html;
+
+  document.querySelectorAll(".leaderboard-table th").forEach(th => {
+    th.onclick = () => {
+      const col = th.getAttribute("data-col");
+      if (SORT_COLUMN === col) {
+        if (SORT_DIR === 1) SORT_DIR = -1;
+        else { SORT_COLUMN = ""; SORT_DIR = 1; }
+      } else {
+        SORT_COLUMN = col;
+        SORT_DIR = (col === "date") ? -1 : 1;
+      }
+      renderTable();
+    };
+  });
+}
+
+/* ============================================================
+   Load YAML
+============================================================ */
+async function loadLatestYAML() {
+  try {
+    const res = await fetch("data/latest.yaml", { cache: "no-store" });
+    const text = await res.text();
+    const data = jsyaml.load(text);
+
+    if (!Array.isArray(data))
+      throw new Error("data/latest.yaml is not a YAML list");
+
+    ORIGINAL_ITEMS = data.map(x => ({
+      auth:   String(x.auth   || ""),
+      date:   String(x.date   || ""),
+      name:   String(x.name   || ""),
+      status: String(x.status || ""),
+      url:    String(x.url    || "")
+    }));
+
+    GLOBAL_ITEMS = ORIGINAL_ITEMS.slice();
+    SORT_COLUMN = "";
+    SORT_DIR = 1;
+
+    renderTable();
+    document.getElementById("filterBox").oninput = renderTable;
+
+  } catch (e) {
+    console.error(e);
+    document.getElementById("pkg-list").innerHTML =
+      `<div class="small">Failed to load data/latest.yaml</div>`;
+  }
+}
+
+loadLatestYAML();
+</script>
+
+</body>
+</html>
+
