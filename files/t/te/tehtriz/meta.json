@@ -1,0 +1,25 @@
+{
+  "appid": "tehtriz",
+  "author": {
+    "name": "desertfish"
+  },
+  "category": "Games",
+  "description": "A clone of the block stacking game! Features: holding area, wall kick rotations, shows next piece, staged speed increase, simple sound effects using Vera PSG. Controls are printed in the screen, note that you can also use the cursor keys for movement if that's more convenient for you (not shown on the screen).",
+  "name": "PETRIS",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6299",
+    "source" : "https://github.com/irmen/prog8/blob/master/examples/cx16/tehtriz.p8",
+    "download" : "https://cx16forum.com/forum/download/file.php?id=1224",
+    "webemu" : "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=1224"
+  },
+  "version": "1.0.4",
+  "extra": {
+    "created" : "2026-01-15",
+    "last_updated": "2026-01-15",
+    "similar" : [
+      "tetrads",
+      "tetris",
+      "petris"
+    ]
+  }
+}

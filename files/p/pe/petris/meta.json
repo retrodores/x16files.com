@@ -1,0 +1,25 @@
+{
+  "appid": "petris",
+  "author": {
+    "name": "Torsten Crass"
+  },
+  "category": "Games",
+  "description": "X16 port of a 35+ year old clone of a well-known falling brick style game available for various PET variants.",
+  "name": "PETRIS",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=37909",
+    "source" : "https://gitlab.com/tcrass/petris",
+    "download" : "https://cx16forum.com/forum/download/file.php?id=4700&sid=604f9ca5d155b9ec6d59ec3d7f867f55",
+    "webemu" : "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=4700"
+  },
+  "version": "1.0.4",
+  "extra": {
+    "created" : "2026-01-15",
+    "last_updated": "2026-01-15",
+    "similar" : [
+      "tetrads",
+      "tetris",
+      "tehtriz"
+    ]
+  }
+}
