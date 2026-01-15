@@ -10,5 +10,13 @@
     "source": "https://github.com/unartic/nxtBasic/",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7904&sid=aad3aceedfb6154d1584fc24ec2936d8"
   },
-  "version": ""
+  "version": "",
+  "extra": {
+    "last_updated": "2026-01-15",
+    "similar" : [
+      "tetrads",
+      "petris",
+      "tehtriz"
+    ]
+  }
 }
