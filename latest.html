@@ -153,12 +153,25 @@ function slugify(s) {
     .replace(/^-+|-+$/g,"");
 }
 
-function authorAnchorId(name) {
-  return "author-" + slugify(name);
+function normalizeBase(s) {
+  return String(s || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "");
 }
 
+// Author anchors: preserve case, dash spaces
+function authorAnchorId(name) {
+  return "author-" + normalizeBase(name)
+    .replace(/[^A-Za-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+// Package anchors: lowercase slug
 function pkgAnchorId(name) {
-  return "pkg-" + slugify(name);
+  return "pkg-" + normalizeBase(name)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 function normStatus(s) {
@@ -227,10 +240,10 @@ function renderTable() {
   <table class="leaderboard-table">
     <thead>
       <tr>
+        <th data-col="status">Status</th>
         <th data-col="date">Date</th>
         <th data-col="name">Name</th>
         <th data-col="auth">Author</th>
-        <th data-col="status">Status</th>
         <th data-col="url">Category</th>
       </tr>
     </thead>
@@ -246,13 +259,39 @@ function renderTable() {
     const authUrl = "https://x16files.com/hub/authors.html#" +
                     authorAnchorId(auth);
 
+    function linkLabelFromUrl(url) {
+      const s = String(url || "").trim();
+      if (!s) return "Link";
+
+      // Try URL parsing with a base (handles relative URLs)
+      try {
+        const u = new URL(s, "https://example.invalid/");
+        const path = u.pathname || "";
+        let file = path.split("/").filter(Boolean).pop() || "";
+        if (file) {
+          file = file.replace(/\.[^.]+$/, ""); // strip extension
+          return file.charAt(0).toUpperCase() + file.slice(1);
+        }
+      } catch {}
+
+      // Fallback: manual parsing
+      const noFrag = s.split("#")[0].split("?")[0];
+      let file = noFrag.split("/").filter(Boolean).pop() || "";
+      if (file) {
+        file = file.replace(/\.[^.]+$/, ""); // strip extension
+        return file.charAt(0).toUpperCase() + file.slice(1);
+      }
+
+      return "Link";
+    }
+
     html += `
       <tr>
-        <td>${esc(it.date || "")}</td>
-        <td><a href="${esc(pkgUrl)}">${esc(name)}</a></td>
-        <td><a href="${esc(authUrl)}">${esc(auth)}</a></td>
         <td>${statusBadge(it.status)}</td>
-        <td><a href="${esc(url)}">${esc(url)}</a></td>
+        <td>${esc(it.date || "")}</td>
+        <td><a href="${esc(pkgUrl)}" target=_other>${esc(name)}</a></td>
+        <td><a href="${esc(authUrl)}" target=_other>${esc(auth)}</a></td>
+        <td>  <a href="${esc(url)}" target=_other>${esc(linkLabelFromUrl(url))}</a></td>
       </tr>`;
   });
 
