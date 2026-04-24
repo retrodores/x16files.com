@@ -8,11 +8,12 @@
   "coauthors": {
     "name": "Andrew Gillham"
   },
-  "description": "The second incarnatin and now fully functional vi clone for the Commander X16 using Prog8. It supports ISO Characters and a maximum of 80 columns and 256 lines of text, only.",
+  "description": "The second incarnation and now fully functional vi clone for the Commander X16 using Prog8. It supports ISO Characters and a maximum of 80 columns and 256 lines of text, only.",
   "name": "XVI2",
   "urls": {
-    "source": "https://github.com/oodler577/XVI",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7241"
+    "download": "https://github.com/retrodores/XVI/releases/download/2.0.rc-0/xvi2.0.rc-0.prg",
+    "source": "https://github.com/retrodores/XVI",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=38311#p38311"
   },
   "version": "2.0.RC-0"
 }
