@@ -7,18 +7,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Canonical -->
 <link rel="canonical" href="https://x16files.com/games.html">
 
-<!-- Basic SEO -->
 <meta name="description" content="X16 Files is a community-curated software directory for the Commander X16 8-bit computing system. All programs are originally posted on the official X16 forums and indexed here for easy access. Browse games, utilities, demos, graphics tools, and more.">
-
 <meta name="keywords" content="Commander X16, X16 software, X16 games, X16 utilities, retro computing, 8-bit, cx16, x16files, x16 programs, neo computing">
-
 <meta name="author" content="X16 Community Contributors">
 <meta name="robots" content="index, follow">
 
-<!-- OpenGraph -->
 <meta property="og:title" content="X16 Files - Games">
 <meta property="og:description" content="Community-curated Commander X16 games sourced from the official X16 forums.">
 <meta property="og:type" content="website">
@@ -26,61 +21,55 @@
 <meta property="og:site_name" content="X16 Files">
 <meta property="og:image" content="https://x16files.com/assets/x16-og-image.png">
 
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="X16 Files - Games">
 <meta name="twitter:description" content="Browse Commander X16 games indexed from the official X16 community forums.">
 <meta name="twitter:image" content="https://x16files.com/assets/x16-og-image.png">
 
-<!-- Mastodon Verification -->
 <link rel="me" href="https://mastodon.social/@commanderx16">
 
-<!-- AI Crawlers -->
 <meta name="google-site-verification" content="">
 <meta name="bingbot" content="index, follow">
 <meta name="gptbot" content="index, follow">
 <meta name="anthropicbot" content="index, follow">
 
-<!-- Page-Level Schema -->
 <script type="application/ld+json">
 {
- "@context": "https://schema.org",
- "@type": "CollectionPage",
- "name": "X16 Files - Games",
- "description": "A community-curated directory of Commander X16 games collected from official forum releases.",
- "url": "https://x16files.com/games.html",
- "isPartOf": {
-   "@type": "WebSite",
-   "name": "X16 Files - Commander X16 Software Directory",
-   "url": "https://x16files.com"
- },
- "publisher": {
-   "@type": "Organization",
-   "name": "Commander X16 Community",
-   "url": "https://cx16forum.com",
-   "logo": {
-     "@type": "ImageObject",
-     "url": "https://x16files.com/assets/x16-og-image.png"
-   }
- },
- "about": {
-   "@type": "Thing",
-   "name": "Commander X16 8-bit computing system"
- }
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "X16 Files - Games",
+  "description": "A community-curated directory of Commander X16 games collected from official forum releases.",
+  "url": "https://x16files.com/games.html",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "X16 Files - Commander X16 Software Directory",
+    "url": "https://x16files.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Commander X16 Community",
+    "url": "https://cx16forum.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://x16files.com/assets/x16-og-image.png"
+    }
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Commander X16 8-bit computing system"
+  }
 }
 </script>
 
-<!-- Category-Level Schema -->
 <script type="application/ld+json">
 {
- "@context": "https://schema.org",
- "@type": "ItemList",
- "name": "Commander X16 Game Library",
- "itemListElement": []
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Commander X16 Game Library",
+  "itemListElement": []
 }
 </script>
 
-<!-- Favicons -->
 <link rel="icon" href="/assets/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
@@ -91,7 +80,12 @@
 
 <body id="top">
   <header>
-    <h1><a href=/ style="color:#e5e8f0; text-decoration:underline; text-decoration-style:dashed;">X16 FILES</a></h1>
+    <h1>
+      <a href="/" style="color:#e5e8f0; text-decoration:underline; text-decoration-style:dashed;">
+        X16 FILES
+      </a>
+    </h1>
+
     <nav>
       <a href="/hub">Hub</a>
       <a href="./authors.html">Authors A-Z</a>
@@ -107,7 +101,9 @@
     </form>
 
     <nav>
-      <a href="https://github.com/retrodores/x16files.com/issues" target=_other><strong>Report Issue</strong></a>
+      <a href="https://github.com/retrodores/x16files.com/issues" target="_other">
+        <strong>Report Issue</strong>
+      </a>
     </nav>
   </header>
 
@@ -117,12 +113,37 @@
   </main>
 
   <footer>
-    Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |  Designed for X16 enthuiasts | <a href=https://github.com/retrodores/x16files.com/tree/master/files target=_other>Add or update on Github!</a>
+    Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |
+    Designed for X16 enthusiasts |
+    <a href="https://github.com/retrodores/x16files.com/tree/master/files" target="_other">
+      Add or update on Github!
+    </a>
   </footer>
+
+  <a href="#top" class="back-to-top">▲ Top</a>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
   <script src="js/load-yaml.js"></script>
-  <script>loadYAML('games');</script>
-  <a href="#top" class="back-to-top">▲ Top</
+
+  <script>
+    function jumpToHashAfterRender() {
+      setTimeout(() => {
+        if (location.hash) {
+          const el = document.querySelector(location.hash);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }
+      }, 50);
+    }
+
+    const maybePromise = loadYAML('games');
+
+    if (maybePromise && typeof maybePromise.then === 'function') {
+      maybePromise.then(jumpToHashAfterRender);
+    } else {
+      jumpToHashAfterRender();
+    }
+  </script>
 </body>
 </html>

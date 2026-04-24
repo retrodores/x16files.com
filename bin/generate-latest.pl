@@ -6,7 +6,6 @@ use strict;
 use FindBin qw/$Bin/;
 use JSON::PP;
 use YAML qw/Dump DumpFile/;
-use Data::Dumper;
 
 my $cats = {
   games           => { category => "Games",         slug => "games",       description => "Games and other entertaintment" },
@@ -23,6 +22,10 @@ my $cats = {
 my $jsonpp = JSON::PP->new->ascii->pretty->allow_nonref;
 
 my @latest = ();
+
+if (-t STDIN && !@ARGV) {
+  die "FATAL: bin/update-latest.sh to actually run this thing ...\n";
+}
 
 while (my $line = <>) {
   chomp $line;
