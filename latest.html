@@ -166,11 +166,10 @@ function authorAnchorId(name) {
     .replace(/^-+|-+$/g, "");
 }
 
-// Package anchors: lowercase slug
+// Package anchors: preserve case, dash spaces
 function pkgAnchorId(name) {
   return "pkg-" + normalizeBase(name)
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/[^A-Za-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
 

@@ -1,0 +1,14 @@
+{
+  "appid": "xcadia",
+  "author": {
+    "name": "Pete Brown"
+  },
+  "category": "Games",
+  "description": "A space-based, vertical shooter game for the Commander X16 computer based on the ZX Spectrum game Arcadia.",
+  "name": "Xcadia",
+  "urls": {
+    "source": "https://cx16forum.com/forum/download/file.php?id=3042",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=32972"
+  },
+  "version": "1.1.1"
+}
