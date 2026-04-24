@@ -78,6 +78,14 @@ function renderTable(data) {
 
     const anchorId = `pkg-${name.replace(/\s+/g, "-")}`;
 
+    const authorSlug = auth
+      ? "author-" + auth.trim().replace(/\s+/g, "-")
+      : "";
+    
+    const authorLink = auth
+      ? `<a href="authors.html#${authorSlug}">${auth}</a>`
+      : "";
+    
     html += `
       <td id="${anchorId}">
         <div class="card-top ${cls}"></div>
@@ -86,7 +94,8 @@ function renderTable(data) {
         </div>
         <div class="card-desc">${desc}</div>
         <div class="card-bot">
-          ${ver}${ver && auth ? " ~@ " : ""}${auth}
+          ${ver ? "(" : ""}${ver}${ver ? ")" : ""}
+          ${ver && auth ? " ~@ " : ""}${authorLink}
         </div>
       </td>
     `;

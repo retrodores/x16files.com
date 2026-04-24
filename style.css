@@ -197,6 +197,15 @@ td {
   background:var(--dark-gray);
 }
 
+.card-bot a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-bot a:hover {
+  text-decoration: underline; /* optional */
+}
+
 /* -------------------------------------------------------
    AUTHOR INDEX (5 COLUMNS FULL WIDTH, COLLAPSIBLE)
 ------------------------------------------------------- */
