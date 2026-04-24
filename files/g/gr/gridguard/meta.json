@@ -1,0 +1,14 @@
+{
+  "appid": "gridguard",
+  "author": {
+    "name": "Pete Brown"
+  },
+  "category": "Games",
+  "description": "A grid-based, shooter game for the Commander X16 computer. Try to shoot all the targets in each wave as quickly as possible. You will get a new life every forth level. There are currently 12 waves featuring 3 unique targets. Each wave contains a variable number of targets. ",
+  "name": "Grid Guard",
+  "urls": {
+    "source": "https://peteshobby.itch.io/gridguard",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=32972"
+  },
+  "version": "1.1.1"
+}
