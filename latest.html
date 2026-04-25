@@ -1,7 +1,69 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<title>X16 Files - Latest Updates</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>X16 Files - Latest</title>
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <meta name="description" content="Browse the latest Commander X16 software, games, demos, tools, and community updates on X16 Files.">
+  <link rel="canonical" href="https://x16files.com/hub/latest.html">
+
+  <!-- Robots (allow indexing + AI summarization) -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+  <!-- ================================
+       OPEN GRAPH / SOCIAL
+  ================================= -->
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="X16 Files">
+  <meta property="og:title" content="X16 Files - Latest Commander X16 Updates">
+  <meta property="og:description" content="Fresh X16 software, games, demos, tools, and community submissions in one searchable archive.">
+  <meta property="og:url" content="https://x16files.com/hub/latest.html">
+  <meta property="og:image" content="https://x16files.com/logo.png?v=1">
+  <meta property="og:image:alt" content="X16 Files directory preview">
+
+  <!-- Pinterest (Rich Pins) -->
+  <meta property="article:author" content="X16 Files">
+  <meta property="article:section" content="Software Directory">
+  <meta property="article:tag" content="Commander X16, retro computing, software, demos, games, tools">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="X16 Files - Latest Commander X16 Updates">
+  <meta name="twitter:description" content="Fresh X16 software, games, demos, tools, and community submissions in one searchable archive.">
+  <meta name="twitter:image" content="https://x16files.com/logo.png?v=1">
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#0b0f1a">
+
+  <!-- ================================
+       AI / SEARCH ENGINE SIGNALS
+  ================================= -->
+
+  <!-- Schema.org structured data (VERY important) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "X16 Files - Latest",
+    "description": "Latest Commander X16 software, tools, games, and demos.",
+    "url": "https://x16files.com/hub/latest.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "X16 Files",
+      "url": "https://x16files.com"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Commander X16 software directory"
+    }
+  }
+  </script>
+
 <link rel="stylesheet" href="./style.css">
 
 <style>
@@ -92,10 +154,12 @@ table.leaderboard-table a:hover {
 
 </head>
 <body id="top">
+
 <header>
   <h1><a href="/" style="color:#e5e8f0;text-decoration:underline;text-decoration-style:dashed;">X16 FILES</a></h1>
+
   <nav>
-    <a href="/hub">Hub</a>
+    <a href="/hub">Index</a>
     <a href="./authors.html">Authors A-Z</a>
     <a href="./latest.html">Latest</a>
     <a href="./leaderboard.html">Leaderboard</a>
@@ -109,12 +173,15 @@ table.leaderboard-table a:hover {
   </form>
 
   <nav>
-    <a href="https://github.com/retrodores/x16files.com/issues" target="_other"><strong>Report Issue</strong></a>
+    <a href="https://github.com/retrodores/x16files.com/issues" target="_other">
+      <strong>Report Issue</strong>
+    </a>
   </nav>
 </header>
 
 <main class="leaderboard-wrapper">
   <h2>Latest Updates</h2>
+
   <div class="leaderboard-controls">
     <input id="filterBox" type="text"
       placeholder="Filter (name, author, status, date, url)">
@@ -159,14 +226,12 @@ function normalizeBase(s) {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-// Author anchors: preserve case, dash spaces
 function authorAnchorId(name) {
   return "author-" + normalizeBase(name)
     .replace(/[^A-Za-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
 
-// Package anchors: preserve case, dash spaces
 function pkgAnchorId(name) {
   return "pkg-" + normalizeBase(name)
     .replace(/[^A-Za-z0-9]+/g, "-")
@@ -193,7 +258,7 @@ function dateKey(dateStr) {
 }
 
 /* ============================================================
-   State (preserve YAML order)
+   State
 ============================================================ */
 let ORIGINAL_ITEMS = [];
 let GLOBAL_ITEMS   = [];
@@ -262,22 +327,20 @@ function renderTable() {
       const s = String(url || "").trim();
       if (!s) return "Link";
 
-      // Try URL parsing with a base (handles relative URLs)
       try {
         const u = new URL(s, "https://example.invalid/");
         const path = u.pathname || "";
         let file = path.split("/").filter(Boolean).pop() || "";
         if (file) {
-          file = file.replace(/\.[^.]+$/, ""); // strip extension
+          file = file.replace(/\.[^.]+$/, "");
           return file.charAt(0).toUpperCase() + file.slice(1);
         }
       } catch {}
 
-      // Fallback: manual parsing
       const noFrag = s.split("#")[0].split("?")[0];
       let file = noFrag.split("/").filter(Boolean).pop() || "";
       if (file) {
-        file = file.replace(/\.[^.]+$/, ""); // strip extension
+        file = file.replace(/\.[^.]+$/, "");
         return file.charAt(0).toUpperCase() + file.slice(1);
       }
 
@@ -288,9 +351,9 @@ function renderTable() {
       <tr>
         <td>${statusBadge(it.status)}</td>
         <td>${esc(it.date || "")}</td>
-        <td><a href="${esc(pkgUrl)}" target=_other>${esc(name)}</a></td>
-        <td><a href="${esc(authUrl)}" target=_other>${esc(auth)}</a></td>
-        <td>  <a href="${esc(url)}" target=_other>${esc(linkLabelFromUrl(url))}</a></td>
+        <td><a href="${esc(pkgUrl)}" target="_other">${esc(name)}</a></td>
+        <td><a href="${esc(authUrl)}" target="_other">${esc(auth)}</a></td>
+        <td><a href="${esc(url)}" target="_other">${esc(linkLabelFromUrl(url))}</a></td>
       </tr>`;
   });
 
@@ -316,34 +379,15 @@ function renderTable() {
    Load YAML
 ============================================================ */
 async function loadLatestYAML() {
-  try {
-    const res = await fetch("data/latest.yaml", { cache: "no-store" });
-    const text = await res.text();
-    const data = jsyaml.load(text);
+  const res = await fetch("data/latest.yaml", { cache: "no-store" });
+  const text = await res.text();
+  const data = jsyaml.load(text);
 
-    if (!Array.isArray(data))
-      throw new Error("data/latest.yaml is not a YAML list");
+  ORIGINAL_ITEMS = data;
+  GLOBAL_ITEMS = data;
 
-    ORIGINAL_ITEMS = data.map(x => ({
-      auth:   String(x.auth   || ""),
-      date:   String(x.date   || ""),
-      name:   String(x.name   || ""),
-      status: String(x.status || ""),
-      url:    String(x.url    || "")
-    }));
-
-    GLOBAL_ITEMS = ORIGINAL_ITEMS.slice();
-    SORT_COLUMN = "";
-    SORT_DIR = 1;
-
-    renderTable();
-    document.getElementById("filterBox").oninput = renderTable;
-
-  } catch (e) {
-    console.error(e);
-    document.getElementById("pkg-list").innerHTML =
-      `<div class="small">Failed to load data/latest.yaml</div>`;
-  }
+  renderTable();
+  document.getElementById("filterBox").oninput = renderTable;
 }
 
 loadLatestYAML();
@@ -351,4 +395,3 @@ loadLatestYAML();
 
 </body>
 </html>
-
