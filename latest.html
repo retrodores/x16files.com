@@ -9,7 +9,7 @@
 
   <!-- SEO -->
   <meta name="description" content="Browse the latest Commander X16 software, games, demos, tools, and community updates on X16 Files.">
-  <link rel="canonical" href="https://x16files.com/hub/latest.html">
+  <link rel="canonical" href="https://x16files.com/directory/latest.html">
 
   <!-- Robots (allow indexing + AI summarization) -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -22,7 +22,7 @@
   <meta property="og:site_name" content="X16 Files">
   <meta property="og:title" content="X16 Files - Latest Commander X16 Updates">
   <meta property="og:description" content="Fresh X16 software, games, demos, tools, and community submissions in one searchable archive.">
-  <meta property="og:url" content="https://x16files.com/hub/latest.html">
+  <meta property="og:url" content="https://x16files.com/directory/latest.html">
   <meta property="og:image" content="https://x16files.com/logo.png?v=1">
   <meta property="og:image:alt" content="X16 Files directory preview">
 
@@ -51,7 +51,7 @@
     "@type": "CollectionPage",
     "name": "X16 Files - Latest",
     "description": "Latest Commander X16 software, tools, games, and demos.",
-    "url": "https://x16files.com/hub/latest.html",
+    "url": "https://x16files.com/directory/latest.html",
     "isPartOf": {
       "@type": "WebSite",
       "name": "X16 Files",
@@ -159,7 +159,7 @@ table.leaderboard-table a:hover {
   <h1><a href="/" style="color:#e5e8f0;text-decoration:underline;text-decoration-style:dashed;">X16 FILES</a></h1>
 
   <nav>
-    <a href="/hub">Index</a>
+    <a href="/directory">Index</a>
     <a href="./authors.html">Authors A-Z</a>
     <a href="./latest.html">Latest</a>
     <a href="./leaderboard.html">Leaderboard</a>
@@ -320,7 +320,7 @@ function renderTable() {
     const auth = it.auth || "various";
 
     const pkgUrl  = url + "#" + pkgAnchorId(name);
-    const authUrl = "https://x16files.com/hub/authors.html#" +
+    const authUrl = "https://x16files.com/directory/authors.html#" +
                     authorAnchorId(auth);
 
     function linkLabelFromUrl(url) {

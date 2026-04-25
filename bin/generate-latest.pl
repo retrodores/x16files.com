@@ -49,7 +49,7 @@ while (my $line = <>) {
   }
 
   push @latest, {
-    url      => sprintf("/hub/%s.html", $cats->{lc $info->{category}}->{slug}),
+    url      => sprintf("/directory/%s.html", $cats->{lc $info->{category}}->{slug}),
     status   => $status,
     date     => $date,
     name     => $info->{name},

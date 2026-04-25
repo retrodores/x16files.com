@@ -206,7 +206,7 @@ function renderAuthorTable(authors) {
 
   authors.forEach((a, i) => {
     const anchor = authorAnchorId(a.name);
-    const url = `https://x16files.com/hub/authors.html#${anchor}`;
+    const url = `https://x16files.com/directory/authors.html#${anchor}`;
 
     html += `
       <tr>
