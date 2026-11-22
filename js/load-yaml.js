@@ -40,15 +40,13 @@ function renderTable(data) {
   );
 
   // ---- BUILD 2-LETTER GROUPS FOR DIRECTORY ----
-  const groups = {}; // { "BI": [...], "IM": [...], ... }
+  const groups = new Map();
 
   pkgs.forEach(pkg => {
     const key = (pkg.name || "").substring(0, 2).toUpperCase();
-    if (!groups[key]) groups[key] = [];
-    groups[key].push(pkg);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(pkg);
   });
-
-  const sortedKeys = Object.keys(groups).sort();
 
   // --------------------------------------------------
   // COLLAPSIBLE 5-COLUMN INDEX (same hooks as authors)
@@ -58,20 +56,18 @@ function renderTable(data) {
     <div id="author-index" class="author-index collapsed">
   `;
 
-  sortedKeys.forEach(key => {
-    const arr = groups[key];
-
+  for (const [key, packages] of groups) {
     html += `
       <div class="index-block">
         <span class="index-letter">${key}</span>
         <div class="index-names">
-          ${arr.map(p =>
+          ${packages.map(p =>
             `<a href="#pkg-${esc(p.name).replace(/\s+/g, "-")}">${esc(p.name)}</a>`
           ).join(" ")}
         </div>
       </div>
     `;
-  });
+  }
 
   html += `</div>`; // end #author-index
 
