@@ -1,3 +1,4 @@
 *.sw*
 *.bdb
 data/*
+/latest.xml
