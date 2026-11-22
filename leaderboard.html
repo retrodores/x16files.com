@@ -151,6 +151,8 @@ table.leaderboard-table a:hover {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 
+<script src="js/author-links.js"></script>
+
 <script>
 /* ============================================================
    Utilities
@@ -159,14 +161,6 @@ function esc(s="") {
   return String(s)
     .replace(/&/g,"&amp;").replace(/</g,"&lt;")
     .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-}
-
-function authorAnchorId(name) {
-  let slug = String(name || "")
-              .normalize("NFKD").replace(/[\u0300-\u036f]/g,"")
-              .replace(/[^A-Za-z0-9]+/g,"-")
-              .replace(/^-+|-+$/g,"");
-  return "author-" + slug;
 }
 
 /* ============================================================
@@ -209,7 +203,7 @@ function renderTable() {
   `;
 
   authors.forEach(a => {
-    const url = "https://x16files.com/directory/authors.html#" + authorAnchorId(a.name);
+    const url = "authors.html" + authorFragment(a.name);
     html += `
       <tr>
         <td>${a.rank}</td>

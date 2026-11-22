@@ -82,27 +82,9 @@
   <!-- YAML parser -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 
-  <!-- Your loader -->
+  <script src="js/author-links.js"></script>
   <script src="js/load-authors-yaml.js"></script>
-
-  <!-- Anchor jump helper -->
-  <script>
-    // Scroll to #anchor AFTER loadAuthorsYAML finishes rendering
-    function jumpToHashAfterRender() {
-      // Delay ensures DOM + CSS layout is fully updated
-      setTimeout(() => {
-        if (location.hash) {
-          const el = document.querySelector(location.hash);
-          if (el) {
-            el.scrollIntoView({ behavior: "smooth", block: "start" });
-          }
-        }
-      }, 50);
-    }
-
-    // Run YAML loader, then jump
-    loadAuthorsYAML('authors').then(jumpToHashAfterRender);
-  </script>
+  <script>loadAuthorsYAML("authors");</script>
 
 </body>
 </html>

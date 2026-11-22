@@ -45,3 +45,14 @@ Thanks for your help!
 Cheers,
 
 The Retrodores
+
+## Release and forum dates
+
+Record a verified date in `catalog/update-dates.json` under the program's
+`appid`. Use the exact catalog `version`, an ISO `date` (`YYYY-MM-DD`),
+the evidence URL in `source`, and `kind` of `author` or `forum`.
+
+Use the author's release or update date if available. Otherwise use the
+latest verifiable forum post that adds or updates the listed program.
+Leave the date out when the evidence is unavailable. Latest and RSS keep
+using Git for catalog order and RSS publication dates.
