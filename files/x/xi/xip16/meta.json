@@ -1,0 +1,13 @@
+{
+  "appid": "xip16",
+  "author": {
+    "name": "morphinejh"
+  },
+  "category": "File and Disk",
+  "description": "A pair of Commander X16 utilities for creating (XIP16) and extracting (UNXIP16) ZIP-compatible archives.",
+  "name": "XIP16 / UNXIP16",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9202"
+  },
+  "version": ""
+}

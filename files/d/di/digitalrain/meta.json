@@ -1,0 +1,13 @@
+{
+  "appid": "digitalrain",
+  "author": {
+    "name": "morphinejh"
+  },
+  "category": "Systems",
+  "description": "A Matrix-style digital rain screensaver for the Commander X16, distributed as a cartridge ROM image.",
+  "name": "Digital Rain",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9148"
+  },
+  "version": ""
+}
