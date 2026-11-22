@@ -32,12 +32,13 @@ function esc(s = "") {
 
 function renderTable(data) {
   const container = document.getElementById("pkg-list");
-  document.querySelector("h2").textContent = data.category || "Packages";
 
   const titleOrder = new Intl.Collator("en", { sensitivity: "base", numeric: true });
   const pkgs = [...(data.packages || [])].sort((a, b) =>
     titleOrder.compare(a.name || "", b.name || "")
   );
+
+  document.querySelector("h2").textContent = `${data.category || "Packages"} (${pkgs.length})`;
 
   // ---- BUILD 2-LETTER GROUPS FOR DIRECTORY ----
   const groups = new Map();
