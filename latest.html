@@ -207,6 +207,8 @@ table.leaderboard-table a:hover {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 
+<script src="js/author-links.js"></script>
+
 <script>
 /* ============================================================
    Utilities
@@ -215,26 +217,6 @@ function esc(s="") {
   return String(s)
     .replace(/&/g,"&amp;").replace(/</g,"&lt;")
     .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-}
-
-function slugify(s) {
-  return String(s || "")
-    .normalize("NFKD").replace(/[\u0300-\u036f]/g,"")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g,"-")
-    .replace(/^-+|-+$/g,"");
-}
-
-function normalizeBase(s) {
-  return String(s || "")
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "");
-}
-
-function authorAnchorId(name) {
-  return "author-" + normalizeBase(name)
-    .replace(/[^A-Za-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
 }
 
 function normStatus(s) {
@@ -275,6 +257,7 @@ function renderTable() {
     if (!filter) return true;
     const hay = [
       it.date || "",
+      it.upstream_date || "",
       it.name || "",
       it.auth || "",
       it.status || "",
@@ -320,8 +303,11 @@ function renderTable() {
 
     const legacyAnchor = encodeURIComponent(name.replace(/\s+/g, "-"));
     const pkgUrl = it.package_url || url + "#pkg-" + legacyAnchor;
-    const authUrl = "https://x16files.com/directory/authors.html#" +
-                    authorAnchorId(auth);
+    const authUrl = "authors.html" + authorFragment(auth);
+    const upstreamLabel = it.upstream_kind === "forum" ? "Forum date" : "Author release/update";
+    const upstreamDate = it.upstream_date
+      ? `<div class="small">${esc(upstreamLabel)} <a href="${esc(it.upstream_source)}">${esc(it.upstream_date)}</a></div>`
+      : "";
 
     function linkLabelFromUrl(url) {
       const s = String(url || "").trim();
@@ -350,7 +336,7 @@ function renderTable() {
     html += `
       <tr>
         <td>${statusBadge(it.status)}</td>
-        <td>${esc(it.date || "")}</td>
+        <td>${esc(it.date || "")}${upstreamDate}</td>
         <td><a href="${esc(pkgUrl)}" target="_other">${esc(name)}</a></td>
         <td><a href="${esc(authUrl)}" target="_other">${esc(auth)}</a></td>
         <td><a href="${esc(url)}" target="_other">${esc(linkLabelFromUrl(url))}</a></td>
@@ -382,7 +368,7 @@ function renderTable() {
 async function loadLatestYAML() {
   const res = await fetch("data/latest.yaml", { cache: "no-store" });
   const text = await res.text();
-  const data = jsyaml.load(text);
+  const data = jsyaml.load(text, { schema: jsyaml.CORE_SCHEMA });
 
   ORIGINAL_ITEMS = data;
   GLOBAL_ITEMS = data;

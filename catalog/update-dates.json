@@ -1,0 +1,260 @@
+{
+  "adventure": {
+    "version": "",
+    "date": "2026-11-08",
+    "source": "https://microheaven.com/advent/",
+    "kind": "author"
+  },
+  "alterego": {
+    "version": "v0.0.2",
+    "date": "2026-11-04",
+    "source": "https://github.com/anomixer/alter-ego/releases/tag/v0.0.2",
+    "kind": "author"
+  },
+  "anotherworld": {
+    "version": "1.3",
+    "date": "2025-10-26",
+    "source": "https://github.com/cosmicr/anotherx16/releases/tag/v1.3",
+    "kind": "author"
+  },
+  "basload": {
+    "version": "0.2.6",
+    "date": "2023-11-02",
+    "source": "https://github.com/stefan-b-jakobsson/basload/releases/tag/0.2.6",
+    "kind": "author"
+  },
+  "battleblocks": {
+    "version": "v0.2.5",
+    "date": "2026-10-15",
+    "source": "https://github.com/ifilot/cx16-battleblocks/releases/tag/v0.2.5",
+    "kind": "author"
+  },
+  "bitmagic": {
+    "version": "prerelease",
+    "date": "2026-09-12",
+    "source": "https://github.com/Yazwh0/BitMagic/releases/tag/prerelease",
+    "kind": "author"
+  },
+  "blastgrid": {
+    "version": "1.0",
+    "date": "2026-09-29",
+    "source": "https://github.com/sandlbn/BlastGrid/releases/tag/1.0",
+    "kind": "author"
+  },
+  "bmxviewer": {
+    "version": "",
+    "date": "2024-07-02",
+    "source": "https://cx16forum.com/forum/viewtopic.php?p=34018#p34018",
+    "kind": "forum"
+  },
+  "box16emulator": {
+    "version": "Non-Release 48.0.0",
+    "date": "2024-12-01",
+    "source": "https://github.com/indigodarkwolf/box16/releases/tag/non-r48.0.0",
+    "kind": "author"
+  },
+  "calliope": {
+    "version": "v1.1",
+    "date": "2022-09-26",
+    "source": "https://github.com/ZeroByteOrg/calliope/releases/tag/v1.1",
+    "kind": "author"
+  },
+  "cc64": {
+    "version": "v0.12",
+    "date": "2023-12-05",
+    "source": "https://github.com/pzembrod/cc64/releases/tag/v0.12",
+    "kind": "author"
+  },
+  "commandercalc": {
+    "version": "v1.1.0",
+    "date": "2026-08-26",
+    "source": "https://github.com/sandlbn/commander-calc/releases/tag/v1.1.0",
+    "kind": "author"
+  },
+  "concertomultitrk": {
+    "version": "v0.8.0-beta.2",
+    "date": "2025-08-02",
+    "source": "https://github.com/biermanncarl/cx16-concerto/releases/tag/v0.8.0-beta.2",
+    "kind": "author"
+  },
+  "cx16othello": {
+    "version": "v1.2.0",
+    "date": "2024-06-01",
+    "source": "https://github.com/ifilot/cx16-othello/releases/tag/v1.2.0",
+    "kind": "author"
+  },
+  "damonrocketjock": {
+    "version": "v1.2.0",
+    "date": "2025-03-30",
+    "source": "https://github.com/natebarney/damon-the-rocket-jockey/releases/tag/v1.2.0",
+    "kind": "author"
+  },
+  "echosofthefuture": {
+    "version": "",
+    "date": "2025-07-26",
+    "source": "https://dareint.itch.io/echoes-of-the-future/devlog/994847/live-the-adventure-now-on-commander-x16",
+    "kind": "author"
+  },
+  "golscreensaver": {
+    "version": "v1.0.1",
+    "date": "2023-08-02",
+    "source": "https://github.com/Hechelion/cx16_conwayslifegame/releases/tag/v1.0.1-R43",
+    "kind": "author"
+  },
+  "gpcblitzx16": {
+    "version": "V1.2.0",
+    "date": "2026-10-08",
+    "source": "https://github.com/jakebullet70/x16-blitz-compiler/releases/tag/V1.2.0",
+    "kind": "author"
+  },
+  "img2x16": {
+    "version": "v0.5",
+    "date": "2026-03-04",
+    "source": "https://github.com/morphinejh/img2x16/releases/tag/v0.5",
+    "kind": "author"
+  },
+  "kakuro": {
+    "version": "v0.4.0",
+    "date": "2026-10-11",
+    "source": "https://github.com/ifilot/cx16-kakuro/releases/tag/v0.4.0",
+    "kind": "author"
+  },
+  "melodius": {
+    "version": "v20250410",
+    "date": "2025-04-10",
+    "source": "https://github.com/mooinglemur/melodius/releases/tag/v20250410",
+    "kind": "author"
+  },
+  "meteordefender": {
+    "version": "v1.0.0",
+    "date": "2025-07-12",
+    "source": "https://github.com/voidstar78/METDEFX16/releases/tag/v1.0.0",
+    "kind": "author"
+  },
+  "prog8compiler": {
+    "version": "v12.3.5",
+    "date": "2026-10-29",
+    "source": "https://github.com/irmen/prog8/releases/tag/v12.3.5",
+    "kind": "author"
+  },
+  "sodokusolver": {
+    "version": "V1.1a",
+    "date": "2025-04-03",
+    "source": "https://github.com/RealNatpie/X16-Sudoku/releases/tag/v1.1a",
+    "kind": "author"
+  },
+  "tenebra": {
+    "version": "",
+    "date": "2024-11-02",
+    "source": "https://h4plo.itch.io/tenebra/devlog/827273/commander-x16-version-released",
+    "kind": "author"
+  },
+  "textadventures": {
+    "version": "",
+    "date": "2026-09-08",
+    "source": "https://microheaven.com/ztac/",
+    "kind": "author"
+  },
+  "theairlockcollec": {
+    "version": "",
+    "date": "2024-04-17",
+    "source": "https://microheaven.com/airlock/",
+    "kind": "author"
+  },
+  "tilemaped": {
+    "version": "1.8.166",
+    "date": "2023-11-01",
+    "source": "https://github.com/dacobi/tilemaped/releases/tag/v1.8.166",
+    "kind": "author"
+  },
+  "vidkit": {
+    "version": "1.2",
+    "date": "2026-11-04",
+    "source": "https://theoasisbbs.com/x16-media-studio-6-updates-movie-creation-and-playback-for-commander-x16/",
+    "kind": "author"
+  },
+  "volksforth": {
+    "version": "6502-C64 3.9.6",
+    "date": "2024-10-04",
+    "source": "https://github.com/forth-ev/VolksForth/releases/tag/v3.9.6-6502-C64",
+    "kind": "author"
+  },
+  "vtuilib": {
+    "version": "1.2.0",
+    "date": "2024-03-06",
+    "source": "https://github.com/JimmyDansbo/VTUIlib/releases/tag/v1.2",
+    "kind": "author"
+  },
+  "wetwings": {
+    "version": "",
+    "date": "2026-10-13",
+    "source": "https://dareint.itch.io/wet-wings/devlog/1705130/the-english-version-is-now-available-for-commander-x16",
+    "kind": "author"
+  },
+  "x16cell": {
+    "version": "1.2",
+    "date": "2023-10-27",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=6528",
+    "kind": "author"
+  },
+  "x16edit": {
+    "version": "0.8.3",
+    "date": "2024-07-06",
+    "source": "https://github.com/stefan-b-jakobsson/x16-edit/releases/tag/0.8.3",
+    "kind": "author"
+  },
+  "x16emuforhaiku": {
+    "version": "r46",
+    "date": "2023-12-23",
+    "source": "https://github.com/peotr26/x16-emulator-haiku/releases/tag/r46",
+    "kind": "author"
+  },
+  "x16emulator": {
+    "version": "r49",
+    "date": "2025-11-19",
+    "source": "https://github.com/X16Community/x16-emulator/releases/tag/r49",
+    "kind": "author"
+  },
+  "x16moviemaker": {
+    "version": "",
+    "date": "2026-11-04",
+    "source": "https://theoasisbbs.com/x16-media-studio-6-updates-movie-creation-and-playback-for-commander-x16/",
+    "kind": "author"
+  },
+  "x16officesuite": {
+    "version": "v2026.11.21.1",
+    "date": "2026-11-21",
+    "source": "https://github.com/hermeslohin/cx16officesuite/releases/tag/v2026.11.21.1",
+    "kind": "author"
+  },
+  "x16pngconverter": {
+    "version": "v1.3.0",
+    "date": "2025-07-05",
+    "source": "https://github.com/joolin1/x16-png-converter/releases/tag/v1.3.0",
+    "kind": "author"
+  },
+  "x16tileeditor": {
+    "version": "v0.1b",
+    "date": "2025-06-19",
+    "source": "https://github.com/SlithyMatt/x16-tile-editor/releases/tag/v0.1b",
+    "kind": "author"
+  },
+  "xdod": {
+    "version": "V1.0",
+    "date": "2026-11-11",
+    "source": "https://github.com/voidstar78/XDOD/releases/tag/V1.0",
+    "kind": "author"
+  },
+  "xvi2": {
+    "version": "2.0.RC-0",
+    "date": "2026-04-24",
+    "source": "https://github.com/retrodores/XVI/releases/tag/2.0.rc-0",
+    "kind": "author"
+  },
+  "zsmkit": {
+    "version": "v2.8",
+    "date": "2025-12-14",
+    "source": "https://github.com/mooinglemur/zsmkit/releases/tag/v2.8",
+    "kind": "author"
+  }
+}

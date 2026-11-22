@@ -23,6 +23,13 @@ my $latest_limit = 75;
 my $site_url = 'https://x16files.com';
 my $feed_url = "$site_url/directory/latest.xml";
 
+# Evidence dates live outside files/ so researching an old release leaves
+# the program's catalog history and RSS identifiers intact.
+open my $date_file, '<:raw', 'catalog/update-dates.json'
+    or die "Cannot read catalog/update-dates.json: $!";
+my $update_dates = decode_json(do { local $/; <$date_file> });
+close $date_file;
+
 # First-parent history records when changes entered the published catalog,
 # including merge commits. Track additions before applying the display limit.
 open my $history, '-|', 'git', 'log', '--first-parent', '-m', '--no-renames',
@@ -61,7 +68,7 @@ for my $path (sort { $changes{$b}{timestamp} <=> $changes{$a}{timestamp} || $a c
     my $change = $changes{$path};
     my ($year, $month, $date) = split /-/, $change->{day};
     my $category_url = "/directory/$category.html";
-    push @latest, {
+    my $item = {
         appid       => $appid,
         url         => $category_url,
         package_url => "$category_url#app-$appid",
@@ -72,6 +79,14 @@ for my $path (sort { $changes{$b}{timestamp} <=> $changes{$a}{timestamp} || $a c
         auth        => $info->{author}{name},
         description => $info->{description} // '',
     };
+
+    my $update = $update_dates->{$appid};
+    if ($update && $update->{version} eq ($info->{version} // '')) {
+        $item->{upstream_date} = $update->{date};
+        $item->{upstream_kind} = $update->{kind};
+        $item->{upstream_source} = $update->{source};
+    }
+    push @latest, $item;
     last if @latest == $latest_limit;
 }
 
@@ -87,7 +102,12 @@ RSS
 for my $item (@latest) {
     my $title = xml_text(ucfirst($item->{status}) . ": " . $item->{name});
     my $link = xml_text($site_url . $item->{package_url});
-    my $description = xml_text($item->{description});
+    my $description = $item->{description};
+    if (defined $item->{upstream_date}) {
+        my $label = $item->{upstream_kind} eq 'forum' ? 'Forum date' : 'Author release/update';
+        $description .= "\n\n$label: $item->{upstream_date}";
+    }
+    $description = xml_text($description);
     my $date = strftime('%a, %d %b %Y %H:%M:%S GMT', gmtime($item->{timestamp}));
     my ($month, $day, $year) = split '/', $item->{date};
     my $guid = xml_text("$feed_url#$item->{appid}-$year-$month-$day");
