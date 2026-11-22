@@ -10,6 +10,7 @@
   <!-- SEO -->
   <meta name="description" content="Browse the latest Commander X16 software, games, demos, tools, and community updates on X16 Files.">
   <link rel="canonical" href="https://x16files.com/directory/latest.html">
+  <link rel="alternate" type="application/rss+xml" title="X16 Files - Latest" href="./latest.xml">
 
   <!-- Robots (allow indexing + AI summarization) -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -81,6 +82,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -90,6 +92,8 @@
   border: 1px solid #888;
   border-radius: 6px;
   width: 320px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 table.leaderboard-table {
@@ -185,6 +189,7 @@ table.leaderboard-table a:hover {
   <div class="leaderboard-controls">
     <input id="filterBox" type="text"
       placeholder="Filter (name, author, status, date, url)">
+    <a href="./latest.xml">Subscribe via RSS</a>
   </div>
 
   <div id="pkg-list"></div>
@@ -232,12 +237,6 @@ function authorAnchorId(name) {
     .replace(/^-+|-+$/g, "");
 }
 
-function pkgAnchorId(name) {
-  return "pkg-" + normalizeBase(name)
-    .replace(/[^A-Za-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
-
 function normStatus(s) {
   s = String(s || "").toLowerCase().trim();
   if (s === "add" || s === "added" || s === "new") return "added";
@@ -251,10 +250,10 @@ function statusBadge(status) {
   return `<span class="badge ${cls}">${esc(st)}</span>`;
 }
 
-function dateKey(dateStr) {
-  const m = String(dateStr||"").match(/^(\d{4})\/(\d{2})\/(\d{2})$/);
-  if (!m) return String(dateStr||"");
-  return `${m[1]}-${m[2]}-${m[3]}`;
+function dateKey(item) {
+  if (typeof item.timestamp === "number") return item.timestamp;
+  const [month, day, year] = String(item.date || "").split("/").map(Number);
+  return Date.UTC(year, month - 1, day) / 1000 || 0;
 }
 
 /* ============================================================
@@ -287,7 +286,7 @@ function renderTable() {
   if (SORT_COLUMN) {
     items.sort((a,b) => {
       if (SORT_COLUMN === "date")
-        return SORT_DIR * dateKey(a.date).localeCompare(dateKey(b.date));
+        return SORT_DIR * (dateKey(a) - dateKey(b));
       if (SORT_COLUMN === "name")
         return SORT_DIR * String(a.name||"").localeCompare(String(b.name||""));
       if (SORT_COLUMN === "auth")
@@ -305,7 +304,7 @@ function renderTable() {
     <thead>
       <tr>
         <th data-col="status">Status</th>
-        <th data-col="date">Date</th>
+        <th data-col="date">Catalog date</th>
         <th data-col="name">Name</th>
         <th data-col="auth">Author</th>
         <th data-col="url">Category</th>
@@ -319,7 +318,8 @@ function renderTable() {
     const name = it.name || "(unnamed)";
     const auth = it.auth || "various";
 
-    const pkgUrl  = url + "#" + pkgAnchorId(name);
+    const legacyAnchor = encodeURIComponent(name.replace(/\s+/g, "-"));
+    const pkgUrl = it.package_url || url + "#pkg-" + legacyAnchor;
     const authUrl = "https://x16files.com/directory/authors.html#" +
                     authorAnchorId(auth);
 
@@ -363,12 +363,13 @@ function renderTable() {
   document.querySelectorAll(".leaderboard-table th").forEach(th => {
     th.onclick = () => {
       const col = th.getAttribute("data-col");
+      const initialDirection = (col === "date") ? -1 : 1;
       if (SORT_COLUMN === col) {
-        if (SORT_DIR === 1) SORT_DIR = -1;
+        if (SORT_DIR === initialDirection) SORT_DIR = -initialDirection;
         else { SORT_COLUMN = ""; SORT_DIR = 1; }
       } else {
         SORT_COLUMN = col;
-        SORT_DIR = (col === "date") ? -1 : 1;
+        SORT_DIR = initialDirection;
       }
       renderTable();
     };

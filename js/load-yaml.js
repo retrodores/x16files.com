@@ -7,6 +7,18 @@ async function loadYAML(category) {
   const text = await res.text();
   const data = jsyaml.load(text);
   renderTable(data);
+
+  // The fragment target only exists after the category data has loaded.
+  let id;
+  try {
+    id = decodeURIComponent(location.hash.slice(1));
+  } catch {
+    return;
+  }
+  const target = document.getElementById(id);
+  if (target && document.getElementById("pkg-list").contains(target)) {
+    target.scrollIntoView();
+  }
 }
 
 function esc(s = "") {
@@ -77,6 +89,7 @@ function renderTable(data) {
       url = pkg.urls.x16forum || pkg.urls.source || pkg.urls.website || pkg.urls.webemu || "#";
 
     const anchorId = `pkg-${name.replace(/\s+/g, "-")}`;
+    const appAnchor = pkg.appid ? ` id="app-${esc(pkg.appid)}"` : "";
 
     const authorSlug = auth
       ? "author-" + auth.trim().replace(/\s+/g, "-")
@@ -88,7 +101,7 @@ function renderTable(data) {
     
     html += `
       <td id="${anchorId}">
-        <div class="card-top ${cls}"></div>
+        <div class="card-top ${cls}"${appAnchor}></div>
         <div class="card-mid">
           <a href="${url}" target="_blank" rel="noopener">${name}</a>
         </div>
