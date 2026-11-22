@@ -7,7 +7,8 @@
   "description": "ZSMKit is a ZSM playback library for the Commander X16. It aims to be an alternative to ZSound, but with several new features and advantages.",
   "name": "ZSMKit",
   "urls": {
+    "download": "https://github.com/mooinglemur/zsmkit/releases/download/v2.8/zsmkit-a000.bin",
     "source": "https://github.com/mooinglemur/zsmkit"
   },
-  "version": "2.6"
+  "version": "v2.8"
 }

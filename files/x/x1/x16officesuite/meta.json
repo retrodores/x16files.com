@@ -1,0 +1,14 @@
+{
+  "appid": "x16officesuite",
+  "author": {
+    "name": "hermeslohin"
+  },
+  "category": "Tools",
+  "description": "A Commander X16 office bundle with a word processor, spreadsheet, file manager, and calendar.",
+  "name": "X16 Office Suite",
+  "urls": {
+    "download": "https://github.com/hermeslohin/cx16officesuite/releases/download/v2026.11.21.1/cx16officesuite-2026.11.21.1.zip",
+    "website": "https://hermeslohin.github.io/cx16officesuite/"
+  },
+  "version": "v2026.11.21.1"
+}

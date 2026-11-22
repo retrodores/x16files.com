@@ -7,8 +7,9 @@
   "description": "Damon: The Rocket Jockey is a clone of Nomad: The Space Pirate a C64 game",
   "name": "Damon The Rocket Jockey",
   "urls": {
+    "download": "https://github.com/natebarney/damon-the-rocket-jockey/releases/download/v1.2.0/damon-1.2.0.zip",
     "source": "https://github.com/natebarney/damon-the-rocket-jockey",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7656&sid=ae40c1febbade03020241222eb9aa3d3"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7656"
   },
-  "version": ""
+  "version": "v1.2.0"
 }

@@ -7,7 +7,9 @@
   "description": "Kakuro is a logic-based number puzzle game, often described as a cross between a crossword and Sudoku.",
   "name": "Kakuro",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7933&sid=aad3aceedfb6154d1584fc24ec2936d8"
+    "download": "https://github.com/ifilot/cx16-kakuro/releases/download/v0.4.0/CX16-KAKURO.ZIP",
+    "source": "https://github.com/ifilot/cx16-kakuro",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7933"
   },
-  "version": ""
+  "version": "v0.4.0"
 }

@@ -1,0 +1,15 @@
+{
+  "appid": "blastgrid",
+  "author": {
+    "name": "sandlbn"
+  },
+  "category": "Games",
+  "description": "A Bomberman-style action game with a story mode and local battles for up to four players.",
+  "name": "BLAST GRID",
+  "urls": {
+    "download": "https://github.com/sandlbn/BlastGrid/releases/download/1.0/blastgrid.zip",
+    "source": "https://github.com/sandlbn/BlastGrid",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9216"
+  },
+  "version": "1.0"
+}

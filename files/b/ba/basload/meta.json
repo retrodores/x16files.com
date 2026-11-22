@@ -4,9 +4,11 @@
     "name": "Stefan Jakobsson"
   },
   "category": "Programming",
-  "description": "BASLOAD is a BASIC tokenizer/compiler that runs natively on the X16.",
+  "description": "A RAM-based BASIC tokenizer for the Commander X16 that supports named labels and long variable names. Development continues in the BASLOAD ROM project.",
   "name": "BASLOAD",
   "urls": {
+    "download": "https://github.com/stefan-b-jakobsson/basload/releases/download/0.2.6/BASLOAD-0.2.6.PRG",
+    "source": "https://github.com/stefan-b-jakobsson/basload",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6322"
   },
   "version": "0.2.6"

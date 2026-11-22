@@ -1,0 +1,15 @@
+{
+  "appid": "xdod",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Games",
+  "description": "A Commander X16 port of the 1982 Tandy Color Computer dungeon crawler, with real-time action and typed commands.",
+  "name": "X16 Dungeons of Daggorath",
+  "urls": {
+    "download": "https://github.com/voidstar78/XDOD/releases/download/V1.0/XDOD.ZIP",
+    "source": "https://github.com/voidstar78/XDOD",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9231"
+  },
+  "version": "V1.0"
+}
