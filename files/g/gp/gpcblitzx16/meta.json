@@ -1,0 +1,15 @@
+{
+  "appid": "gpcblitzx16",
+  "author": {
+    "name": "jakebullet70"
+  },
+  "category": "Programming",
+  "description": "A native Commander X16 compiler that turns tokenized BASIC programs into p-code.",
+  "name": "GPC Blitz-X16",
+  "urls": {
+    "download": "https://github.com/jakebullet70/x16-blitz-compiler/releases/download/V1.2.0/gpc-release-1.2.0.zip",
+    "source": "https://github.com/jakebullet70/x16-blitz-compiler",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9183"
+  },
+  "version": "V1.2.0"
+}

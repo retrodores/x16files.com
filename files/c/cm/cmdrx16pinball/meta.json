@@ -1,0 +1,13 @@
+{
+  "appid": "cmdrx16pinball",
+  "author": {
+    "name": "Brett Estrade"
+  },
+  "category": "Games",
+  "description": "A 2D pinball game for the Commander X16, available as a beta.",
+  "name": "CmdrX16 2D Pinball",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9240"
+  },
+  "version": "Beta"
+}

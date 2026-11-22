@@ -1,0 +1,15 @@
+{
+  "appid": "commandercalc",
+  "author": {
+    "name": "sandlbn"
+  },
+  "category": "Tools",
+  "description": "A native Commander X16 spreadsheet with formulas, worksheets, charts, and XLSX and CSV import and export.",
+  "name": "Commander Calc",
+  "urls": {
+    "download": "https://github.com/sandlbn/commander-calc/releases/download/v1.1.0/commander-calc-1.1.zip",
+    "source": "https://github.com/sandlbn/commander-calc",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9195"
+  },
+  "version": "v1.1.0"
+}

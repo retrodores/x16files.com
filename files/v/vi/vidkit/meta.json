@@ -1,0 +1,13 @@
+{
+  "appid": "vidkit",
+  "author": {
+    "name": "ahenry3068"
+  },
+  "category": "Programming",
+  "description": "A video playback library for the Commander X16. This release includes the PLAYLIST player.",
+  "name": "VIDKIT",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9213"
+  },
+  "version": "1.2"
+}

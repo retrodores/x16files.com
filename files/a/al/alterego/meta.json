@@ -1,0 +1,16 @@
+{
+  "appid": "alterego",
+  "author": {
+    "name": "anomixer"
+  },
+  "category": "Games",
+  "description": "A Commander X16 port of the NES homebrew puzzle platformer Alter Ego.",
+  "name": "Alter Ego",
+  "urls": {
+    "download": "https://github.com/anomixer/alter-ego/releases/download/v0.0.2/alter-ego-x16-sd.zip",
+    "source": "https://github.com/anomixer/alter-ego",
+    "webemu": "https://anomixer.github.io/alter-ego/x16/index.html",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9229"
+  },
+  "version": "v0.0.2"
+}

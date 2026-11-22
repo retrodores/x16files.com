@@ -4,10 +4,10 @@
     "name": "ahenry3068"
   },
   "category": "Graphics",
-  "description": "Create sprite-based videos that will play in the emulator and on real hardware!",
+  "description": "A desktop tool for creating videos for the Commander X16. The Media Studio 6 workflow uses PLAYMOVIES-VID for desktop previews, with separate playback software for the X16.",
   "name": "X16 Movie Maker",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=35595"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9228"
   },
-  "version": "Beta 12"
+  "version": ""
 }

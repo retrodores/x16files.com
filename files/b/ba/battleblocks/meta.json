@@ -1,0 +1,15 @@
+{
+  "appid": "battleblocks",
+  "author": {
+    "name": "ifilot"
+  },
+  "category": "Games",
+  "description": "A falling-block puzzle game with solo play, computer opponents, and local two-player battles.",
+  "name": "Battle Blocks",
+  "urls": {
+    "download": "https://github.com/ifilot/cx16-battleblocks/releases/download/v0.2.5/CX16-BATTLEBLOCKS.ZIP",
+    "source": "https://github.com/ifilot/cx16-battleblocks",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9220"
+  },
+  "version": "v0.2.5"
+}

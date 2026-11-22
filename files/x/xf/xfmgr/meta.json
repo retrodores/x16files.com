@@ -1,0 +1,13 @@
+{
+  "appid": "xfmgr",
+  "author": {
+    "name": "jakebullet70"
+  },
+  "category": "File and Disk",
+  "description": "An XTree-style file manager for the Commander X16.",
+  "name": "XFMGR",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9169"
+  },
+  "version": ""
+}

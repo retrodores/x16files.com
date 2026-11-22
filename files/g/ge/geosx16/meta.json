@@ -1,0 +1,14 @@
+{
+  "appid": "geosx16",
+  "author": {
+    "name": "Shaun Christiansen"
+  },
+  "category": "Systems",
+  "description": "A cartridge-based port of GEOS 2.0 that runs Commodore 64 GEOS applications on the Commander X16 using disk images.",
+  "name": "GEOS-X16",
+  "urls": {
+    "source": "https://github.com/ShaunChristiansen/X16-GEOS",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9234"
+  },
+  "version": ""
+}
