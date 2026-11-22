@@ -14,9 +14,11 @@
 
   const row = document.createElement("div");
   row.className = "share-links";
-  const label = document.createElement("span");
-  label.textContent = "Share";
-  row.append(label);
+  if (share.tagName !== "DETAILS") {
+    const label = document.createElement("span");
+    label.textContent = "Share";
+    row.append(label);
+  }
 
   for (const [name, endpoint, params] of destinations) {
     const destination = new URL(endpoint);

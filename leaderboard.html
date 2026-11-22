@@ -22,7 +22,9 @@
   <meta name="twitter:image" content="https://raw.githubusercontent.com/retrodores/x16files.com/master/assets/social-preview-v1.jpg">
   <meta name="twitter:image:alt" content="X16 Files logo with icons for games, tools, software and demos">
   <link rel="stylesheet" href="/directory/share-links.css">
-  <script src="/directory/js/share-links.js" defer></script>
+  <link rel="stylesheet" href="/directory/directory-nav.css">
+  <script src="/directory/js/directory-nav.js" defer></script>
+  <script src="/directory/js/share-links.js?v=2" defer></script>
 
   <!-- Responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -102,14 +104,11 @@ table.leaderboard-table a:hover {
 </style>
 
 </head>
-<body id="top">
+<body id="top" class="directory-page">
   <header>
     <h1><a href="/" style="color:#e5e8f0;text-decoration:underline;text-decoration-style:dashed;">X16 FILES</a></h1>
     <nav>
-      <a href="/directory">Index</a>
-      <a href="./authors.html">Authors A-Z</a>
       <a href="./latest.html">Latest</a>
-      <a href="./leaderboard.html">Leaderboard</a>
       <a href="https://discord.gg/nS2PqEC">Discord</a>
       <a href="https://cx16forum.com/forum/viewforum.php?f=29">Forum</a>
     </nav>
@@ -123,10 +122,16 @@ table.leaderboard-table a:hover {
       <a href="https://github.com/retrodores/x16files.com/issues" target=_other><strong>Report Issue</strong></a>
     </nav>
 </header>
-  <div data-share-page></div>
+  <nav class="directory-nav" aria-label="Browse directory"></nav>
+  <noscript><a href="/directory/index.html">Directory Home</a></noscript>
 
 <main class="leaderboard-wrapper">
-  <h2>Loading...</h2>
+  <div class="directory-heading">
+    <h2>Loading...</h2>
+    <details class="directory-share" data-share-page>
+      <summary>Share</summary>
+    </details>
+  </div>
 
   <div class="leaderboard-controls">
     <input id="filterBox" type="text" placeholder="Filter authors…">
