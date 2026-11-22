@@ -321,6 +321,7 @@
       <a href="https://github.com/retrodores/x16files.com/issues" target=_other><strong>Report Issue</strong></a>
     </nav>
   </header>
+  <div data-share-page></div>
 
   <main>
     <h1>Search Results for "[% query | html -%]"</h1>
@@ -395,7 +396,6 @@
     Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |
     Designed for X16 enthusiasts |
     <a href="https://github.com/retrodores/x16files.com/tree/master/files" target="_other">Add or update on Github!</a>
-    <div data-share-page></div>
   </footer>
   <a href="#top" class="back-to-top">^ Top</a>
 </body>
