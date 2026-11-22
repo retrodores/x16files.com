@@ -1,8 +1,30 @@
 <!doctype html>
 <html lang="en">
 <head>
+[% BLOCK search_share_url %]https://x16files.com/cgi-bin/search-x16files.pl[% IF query %]?q=[% query | uri %][% END %][% END %]
 <meta charset="utf-8" />
-<title>X16 Files</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search | X16 Files</title>
+
+  <link rel="canonical" href="[% PROCESS search_share_url %]">
+  <meta name="description" content="Search the X16 Files catalog for Commander X16 programs.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="X16 Files">
+  <meta property="og:title" content="Search | X16 Files">
+  <meta property="og:description" content="Search the X16 Files catalog for Commander X16 programs.">
+  <meta property="og:url" content="[% PROCESS search_share_url %]">
+  <meta property="og:image" content="https://raw.githubusercontent.com/retrodores/x16files.com/master/assets/social-preview-v1.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="X16 Files logo with icons for games, tools, software and demos">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Search | X16 Files">
+  <meta name="twitter:description" content="Search the X16 Files catalog for Commander X16 programs.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/retrodores/x16files.com/master/assets/social-preview-v1.jpg">
+  <meta name="twitter:image:alt" content="X16 Files logo with icons for games, tools, software and demos">
+  <link rel="stylesheet" href="/directory/share-links.css">
+  <script src="/directory/js/share-links.js" defer></script>
 <style>
   :root{
     --nav-bg:#2a2f3d;
@@ -291,7 +313,7 @@
     </nav>
 
     <form class="search-bar" method="get" action="/cgi-bin/search-x16files.pl">
-      <input type="text" name="q" placeholder="Search X16 Files"¦>
+      <input type="text" name="q" placeholder="Search X16 Files">
       <input type="submit" value="Search">
     </form>
 
@@ -301,7 +323,7 @@
   </header>
 
   <main>
-    <h1>Search Results for "[% query -%]"</h1>
+    <h1>Search Results for "[% query | html -%]"</h1>
     [% message -%]
 [% IF results.size %]
 <table>
@@ -373,8 +395,9 @@
     Inspired by <a href="https://msxhub.com/categories" target="_blank">MSX Hub</a> |
     Designed for X16 enthusiasts |
     <a href="https://github.com/retrodores/x16files.com/tree/master/files" target="_other">Add or update on Github!</a>
+    <div data-share-page></div>
   </footer>
-  <a href="#top" class="back-to-top">^ Top</
+  <a href="#top" class="back-to-top">^ Top</a>
 </body>
 </html>
 

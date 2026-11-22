@@ -1,0 +1,54 @@
+.share-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .35rem .55rem;
+  margin: .85rem auto;
+  padding: 0 .5rem;
+  font-size: .8125rem;
+}
+
+.share-links a,
+.share-links button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.75rem;
+  padding: 0 .45rem;
+  box-sizing: border-box;
+  border: 1px solid #c2ccdb;
+  border-radius: .3rem;
+  color: #064d9f;
+  background: #fff;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.share-links a:hover,
+.share-links button:hover {
+  background: #eef5ff;
+}
+
+.share-links a:focus-visible,
+.share-links button:focus-visible,
+.share-links input:focus-visible {
+  outline: 2px solid #064d9f;
+  outline-offset: 2px;
+}
+
+.share-status:empty {
+  display: none;
+}
+
+.share-status {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.share-links input {
+  box-sizing: border-box;
+  width: 25rem;
+  max-width: 100%;
+  font: inherit;
+}
