@@ -4,10 +4,11 @@
     "name": "morphinejh"
   },
   "category": "File and Disk",
-  "description": "A pair of Commander X16 utilities for creating (XIP16) and extracting (UNXIP16) ZIP-compatible archives.",
+  "description": "Create standard ZIP archives with XIP16 and extract them with UNXIP16 on a stock 512 KB Commander X16. Both tools use device 8 and require 80-column mode.",
   "name": "XIP16 / UNXIP16",
   "urls": {
+    "download": "https://cx16forum.com/forum/download/file.php?id=5069",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9202"
   },
-  "version": ""
+  "version": "r0"
 }

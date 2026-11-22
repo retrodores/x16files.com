@@ -4,10 +4,11 @@
     "name": "morphinejh"
   },
   "category": "Systems",
-  "description": "A Matrix-style digital rain screensaver for the Commander X16, distributed as a cartridge ROM image.",
+  "description": "A Matrix-style screensaver distributed as a cartridge ROM image for hardware and an emulator cartridge file. Version 1.1 adds fading trails and variable-length streams.",
   "name": "Digital Rain",
   "urls": {
+    "download": "https://cx16forum.com/forum/download/file.php?id=4925",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9148"
   },
-  "version": ""
+  "version": "1.1"
 }

@@ -89,6 +89,12 @@
     "source": "https://github.com/natebarney/damon-the-rocket-jockey/releases/tag/v1.2.0",
     "kind": "author"
   },
+  "digitalrain": {
+    "version": "1.1",
+    "date": "2026-06-03",
+    "source": "https://cx16forum.com/forum/viewtopic.php?p=38421#p38421",
+    "kind": "author"
+  },
   "echosofthefuture": {
     "version": "",
     "date": "2025-07-26",
@@ -243,6 +249,12 @@
     "version": "V1.0",
     "date": "2026-11-11",
     "source": "https://github.com/voidstar78/XDOD/releases/tag/V1.0",
+    "kind": "author"
+  },
+  "xip16": {
+    "version": "r0",
+    "date": "2026-08-25",
+    "source": "https://cx16forum.com/forum/viewtopic.php?p=38662#p38662",
     "kind": "author"
   },
   "xvi2": {
