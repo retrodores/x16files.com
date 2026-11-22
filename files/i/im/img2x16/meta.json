@@ -4,10 +4,11 @@
     "name": "morphinejh"
   },
   "category": "Graphics",
-  "description": "mg2x16 is a command line program to convert image files to VERA binary streams for the Commander X16.  img2x16 is designed to take a given image, and adapt it to a given color palette. It currently only supports 8bpp color depth (i.e 16-bit palette entries).",
+  "description": "A command-line tool that converts image files to VERA binary streams for the Commander X16, adapting the image to a specified color palette.",
   "name": "img2x16",
   "urls": {
+    "download": "https://github.com/morphinejh/img2x16/releases/download/v0.5/img2x16_v05.zip",
     "source": "https://github.com/morphinejh/img2x16"
   },
-  "version": "Version 0.3"
+  "version": "v0.5"
 }

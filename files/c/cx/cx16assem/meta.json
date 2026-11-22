@@ -7,7 +7,7 @@
   "description": "File-based 65c02 assembler for Commander-X16 that runs natively on the Commander X16.",
   "name": "cx16assem",
   "urls": {
-    "source": "https://github.com/irmen/cx16assem"
+    "source": "https://codeberg.org/irmen/cx16assem"
   },
   "version": "1.6"
 }

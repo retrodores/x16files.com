@@ -7,8 +7,9 @@
   "description": "Here it is, Meteor Defender X16 as presented in the July 2025 issue of Compute Gazette magazine!",
   "name": "Meteor Defender",
   "urls": {
+    "download": "https://github.com/voidstar78/METDEFX16/releases/download/v1.0.0/METDEFX16_V1.ZIP",
     "source": "https://github.com/voidstar78/METDEFX16",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8520&sid=ae40c1febbade03020241222eb9aa3d3"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8520"
   },
-  "version": ""
+  "version": "v1.0.0"
 }

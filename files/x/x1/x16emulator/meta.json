@@ -7,7 +7,8 @@
   "description": "This is an emulator for the Commander X16 computer system. It only depends on SDL2 and should compile on all modern operating systems.",
   "name": "X16 Emulator",
   "urls": {
-    "source": "https://github.com/x16community/x16-emulator"
+    "download": "https://github.com/X16Community/x16-emulator/releases/tag/r49",
+    "source": "https://github.com/X16Community/x16-emulator"
   },
-  "version": "48"
+  "version": "r49"
 }

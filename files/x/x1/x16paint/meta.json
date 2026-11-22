@@ -7,8 +7,8 @@
   "description": "Bitmap image paint program for the Commander X16, work in progress.",
   "name": "x16paint",
   "urls": {
-    "source": "https://github.com/irmen/x16paint",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7252&sid=74d257d2b2fe9e2339a326fd0685b94b"
+    "source": "https://codeberg.org/irmen/x16paint",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7252"
   },
   "version": ""
 }
