@@ -3,4 +3,4 @@
 set -e
 cd -- "$(dirname -- "$0")/.."
 mkdir -p data
-exec perl ./bin/generate-latest.pl
+exec ./bin/generate-latest.pl
