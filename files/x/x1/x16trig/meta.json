@@ -1,0 +1,16 @@
+{
+  "appid": "x16trig",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Programming",
+  "description": "A keyboard-and-mouse demo of BASIC trigonometry and rotation angles. Its RING drawing uses System ROM R48.",
+  "name": "X16TRIG",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7946",
+    "source": "https://cx16forum.com/forum/download/file.php?id=3683",
+    "download": "https://cx16forum.com/forum/download/file.php?id=3684",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=3686"
+  },
+  "version": ""
+}

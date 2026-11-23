@@ -1,0 +1,14 @@
+{
+  "appid": "callistar",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Programming",
+  "description": "A navigable BASLOAD demo of seeded maze generation and scaled vector graphics, with object placement and palette changes.",
+  "name": "CALLISTAR",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8855",
+    "source": "https://cx16forum.com/forum/download/file.php?id=4523"
+  },
+  "version": ""
+}

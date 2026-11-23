@@ -1,0 +1,13 @@
+{
+  "appid": "xcomm",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Internet",
+  "description": "A dual-layer serial terminal with a local command console and YModem batch transfers.",
+  "name": "XCOMM",
+  "urls": {
+    "source": "https://github.com/voidstar78/XTERM_X16"
+  },
+  "version": ""
+}

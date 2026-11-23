@@ -1,0 +1,15 @@
+{
+  "appid": "velocitytargetpractice",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Games",
+  "description": "A BASLOAD target-practice game that models projectile velocity and supports a gamepad.",
+  "name": "VELOCITY Target Practice",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6966",
+    "source": "https://cx16forum.com/forum/download/file.php?id=2405",
+    "download": "https://cx16forum.com/forum/download/file.php?id=2406"
+  },
+  "version": ""
+}

@@ -1,0 +1,15 @@
+{
+  "appid": "x16fishtank",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Graphics",
+  "description": "An interactive animated aquarium with adjustable scenery and fish populations. The forum topic includes a companion Python asset packer.",
+  "name": "X16 Fishtank",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9201",
+    "download": "https://cx16forum.com/forum/download/file.php?id=5070",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=5070"
+  },
+  "version": ""
+}

@@ -1,0 +1,14 @@
+{
+  "appid": "walk",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Programming",
+  "description": "A BASLOAD example that walks tokenized BASIC lines. Run it on its own or append it to another program.",
+  "name": "WALK",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8991",
+    "source": "https://cx16forum.com/forum/download/file.php?id=4656"
+  },
+  "version": ""
+}

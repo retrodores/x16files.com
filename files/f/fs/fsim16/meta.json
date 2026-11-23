@@ -1,0 +1,15 @@
+{
+  "appid": "fsim16",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Games",
+  "description": "A BASLOAD flight simulator with approach and landing practice, flight logs, and a PDF manual.",
+  "name": "X16 Flight Simulator",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9137",
+    "download": "https://cx16forum.com/forum/download/file.php?id=4851",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=4851"
+  },
+  "version": "V1.1"
+}

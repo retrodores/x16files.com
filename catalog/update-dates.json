@@ -29,6 +29,12 @@
     "source": "https://github.com/ifilot/cx16-battleblocks/releases/tag/v0.2.5",
     "kind": "author"
   },
+  "beziercurves": {
+    "version": "",
+    "date": "2026-06-07",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=9155#p38438",
+    "kind": "forum"
+  },
   "bitmagic": {
     "version": "prerelease",
     "date": "2026-09-12",
@@ -57,6 +63,12 @@
     "version": "v1.1",
     "date": "2022-09-26",
     "source": "https://github.com/ZeroByteOrg/calliope/releases/tag/v1.1",
+    "kind": "author"
+  },
+  "callistar": {
+    "version": "",
+    "date": "2025-09-23",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=8855#p37328",
     "kind": "author"
   },
   "cc64": {
@@ -101,6 +113,12 @@
     "source": "https://dareint.itch.io/echoes-of-the-future/devlog/994847/live-the-adventure-now-on-commander-x16",
     "kind": "author"
   },
+  "fsim16": {
+    "version": "V1.1",
+    "date": "2026-04-26",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=9137#p38324",
+    "kind": "forum"
+  },
   "golscreensaver": {
     "version": "v1.0.1",
     "date": "2023-08-02",
@@ -123,6 +141,12 @@
     "version": "v0.4.0",
     "date": "2026-10-11",
     "source": "https://github.com/ifilot/cx16-kakuro/releases/tag/v0.4.0",
+    "kind": "author"
+  },
+  "lowerdecks": {
+    "version": "",
+    "date": "2023-11-05",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=6880#p30048",
     "kind": "author"
   },
   "melodius": {
@@ -173,6 +197,12 @@
     "source": "https://github.com/dacobi/tilemaped/releases/tag/v1.8.166",
     "kind": "author"
   },
+  "velocitytargetpractice": {
+    "version": "",
+    "date": "2023-11-29",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=6966#p30556",
+    "kind": "forum"
+  },
   "vidkit": {
     "version": "1.2",
     "date": "2026-11-04",
@@ -190,6 +220,12 @@
     "date": "2024-03-06",
     "source": "https://github.com/JimmyDansbo/VTUIlib/releases/tag/v1.2",
     "kind": "author"
+  },
+  "walk": {
+    "version": "",
+    "date": "2025-12-16",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=8991#p37764",
+    "kind": "forum"
   },
   "wetwings": {
     "version": "",
@@ -221,6 +257,12 @@
     "source": "https://github.com/X16Community/x16-emulator/releases/tag/r49",
     "kind": "author"
   },
+  "x16fishtank": {
+    "version": "",
+    "date": "2026-08-26",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=9201#p38663",
+    "kind": "author"
+  },
   "x16moviemaker": {
     "version": "",
     "date": "2026-11-04",
@@ -245,6 +287,12 @@
     "source": "https://github.com/SlithyMatt/x16-tile-editor/releases/tag/v0.1b",
     "kind": "author"
   },
+  "x16trig": {
+    "version": "",
+    "date": "2024-09-17",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=7946#p34591",
+    "kind": "forum"
+  },
   "xdod": {
     "version": "V1.0",
     "date": "2026-11-11",
@@ -256,6 +304,12 @@
     "date": "2026-08-25",
     "source": "https://cx16forum.com/forum/viewtopic.php?p=38662#p38662",
     "kind": "author"
+  },
+  "xtrain": {
+    "version": "",
+    "date": "2026-11-19",
+    "source": "https://cx16forum.com/forum/viewtopic.php?t=9238#p38840",
+    "kind": "forum"
   },
   "xvi2": {
     "version": "2.0.RC-0",

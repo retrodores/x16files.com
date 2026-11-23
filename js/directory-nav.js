@@ -8,6 +8,7 @@
       ["Author Leaderboard", "/directory/leaderboard.html"],
       ["By Author", "/directory/authors.html"],
       ["Full Text Search", "/cgi-bin/search-x16files.pl"],
+      ["References", "/directory/references.html"],
     ],
     [
       ["Editors", "/directory/editors.html"],

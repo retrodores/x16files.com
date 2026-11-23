@@ -1,0 +1,15 @@
+{
+  "appid": "lowerdecks",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Games",
+  "description": "A mouse-wheel-controlled BASIC game about balancing eight subsystems and keeping enough conduits working to route power.",
+  "name": "Lower Decks",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6880",
+    "download": "https://cx16forum.com/forum/download/file.php?id=2205",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=2205"
+  },
+  "version": ""
+}

@@ -1,0 +1,16 @@
+{
+  "appid": "xtrain",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Games",
+  "description": "Deliver cargo through checkpoints, jump damaged track, and summon allies to defend your train. Includes three story difficulties and an endless challenge mode.",
+  "name": "XTRAIN",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9238",
+    "source": "https://cx16forum.com/forum/download/file.php?id=5209",
+    "download": "https://cx16forum.com/forum/download/file.php?id=5205",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=5208"
+  },
+  "version": ""
+}

@@ -1,0 +1,15 @@
+{
+  "appid": "beziercurves",
+  "author": {
+    "name": "Xiphod"
+  },
+  "category": "Graphics",
+  "description": "An interactive BASIC demo for adding and dragging B\u00e9zier curve control points and switching between PSET and LINE rendering.",
+  "name": "Bezier Curves in BASIC",
+  "urls": {
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9155",
+    "download": "https://cx16forum.com/forum/download/file.php?id=4932",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=4932"
+  },
+  "version": ""
+}
