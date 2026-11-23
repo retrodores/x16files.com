@@ -4,9 +4,10 @@
     "name": "Shaun Christiansen"
   },
   "category": "Systems",
-  "description": "A cartridge-based port of GEOS 2.0 that runs Commodore 64 GEOS applications on the Commander X16 using disk images.",
+  "description": "A cartridge-based port of GEOS 2.0 that runs Commodore 64 GEOS applications from disk images. Supports printing, BMX wallpapers, and BBS access through the TexElec serial and Wi-Fi card. The source package includes a prebuilt X16 cartridge image.",
   "name": "GEOS-X16",
   "urls": {
+    "download": "https://raw.githubusercontent.com/ShaunChristiansen/X16-GEOS/bde3e5c7aed0f44f4787297ad88798883eb536f5/source.zip",
     "source": "https://github.com/ShaunChristiansen/X16-GEOS",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9234"
   },
