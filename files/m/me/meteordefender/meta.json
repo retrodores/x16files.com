@@ -5,6 +5,10 @@
   },
   "category": "Games",
   "description": "Here it is, Meteor Defender X16 as presented in the July 2025 issue of Compute Gazette magazine!",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "METDEFX16.PRG"
+  },
   "name": "Meteor Defender",
   "urls": {
     "download": "https://github.com/voidstar78/METDEFX16/releases/download/v1.0.0/METDEFX16_V1.ZIP",

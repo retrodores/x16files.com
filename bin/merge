@@ -6,6 +6,7 @@ use warnings;
 package bin::merge;
 
 use File::Find;
+use File::Temp qw/tempfile/;
 use FindBin qw/$Bin/;
 use JSON::PP;
 use YAML qw/Dump DumpFile/;
@@ -17,9 +18,10 @@ binmode STDOUT, ":encoding(UTF-8)";
 
 my $opts_ref = Getopt2h2o \@ARGV, { verbose => undef }, qw/verbose|v/;
 
-my $jsonpp = JSON::PP->new->ascii->pretty->allow_nonref;
+my $jsonpp = JSON::PP->new->utf8->ascii->pretty->allow_nonref;
 
 my ($categories,$authors,$appnames);
+my %launcher_programs;
 my ($full_idx_lookup, $author_idx_lookup, $appname_idx_lookup);
 
 # Idx set up...
@@ -107,6 +109,32 @@ sub process {
   my $author   = $info->{author}->{name};
   my $appname  = $info->{name};
 
+  if ($path[-1] eq 'meta.json') {
+    my $package = delete $info->{launcher_package};
+    my $appid = $info->{appid};
+    die "Missing appid in $file\n" unless defined $appid && length $appid;
+    die "Duplicate appid $appid in $file\n" if exists $launcher_programs{$appid};
+
+    my $program = { appid => $appid };
+    for my $field (qw/name category version description/) {
+      $program->{$field} = $info->{$field} if defined $info->{$field};
+    }
+    $program->{author} = { name => $author } if defined $author;
+
+    my $url = ref $info->{urls} eq 'HASH' ? $info->{urls}{download} : undef;
+    if (ref $package eq 'HASH' && defined $url && $url =~ m{\Ahttps?://[^\s]+\z}) {
+      my $format = $package->{format} // '';
+      my $prg = $package->{prg} // '';
+      if ($format eq 'prg') {
+        $program->{package} = { url => $url, format => $format };
+      } elsif ($format eq 'zip' && $prg =~ m{\A(?:[^/\\]+/)*[^/\\]+\.prg\z}i
+               && $prg !~ m{(?:\A|/)\.{1,2}/|[:\x00-\x1f]}) {
+        $program->{package} = { url => $url, format => $format, prg => $prg };
+      }
+    }
+    $launcher_programs{$appid} = $program;
+  }
+
   # hash for building index pages
   push @{$categories->{$category}}, $info; 
   push @{$authors->{$author}}, $info;
@@ -131,6 +159,25 @@ sub process {
 open my $fh, ">", "$Bin/../../cgi-bin/search-x16files.json";
 print $fh $jsonpp->encode($full_idx_lookup);
 close $fh;
+
+my @programs = map { $launcher_programs{$_} } sort keys %launcher_programs;
+foreach my $program (@programs) {
+  my $category_page = $cats->{lc $program->{category}}->{slug};
+  $program->{page_url} = "https://x16files.com/directory/$category_page.html#app-$program->{appid}";
+}
+
+my $launcher_path = "$Bin/../data/launcher.json";
+my $launcher_json = JSON::PP->new->utf8->canonical->pretty->encode({
+  schema_version => 1,
+  programs => \@programs,
+});
+my ($launcher_fh, $temporary) = tempfile("$launcher_path.XXXXXX", UNLINK => 1);
+binmode $launcher_fh, ':raw' or die "Cannot set binary mode for $temporary: $!";
+print {$launcher_fh} $launcher_json or die "Cannot write $temporary: $!";
+close $launcher_fh or die "Cannot close $temporary: $!";
+chmod 0644, $temporary or die "Cannot make $temporary readable: $!";
+rename $temporary, $launcher_path or die "Cannot replace $launcher_path: $!";
+say "wrote launcher.json" if $opts_ref->verbose;
 
 1
 

@@ -15,6 +15,36 @@ available after the site is established so that people can write clients using t
 and search capabilities we're planning.
 
 
+## X16 For All Time catalog feed
+
+X16 For All Time is authorized to consume the feed at
+https://x16files.com/directory/data/launcher.json. The existing catalog-wide
+data-use policy still applies.
+
+`bin/merge` generates `data/launcher.json` from `files/**/meta.json`.
+The JSON object has `schema_version: 1` and a `programs` array sorted by
+`appid`. Each entry has an `appid` and an absolute `page_url` for its
+catalog listing. The feed copies `name`, `category`, `author.name`,
+`version`, and `description` when present.
+
+Every program can be browsed. Only entries with verified package metadata
+include `package`. Its `url` comes from `urls.download` and `format` is
+`prg` for a direct PRG or `zip` for an archive. For a ZIP, `prg` is the
+exact, case-sensitive relative path to the startup PRG. Keep the rest of
+the archive and its directory structure when extracting it. Catalog
+maintainers record the verified `format` and, for ZIPs, `prg` under
+`launcher_package` in the individual program metadata.
+
+Meteor Defender v1.0.0 has this package:
+
+```json
+{
+  "url": "https://github.com/voidstar78/METDEFX16/releases/download/v1.0.0/METDEFX16_V1.ZIP",
+  "format": "zip",
+  "prg": "METDEFX16.PRG"
+}
+```
+
 ## Publishing the homepage and social previews
 
 The directory checkout is served at `/directory/`. The root homepage is kept
