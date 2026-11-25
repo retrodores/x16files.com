@@ -27,13 +27,12 @@ The JSON object has `schema_version: 1` and a `programs` array sorted by
 catalog listing. The feed copies `name`, `category`, `author.name`,
 `version`, and `description` when present.
 
-Every program can be browsed. Only entries with verified package metadata
-include `package`. Its `url` comes from `urls.download` and `format` is
-`prg` for a direct PRG or `zip` for an archive. For a ZIP, `prg` is the
-exact, case-sensitive relative path to the startup PRG. Keep the rest of
-the archive and its directory structure when extracting it. Catalog
-maintainers record the verified `format` and, for ZIPs, `prg` under
-`launcher_package` in the individual program metadata.
+The feed carries direct ZIP and PRG links from `urls.download`. A single
+download appears as `package` and multiple downloads appear as `packages`.
+Each package has a `url` and a `format` of `prg` or `zip`. A ZIP can
+also have a `prg` field with the exact, case-sensitive path to its startup
+PRG, as recorded in `launcher_package`. Keep the archive's companion files
+and directory structure when extracting it.
 
 Meteor Defender v1.0.0 has this package:
 

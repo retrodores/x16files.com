@@ -121,17 +121,30 @@ sub process {
     }
     $program->{author} = { name => $author } if defined $author;
 
-    my $url = ref $info->{urls} eq 'HASH' ? $info->{urls}{download} : undef;
-    if (ref $package eq 'HASH' && defined $url && $url =~ m{\Ahttps?://[^\s]+\z}) {
-      my $format = $package->{format} // '';
-      my $prg = $package->{prg} // '';
-      if ($format eq 'prg') {
-        $program->{package} = { url => $url, format => $format };
-      } elsif ($format eq 'zip' && $prg =~ m{\A(?:[^/\\]+/)*[^/\\]+\.prg\z}i
-               && $prg !~ m{(?:\A|/)\.{1,2}/|[:\x00-\x1f]}) {
-        $program->{package} = { url => $url, format => $format, prg => $prg };
+    my $download = ref $info->{urls} eq 'HASH' ? $info->{urls}{download} : undef;
+    my @urls = ref $download eq 'ARRAY' ? @$download : ($download);
+    my @packages;
+    my %seen;
+    for my $url (@urls) {
+      next if !defined $url || ref $url;
+      $url =~ s/\A\s+|\s+\z//g;
+      my ($path) = $url =~ m{\Ahttps?://[^/\s?#@]+(/[^\s?#]*)?(?:[?#][^\s]*)?\z}i;
+      next unless defined $path && !$seen{$url}++;
+      my ($format) = $path =~ m{/[^/]*\.(prg|zip)\z}i;
+      my $hint = ref $package eq 'HASH' && (@urls == 1 || ($package->{url} // '') eq $url)
+        ? $package : {};
+      $format = lc($format // $hint->{format} // '');
+      next unless $format eq 'zip' || $format eq 'prg';
+      my $item = { url => $url, format => $format };
+      my $prg = $hint->{prg} // '';
+      if ($format eq 'zip' && $prg =~ m{\A(?:[^/\\]+/)*[^/\\]+\.prg\z}i
+          && $prg !~ m{(?:\A|/)\.{1,2}/|[:\x00-\x1f]}) {
+        $item->{prg} = $prg;
       }
+      push @packages, $item;
     }
+    $program->{package} = $packages[0] if @packages == 1;
+    $program->{packages} = \@packages if @packages > 1;
     $launcher_programs{$appid} = $program;
   }
 
