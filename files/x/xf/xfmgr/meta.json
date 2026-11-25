@@ -7,7 +7,9 @@
   "description": "An XTree-style file manager for the Commander X16.",
   "name": "XFMGR",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9169"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9169",
+    "source": "https://github.com/jakebullet70/XFMGR2",
+    "download": "https://github.com/jakebullet70/XFMGR2/releases/download/BUILD_195/XFMGR-195.ZIP"
   },
   "version": ""
 }

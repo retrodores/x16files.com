@@ -8,7 +8,13 @@
   "name": "DreamTracker",
   "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6669",
-    "source" : "https://gitlab.com/m00dawg/dream-tracker"
+    "source": "https://gitlab.com/m00dawg/dream-tracker",
+    "download": "https://dreamtracker.bitbybitsynths.com/downloads/dreamtracker-0.71.zip",
+    "website": "https://dreamtracker.bitbybitsynths.com/"
   },
-  "version": ""
+  "version": "0.71",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "DT.PRG"
+  }
 }

@@ -13,6 +13,6 @@
   },
   "version": "",
   "launcher_package": {
-    "format": "prg"
+    "format": "zip"
   }
 }

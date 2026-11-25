@@ -7,7 +7,12 @@
   "description": "A spreadsheet program for X16.",
   "name": "X16Cell",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6528&sid=5a303c5195eb93a4d305dc21389930e2"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6528&sid=5a303c5195eb93a4d305dc21389930e2",
+    "download": "https://github.com/TediusTimmy/X16Cell/releases/download/v2.0.0/calc-1.2.prg",
+    "source": "https://github.com/TediusTimmy/X16Cell"
   },
-  "version": "1.2"
+  "version": "1.2",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

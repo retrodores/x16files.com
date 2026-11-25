@@ -8,21 +8,21 @@
   "name": "Tehtriz",
   "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6299",
-    "source" : "https://github.com/irmen/prog8/blob/master/examples/cx16/tehtriz.p8",
-    "download" : "https://cx16forum.com/forum/download/file.php?id=1224",
-    "webemu" : "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=1224"
+    "source": "https://github.com/irmen/prog8/blob/master/examples/cx16/tehtriz.p8",
+    "download": "https://cx16forum.com/forum/download/file.php?id=1224",
+    "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=1224"
   },
   "version": "1.0.4",
   "extra": {
-    "created" : "2026-01-15",
+    "created": "2026-01-15",
     "last_updated": "2026-01-15",
-    "similar" : [
+    "similar": [
       "tetrads",
       "tetris",
       "petris"
     ]
   },
   "launcher_package": {
-    "format": "prg"
+    "format": "zip"
   }
 }

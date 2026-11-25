@@ -7,7 +7,13 @@
   "description": "The main purpose was to test my own emulator and development suite -- BitMagic -- to see how far it is from real hardware.",
   "name": "Dataport Tester",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7925&sid=4443ea2caa89cacf3b3258086a5014ba"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7925&sid=4443ea2caa89cacf3b3258086a5014ba",
+    "download": "https://bitmagic.org/archives/DataPortTester.zip",
+    "website": "https://bitmagic.org/madewithbitmagic/"
   },
-  "version": ""
+  "version": "",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "app/MAIN.PRG"
+  }
 }

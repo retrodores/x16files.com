@@ -8,8 +8,8 @@
   "name": "Solar Panel Angle Simulator",
   "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8989&sid=7218ac4b31e9e172411b174bf144cf60",
-    "source" : "https://cx16forum.com/forum/download/file.php?id=4643&sid=9d4ea8757e6de7256037759961718b7f",
-    "download" : "https://cx16forum.com/forum/download/file.php?id=4647"
+    "source": "https://cx16forum.com/forum/download/file.php?id=4643&sid=9d4ea8757e6de7256037759961718b7f",
+    "download": "https://cx16forum.com/forum/download/file.php?id=4647"
   },
   "version": "V3",
   "extra": {
@@ -17,7 +17,6 @@
     "last_updated": "2026-01-02"
   },
   "launcher_package": {
-    "format": "prg"
+    "format": "zip"
   }
 }
-

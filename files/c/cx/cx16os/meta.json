@@ -7,7 +7,13 @@
   "description": "cx16os is a OS layer for the Commander X16. It's unix-esque, and features a shell, preemptive multitasking, and redirection and more.",
   "name": "cx16os",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7985&sid=5a303c5195eb93a4d305dc21389930e2"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7985&sid=5a303c5195eb93a4d305dc21389930e2",
+    "download": "https://github.com/cnelson20/cx16os/releases/download/v0.0.2/cx16os.zip",
+    "source": "https://github.com/cnelson20/cx16os"
   },
-  "version": "v0.0.2"
+  "version": "v0.0.2",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "OS/OS.PRG"
+  }
 }
