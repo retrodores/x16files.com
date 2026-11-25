@@ -12,5 +12,9 @@
     "webemu": "https://anomixer.github.io/alter-ego/x16/index.html",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9229"
   },
-  "version": "v0.0.2"
+  "version": "v0.0.2",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "LOADER.PRG"
+  }
 }

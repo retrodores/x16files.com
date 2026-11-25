@@ -9,7 +9,11 @@
   "urls": {
     "source": "https://github.com/Hechelion/cx16_conwayslifegame",
     "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=1660",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6721"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6721",
+    "download": "https://github.com/Hechelion/cx16_conwayslifegame/releases/download/v1.0.1-R43/CONWAYGL.PRG"
   },
-  "version": "v1.0.1"
+  "version": "v1.0.1",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

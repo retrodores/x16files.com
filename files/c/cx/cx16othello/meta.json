@@ -11,5 +11,9 @@
     "source": "https://github.com/ifilot/cx16-othello",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7661"
   },
-  "version": "v1.2.0"
+  "version": "v1.2.0",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "OTHELLO.PRG"
+  }
 }

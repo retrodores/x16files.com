@@ -10,5 +10,8 @@
     "download": "https://github.com/hermeslohin/cx16officesuite/releases/download/v2026.11.21.1/cx16officesuite-2026.11.21.1.zip",
     "website": "https://hermeslohin.github.io/cx16officesuite/"
   },
-  "version": "v2026.11.21.1"
+  "version": "v2026.11.21.1",
+  "launcher_package": {
+    "format": "zip"
+  }
 }

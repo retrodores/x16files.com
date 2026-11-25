@@ -7,7 +7,12 @@
   "description": "A dual-layer serial terminal with a local command console and YModem batch transfers.",
   "name": "XCOMM",
   "urls": {
-    "source": "https://github.com/voidstar78/XTERM_X16"
+    "source": "https://github.com/voidstar78/XTERM_X16",
+    "download": "https://github.com/voidstar78/XTERM_X16/releases/download/V1_01/XCOMM_1_01.ZIP"
   },
-  "version": ""
+  "version": "",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "XCOMM.PRG"
+  }
 }

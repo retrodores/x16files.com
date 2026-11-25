@@ -7,7 +7,11 @@
   "description": "X16HXD is a file hex editor.",
   "name": "X16HXD",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6797"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6797",
+    "download": "https://github.com/voidstar78/X16HXD/releases/download/version1_3_release/X16HXD.PRG"
   },
-  "version": "v1.3"
+  "version": "v1.3",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

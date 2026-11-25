@@ -10,5 +10,9 @@
     "download": "https://github.com/SlithyMatt/x16-tile-editor/releases/download/v0.1b/x16-tile-editor-v0.1b.zip",
     "source": "https://github.com/SlithyMatt/x16-tile-editor"
   },
-  "version": "v0.1b"
+  "version": "v0.1b",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "TELOADER.PRG"
+  }
 }

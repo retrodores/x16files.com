@@ -8,7 +8,12 @@
   "name": "Sodoku Puzzle Solver",
   "urls": {
     "source": "https://github.com/RealNatpie/X16-Sudoku",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8355&sid=4443ea2caa89cacf3b3258086a5014ba"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8355&sid=4443ea2caa89cacf3b3258086a5014ba",
+    "download": "https://github.com/RealNatpie/X16-Sudoku/releases/download/v1.1a/x16.Sudoku.zip"
   },
-  "version": "V1.1a"
+  "version": "V1.1a",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "SUDOKU.PRG"
+  }
 }

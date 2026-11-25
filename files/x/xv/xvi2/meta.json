@@ -15,5 +15,8 @@
     "source": "https://github.com/retrodores/XVI",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=38311#p38311"
   },
-  "version": "2.0.RC-0"
+  "version": "2.0.RC-0",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

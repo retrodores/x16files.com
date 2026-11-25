@@ -8,7 +8,34 @@
   "name": "Text Adventure Collection",
   "urls": {
     "website": "https://microheaven.com/ztac/",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7705"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7705",
+    "download": "https://microheaven.com/ztac/files/ZTAC1_X16_v1.2.zip"
   },
-  "version": ""
+  "version": "",
+  "launcher_package": [
+    {
+      "url": "https://microheaven.com/ztac/files/ZTAC1_X16_v1.2.zip",
+      "format": "zip"
+    },
+    {
+      "url": "https://microheaven.com/ztac/files/ZTAC2_X16_v1.2.zip",
+      "format": "zip"
+    },
+    {
+      "url": "https://microheaven.com/ztac/files/ZTAC3_X16_v1.2.zip",
+      "format": "zip"
+    },
+    {
+      "url": "https://microheaven.com/ztac/files/ZTAC4_X16_v1.2.zip",
+      "format": "zip"
+    },
+    {
+      "url": "https://microheaven.com/ztac/files/ZTAC5_X16_v1.2.zip",
+      "format": "zip"
+    },
+    {
+      "url": "https://microheaven.com/ztac/files/ZTAC6_X16_v1.0.zip",
+      "format": "zip"
+    }
+  ]
 }

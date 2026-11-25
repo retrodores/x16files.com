@@ -8,7 +8,12 @@
   "name": "Concerto Multitrack",
   "urls": {
     "source": "https://github.com/biermanncarl/cx16-concerto",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8472"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8472",
+    "download": "https://github.com/biermanncarl/cx16-concerto/releases/download/v0.8.0-beta.2/CONCERTO-MULTITRACK-B2.zip"
   },
-  "version": "v0.8.0-beta.2"
+  "version": "v0.8.0-beta.2",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "CONCERTO.PRG"
+  }
 }

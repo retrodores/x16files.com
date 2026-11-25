@@ -11,5 +11,9 @@
     "source": "https://github.com/natebarney/damon-the-rocket-jockey",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7656"
   },
-  "version": "v1.2.0"
+  "version": "v1.2.0",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "DAMON.PRG"
+  }
 }

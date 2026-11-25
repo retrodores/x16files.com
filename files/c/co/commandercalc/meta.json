@@ -11,5 +11,9 @@
     "source": "https://github.com/sandlbn/commander-calc",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9195"
   },
-  "version": "v1.1.0"
+  "version": "v1.1.0",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "commander-calc-1.1/CMDRCALC/CMDRCALC.PRG"
+  }
 }

@@ -8,7 +8,11 @@
   "name": "X16Edit",
   "urls": {
     "source": "https://github.com/stefan-b-jakobsson/x16-edit",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6290&sid=5a303c5195eb93a4d305dc21389930e2"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6290&sid=5a303c5195eb93a4d305dc21389930e2",
+    "download": "https://github.com/stefan-b-jakobsson/x16-edit/releases/download/0.8.3/X16EDIT-0.8.3.PRG"
   },
-  "version": "0.8.3"
+  "version": "0.8.3",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

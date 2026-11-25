@@ -7,7 +7,12 @@
   "description": "A fun game about angry robots.  Available on many platforms.",
   "name": "Petscii Robots",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7029&sid=aad3aceedfb6154d1584fc24ec2936d8"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7029&sid=aad3aceedfb6154d1584fc24ec2936d8",
+    "download": "https://www.the8bitguy.com/wp-content/uploads/2024/12/X16Robots-12-19-2024.zip"
   },
-  "version": "2.1"
+  "version": "2.1",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "ROBOTS.PRG"
+  }
 }

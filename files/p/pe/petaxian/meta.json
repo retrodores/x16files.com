@@ -8,7 +8,11 @@
   "name": "Petaxian",
   "urls": {
     "source": "https://github.com/cyborgar/Petaxian",
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6400"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6400",
+    "download": "https://github.com/cyborgar/Petaxian/releases/download/0.5.1/petaxian_cx16.prg"
   },
-  "version": ""
+  "version": "",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

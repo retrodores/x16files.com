@@ -11,5 +11,8 @@
     "source": "https://github.com/stefan-b-jakobsson/basload",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6322"
   },
-  "version": "0.2.6"
+  "version": "0.2.6",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

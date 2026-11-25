@@ -8,12 +8,15 @@
   "name": "Petsciipede",
   "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=8992&sid=7218ac4b31e9e172411b174bf144cf60",
-    "source" : "https://github.com/codeofone/Petsciipede-x16",
-    "download" : "https://cx16forum.com/forum/download/file.php?id=4668"
+    "source": "https://github.com/codeofone/Petsciipede-x16",
+    "download": "https://raw.githubusercontent.com/codeofone/Petsciipede-x16/8544bd58e0f5ccf0e6922f6c600e45ad6058f8da/PETSCIIPEDE.PRG"
   },
   "version": "",
   "extra": {
     "created": "2026-01-02",
     "last_updated": "2026-01-02"
+  },
+  "launcher_package": {
+    "format": "prg"
   }
 }

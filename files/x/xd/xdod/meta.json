@@ -11,5 +11,9 @@
     "source": "https://github.com/voidstar78/XDOD",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9231"
   },
-  "version": "V1.0"
+  "version": "V1.0",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "XDOD.PRG"
+  }
 }

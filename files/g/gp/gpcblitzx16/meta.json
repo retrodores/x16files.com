@@ -11,5 +11,9 @@
     "source": "https://github.com/jakebullet70/x16-blitz-compiler",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9183"
   },
-  "version": "V1.2.0"
+  "version": "V1.2.0",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "GPC/GPC.PRG"
+  }
 }

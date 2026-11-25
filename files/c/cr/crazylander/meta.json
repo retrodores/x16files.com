@@ -7,7 +7,12 @@
   "description": "Updated version of Crazy Lander, Moon Lander type game.",
   "name": "Crazy Lander",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6614&sid=aad3aceedfb6154d1584fc24ec2936d8"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=6614&sid=aad3aceedfb6154d1584fc24ec2936d8",
+    "download": "https://codeload.github.com/Dooshco/X16/zip/bf4d3ac939deddfa9113535f2743098361a8b5b8"
   },
-  "version": ""
+  "version": "",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "X16-bf4d3ac939deddfa9113535f2743098361a8b5b8/CrazyLander/CRAZYLANDER.PRG"
+  }
 }

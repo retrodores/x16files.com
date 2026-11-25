@@ -8,8 +8,11 @@
   "name": "X16 Flight Simulator",
   "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9137",
-    "download": "https://cx16forum.com/forum/download/file.php?id=4851",
+    "download": "https://raw.githubusercontent.com/voidstar78/FSIM16/7b00dd0c23b4c8c33fb36c0986596a8cb9f9effb/FSIM16.PRG",
     "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=4851"
   },
-  "version": "V1.1"
+  "version": "V1.1",
+  "launcher_package": {
+    "format": "prg"
+  }
 }
