@@ -10,5 +10,8 @@
     "download": "https://cx16forum.com/forum/download/file.php?id=5069",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9202"
   },
-  "version": "r0"
+  "version": "r0",
+  "launcher_package": {
+    "format": "zip"
+  }
 }

@@ -11,5 +11,8 @@
     "source": "https://cx16forum.com/forum/download/file.php?id=2405",
     "download": "https://cx16forum.com/forum/download/file.php?id=2406"
   },
-  "version": ""
+  "version": "",
+  "launcher_package": {
+    "format": "prg"
+  }
 }

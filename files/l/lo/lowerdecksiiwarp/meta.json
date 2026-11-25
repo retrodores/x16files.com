@@ -9,11 +9,14 @@
   "urls": {
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=7711&sid=aad3aceedfb6154d1584fc24ec2936d8",
     "source" : "https://cx16forum.com/forum/download/file.php?id=3277",
-    "download" : " https://cx16forum.com/forum/download/file.php?id=3279"
+    "download" : "https://cx16forum.com/forum/download/file.php?id=3279"
   },
   "version": "V3",
   "extra": {
     "notes": "Updated from last post that included instructions.",
     "last_updated": "2026-01-02"
+  },
+  "launcher_package": {
+    "format": "zip"
   }
 }

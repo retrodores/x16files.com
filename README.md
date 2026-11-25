@@ -41,6 +41,13 @@ in the program's `launcher_package` object. The URL defaults to
 with an explicit `url` for each distribution. A bare `urls.download`
 link does not create a package in the feed.
 
+Existing direct Commander X16 forum downloads are temporarily offered for
+client testing. Forum attachment URLs are extensionless, and the audit
+environment received HTTP 403, so these entries use provisional package
+formats and omit startup hints. The package may still fail to download or
+lack a launcher-compatible PRG. Digital Rain is cataloged as a cartridge
+release. Its attachment is included to test access.
+
 Meteor Defender v1.0.0 has this package:
 
 ```json

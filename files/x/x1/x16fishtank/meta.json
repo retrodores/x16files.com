@@ -11,5 +11,8 @@
     "download": "https://cx16forum.com/forum/download/file.php?id=5070",
     "webemu": "https://cx16forum.com/webemu/x16emu.html?manifest=/forum/download/file.php?id=5070"
   },
-  "version": ""
+  "version": "",
+  "launcher_package": {
+    "format": "zip"
+  }
 }

@@ -21,5 +21,8 @@
       "tetris",
       "petris"
     ]
+  },
+  "launcher_package": {
+    "format": "prg"
   }
 }
