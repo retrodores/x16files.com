@@ -1,0 +1,19 @@
+{
+  "appid": "veranda",
+  "author": {
+    "name": "Marcin Spoczynski"
+  },
+  "category": "Systems",
+  "description": "A GEOS-style graphical desktop for the Commander X16 with a mouse-driven interface and built-in applications. Requires at least 512 KB of banked RAM.",
+  "name": "Veranda",
+  "urls": {
+    "download": "https://github.com/veranda-x16/veranda/releases/download/v1.0.1/veranda-1.0.1-sdcard.zip",
+    "source": "https://github.com/veranda-x16/veranda",
+    "website": "https://veranda-x16.github.io/"
+  },
+  "version": "v1.0.1",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "VERANDA/VERANDA.PRG"
+  }
+}
