@@ -170,9 +170,14 @@
   }
 
   .catalog-client summary { cursor: pointer; padding: .85rem 1.25rem; }
-  .catalog-client summary h2 { display: inline; margin: 0; font-size: 1.1rem; }
-  .catalog-client summary small { color: #154e82; text-decoration: underline; white-space: nowrap; }
-  .catalog-client[open] .see-more, .catalog-client:not([open]) .show-less { display: none; }
+  .catalog-client summary h2 {
+    display: inline;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #154e82;
+    text-decoration: underline;
+  }
   .client-content {
     padding: 0 1.25rem 1rem;
     display: flex;
@@ -192,9 +197,9 @@
   }
 
   @media (max-width: 44rem) {
-    .catalog-client { margin: 1rem .5rem; }
-    .catalog-client summary { padding: .75rem .5rem; }
-    .catalog-client summary h2 { font-size: 1rem; }
+    .catalog-client { margin: 1rem .25rem; }
+    .catalog-client summary { padding: .75rem .25rem; }
+    .catalog-client summary h2 { font: clamp(.875rem, 4vw, 1rem) Arial, sans-serif; }
     .client-content { flex-direction: column; align-items: flex-start; }
   }
 
@@ -336,9 +341,7 @@
     <h1>Commander X16 Software Directory</h1>
     <details class="catalog-client" id="x16-for-all-time">
       <summary>
-        <h2>F.A.T. for Windows
-          <small class="see-more">See more</small><small class="show-less">Show less</small>
-        </h2>
+        <h2>Checkout <strong>X16 For All Time</strong> 1.0 for Windows</h2>
       </summary>
       <div class="client-content">
         <div>
