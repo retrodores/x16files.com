@@ -165,16 +165,21 @@
     box-sizing: border-box;
     max-width: 66rem;
     margin: 1.5rem auto;
-    padding: 1rem 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
     background: #f3f7fc;
     border-left: 4px solid #4a90e2;
   }
 
-  .catalog-client h2 { margin: 0; }
+  .catalog-client summary { cursor: pointer; padding: .85rem 1.25rem; }
+  .catalog-client summary h2 { display: inline; margin: 0; font-size: 1.1rem; }
+  .catalog-client summary small { color: #154e82; text-decoration: underline; white-space: nowrap; }
+  .catalog-client[open] .see-more, .catalog-client:not([open]) .show-less { display: none; }
+  .client-content {
+    padding: 0 1.25rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
   .catalog-client p { max-width: 66ch; line-height: 1.5; }
   .catalog-client img { display: block; width: 13rem; max-width: 100%; height: auto; }
   .catalog-client a { color: #154e82; }
@@ -187,7 +192,8 @@
   }
 
   @media (max-width: 44rem) {
-    .catalog-client { margin: 1rem; flex-direction: column; align-items: flex-start; }
+    .catalog-client { margin: 1rem; }
+    .client-content { flex-direction: column; align-items: flex-start; }
   }
 
   /* Only style the main page title, not header h1 */
@@ -326,35 +332,59 @@
 
   <main>
     <h1>Commander X16 Software Directory</h1>
-    <section class="catalog-client" id="x16-for-all-time" aria-labelledby="client-heading">
-      <div>
-        <h2 id="client-heading">Browse X16 Files on Windows</h2>
-        <p><strong>X16 For All Time (F.A.T.)</strong> is a desktop client for this catalog.
-          Install or register X16Emu, then open the <strong>X16 Files</strong> tab.
-          Choose <strong>Download and launch</strong> to try a program, or
-          <strong>Install to Start</strong> to keep it for later.</p>
-        <p>Requires Windows 10 or later and .NET Framework 4.8 or later.</p>
-        <div class="client-links">
-          <a href="https://github.com/retrodores/x16-for-all-time/releases/latest">Get the Windows installer</a>
-          <a href="https://github.com/retrodores/x16-for-all-time/wiki">User guide</a>
-          <a href="https://www.youtube.com/watch?v=EWs_EwGLZSk">Video walkthrough</a>
-          <a href="https://cx16forum.com/forum/viewtopic.php?t=9253#p38870">Forum announcement</a>
+    <details class="catalog-client" id="x16-for-all-time">
+      <summary>
+        <h2>Try F.A.T. on Windows
+          <small class="see-more">See more</small><small class="show-less">Show less</small>
+        </h2>
+      </summary>
+      <div class="client-content">
+        <div>
+          <p><strong>X16 For All Time (F.A.T.)</strong> is a desktop client for this catalog.
+            Install or register X16Emu, then open the <strong>X16 Files</strong> tab.
+            Choose <strong>Download and launch</strong> to try a program, or
+            <strong>Install to Start</strong> to keep it for later.</p>
+          <p>Requires Windows 10 or later and .NET Framework 4.8 or later.</p>
+          <div class="client-links">
+            <a target="x16files-fat" href="https://github.com/retrodores/x16-for-all-time/releases/latest">Get the Windows installer</a>
+            <a target="x16files-fat" href="https://github.com/retrodores/x16-for-all-time/wiki">User guide</a>
+            <a target="x16files-fat" href="https://www.youtube.com/watch?v=EWs_EwGLZSk">Video walkthrough</a>
+            <a target="x16files-fat" href="https://cx16forum.com/forum/viewtopic.php?t=9253#p38870">Forum announcement</a>
+          </div>
+          <p>F.A.T. is early software, and we’d like your feedback. We’re exploring how to make
+            X16Files.com more useful as the launcher’s software catalog. What would make it easier
+            to find or install a program? <a target="x16files-fat" href="https://github.com/retrodores/x16-for-all-time/issues">Report an issue or suggest an improvement</a>.</p>
+          <p>To help develop F.A.T., start with the
+            <a target="x16files-fat" href="https://raw.githubusercontent.com/retrodores/x16-for-all-time/main/CONTRIBUTORS.md">contributor guide</a>
+            in the <a target="x16files-fat" href="https://github.com/retrodores/x16-for-all-time">F.A.T. GitHub repository</a>.
+            If you’d like to build a native Linux or macOS client, the
+            <a target="x16files-fat" href="https://github.com/retrodores/x16-for-all-time/blob/main/SPECIFICATION.md">port specification</a>
+            describes the launcher’s behavior and how it reads the X16 Files catalog.</p>
         </div>
-        <p>F.A.T. is early software, and we’d like your feedback. We’re exploring how to make
-          X16Files.com more useful as the launcher’s software catalog. What would make it easier
-          to find or install a program? <a href="https://github.com/retrodores/x16-for-all-time/issues">Report an issue or suggest an improvement</a>.</p>
-        <p>To help develop F.A.T., start with the
-          <a href="https://raw.githubusercontent.com/retrodores/x16-for-all-time/main/CONTRIBUTORS.md">contributor guide</a>
-          in the <a href="https://github.com/retrodores/x16-for-all-time">F.A.T. GitHub repository</a>.
-          If you’d like to build a native Linux or macOS client, the
-          <a href="https://github.com/retrodores/x16-for-all-time/blob/main/SPECIFICATION.md">port specification</a>
-          describes the launcher’s behavior and how it reads the X16 Files catalog.</p>
+        <a target="x16files-fat" href="assets/x16-for-all-time-catalog-1.0.png">
+          <img src="assets/x16-for-all-time-catalog-1.0.png" width="889" height="808"
+               alt="Enlarge the X16 For All Time screenshot showing downloadable programs by category">
+        </a>
       </div>
-      <a href="assets/x16-for-all-time-catalog-1.0.png">
-        <img src="assets/x16-for-all-time-catalog-1.0.png" width="889" height="808"
-             alt="Enlarge the X16 For All Time screenshot showing downloadable programs by category">
-      </a>
-    </section>
+    </details>
+    <script>
+      {
+        const panel = document.getElementById("x16-for-all-time");
+        const key = "x16files.fat-panel";
+        try {
+          panel.open = localStorage.getItem(key) === "open";
+        } catch {
+          // The native disclosure also works when storage is blocked.
+        }
+        panel.addEventListener("toggle", () => {
+          try {
+            localStorage.setItem(key, panel.open ? "open" : "closed");
+          } catch {
+            // The current choice still applies to this visit.
+          }
+        });
+      }
+    </script>
     <h2>Software Categories</h2>
     <p><a href="/directory/submit.html">List your program on X16 Files</a></p>
     <table>
