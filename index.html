@@ -161,6 +161,35 @@
     max-width:1100px;
   }
 
+  .catalog-client {
+    box-sizing: border-box;
+    max-width: 66rem;
+    margin: 1.5rem auto;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    background: #f3f7fc;
+    border-left: 4px solid #4a90e2;
+  }
+
+  .catalog-client h2 { margin: 0; }
+  .catalog-client p { max-width: 66ch; line-height: 1.5; }
+  .catalog-client img { display: block; width: 13rem; max-width: 100%; height: auto; }
+  .catalog-client a { color: #154e82; }
+  .client-links { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; }
+  .client-links a:first-child {
+    padding: .5rem .8rem;
+    background: var(--dark-gray);
+    color: white;
+    border-radius: .3rem;
+  }
+
+  @media (max-width: 44rem) {
+    .catalog-client { margin: 1rem; flex-direction: column; align-items: flex-start; }
+  }
+
   /* Only style the main page title, not header h1 */
   main h1{
     text-align:center;
@@ -296,7 +325,28 @@
   <div data-share-page></div>
 
   <main>
-    <h1>Software Categories</h1>
+    <h1>Commander X16 Software Directory</h1>
+    <section class="catalog-client" id="x16-for-all-time" aria-labelledby="client-heading">
+      <div>
+        <h2 id="client-heading">Browse X16 Files on Windows</h2>
+        <p><strong>X16 For All Time (F.A.T.)</strong> is a desktop client for this catalog.
+          Install or register X16Emu, then open the <strong>X16 Files</strong> tab.
+          Choose <strong>Download and launch</strong> to try a program, or
+          <strong>Install to Start</strong> to keep it for later.</p>
+        <p>Requires Windows 10 or later and .NET Framework 4.8 or later.</p>
+        <div class="client-links">
+          <a href="https://github.com/retrodores/x16-for-all-time/releases/latest">Get the Windows installer</a>
+          <a href="https://github.com/retrodores/x16-for-all-time/wiki">User guide</a>
+          <a href="https://www.youtube.com/watch?v=EWs_EwGLZSk">Video walkthrough</a>
+          <a href="https://cx16forum.com/forum/viewtopic.php?t=9253#p38870">Forum announcement</a>
+        </div>
+      </div>
+      <a href="assets/x16-for-all-time-catalog-1.0.png">
+        <img src="assets/x16-for-all-time-catalog-1.0.png" width="889" height="808"
+             alt="Enlarge the X16 For All Time screenshot showing downloadable programs by category">
+      </a>
+    </section>
+    <h2>Software Categories</h2>
     <p><a href="/directory/submit.html">List your program on X16 Files</a></p>
     <table>
       <tr>

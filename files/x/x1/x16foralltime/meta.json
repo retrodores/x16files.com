@@ -1,0 +1,16 @@
+{
+  "appid": "x16foralltime",
+  "author": {
+    "name": "Brett Estrade"
+  },
+  "category": "Tools",
+  "description": "Windows desktop client for X16 Files. Browse the catalog, launch supported programs in X16Emu, or install them to Start with their companion files. Also browses the SD Card Kit and imports local PRG, BAS and ZIP files. Requires Windows 10 or later and .NET Framework 4.8 or later.",
+  "name": "X16 For All Time",
+  "urls": {
+    "download": "https://github.com/retrodores/x16-for-all-time/releases/download/v1.0.0/X16ForAllTime-1.0.0-Setup.exe",
+    "source": "https://github.com/retrodores/x16-for-all-time",
+    "website": "https://github.com/retrodores/x16-for-all-time/wiki",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9253"
+  },
+  "version": "v1.0.0"
+}

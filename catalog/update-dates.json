@@ -269,6 +269,12 @@
     "source": "https://cx16forum.com/forum/viewtopic.php?t=9201#p38663",
     "kind": "author"
   },
+  "x16foralltime": {
+    "version": "v1.0.0",
+    "date": "2026-11-26",
+    "source": "https://github.com/retrodores/x16-for-all-time/releases/tag/v1.0.0",
+    "kind": "author"
+  },
   "x16gopher": {
     "version": "v0.1.3 (80x60 preview, 2026-11-16)",
     "date": "2026-11-26",
