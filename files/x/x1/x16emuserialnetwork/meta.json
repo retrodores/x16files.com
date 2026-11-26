@@ -1,0 +1,16 @@
+{
+  "appid": "x16emuserialnetwork",
+  "author": {
+    "name": "Brett Estrade"
+  },
+  "category": "Programming",
+  "description": "Emulates the TexElec Serial & ESP32 Network Card using the host network. Install Commander X16 emulator R49 first, extract the Windows or Linux x86-64 overlay into that directory, then run the emulator with -serialcard.",
+  "name": "R49 serial/network emulator overlay",
+  "urls": {
+    "download": "https://github.com/oodler577/x16-emulator/releases/tag/serial-network-v0.2.0",
+    "source": "https://github.com/oodler577/x16-emulator/tree/serial-network-v0.2.0",
+    "website": "https://github.com/oodler577/x16-emulator/wiki",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9250"
+  },
+  "version": "v0.2.0"
+}

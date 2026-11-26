@@ -1,0 +1,20 @@
+{
+  "appid": "x16gopher",
+  "author": {
+    "name": "Brett Estrade"
+  },
+  "category": "Internet",
+  "description": "Full-screen Gopher browser for the Commander X16. Browse menus, read text, search and download files. The ZIP includes the matching x16net.bin. In the R49 serial/network emulator, enable -serialcard. Physical TexElec card testing is pending.",
+  "name": "X16 Gopher",
+  "urls": {
+    "download": "https://github.com/retrodores/x16net/releases/download/v0.1.3/x16net-gopher-fullscreen-20261116.zip",
+    "source": "https://github.com/retrodores/x16net/tree/29acc7763fc19e1c91f722d41e70097fc8e0afee",
+    "website": "https://github.com/retrodores/x16net/releases/tag/v0.1.3",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9252"
+  },
+  "version": "v0.1.3 (80x60 preview, 2026-11-16)",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "x16net-gopher.prg"
+  }
+}

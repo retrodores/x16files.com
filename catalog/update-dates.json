@@ -257,16 +257,34 @@
     "source": "https://github.com/X16Community/x16-emulator/releases/tag/r49",
     "kind": "author"
   },
+  "x16emuserialnetwork": {
+    "version": "v0.2.0",
+    "date": "2026-11-16",
+    "source": "https://github.com/oodler577/x16-emulator/releases/tag/serial-network-v0.2.0",
+    "kind": "author"
+  },
   "x16fishtank": {
     "version": "",
     "date": "2026-08-26",
     "source": "https://cx16forum.com/forum/viewtopic.php?t=9201#p38663",
     "kind": "author"
   },
+  "x16gopher": {
+    "version": "v0.1.3 (80x60 preview, 2026-11-16)",
+    "date": "2026-11-26",
+    "source": "https://api.github.com/repos/retrodores/x16net/releases/assets/794415051",
+    "kind": "author"
+  },
   "x16moviemaker": {
     "version": "",
     "date": "2026-11-04",
     "source": "https://theoasisbbs.com/x16-media-studio-6-updates-movie-creation-and-playback-for-commander-x16/",
+    "kind": "author"
+  },
+  "x16net": {
+    "version": "v0.1.3",
+    "date": "2026-11-16",
+    "source": "https://github.com/retrodores/x16net/releases/tag/v0.1.3",
     "kind": "author"
   },
   "x16officesuite": {

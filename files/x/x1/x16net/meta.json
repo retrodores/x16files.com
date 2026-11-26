@@ -1,0 +1,16 @@
+{
+  "appid": "x16net",
+  "author": {
+    "name": "Brett Estrade"
+  },
+  "category": "Programming",
+  "description": "65C02 TCP networking library for the TexElec Serial & ESP32 Network Card. Includes Prog8 extsub bindings, an assembly jump table, documentation and examples. Load x16net.bin at $8000.",
+  "name": "x16net",
+  "urls": {
+    "download": "https://github.com/retrodores/x16net/releases/download/v0.1.3/x16net-0.1.3.zip",
+    "source": "https://github.com/retrodores/x16net",
+    "website": "https://github.com/retrodores/x16net/blob/v0.1.3/docs/PROG8.md",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?p=38868"
+  },
+  "version": "v0.1.3"
+}
