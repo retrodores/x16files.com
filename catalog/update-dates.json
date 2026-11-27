@@ -77,6 +77,12 @@
     "source": "https://github.com/pzembrod/cc64/releases/tag/v0.12",
     "kind": "author"
   },
+  "cmdrx16pinball": {
+    "version": "1.0",
+    "date": "2026-11-27",
+    "source": "https://github.com/retrodores/x16-pinball-port/releases/tag/v1.0",
+    "kind": "author"
+  },
   "cmdrx16pinballchristmas": {
     "version": "1.0",
     "date": "2026-11-27",

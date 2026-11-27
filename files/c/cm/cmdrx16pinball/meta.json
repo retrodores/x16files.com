@@ -4,10 +4,25 @@
     "name": "Brett Estrade"
   },
   "category": "Games",
-  "description": "A 2D pinball game for the Commander X16, available as a beta.",
-  "name": "CmdrX16 2D Pinball",
+  "description": "Experimental 8-bit pinball for the Commander X16 with an automatic demo, animated flag spinners, and tilt. Targets a 65C02 at 8 MHz. The 512 KB and 2 MB ZIPs are both playable, with an expanded soundtrack in the 2 MB build.",
+  "name": "Space CmdrX16 2D Pinball",
   "urls": {
+    "download": "https://github.com/retrodores/x16-pinball-port/releases/download/v1.0/SpaceCmdrX16-2D-Pinball-1.0-512KB.zip",
+    "source": "https://github.com/retrodores/x16-pinball-port/tree/main",
+    "website": "https://github.com/retrodores/x16-pinball-port/releases/tag/v1.0",
     "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9240"
   },
-  "version": "Beta"
+  "version": "1.0",
+  "launcher_package": [
+    {
+      "url": "https://github.com/retrodores/x16-pinball-port/releases/download/v1.0/SpaceCmdrX16-2D-Pinball-1.0-512KB.zip",
+      "format": "zip",
+      "prg": "PINBALL.PRG"
+    },
+    {
+      "url": "https://github.com/retrodores/x16-pinball-port/releases/download/v1.0/SpaceCmdrX16-2D-Pinball-1.0-2MB.zip",
+      "format": "zip",
+      "prg": "PINBALL.PRG"
+    }
+  ]
 }
