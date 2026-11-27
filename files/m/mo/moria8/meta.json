@@ -1,0 +1,20 @@
+{
+  "appid": "moria8",
+  "author": {
+    "name": "plextor"
+  },
+  "category": "Games",
+  "description": "An 8-bit reimagining of the classic Moria roguelike. Version 2.0.0 adds Commander X16 support and includes the full VMS Moria monster and item catalog.",
+  "name": "Moria8",
+  "urls": {
+    "source": "https://github.com/dcgibbons/moria8",
+    "website": "https://moria8.org/",
+    "download": "https://github.com/dcgibbons/moria8/releases/download/v2.0.0/moria8-cx16-v2.0.0.zip",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9245"
+  },
+  "version": "v2.0.0",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "MORIA8.PRG"
+  }
+}

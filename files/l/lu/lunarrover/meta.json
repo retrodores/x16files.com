@@ -1,0 +1,18 @@
+{
+  "appid": "lunarrover",
+  "author": {
+    "name": "marcoferr74"
+  },
+  "category": "Games",
+  "description": "A lunar rover action game with obstacles, stages and hazards that include meteor showers and flat tires.",
+  "name": "Lunar Rover",
+  "urls": {
+    "download": "https://cx16forum.com/forum/download/file.php?id=5222",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9242"
+  },
+  "version": "v2",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "LunarRoverX16v2/LUNAR2.PRG"
+  }
+}
