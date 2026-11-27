@@ -1,0 +1,18 @@
+{
+  "appid": "guimenu",
+  "author": {
+    "name": "darvidanoar"
+  },
+  "category": "Tools",
+  "description": "A mouse- and keyboard-driven Commander X16 program launcher written in 6502 assembly. Browse SD card directories, preview PNG and text files, and double-click PRGs to run them.",
+  "name": "GUI Menu",
+  "urls": {
+    "source": "https://github.com/Darvidanoar/GUIMenu_X16",
+    "download": "https://raw.githubusercontent.com/Darvidanoar/GUIMenu_X16/bd885af7b54100835b1ef50462547390e0242cd9/GUIMENU.PRG",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9254"
+  },
+  "version": "",
+  "launcher_package": {
+    "format": "prg"
+  }
+}

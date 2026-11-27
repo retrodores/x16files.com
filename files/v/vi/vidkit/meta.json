@@ -4,10 +4,16 @@
     "name": "ahenry3068"
   },
   "category": "Programming",
-  "description": "A video playback library for the Commander X16. This release includes the PLAYLIST player.",
+  "description": "A banked-RAM playback library and player collection for streaming Commander X16 video and audio. Version 2.0 adds high-bandwidth sprite video alongside bitmap playback.",
   "name": "VIDKIT",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9213"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9213",
+    "source": "https://github.com/ahenry3068/VIDKIT",
+    "website": "https://github.com/ahenry3068/VIDKIT/releases/tag/VIDKIT2",
+    "download": "https://github.com/ahenry3068/VIDKIT/releases/download/VIDKIT2/X16-PLAYERS-VIDKIT-BINARY.zip"
   },
-  "version": "1.2"
+  "version": "2.0",
+  "launcher_package": {
+    "format": "zip"
+  }
 }

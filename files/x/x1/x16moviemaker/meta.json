@@ -4,10 +4,13 @@
     "name": "ahenry3068"
   },
   "category": "Graphics",
-  "description": "A desktop tool for creating videos for the Commander X16. The Media Studio 6 workflow uses PLAYMOVIES-VID for desktop previews, with separate playback software for the X16.",
+  "description": "A desktop tool for creating videos for the Commander X16. Version 2.0 adds threaded conversion, an updated interface, improved aspect ratio handling and high-bandwidth sprite video. Commander X16 playback is available through VIDKIT.",
   "name": "X16 Movie Maker",
   "urls": {
-    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9228"
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9228",
+    "source": "https://github.com/ahenry3068/X16-MOVIEMAKER",
+    "website": "https://github.com/ahenry3068/X16-MOVIEMAKER/releases/tag/X16-Movie-Maker",
+    "download": "https://github.com/ahenry3068/X16-MOVIEMAKER/releases/tag/X16-Movie-Maker"
   },
-  "version": ""
+  "version": "2.0"
 }

@@ -1,0 +1,16 @@
+{
+  "appid": "cartmakers",
+  "author": {
+    "name": "Marsupial"
+  },
+  "category": "Programming",
+  "description": "Host-side PowerShell scripts that turn X16 PRGs into cartridge binaries. Supports multiple programs, a configurable boot menu and optional compression for data files.",
+  "name": "CartMakers",
+  "urls": {
+    "source": "https://github.com/wereallgeek/custom-X16-stuff/tree/main/CartMakers",
+    "website": "https://wereallgeeks.wordpress.com/2026/11/24/x16cartmakers/",
+    "download": "https://cx16forum.com/forum/download/file.php?id=5244",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9246"
+  },
+  "version": ""
+}

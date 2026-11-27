@@ -9,7 +9,8 @@
   "urls": {
     "download": "https://github.com/retrodores/x16-pinball-port/releases/download/v1.0/SpaceCmdrX16-2D-Pinball-Christmas-1.0-2MB.zip",
     "source": "https://github.com/retrodores/x16-pinball-port/tree/main",
-    "website": "https://github.com/retrodores/x16-pinball-port/releases/tag/v1.0"
+    "website": "https://github.com/retrodores/x16-pinball-port/releases/tag/v1.0",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9256"
   },
   "version": "1.0",
   "launcher_package": {

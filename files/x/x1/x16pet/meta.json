@@ -1,0 +1,14 @@
+{
+  "appid": "x16pet",
+  "author": {
+    "name": "schristis"
+  },
+  "category": "Tools",
+  "description": "Turns a Commander X16 into one of three Commodore PET models using a cartridge build and a PET disk directory. Includes optional CRT fade and startup sound.",
+  "name": "X16 PET",
+  "urls": {
+    "download": "https://cx16forum.com/forum/download/file.php?id=5237",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9241"
+  },
+  "version": ""
+}

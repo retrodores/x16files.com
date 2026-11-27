@@ -4,14 +4,15 @@
     "name": "Marcin Spoczynski"
   },
   "category": "Systems",
-  "description": "A GEOS-style graphical desktop for the Commander X16 with a mouse-driven interface and built-in applications. Requires at least 512 KB of banked RAM.",
+  "description": "A GEOS-style graphical desktop for the Commander X16 with a mouse-driven interface and built-in applications. Veranda Write adds tables, templates and spelling checks. Requires at least 512 KB of banked RAM.",
   "name": "Veranda",
   "urls": {
-    "download": "https://github.com/veranda-x16/veranda/releases/download/v1.0.1/veranda-1.0.1-sdcard.zip",
+    "download": "https://github.com/veranda-x16/veranda/releases/download/v1.0.2/veranda-1.0.2-sdcard.zip",
     "source": "https://github.com/veranda-x16/veranda",
-    "website": "https://veranda-x16.github.io/"
+    "website": "https://veranda-x16.github.io/",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9243"
   },
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "launcher_package": {
     "format": "zip",
     "prg": "VERANDA/VERANDA.PRG"

@@ -1,0 +1,14 @@
+{
+  "appid": "x16screensavers",
+  "author": {
+    "name": "morphinejh"
+  },
+  "category": "Tools",
+  "description": "A bootable cartridge collection of screen savers for the Commander X16. Starts a random saver or a saved favorite and supports optional playback through a MIDI card.",
+  "name": "Commander X16 Screen Savers Collection",
+  "urls": {
+    "download": "https://cx16forum.com/forum/download/file.php?id=5231",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9244"
+  },
+  "version": "2026"
+}
