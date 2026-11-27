@@ -121,7 +121,13 @@ sub process {
     }
     $program->{author} = { name => $author } if defined $author;
 
-    my $download = ref $info->{urls} eq 'HASH' ? $info->{urls}{download} : undef;
+    my $urls = ref $info->{urls} eq 'HASH' ? $info->{urls} : {};
+    my $source = $urls->{source};
+    if (defined $source && !ref $source && $source =~ m{\Ahttps?://[^/\s?#@\\]+(?:[/?#][^\s\\]*)?\z}i) {
+      $program->{source_url} = $source;
+    }
+
+    my $download = $urls->{download};
     my @hints = ref $package eq 'ARRAY' ? @$package : ($package);
     my @packages;
     my %seen;

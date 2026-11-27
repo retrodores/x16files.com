@@ -26,6 +26,10 @@ The JSON object has `schema_version: 1` and a `programs` array sorted by
 `appid`. Each entry has an `appid` and an absolute `page_url` for its
 catalog listing. The feed copies `name`, `category`, `author.name`,
 `version`, and `description` when present.
+When `urls.source` supplies an HTTP(S) code repository, the feed includes
+it as the optional `source_url` field. The project page also shows a
+**Source code** link, accessible from the launcher's **Open project page**
+button.
 
 Every program can be browsed. A single verified download appears as
 `package`. Several verified downloads appear as `packages`. Each package

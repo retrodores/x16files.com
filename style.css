@@ -202,6 +202,13 @@ td {
   text-decoration: none;
 }
 
+.card-bot .card-source {
+  margin-right:auto;
+  padding-right:.5rem;
+  color:#8ec5ff;
+  text-decoration:underline;
+}
+
 .card-bot a:hover {
   text-decoration: underline; /* optional */
 }

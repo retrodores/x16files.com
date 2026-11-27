@@ -30,6 +30,17 @@ function esc(s = "") {
     .replace(/'/g, "&#39;");
 }
 
+function sourceLink(value) {
+  if (typeof value !== "string") return "";
+  try {
+    const url = new URL(value);
+    if (!["https:", "http:"].includes(url.protocol) || url.username || url.password) return "";
+    return `<a class="card-source" href="${esc(url.href)}" target="_blank" rel="noopener">Source code</a>`;
+  } catch {
+    return "";
+  }
+}
+
 function renderTable(data) {
   const container = document.getElementById("pkg-list");
 
@@ -107,6 +118,7 @@ function renderTable(data) {
         </div>
         <div class="card-desc">${desc}</div>
         <div class="card-bot">
+          ${sourceLink(pkg.urls?.source)}
           ${ver ? "(" : ""}${ver}${ver ? ")" : ""}
           ${ver && auth ? " ~@ " : ""}${authorLink}
         </div>
