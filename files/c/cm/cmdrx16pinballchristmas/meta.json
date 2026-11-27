@@ -1,0 +1,19 @@
+{
+  "appid": "cmdrx16pinballchristmas",
+  "author": {
+    "name": "Brett Estrade"
+  },
+  "category": "Games",
+  "description": "Holiday pinball with a snowy table, a 74-second Carol of the Bells arrangement, and synchronized lamps. Requires a 65C02 at 8 MHz and 2 MB of banked RAM.",
+  "name": "Space CmdrX16 2D Pinball Christmas Edition",
+  "urls": {
+    "download": "https://github.com/retrodores/x16-pinball-port/releases/download/v1.0/SpaceCmdrX16-2D-Pinball-Christmas-1.0-2MB.zip",
+    "source": "https://github.com/retrodores/x16-pinball-port/tree/main",
+    "website": "https://github.com/retrodores/x16-pinball-port/releases/tag/v1.0"
+  },
+  "version": "1.0",
+  "launcher_package": {
+    "format": "zip",
+    "prg": "PINBALL.PRG"
+  }
+}
