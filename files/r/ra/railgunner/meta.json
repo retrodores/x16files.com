@@ -1,0 +1,19 @@
+{
+  "appid": "railgunner",
+  "author": {
+    "name": "Brett Estrade"
+  },
+  "category": "Games",
+  "description": "An arcade grid shooter for the Commander X16. Dodge rail guns and take on Classic formations or enemies that grow according to Conway Life, HighLife, Rule 30, or Rule 110. Supports keyboard and SNES controls. Targets a 65C02 at 8 MHz with 512 KB.",
+  "name": "Rail Gunner",
+  "urls": {
+    "download": "https://github.com/p8ug/rail-gunner/releases/download/v1.0.0/RAILGUN.PRG",
+    "source": "https://github.com/p8ug/rail-gunner",
+    "website": "https://github.com/p8ug/rail-gunner/wiki/Player-Guide",
+    "x16forum": "https://cx16forum.com/forum/viewtopic.php?t=9255"
+  },
+  "version": "1.0",
+  "launcher_package": {
+    "format": "prg"
+  }
+}

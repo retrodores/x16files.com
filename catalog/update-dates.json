@@ -167,6 +167,12 @@
     "source": "https://github.com/irmen/prog8/releases/tag/v12.3.5",
     "kind": "author"
   },
+  "railgunner": {
+    "version": "1.0",
+    "date": "2026-11-27",
+    "source": "https://github.com/p8ug/rail-gunner/releases/tag/v1.0.0",
+    "kind": "author"
+  },
   "sodokusolver": {
     "version": "V1.1a",
     "date": "2025-04-03",
